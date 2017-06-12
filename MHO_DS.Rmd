@@ -54,7 +54,7 @@ output: html_document
 
 ```
 
-# Depression subdomain subdomain
+# Depression subdomain
 
 ### **Variable label**:  
 **Variable name**:  
