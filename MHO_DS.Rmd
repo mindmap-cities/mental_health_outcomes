@@ -8,8 +8,8 @@ output: html_document
 3. [Depression subdomain](#depression-subdomain) 
 4. [Life satisfaction subdomain](#life-satisfaction-subdomain)
 5. [Loneliness subdomain](#loneliness-subdomain)
-6. [Post-traumatic stress subdomain] (#post-traumatic-stress-subdomain)
-7. [Psychological distress subdomain] (#psychological-distress-subdomain)
+6. [Post-traumatic stress subdomain](#post-traumatic-stress-subdomain)
+7. [Psychological distress subdomain](#psychological-distress-subdomain)
 8. [Quality of life subdomain](#quality-of-life-subdomain)
 
 # Anxiety subdomain
