@@ -3,14 +3,16 @@ title: "Mental health outcomes DataSchema"
 output: html_document
 ---
 # Table of Contents
-1. [Life satisfaction subdomain](#life-satisfaction-subdomain)
-2. [Quality of life subdomain](#quality-of-life-subdomain)
-3. [Depression subdomain](#depression-subdomain)
-4. [Cognitive functioning subdomain](#cognitive-functioning-subdomain)
-5. [Anxiety subdomain](#anxiety-subdomain)
-6. [Loneliness subdomain](#loneliness-subdomain)
+1. [Anxiety subdomain](#anxiety-subdomain)
+2. [Cognitive functioning subdomain](#cognitive-functioning-subdomain)
+3. [Depression subdomain](#depression-subdomain) 
+4. [Life satisfaction subdomain](#life-satisfaction-subdomain)
+5. [Loneliness subdomain](#loneliness-subdomain)
+6. [Post-traumatic stress subdomain] (#post-traumatic-stress-subdomain)
+7. [Psychological distress subdomain] (#psychological-distress-subdomain)
+8. [Quality of life subdomain](#quality-of-life-subdomain)
 
-# Life satisfaction subdomain
+# Anxiety subdomain
 
 ### **Variable label**:   
 **Variable name**:   
@@ -32,7 +34,7 @@ output: html_document
 
 ```
 
-# Quality of life subdomain
+# Cognitive functioning subdomain
 
 ### **Variable label**:  
 **Variable name**:  
@@ -76,29 +78,7 @@ output: html_document
 
 ```
 
-# Cognitive functioning subdomain
-
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
-**Category coding**:  
-
-**Code** | **Category Label**  
-------------- | -------------  
-0 |   
-1 |   
-
-**Harmonization status**:  
-**Harmonization comment**:   
-**R script**:  
-```{r, echo=TRUE}
-#This is where the R-script will be written
-
-```
-
-# Anxiety subdomain
+# Life satisfaction subdomain
 
 ### **Variable label**:  
 **Variable name**:  
@@ -121,6 +101,72 @@ output: html_document
 ```
 
 # Loneliness subdomain
+
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Post-traumatic stress subdomain
+
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Psychological distress subdomain
+
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Quality of life subdomain
 
 ### **Variable label**:  
 **Variable name**:  
