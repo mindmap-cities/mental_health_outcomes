@@ -119,9 +119,9 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)
+### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_case_0  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
 **Value type**:  integer      
 **Variable unit**:  N/A    
 **Category coding**:  
