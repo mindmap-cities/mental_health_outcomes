@@ -987,6 +987,146 @@ output: html_document
 
 ```
 
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_0  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_1  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_2  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_3  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_4  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_5  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_6  
+**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 # Loneliness subdomain
 
 ### **Variable label**:  Loneliness tertiles   
