@@ -425,7 +425,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_0  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.     
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.     
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -446,7 +446,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile  
 **Variable name**:  psy_depression_tertile_1    
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.    
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -466,7 +466,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_2  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -486,7 +486,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_3  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -506,7 +506,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_4  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -526,7 +526,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_5  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.    
 **Value type**:  integer  
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -546,7 +546,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_6  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by scale-specific depressive symptom score.   
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the scale-specific depressive symptom score.   
 **Value type**:  integer    
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -862,17 +862,280 @@ output: html_document
 
 # Loneliness subdomain
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_1  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_2  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_3  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_4  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_5  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_0  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_1  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_2  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_3  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_4  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_5  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_6  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
