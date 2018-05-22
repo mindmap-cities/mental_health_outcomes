@@ -884,17 +884,76 @@ output: html_document
 
 # Post-traumatic stress subdomain
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_0  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_1  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_2  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_3  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
 
 **Harmonization status**:  
 **Harmonization comment**:   
