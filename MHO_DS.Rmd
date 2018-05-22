@@ -14,9 +14,9 @@ output: html_document
 
 # Anxiety subdomain
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_score_0  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -29,9 +29,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
 **Variable name**:   psy_anxiety_score_1  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -44,9 +44,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_2  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -59,9 +59,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_score_3  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -74,9 +74,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_4  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -89,9 +89,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_5  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -104,9 +104,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_6  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -128,8 +128,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:      
@@ -148,8 +148,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -168,8 +168,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -188,8 +188,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -208,8 +208,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -228,8 +228,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -248,8 +248,8 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-10 anxiety symptoms)
-1 |   Case (11-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -383,6 +383,280 @@ output: html_document
 
 # Depression subdomain
 
+### **Variable label**:  Depressive symptom severity tertile    
+**Variable name**:  psy_depression_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score   
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertile  
+**Variable name**:  psy_depression_tertile_1    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Depressive symptom severity tertile      
+**Variable name**:  psy_depression_tertile_2  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Depressive symptom severity tertile    
+**Variable name**:  psy_depression_tertile_3  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms    
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Depressive symptom severity tertile    
+**Variable name**:  psy_depression_tertile_4  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Depressive symptom severity tertile      
+**Variable name**:  psy_depression_tertile_5  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score   
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms    
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Depressive symptom severity tertile    
+**Variable name**:  psy_depression_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by scale-specific depressive symptom score   
+**Value type**:  integer    
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
 ### **Variable label**:  
 **Variable name**:  
 **Variable description**:  
