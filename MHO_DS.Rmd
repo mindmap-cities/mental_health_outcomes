@@ -385,7 +385,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_0  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score   
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.     
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -406,7 +406,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile  
 **Variable name**:  psy_depression_tertile_1    
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.    
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -426,7 +426,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_2  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -446,7 +446,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_3  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -466,7 +466,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_4  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.      
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -486,7 +486,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_5  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score   
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by scale-specific depressive symptom score.    
 **Value type**:  integer  
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -506,7 +506,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_6  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by scale-specific depressive symptom score   
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by scale-specific depressive symptom score.   
 **Value type**:  integer    
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -524,17 +524,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression      
+**Variable name**:  psy_depression_case_0      
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer     
+**Variable unit**:  N/A    
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -543,17 +543,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression    
+**Variable name**:  psy_depression_case_1    
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -562,17 +562,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression    
+**Variable name**:  psy_depression_case_2  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)   
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -581,17 +581,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression  
+**Variable name**:  psy_depression_case_3  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)   
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -600,17 +600,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression    
+**Variable name**:  psy_depression_case_4  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)     
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -619,17 +619,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression  
+**Variable name**:  psy_depression_case_5    
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)       
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -638,17 +638,17 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Caseness of depression    
+**Variable name**:  psy_depression_case_6  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)    
 
 **Harmonization status**:  
 **Harmonization comment**:   
