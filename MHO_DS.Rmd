@@ -14,9 +14,9 @@ output: html_document
 
 # Anxiety subdomain
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_score_0  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -29,9 +29,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)  
 **Variable name**:   psy_anxiety_score_1  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -44,9 +44,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_2  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -59,9 +59,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_score_3  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -74,9 +74,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_4  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -89,9 +89,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_5  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -104,9 +104,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_score_6  
-**Variable description**:  Anxiety symptoms score ranging from 0 to 21 (HADS-A).  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -119,9 +119,9 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety  
+### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety and Depression Scale - Anxiety subscale (HADS-A)
 **Variable name**:   psy_anxiety_case_0  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003).  
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -132,7 +132,7 @@ output: html_document
 1 |   Case (11-21 anxiety symptoms)
 
 **Harmonization status**:  
-**Harmonization comment**:   HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).   
+**Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -141,10 +141,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_1  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003).  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:    
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -161,10 +161,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_2  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003).  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:   
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -181,10 +181,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_3  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003). 
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).   
+**Category coding**:    
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -201,10 +201,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_4  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003).  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -221,10 +221,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_5  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003). 
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -232,7 +232,7 @@ output: html_document
 1 |   Case (11-21 anxiety symptoms)
 
 **Harmonization status**:  
-**Harmonization comment**:   HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -241,10 +241,10 @@ output: html_document
 
 ### **Variable label**:   Caseness of anxiety  
 **Variable name**:   psy_anxiety_case_6  
-**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HAD-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:    
 
 **Code** | **Category Label**  
 ------------- | -------------  
