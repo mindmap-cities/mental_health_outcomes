@@ -401,6 +401,510 @@ output: html_document
 
 # Cognitive functioning subdomain
 
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_0  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_1  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_2  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_3  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_4  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_5  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_std_6  
+**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_0  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_1  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_2  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_3  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_4  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_5  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_6  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words immediately recalled
+1 |   Lowest quartile of words immediately recalled 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_0  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_1  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_2  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_3  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_4  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_5  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_std_6  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
+**Value type**:  continuous  
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_0  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_1  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_2  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_3  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_4  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_5  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_6  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to highest quartile of words recalled after a delay 
+1 |   Lowest quartile of words recalled after a delay
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  
+**Variable name**:  
+**Variable description**:  
+**Value type**:  
+**Variable unit**:  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   
+1 |   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 ### **Variable label**:  
 **Variable name**:  
 **Variable description**:  
