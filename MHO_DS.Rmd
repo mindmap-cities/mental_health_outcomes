@@ -128,8 +128,28 @@ output: html_document
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Non-case (0-6 anxiety symptoms)
-1 |   Case (7-21 anxiety symptoms)
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   Threshold from Zigmond & Snaith (1983), and Snaith (2003).   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_1  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -139,6 +159,105 @@ output: html_document
 
 ```
 
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_2  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_3  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).   
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_4  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_5  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_6  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptoms)
+1 |   Case (11-21 anxiety symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
 
 # Cognitive functioning subdomain
 
