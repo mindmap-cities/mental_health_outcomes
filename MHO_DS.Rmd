@@ -144,7 +144,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -164,7 +164,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -184,7 +184,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).   
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).   
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -204,7 +204,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -224,7 +224,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -232,7 +232,7 @@ output: html_document
 1 |   Case (11-21 anxiety symptoms)
 
 **Harmonization status**:  
-**Harmonization comment**:   Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Harmonization comment**:   HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -244,7 +244,7 @@ output: html_document
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Threshold from Zigmond & Snaith (1983), and Snaith (2003).  
+**Category coding**:  HADS-A threshold from Zigmond & Snaith (1983), and Snaith (2003).  
 
 **Code** | **Category Label**  
 ------------- | -------------  
