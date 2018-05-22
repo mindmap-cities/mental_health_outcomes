@@ -120,7 +120,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_0  
+**Variable name**:   psy_anxiety_case_0  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -140,7 +140,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_1  
+**Variable name**:   psy_anxiety_case_1  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -160,7 +160,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_2  
+**Variable name**:   psy_anxiety_case_2  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -180,7 +180,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_3  
+**Variable name**:   psy_anxiety_case_3  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -200,7 +200,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_4  
+**Variable name**:   psy_anxiety_case_4  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -220,7 +220,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_5  
+**Variable name**:   psy_anxiety_case_5  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -240,7 +240,7 @@ output: html_document
 ```
 
 ### **Variable label**:   Caseness of anxiety  
-**Variable name**:   psy_anxiety_yn_6  
+**Variable name**:   psy_anxiety_case_6  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
