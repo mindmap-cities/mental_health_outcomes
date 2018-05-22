@@ -989,15 +989,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_0  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score    
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1009,7 +1009,7 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_1  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1017,7 +1017,7 @@ output: html_document
 **Code** | **Category Label**  
 ------------- | -------------  
 0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1029,15 +1029,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_2  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1049,15 +1049,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_3  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1069,15 +1069,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_4  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1089,15 +1089,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_5  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1109,15 +1109,15 @@ output: html_document
 
 ### **Variable label**:  Lowest level of life satisfaction
 **Variable name**:  psy_life_sat_low_6  
-**Variable description**:  Indicator of whether the participant is in the bottom quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | Second to highest quartile of life satisfaction score  
-1 | Lowest quartile of life satisfaction score
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -1924,17 +1924,161 @@ output: html_document
 
 # Quality of life subdomain
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_0  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_1  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_2   
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_3    
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_0       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_1       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_2       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_3       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
 
 **Harmonization status**:  
 **Harmonization comment**:   
