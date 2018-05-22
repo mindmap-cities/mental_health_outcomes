@@ -14,6 +14,111 @@ output: html_document
 
 # Anxiety subdomain
 
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_0  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_1  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_2  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_3  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_4  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_5  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  anxiety symptoms score  
+**Variable name**:   psy_anxiety_score_6  
+**Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**:  
+**Harmonization comment**:   Anxiety subscale from the Hospital Anxiety and Depression Scale (HADS).  
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 ### **Variable label**:   
 **Variable name**:   
 **Variable description**:  
@@ -33,6 +138,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 
 # Cognitive functioning subdomain
 
