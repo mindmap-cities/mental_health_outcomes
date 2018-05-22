@@ -840,17 +840,144 @@ output: html_document
 
 # Life satisfaction subdomain
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_0  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_1  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_2  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_3  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_4  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_5  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_6  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfation  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
 
 **Harmonization status**:  
 **Harmonization comment**:   
