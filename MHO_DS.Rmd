@@ -261,10 +261,10 @@ output: html_document
 
 ### **Variable label**:   Feels anxious or nervous  
 **Variable name**:   psy_anxious_yn_0  
-**Variable description**:  Indicator of whether the participant feels anxious or nervous.  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Single item question on feelings of anxiety or nervousness.
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -281,10 +281,10 @@ output: html_document
 
 ### **Variable label**:   Feels anxious or nervous  
 **Variable name**:   psy_anxious_yn_1  
-**Variable description**:  Indicator of whether the participant feels anxious or nervous.  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Single item question on feelings of anxiety or nervousness.
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -301,10 +301,10 @@ output: html_document
 
 ### **Variable label**:   Feels anxious or nervous  
 **Variable name**:   psy_anxious_yn_2  
-**Variable description**:  Indicator of whether the participant feels anxious or nervous.  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Single item question on feelings of anxiety or nervousness.
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -321,10 +321,10 @@ output: html_document
 
 ### **Variable label**:   Feels anxious or nervous  
 **Variable name**:   psy_anxious_yn_3  
-**Variable description**:  Indicator of whether the participant feels anxious or nervous.  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Single item question on feelings of anxiety or nervousness.
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
@@ -341,10 +341,10 @@ output: html_document
 
 ### **Variable label**:   Feels anxious or nervous  
 **Variable name**:   psy_anxious_yn_4  
-**Variable description**:  Indicator of whether the participant feels anxious or nervous.  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
-**Category coding**:  Single item question on feelings of anxiety or nervousness.
+**Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
