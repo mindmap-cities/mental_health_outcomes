@@ -359,6 +359,46 @@ output: html_document
 
 ```
 
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_5  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_6  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 # Cognitive functioning subdomain
 
 ### **Variable label**:  
