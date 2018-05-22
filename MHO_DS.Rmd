@@ -906,17 +906,279 @@ output: html_document
 
 # Psychological distress subdomain
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_1  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_2  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_3  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_4  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_5  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+### **Variable label**:  Psychological distress severity tertile  
+**Variable name**:  psy_distress_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_0      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_1        
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_2      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_3      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_4      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_5      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Caseness of psychological distress    
+**Variable name**:  psy_distress_case_6      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**:  
 **Harmonization comment**:   
