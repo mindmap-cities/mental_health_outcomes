@@ -14,7 +14,7 @@ output: html_document
 
 # Anxiety subdomain
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_0  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -29,7 +29,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_1  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -44,7 +44,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_2  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -59,7 +59,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_3  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -74,7 +74,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_4  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -89,7 +89,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_5  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -104,7 +104,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  anxiety symptoms score  
+### **Variable label**:  Anxiety symptoms score  
 **Variable name**:   psy_anxiety_score_6  
 **Variable description**:  Anxiety symptoms score ranging from 0 to 21.  
 **Value type**:  integer  
@@ -119,17 +119,17 @@ output: html_document
 
 ```
 
-### **Variable label**:   
-**Variable name**:   
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:   Caseness of anxiety  
+**Variable name**:   psy_anxiety_yn_0  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   Non-case (0-6 anxiety symptoms)
+1 |   Case (7-21 anxiety symptoms)
 
 **Harmonization status**:  
 **Harmonization comment**:   
