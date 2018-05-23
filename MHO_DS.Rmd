@@ -885,17 +885,12 @@ output: html_document
 
 ```
 
-### **Variable label**:  Verbal fluency
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
-**Category coding**:  
-
-**Code** | **Category Label**  
-------------- | -------------  
-0 |   
-1 |   
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_0  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -905,17 +900,472 @@ output: html_document
 
 ```
 
-### **Variable label**:  
-**Variable name**:  
-**Variable description**:  
-**Value type**:  
-**Variable unit**:  
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_1  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_2  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_3  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_4  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_5  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_6  
+**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Value type**:  integer  
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_0    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   
-1 |   
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_1    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_2    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_3    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_4    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_5    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_6    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_0  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_1  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_2  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_3  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_4  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_5  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_6  
+**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Value type**:  integer  
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_0  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_1  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_2  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_3  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_4  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_5  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_6  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
 
 **Harmonization status**:  
 **Harmonization comment**:   
