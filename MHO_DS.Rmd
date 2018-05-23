@@ -1375,6 +1375,253 @@ output: html_document
 
 ```
 
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_0  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_1  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_2  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_3  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_4  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_5  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_score_6  
+**Variable description**:  Current cognition score ranging from 0 to 30.     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_0  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_1  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_2  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_3  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_4  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_5  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
+**Variable name**: cog_curr_case_6  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 # Depression subdomain
 
 ### **Variable label**:  Depressive symptom severity tertile    
