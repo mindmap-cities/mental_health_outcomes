@@ -404,7 +404,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_0  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -418,7 +418,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_1  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -432,7 +432,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_2  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -446,7 +446,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_3  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -460,7 +460,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_4  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -474,7 +474,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_5  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -488,7 +488,7 @@ output: html_document
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_6  
 **Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
-**Value type**:  continuous  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -500,8 +500,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_0  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_0  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -520,8 +520,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_1  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_1  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -540,8 +540,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_2  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_2  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -560,8 +560,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_3  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_3  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -580,8 +580,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_4  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_4  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -600,8 +600,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_5  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_5  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -620,8 +620,8 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low immediate word recall   
-**Variable name**:  cog_imm_low_6  
+### **Variable label**:  Poor immediate word recall   
+**Variable name**:  cog_imm_poor_6  
 **Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
@@ -642,8 +642,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_0  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -657,8 +657,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_1  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -672,8 +672,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_2  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -687,8 +687,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_3  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -702,8 +702,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_4  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -717,8 +717,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_5  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -732,8 +732,8 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_6  
-**Variable description**:  Standardised value of the total number of words recalled after a delay of a verbal memory test.  
-**Value type**:  continuous  
+**Variable description**:  Standardised value of the total number of words recalled after a delay of an immediate verbal memory test.  
+**Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
@@ -745,9 +745,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_0  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_0  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -765,9 +765,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_1  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_1  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -785,9 +785,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_2  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_2  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -805,9 +805,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_3  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_3  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -825,9 +825,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_4  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_4  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -845,9 +845,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_5  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_5  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of wors recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -865,9 +865,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Low delayed word recall  
-**Variable name**:  cog_del_low_6  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of worde recalled after a delay of a verbal memory test.  
+### **Variable label**:  Poor delayed word recall  
+**Variable name**:  cog_del_poor_6  
+**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled after a delay of an immediate verbal memory test.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
