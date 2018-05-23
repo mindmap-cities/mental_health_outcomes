@@ -500,17 +500,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_0  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall     
+**Variable name**:  cog_imm_low_0    
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.      
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -520,17 +520,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_1  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_1  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -540,17 +540,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_2  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_2  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -560,17 +560,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_3  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_3  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.    
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -580,17 +580,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_4  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_4  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -600,17 +600,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_5  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_5  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -620,17 +620,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor immediate word recall   
-**Variable name**:  cog_imm_poor_6  
-**Variable description**:  Indicator of whether the participant is in the lowest quartile of words immediately recalled during a test of verbal memory.  
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_6  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words immediately recalled
-1 |   Lowest quartile of words immediately recalled 
+0 |   High immediate word recall  
+1 |   Low immediate word recall 
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -745,17 +745,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_0  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_0  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -765,17 +765,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_1  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_1  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -785,17 +785,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_2  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_2  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -805,17 +805,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_3  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_3  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -825,17 +825,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_4  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_4  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -845,17 +845,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_5  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of wors recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_5  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -865,17 +865,17 @@ output: html_document
 
 ```
 
-### **Variable label**:  Poor delayed word recall  
-**Variable name**:  cog_del_poor_6  
-**Variable description**:  Indicator of whether the participants is in the lowest quartile of words recalled following an interval.  
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_6  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 |   Second to highest quartile of words recalled after a delay 
-1 |   Lowest quartile of words recalled after a delay
+0 |   High delayed word recall  
+1 |   Low delayed word recall
 
 **Harmonization status**:  
 **Harmonization comment**:   
@@ -885,7 +885,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  
+### **Variable label**:  Verbal fluency
 **Variable name**:  
 **Variable description**:  
 **Value type**:  
