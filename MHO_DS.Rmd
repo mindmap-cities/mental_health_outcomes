@@ -119,7 +119,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_case_0  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
 **Value type**:  integer      
@@ -139,7 +139,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)
 **Variable name**:   psy_anxiety_case_1  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
 **Value type**:  integer    
@@ -159,7 +159,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
 **Variable name**:   psy_anxiety_case_2  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
 **Value type**:  integer    
@@ -179,7 +179,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
 **Variable name**:   psy_anxiety_case_3  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
 **Value type**:  integer    
@@ -199,7 +199,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
 **Variable name**:   psy_anxiety_case_4  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
 **Value type**:  integer    
@@ -219,7 +219,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
 **Variable name**:   psy_anxiety_case_5  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
 **Value type**:  integer    
@@ -239,7 +239,7 @@ output: html_document
 
 ```
 
-### **Variable label**:   Caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
 **Variable name**:   psy_anxiety_case_6  
 **Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).     
 **Value type**:  integer    
@@ -1765,7 +1765,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression      
+### **Variable label**:  Probable caseness of depression      
 **Variable name**:  psy_depression_case_0      
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer     
@@ -1784,7 +1784,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression    
+### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_1    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer    
@@ -1803,7 +1803,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression    
+### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_2  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
@@ -1822,7 +1822,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression  
+### **Variable label**:  Probable caseness of depression  
 **Variable name**:  psy_depression_case_3  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
@@ -1841,7 +1841,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression    
+### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_4  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
@@ -1860,7 +1860,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression  
+### **Variable label**:  Probable caseness of depression  
 **Variable name**:  psy_depression_case_5    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
@@ -1879,7 +1879,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
-### **Variable label**:  Caseness of depression    
+### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_6  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
@@ -2755,7 +2755,7 @@ output: html_document
 
 # Post-traumatic stress subdomain
 
-### **Variable label**:  Caseness of post-traumatic stress disorder  
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
 **Variable name**:  psy_ptsd_case_0  
 **Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
 **Value type**:  integer  
@@ -2775,7 +2775,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of post-traumatic stress disorder  
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
 **Variable name**:  psy_ptsd_case_1  
 **Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
 **Value type**:  integer  
@@ -2795,7 +2795,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of post-traumatic stress disorder  
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
 **Variable name**:  psy_ptsd_case_2  
 **Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
 **Value type**:  integer  
@@ -2815,7 +2815,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of post-traumatic stress disorder  
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
 **Variable name**:  psy_ptsd_case_3  
 **Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
 **Value type**:  integer  
@@ -2983,7 +2983,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_0      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3003,7 +3003,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_1        
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3023,7 +3023,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_2      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3043,7 +3043,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_3      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3063,7 +3063,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_4      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3083,7 +3083,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_5      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
@@ -3103,7 +3103,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Caseness of psychological distress    
+### **Variable label**:  Probable caseness of psychological distress    
 **Variable name**:  psy_distress_case_6      
 **Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
 **Value type**:  integer  
