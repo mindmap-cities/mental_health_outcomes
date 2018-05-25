@@ -1032,7 +1032,8 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_2    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   **Value type**:  integer  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
@@ -1071,7 +1072,8 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_4    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   **Value type**:  integer  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
