@@ -403,7 +403,7 @@ output: html_document
 
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_0  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -417,7 +417,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_1  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -431,7 +431,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_2  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -445,7 +445,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_3  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -459,7 +459,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_4  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -473,7 +473,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_5  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -487,7 +487,7 @@ output: html_document
 ```
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_std_6  
-**Variable description**:  Standardised value of the total number of words immediately recalled during a test of verbal memory.   
+**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -502,7 +502,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall     
 **Variable name**:  cog_imm_low_0    
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.      
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.       
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -522,7 +522,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_1  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -542,7 +542,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_2  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -562,7 +562,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_3  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.    
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -582,7 +582,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_4  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -602,7 +602,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_5  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -622,7 +622,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_6  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled.  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -642,7 +642,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_0  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -657,7 +657,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_1  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -672,7 +672,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_2  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -687,7 +687,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_3  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -702,7 +702,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_4  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -717,7 +717,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_5  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -732,7 +732,7 @@ output: html_document
 
 ### **Variable label**:  Delayed word recall   
 **Variable name**:  cog_del_std_6  
-**Variable description**:  Standardised value of the total number of words recalled following an interval.  
+**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -747,7 +747,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_0  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -767,7 +767,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_1  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -787,7 +787,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_2  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -807,7 +807,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_3  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -827,7 +827,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_4  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -847,7 +847,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_5  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -867,7 +867,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_6  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -887,7 +887,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_0  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -902,7 +902,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_1  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -917,7 +917,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_2  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -932,7 +932,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_3  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -947,7 +947,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_4  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -962,7 +962,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_5  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -977,7 +977,7 @@ output: html_document
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_6  
-**Variable description**:  Standardised value of the total number of correctly named words from the given category (animals).
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -992,7 +992,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_0    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1012,8 +1012,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_1    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
-**Value type**:  integer  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
@@ -1032,8 +1031,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_2    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
-**Value type**:  integer  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
@@ -1052,7 +1050,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_3    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1072,8 +1070,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_4    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
-**Value type**:  integer  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
 
@@ -1092,7 +1089,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_5    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1112,7 +1109,7 @@ output: html_document
 
 ### **Variable label**:  Low verbal fluency  
 **Variable name**:  cog_verb_low_6    
-**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals).  
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1132,7 +1129,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_0  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1147,7 +1144,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_1  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1162,7 +1159,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_2  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1177,7 +1174,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_3  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1192,7 +1189,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_4  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1207,7 +1204,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_5  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1222,7 +1219,7 @@ output: html_document
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_6  
-**Variable description**:  Standardised value of the total number of items recalled correctly in a processing speed task.  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**: items  
 **Category coding**:  N/A  
@@ -1237,7 +1234,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_0  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1257,7 +1254,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_1  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1277,7 +1274,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_2  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1297,7 +1294,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_3  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1317,7 +1314,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_4  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1337,7 +1334,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_5  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1357,7 +1354,7 @@ output: html_document
 
 ### **Variable label**:  Slow processing speed    
 **Variable name**: cog_proc_slow_6  
-**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly.     
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1626,7 +1623,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_0  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.     
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.     
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1647,7 +1644,7 @@ output: html_document
 
 ### **Variable label**:  Depressive symptom severity tertile  
 **Variable name**:  psy_depression_tertile_1    
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1667,7 +1664,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_2  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1687,7 +1684,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_3  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1707,7 +1704,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_4  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.      
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer    
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1727,7 +1724,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_5  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by the scale-specific depressive symptom score.    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer  
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -1747,7 +1744,7 @@ output: html_document
 ```
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_6  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the scale-specific depressive symptom score.   
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the tertiles of the scale-specific depressive symptom score.   
 **Value type**:  integer    
 **Variable unit**:  N/A    
 **Category coding**:  
@@ -2043,7 +2040,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_0  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2064,7 +2061,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_1  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2085,7 +2082,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_2  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2106,7 +2103,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_3  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2127,7 +2124,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_4  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2148,7 +2145,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_5  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2169,7 +2166,7 @@ output: html_document
 
 ### **Variable label**:  Life satisfaction tertiles  
 **Variable name**:  psy_life_sat_tertile_6  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2332,7 +2329,7 @@ output: html_document
 
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_0  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2352,7 +2349,7 @@ output: html_document
 ```
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_1  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2372,7 +2369,7 @@ output: html_document
 ```
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_2  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2392,7 +2389,7 @@ output: html_document
 ```
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_3  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2412,7 +2409,7 @@ output: html_document
 ```
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_4  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2433,7 +2430,7 @@ output: html_document
 
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_5  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2454,7 +2451,7 @@ output: html_document
 
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_6  
-**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by the scale-specific loneliness score.   
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2839,7 +2836,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_0  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2860,7 +2857,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_1  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2881,7 +2878,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_2  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2902,7 +2899,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_3  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2922,7 +2919,7 @@ output: html_document
 ```
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_4  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2943,7 +2940,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_5  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2964,7 +2961,7 @@ output: html_document
 
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_6  
-**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by scale-specific psychological distress score.  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -3127,7 +3124,7 @@ output: html_document
 
 ### **Variable label**:  Quality of life tertiles  
 **Variable name**:  psy_qol_tertile_0  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -3148,7 +3145,7 @@ output: html_document
 
 ### **Variable label**:  Quality of life tertiles  
 **Variable name**:  psy_qol_tertile_1  
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -3169,7 +3166,7 @@ output: html_document
 
 ### **Variable label**:  Quality of life tertiles  
 **Variable name**:  psy_qol_tertile_2   
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -3190,7 +3187,7 @@ output: html_document
 
 ### **Variable label**:  Quality of life tertiles  
 **Variable name**:  psy_qol_tertile_3    
-**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by the scale-specific quality of life score.  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
