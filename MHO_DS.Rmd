@@ -415,6 +415,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_1  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
@@ -429,6 +430,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_2  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
@@ -443,6 +445,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_3  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
@@ -457,6 +460,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_4  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
@@ -471,6 +475,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_5  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.   
@@ -485,6 +490,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_6  
 **Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
@@ -1375,6 +1381,251 @@ output: html_document
 
 ```
 
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_0  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_1  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_2  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_3  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_4  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_5  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_6  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores to ensure comparability across tests.  
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_0  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_1  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_2  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_3  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_4  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_5  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_6  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 ### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
 **Variable name**: cog_curr_score_0  
 **Variable description**:  Current cognition score ranging from 0 to 30.     
@@ -1448,7 +1699,6 @@ output: html_document
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
-
 
 ```
 
@@ -1665,6 +1915,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_2  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
@@ -1685,6 +1936,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_3  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
@@ -1705,6 +1957,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_4  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
@@ -1725,6 +1978,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Depressive symptom severity tertile      
 **Variable name**:  psy_depression_tertile_5  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
@@ -1745,6 +1999,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Depressive symptom severity tertile    
 **Variable name**:  psy_depression_tertile_6  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the tertiles of the scale-specific depressive symptom score.   
@@ -1765,6 +2020,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression      
 **Variable name**:  psy_depression_case_0      
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1784,6 +2040,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_1    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1803,6 +2060,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_2  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1822,6 +2080,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression  
 **Variable name**:  psy_depression_case_3  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1841,6 +2100,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_4  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1860,6 +2120,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression  
 **Variable name**:  psy_depression_case_5    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -1879,6 +2140,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Probable caseness of depression    
 **Variable name**:  psy_depression_case_6  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
@@ -2350,6 +2612,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_1  
 **Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
@@ -2370,6 +2633,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_2  
 **Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
@@ -2390,6 +2654,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_3  
 **Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
@@ -2410,6 +2675,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Loneliness tertiles   
 **Variable name**:  psy_loneliness_tertile_4  
 **Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
@@ -2920,6 +3186,7 @@ output: html_document
 #This is where the R-script will be written
 
 ```
+
 ### **Variable label**:  Psychological distress severity tertile  
 **Variable name**:  psy_distress_tertile_4  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
