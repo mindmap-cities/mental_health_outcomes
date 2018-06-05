@@ -402,8 +402,8 @@ output: html_document
 # Cognitive functioning subdomain
 
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_0  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.  
+**Variable name**:  cog_imm_rscale_0  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -416,8 +416,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_1  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Variable name**:  cog_imm_rscale_1  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -430,8 +430,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_2  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Variable name**:  cog_imm_rscale_2  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -444,8 +444,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_3  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Variable name**:  cog_imm_rscale_3  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -458,8 +458,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_4  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_imm_rscale_4  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -472,8 +472,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_5  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.   
+**Variable name**:  cog_imm_rscale_5  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -486,8 +486,8 @@ output: html_document
 
 ```
 ### **Variable label**:  Immediate word recall 
-**Variable name**:  cog_imm_std_6  
-**Variable description**:  Standardised value (z-score) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_imm_rscale_6  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
@@ -502,7 +502,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall     
 **Variable name**:  cog_imm_low_0    
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.       
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -522,7 +522,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_1  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -542,7 +542,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_2  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -562,7 +562,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_3  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.     
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.     
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -582,7 +582,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_4  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -602,7 +602,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_5  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -622,7 +622,7 @@ output: html_document
 
 ### **Variable label**:  Low immediate word recall   
 **Variable name**:  cog_imm_low_6  
-**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A   
 **Category coding**:  
@@ -641,8 +641,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_0  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_0  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -656,8 +656,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_1  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable name**:  cog_del_rscale_1  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -671,8 +671,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_2  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_2  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -686,8 +686,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_3  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_3  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -701,8 +701,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_4  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_4  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -716,8 +716,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_5  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_5  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -731,8 +731,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Delayed word recall   
-**Variable name**:  cog_del_std_6  
-**Variable description**:  Standardised value (z-score) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable name**:  cog_del_rscale_6  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A  
@@ -747,7 +747,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_0  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -767,7 +767,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_1  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -787,7 +787,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_2  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -807,7 +807,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_3  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -827,7 +827,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_4  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -847,7 +847,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_5  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -867,7 +867,7 @@ output: html_document
 
 ### **Variable label**:  Low delayed word recall  
 **Variable name**:  cog_del_low_6  
-**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
