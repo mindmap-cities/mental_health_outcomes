@@ -1874,7 +1874,7 @@ output: html_document
 
 # Depression subdomain
 
-### **Variable label**:  Depressive symptom severity tertile    
+### **Variable label**:  Depressive symptom severity tertiles    
 **Variable name**:  psy_depression_tertile_0  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.     
 **Value type**:  integer   
@@ -1895,7 +1895,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile  
+### **Variable label**:  Depressive symptom severity tertiles  
 **Variable name**:  psy_depression_tertile_1    
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer    
@@ -1916,7 +1916,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile      
+### **Variable label**:  Depressive symptom severity tertiles      
 **Variable name**:  psy_depression_tertile_2  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
@@ -1937,7 +1937,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile    
+### **Variable label**:  Depressive symptom severity tertiles    
 **Variable name**:  psy_depression_tertile_3  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
@@ -1958,7 +1958,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile    
+### **Variable label**:  Depressive symptom severity tertiles    
 **Variable name**:  psy_depression_tertile_4  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer    
@@ -1979,7 +1979,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile      
+### **Variable label**:  Depressive symptom severity tertiles      
 **Variable name**:  psy_depression_tertile_5  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer  
@@ -2000,7 +2000,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Depressive symptom severity tertile    
+### **Variable label**:  Depressive symptom severity tertiles    
 **Variable name**:  psy_depression_tertile_6  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the tertiles of the scale-specific depressive symptom score.   
 **Value type**:  integer    
@@ -3103,7 +3103,7 @@ output: html_document
 
 # Psychological distress subdomain
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_0  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3124,7 +3124,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_1  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3145,7 +3145,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_2  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3166,7 +3166,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_3  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3187,7 +3187,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_4  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3208,7 +3208,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_5  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
@@ -3229,7 +3229,7 @@ output: html_document
 
 ```
 
-### **Variable label**:  Psychological distress severity tertile  
+### **Variable label**:  Psychological distress severity tertiles  
 **Variable name**:  psy_distress_tertile_6  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
 **Value type**:  integer  
