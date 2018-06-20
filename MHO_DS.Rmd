@@ -1626,9 +1626,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_0  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_0  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1641,9 +1641,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_1  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_1  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).       
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1656,9 +1656,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_2  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_2  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1671,9 +1671,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_3  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_3  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1687,9 +1687,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_4  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_4  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1702,9 +1702,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_5  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_5  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1717,9 +1717,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognition score measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_score_6  
-**Variable description**:  Current cognition score ranging from 0 to 30.     
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_6  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
 **Value type**:  integer   
 **Variable unit**:  score  
 **Category coding**:  N/A  
@@ -1732,9 +1732,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_0  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_0  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).     
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1752,9 +1752,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_1  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_1  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).    
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1772,9 +1772,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_2  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_2  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).     
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1792,9 +1792,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_3  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_3  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1812,9 +1812,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_4  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_4  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).    
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1832,9 +1832,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_5  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_5    
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1852,9 +1852,9 @@ output: html_document
 
 ```
 
-### **Variable label**:  Current cognitive impairment measured by the Mini Mental State Examination (MMSE)     
-**Variable name**: cog_curr_case_6  
-**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the MMSE threshold from Lezak, Howieson and Loring (2004).     
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_6    
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
 **Value type**:  integer   
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -1875,7 +1875,7 @@ output: html_document
 # Depression subdomain
 
 ### **Variable label**:  Depressive symptom severity tertiles    
-**Variable name**:  psy_depression_tertile_0  
+**Variable name**:  psy_dep_tertile_0  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.     
 **Value type**:  integer   
 **Variable unit**:  N/A  
@@ -1896,7 +1896,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles  
-**Variable name**:  psy_depression_tertile_1    
+**Variable name**:  psy_dep_tertile_1    
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -1917,7 +1917,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles      
-**Variable name**:  psy_depression_tertile_2  
+**Variable name**:  psy_dep_tertile_2  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
@@ -1938,7 +1938,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles    
-**Variable name**:  psy_depression_tertile_3  
+**Variable name**:  psy_dep_tertile_3  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer  
 **Variable unit**:  N/A  
@@ -1959,7 +1959,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles    
-**Variable name**:  psy_depression_tertile_4  
+**Variable name**:  psy_dep_tertile_4  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -1980,7 +1980,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles      
-**Variable name**:  psy_depression_tertile_5  
+**Variable name**:  psy_dep_tertile_5  
 **Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
 **Value type**:  integer  
 **Variable unit**:  N/A    
@@ -2001,7 +2001,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Depressive symptom severity tertiles    
-**Variable name**:  psy_depression_tertile_6  
+**Variable name**:  psy_dep_tertile_6  
 **Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the tertiles of the scale-specific depressive symptom score.   
 **Value type**:  integer    
 **Variable unit**:  N/A    
@@ -2022,7 +2022,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression      
-**Variable name**:  psy_depression_case_0      
+**Variable name**:  psy_dep_case_0      
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer     
 **Variable unit**:  N/A    
@@ -2042,7 +2042,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression    
-**Variable name**:  psy_depression_case_1    
+**Variable name**:  psy_dep_case_1    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer    
 **Variable unit**:  N/A  
@@ -2062,7 +2062,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression    
-**Variable name**:  psy_depression_case_2  
+**Variable name**:  psy_dep_case_2  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
 **Variable unit**:  N/A    
@@ -2082,7 +2082,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression  
-**Variable name**:  psy_depression_case_3  
+**Variable name**:  psy_dep_case_3  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
 **Variable unit**:  N/A    
@@ -2102,7 +2102,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression    
-**Variable name**:  psy_depression_case_4  
+**Variable name**:  psy_dep_case_4  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
 **Variable unit**:  N/A    
@@ -2122,7 +2122,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression  
-**Variable name**:  psy_depression_case_5    
+**Variable name**:  psy_dep_case_5    
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
 **Variable unit**:  N/A    
@@ -2142,7 +2142,7 @@ output: html_document
 ```
 
 ### **Variable label**:  Probable caseness of depression    
-**Variable name**:  psy_depression_case_6  
+**Variable name**:  psy_dep_case_6  
 **Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
 **Value type**:  integer  
 **Variable unit**:  N/A  
@@ -2162,8 +2162,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_0  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_0  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2182,8 +2182,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_1  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_1  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2202,8 +2202,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_2  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_2  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2222,8 +2222,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_3  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_3  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2242,8 +2242,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_4  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_4  
+**Variable description**: Indicator of whether the participant feels sad, downhearted or blue (single item question).    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2262,8 +2262,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_5  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_5  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2282,8 +2282,8 @@ output: html_document
 ```
 
 ### **Variable label**:  Feels sad, downhearted or blue  
-**Variable name**:  psy_depressed_yn_6  
-**Variable description**:  Single item question on whether the participant feels sad, downhearted or blue.    
+**Variable name**:  psy_dep_yn_6  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2881,7 +2881,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_0  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).   
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2901,7 +2901,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_1  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2921,7 +2921,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_2  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2941,7 +2941,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_3  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).     
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2961,7 +2961,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_4  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**: Indicator of whether the participant feels lonely (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -2981,7 +2981,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_5  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
@@ -3001,7 +3001,7 @@ output: html_document
 
 ### **Variable label**:  Feels lonely
 **Variable name**:  psy_lonely_yn_6  
-**Variable description**:  Single item question on whether the participant feels lonely.   
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
 **Value type**:  integer  
 **Variable unit**:  N/A  
 **Category coding**:  
