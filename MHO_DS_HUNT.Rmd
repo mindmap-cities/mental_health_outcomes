@@ -73,13 +73,13 @@ opal.logout(erasmus_opal)
 **Harmonization status**: complete    
 **Harmonization comment**:  The HADS-A anxiety scores (0-21) were used as provided by the HUNT study. Items comprising the HADS-A sub-scale are listed below:    
 *Hospital Anxiety and Depression - Anxiety Subscale (HADS-A)*    
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
-    3. Worrying thoughts go through my mind. (0-3, item-specific)    
-    4. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
-    6. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    7. I get sudden feeligns of panic. (0-3, item-specific)      
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
+  3. Worrying thoughts go through my mind. (0-3, item-specific)    
+  4. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
+  6. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  7. I get sudden feeligns of panic. (0-3, item-specific)      
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_anxiety_score_1 <- as.integer(HUNT2$HADSAnxi_NT2BLQ1) 
@@ -96,13 +96,13 @@ mho_HUNT_1$psy_anxiety_score_1 <- as.integer(HUNT2$HADSAnxi_NT2BLQ1)
 **Harmonization status**: complete    
 **Harmonization comment**:  The HADS-A anxiety scores (0-21) were used as provided by the HUNT study. Items comprising the HADS-A sub-scale are listed below:      
 *Hospital Anxiety and Depression - Anxiety Subscale (HADS-A)*      
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
-    3. Worrying thoughts go through my mind. (0-3, item-specific)    
-    4. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
-    6. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    7. I get sudden feeligns of panic. (0-3, item-specific)        
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
+  3. Worrying thoughts go through my mind. (0-3, item-specific)    
+  4. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
+  6. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  7. I get sudden feeligns of panic. (0-3, item-specific)        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2) 
@@ -204,13 +204,13 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization status**: complete        
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold. Items comprising the HADS-A sub-scale are listed below:      
 *Hospital Anxiety and Depression - Anxiety Subscale (HADS-A)*      
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
-    3. Worrying thoughts go through my mind. (0-3, item-specific)    
-    4. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
-    6. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    7. I get sudden feeligns of panic. (0-3, item-specific)           
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
+  3. Worrying thoughts go through my mind. (0-3, item-specific)    
+  4. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
+  6. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  7. I get sudden feeligns of panic. (0-3, item-specific)           
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_anxiety_case_1 <- cut(mho_HUNT_1$psy_anxiety_score_1, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE)
@@ -232,13 +232,13 @@ mho_HUNT_1$psy_anxiety_case_1 <- cut(mho_HUNT_1$psy_anxiety_score_1, breaks=c(0,
 **Harmonization status**: complete   
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold. Items comprising the HADS-A sub-scale are listed below:      
 *Hospital Anxiety and Depression - Anxiety Subscale (HADS-A)*    
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
-    3. Worrying thoughts go through my mind. (0-3, item-specific)    
-    4. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
-    6. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    7. I get sudden feeligns of panic. (0-3, item-specific)          
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)    
+  3. Worrying thoughts go through my mind. (0-3, item-specific)    
+  4. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  5. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)    
+  6. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  7. I get sudden feeligns of panic. (0-3, item-specific)          
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_anxiety_case_2 <- cut(mho_HUNT_2$psy_anxiety_score_2, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE)
@@ -1977,13 +1977,13 @@ mho_HUNT_1$psy_anxious_yn_1 <- as.integer(ifelse(HUNT2$FeelAnxiL2W_NT2BLQ1 >= 3,
 **Harmonization status**: complete      
 **Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study. Items comprising the HADS-D sub-scale are listed below:    
 *Hospital Anxiety and Depression - Depression Subscale (HADS-D)*     
-    1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-    2. I can laugh and see the funny side of things. (0-3, item-specific)    
-    3. I feel cheerful. (0-3, item-specific)     
-    4. I feel as if I am slowed down. (0-3, item-specific)   
-    5. I have lost interest in my appearance. (0-3, item-specific)    
-    6. I look forward with enjoyment to things. (0-3, item-specific)    
-    7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)  
+  1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
+  2. I can laugh and see the funny side of things. (0-3, item-specific)    
+  3. I feel cheerful. (0-3, item-specific)     
+  4. I feel as if I am slowed down. (0-3, item-specific)   
+  5. I have lost interest in my appearance. (0-3, item-specific)    
+  6. I look forward with enjoyment to things. (0-3, item-specific)    
+  7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_dep_tertile_1 <- as.integer(ifelse(HUNT2$HADSDepr_NT2BLQ1 <= 1,0, ifelse(HUNT2$HADSDepr_NT2BLQ1 == 2,1, ifelse(HUNT2$HADSDepr_NT2BLQ1 == 3,1, ifelse(HUNT2$HADSDepr_NT2BLQ1 == 4,1, ifelse(HUNT2$HADSDepr_NT2BLQ1 >= 5,2,NA))))))
@@ -2006,13 +2006,13 @@ mho_HUNT_1$psy_dep_tertile_1 <- as.integer(ifelse(HUNT2$HADSDepr_NT2BLQ1 <= 1,0,
 **Harmonization status**: complete   
 **Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study. Items comprising the HADS-D sub-scale are listed below:      
 *Hospital Anxiety and Depression - Depression Subscale (HADS-D)*       
-    1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-    2. I can laugh and see the funny side of things. (0-3, item-specific)    
-    3. I feel cheerful. (0-3, item-specific)     
-    4. I feel as if I am slowed down. (0-3, item-specific)   
-    5. I have lost interest in my appearance. (0-3, item-specific)    
-    6. I look forward with enjoyment to things. (0-3, item-specific)    
-    7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)   
+  1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
+  2. I can laugh and see the funny side of things. (0-3, item-specific)    
+  3. I feel cheerful. (0-3, item-specific)     
+  4. I feel as if I am slowed down. (0-3, item-specific)   
+  5. I have lost interest in my appearance. (0-3, item-specific)    
+  6. I look forward with enjoyment to things. (0-3, item-specific)    
+  7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)   
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 2,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 3,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 4,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 >= 5,2,NA))))))
@@ -2138,13 +2138,13 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization status**: complete   
 **Harmonization comment**:  Participants with HADS-D depression scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold (Zigmond & Snaith 1983) (Snaith 2003).  Items comprising the HADS-D sub-scale are listed below:      
 *Hospital Anxiety and Depression - Depression Subscale (HADS-D)*     
-    1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-    2. I can laugh and see the funny side of things. (0-3, item-specific)    
-    3. I feel cheerful. (0-3, item-specific)     
-    4. I feel as if I am slowed down. (0-3, item-specific)   
-    5. I have lost interest in my appearance. (0-3, item-specific)    
-    6. I look forward with enjoyment to things. (0-3, item-specific)    
-    7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)   
+  1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
+  2. I can laugh and see the funny side of things. (0-3, item-specific)    
+  3. I feel cheerful. (0-3, item-specific)     
+  4. I feel as if I am slowed down. (0-3, item-specific)   
+  5. I have lost interest in my appearance. (0-3, item-specific)    
+  6. I look forward with enjoyment to things. (0-3, item-specific)    
+  7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)   
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_dep_case_1 <- cut(HUNT2$HADSDepr_NT2BLQ1, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE)
@@ -2166,13 +2166,13 @@ mho_HUNT_1$psy_dep_case_1 <- cut(HUNT2$HADSDepr_NT2BLQ1, breaks=c(0,10,+Inf), la
 **Harmonization status**: complete    
 **Harmonization comment**:  Participants with HADS-D depression scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold (Zigmond & Snaith 1983) (Snaith 2003). Items comprising the HADS-D sub-scale are listed below:      
 *Hospital Anxiety and Depression - Depression Subscale (HADS-D)*     
-    1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-    2. I can laugh and see the funny side of things. (0-3, item-specific)    
-    3. I feel cheerful. (0-3, item-specific)     
-    4. I feel as if I am slowed down. (0-3, item-specific)   
-    5. I have lost interest in my appearance. (0-3, item-specific)    
-    6. I look forward with enjoyment to things. (0-3, item-specific)    
-    7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)  
+  1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
+  2. I can laugh and see the funny side of things. (0-3, item-specific)    
+  3. I feel cheerful. (0-3, item-specific)     
+  4. I feel as if I am slowed down. (0-3, item-specific)   
+  5. I have lost interest in my appearance. (0-3, item-specific)    
+  6. I look forward with enjoyment to things. (0-3, item-specific)    
+  7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_dep_case_2 <- cut(HUNT3$HADSDepr_NT3BLQ2, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE)
@@ -3216,10 +3216,10 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization status**: complete   
 **Harmonization comment**:  The ADI-4 anxiety and depression scores (4-22) in HUNT were grouped into study-specific tertiles defined as low(4-7), medium(8-10), and high(11-22). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the ADI-4 scale, scores were not calculated and coded as missing. Items comprising the ADI-4 scale are listed below:    
 *Anxiety and Depression Scale, 4 item version (ADI-4)*      
-    1. Do you by and large feel calm and good? (almost all the time-1 to never-4)  
-    2. During the last month, have you suffered from nervousness (felt irritable, anxious, tense or restless)? (almost all the time-1 to never-4)      
-    3. Do you feel, for the most part, strong and fit or tired and worn out? (very strong and fit-1 to very tired and worn out-7)    
-    4. Would you say you are usually cheerful or downhearted? (very downhearted-1 to very cheerful-7)     
+  1. Do you by and large feel calm and good? (almost all the time-1 to never-4)  
+  2. During the last month, have you suffered from nervousness (felt irritable, anxious, tense or restless)? (almost all the time-1 to never-4)      
+  3. Do you feel, for the most part, strong and fit or tired and worn out? (very strong and fit-1 to very tired and worn out-7)    
+  4. Would you say you are usually cheerful or downhearted? (very downhearted-1 to very cheerful-7)     
 **R script**:  
 Responses for items 1 and 3 were kept as is.         
 ```{r, echo=TRUE}
@@ -3259,20 +3259,20 @@ mho_HUNT_0$psy_distress_tertile_0 <- ifelse(HUNT1$psy_distress_score_0 <= 7,0, i
 **Harmonization status**: complete   
 **Harmonization comment**:  The HADS total scores (0-42) in HUNT were grouped into study-specific tertiles defined as low(0-4), medium(5-8), and high(9-42). The HADS total scores were used as provided by the HUNT study. Items comprising the HADS-T total scale are listed below:      
 *Hospital Anxiety and Depression - Total Scale (HADS-T)*      
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
-    3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
-    4. I can laugh and see the funny side of things. (0-3, item-specific)    
-    5. Worrying thoughts go through my mind. (0-3, item-specific)     
-    6. I feel cheerful. (0-3, item-specific)     
-    7. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    8. I feel as if I am slowed down. (0-3, item-specific)   
-    9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
-    10. I have lost interest in my appearance. (0-3, item-specific)    
-    11. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    12. I look forward with enjoyment to things. (0-3, item-specific)    
-    13. I get sudden feeligns of panic. (0-3, item-specific)  
-    14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)      
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
+  3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
+  4. I can laugh and see the funny side of things. (0-3, item-specific)    
+  5. Worrying thoughts go through my mind. (0-3, item-specific)     
+  6. I feel cheerful. (0-3, item-specific)     
+  7. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  8. I feel as if I am slowed down. (0-3, item-specific)   
+  9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
+  10. I have lost interest in my appearance. (0-3, item-specific)    
+  11. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  12. I look forward with enjoyment to things. (0-3, item-specific)    
+  13. I get sudden feeligns of panic. (0-3, item-specific)  
+  14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)      
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_distress_tertile_1 <- as.integer(ifelse(HUNT2$HADSTot_NT2BLQ1 <= 4,0, ifelse(HUNT2$HADSTot_NT2BLQ1 == 5,1, ifelse(HUNT2$HADSTot_NT2BLQ1 == 6,1, ifelse(HUNT2$HADSTot_NT2BLQ1 == 7,1, ifelse(HUNT2$HADSTot_NT2BLQ1 == 8,1, ifelse(HUNT2$HADSTot_NT2BLQ1 >= 9,2,NA)))))))
@@ -3295,20 +3295,20 @@ mho_HUNT_1$psy_distress_tertile_1 <- as.integer(ifelse(HUNT2$HADSTot_NT2BLQ1 <= 
 **Harmonization status**: complete   
 **Harmonization comment**:  The HADS total scores (0-42) in HUNT were grouped into study-specific tertiles defined as low(0-4), medium(5-8), and high(9-42). he HADS total scores were used as provided by the HUNT study.  Items comprising the HADS-T total scale are listed below:    
 *Hospital Anxiety and Depression - Total Scale (HADS-T)*      
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
-    3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
-    4. I can laugh and see the funny side of things. (0-3, item-specific)    
-    5. Worrying thoughts go through my mind. (0-3, item-specific)     
-    6. I feel cheerful. (0-3, item-specific)     
-    7. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    8. I feel as if I am slowed down. (0-3, item-specific)   
-    9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
-    10. I have lost interest in my appearance. (0-3, item-specific)    
-    11. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    12. I look forward with enjoyment to things. (0-3, item-specific)    
-    13. I get sudden feeligns of panic. (0-3, item-specific)  
-    14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)        
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
+  3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
+  4. I can laugh and see the funny side of things. (0-3, item-specific)    
+  5. Worrying thoughts go through my mind. (0-3, item-specific)     
+  6. I feel cheerful. (0-3, item-specific)     
+  7. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  8. I feel as if I am slowed down. (0-3, item-specific)   
+  9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
+  10. I have lost interest in my appearance. (0-3, item-specific)    
+  11. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  12. I look forward with enjoyment to things. (0-3, item-specific)    
+  13. I get sudden feeligns of panic. (0-3, item-specific)  
+  14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 4,0, ifelse(HUNT3$HADSTot_NT3BLQ2 == 5,1, ifelse(HUNT3$HADSTot_NT3BLQ2 == 6,1, ifelse(HUNT3$HADSTot_NT3BLQ2 == 7,1, ifelse(HUNT3$HADSTot_NT3BLQ2 == 8,1, ifelse(HUNT3$HADSTot_NT3BLQ2 >= 9,2,NA)))))))
@@ -3414,10 +3414,10 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **Harmonization status**: complete    
 **Harmonization comment**:  Participants with ADI-4 anxiety and depression scores at or above the 88th percentile in the HUNT sample were defined as cases as per the scale-specific threshold (Bjerkeset Nordahl Mykletun et al 2005). The ADI-4 scores (4-22) were transformed into z-scores in order to identify the percentile rank. Items comprising the ADI-4 scale are listed below:    
 *Anxiety and Depression Scale, 4 item version (ADI-4)*    
-    1.  Do you by and large feel calm and good? (almost all the time-1 to never-4)   
-    2. During the last month, have you suffered from nervousness (felt irritable, anxious, tense or restless)? (almost all the time-1 to never-4)  
-    3. Do you feel, for the most part, strong and fit or tired and worn out? (very strong and fit-1 to very tired and worn out-7)  
-    4. Would you say you are usually cheerful or downhearted? (very downhearted-1 to very cheerful-7)     
+  1. Do you by and large feel calm and good? (almost all the time-1 to never-4)   
+  2. During the last month, have you suffered from nervousness (felt irritable, anxious, tense or restless)? (almost all the time-1 to never-4)  
+  3. Do you feel, for the most part, strong and fit or tired and worn out? (very strong and fit-1 to very tired and worn out-7)  
+  4. Would you say you are usually cheerful or downhearted? (very downhearted-1 to very cheerful-7)     
 **R script**:  
 ```{r, echo=TRUE}
 HUNT1$psy_distress_pcrank_0 <- percent_rank(scale(HUNT1$psy_distress_score_0, center = TRUE, scale = TRUE))
@@ -3440,20 +3440,20 @@ mho_HUNT_0$psy_distress_case_0 <- ifelse(HUNT1$psy_distress_pcrank_0 >= 0.88,1, 
 **Harmonization status**: complete    
 **Harmonization comment**:  Participants with HADS total scores of 15 or higher (out of a possible 42) were defined as cases as per the scale-specific threshold (Bjelland Dahl Haug et al 2002). Items comprising the HADS-T total scale are listed below:        
 *Hospital Anxiety and Depression - Total Scale (HADS-T)*        
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
-    3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
-    4. I can laugh and see the funny side of things. (0-3, item-specific)    
-    5. Worrying thoughts go through my mind. (0-3, item-specific)     
-    6. I feel cheerful. (0-3, item-specific)     
-    7. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    8. I feel as if I am slowed down. (0-3, item-specific)   
-    9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
-    10. I have lost interest in my appearance. (0-3, item-specific)    
-    11. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    12. I look forward with enjoyment to things. (0-3, item-specific)    
-    13. I get sudden feeligns of panic. (0-3, item-specific)  
-    14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)          
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
+  3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
+  4. I can laugh and see the funny side of things. (0-3, item-specific)    
+  5. Worrying thoughts go through my mind. (0-3, item-specific)     
+  6. I feel cheerful. (0-3, item-specific)     
+  7. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  8. I feel as if I am slowed down. (0-3, item-specific)   
+  9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
+  10. I have lost interest in my appearance. (0-3, item-specific)    
+  11. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  12. I look forward with enjoyment to things. (0-3, item-specific)    
+  13. I get sudden feeligns of panic. (0-3, item-specific)  
+  14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)          
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_1$psy_distress_case_1 <- as.integer(ifelse(HUNT2$HADSTot_NT2BLQ1 >= 15,1, ifelse(HUNT2$HADSTot_NT2BLQ1 <= 14,0,NA)))
@@ -3475,20 +3475,20 @@ mho_HUNT_1$psy_distress_case_1 <- as.integer(ifelse(HUNT2$HADSTot_NT2BLQ1 >= 15,
 **Harmonization status**: complete   
 **Harmonization comment**:  Participants with HADS total scores of 15 or higher (out of a possible 42) were defined as cases as per the scale-specific threshold (Bjelland Dahl Haug et al 2002). Items comprising the HADS-T total scale are listed below:        
 *Hospital Anxiety and Depression - Total Scale (HADS-T)*      
-    1. I feel tense or 'wound up'. (0-3, item-specific)  
-    2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
-    3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
-    4. I can laugh and see the funny side of things. (0-3, item-specific)    
-    5. Worrying thoughts go through my mind. (0-3, item-specific)     
-    6. I feel cheerful. (0-3, item-specific)     
-    7. I can sit at ease and feel relaxed. (0-3, item-specific)    
-    8. I feel as if I am slowed down. (0-3, item-specific)   
-    9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
-    10. I have lost interest in my appearance. (0-3, item-specific)    
-    11. I feel restless as if I have to be on the move. (0-3, item-specific)     
-    12. I look forward with enjoyment to things. (0-3, item-specific)    
-    13. I get sudden feeligns of panic. (0-3, item-specific)  
-    14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)           
+  1. I feel tense or 'wound up'. (0-3, item-specific)  
+  2. I still enjoy the things I used to enjoy. (0-3, item-specific)    
+  3. I get a sort of frightened feeling as if something awful is about to happen. (0-3, item-specific)   
+  4. I can laugh and see the funny side of things. (0-3, item-specific)    
+  5. Worrying thoughts go through my mind. (0-3, item-specific)     
+  6. I feel cheerful. (0-3, item-specific)     
+  7. I can sit at ease and feel relaxed. (0-3, item-specific)    
+  8. I feel as if I am slowed down. (0-3, item-specific)   
+  9. I get a sort of frightened feeling like 'butterflies' in the stomach. (0-3, item-specific)  
+  10. I have lost interest in my appearance. (0-3, item-specific)    
+  11. I feel restless as if I have to be on the move. (0-3, item-specific)     
+  12. I look forward with enjoyment to things. (0-3, item-specific)    
+  13. I get sudden feeligns of panic. (0-3, item-specific)  
+  14. I can enjoy a good book or radio or TV programme. (0-3, item-specific)           
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifelse(HUNT3$HADSTot_NT3BLQ2 <= 14,0,NA))
