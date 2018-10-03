@@ -12,7 +12,7 @@ library(epiDisplay)
 library(scales)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
-#Login to Opal server and assign the content of the HUNT table(s) to your RStudio environment
+#Login to Opal server and assign the content of the GLOBE table(s) to your RStudio environment
 # GLOBE1991
 opal.assign.table.tibble(erasmus_opal, 'GLOBE1991', 'GLOBE.GLOBE1991',variables=list('SEGVv145','SEGVv148','SEGVv149','SEGVv158','SEGVv162','SEGVv165','SEGVv173','SEGVv174','SEGVv179','SEGVv151','SEGVv157','SEGVv163','SEGVv171','SEGVv176'))
 GLOBE1991 <- opal.execute(erasmus_opal,'GLOBE1991')
@@ -2650,13 +2650,12 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 2 | High levels of loneliness
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the NHP social connections subdomain are listed below:    
-*Nottingham Health Profile (NHP) - Social connections subdomain*      
-  1. I feel lonely. (Yes/No)       
-  2. I'm finding it hard to make contact with people. (Yes/No)          
-  3. I feel there is nobody that I am close to. (Yes/No)         
-  4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:       
+1. I feel lonely. (Yes/No)       
+2. I'm finding it hard to make contact with people. (Yes/No)          
+3. I feel there is nobody that I am close to. (Yes/No)         
+4. I feel I am a burden to people. (Yes/No)     
+5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv151_i <- as.integer(ifelse(GLOBE1991$SEGVv151 == 1,1, ifelse(GLOBE1991$SEGVv151 == 2,0,NA)))
@@ -2693,13 +2692,12 @@ mho_GLOBE_0$psy_loneliness_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_loneline
 2 | High levels of loneliness
 
 **Harmonization status**: complete    
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the NHP social connections subdomain are listed below:    
-*Nottingham Health Profile (NHP) - Social connections subdomain*      
-  1. I feel lonely. (Yes/No)       
-  2. I'm finding it hard to make contact with people. (Yes/No)          
-  3. I feel there is nobody that I am close to. (Yes/No)         
-  4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:        
+1. I feel lonely. (Yes/No)       
+2. I'm finding it hard to make contact with people. (Yes/No)          
+3. I feel there is nobody that I am close to. (Yes/No)         
+4. I feel I am a burden to people. (Yes/No)     
+5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$g4i_i <- as.integer(ifelse(GLOBE1997$g4i == 1,1, ifelse(GLOBE1997$g4i == 2,0,NA)))
@@ -2778,15 +2776,14 @@ mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneline
 2 | High levels of loneliness
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The De Jong-Gierveld Loneliness scores (6-30) in GLOBE were grouped into study-specific tertiles defined as low(6-9), medium(10-12), and high(13-30). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the De Jong-Gierveld Loneliness Scale, 6 item version, are listed below:      
-*De Jong-Gierveld Loneliness Scale, 6 item version*  
-  1. I experience a general sense of emptiness. (1-5)  
-  2. There are plenty of people I can lean on when I have problems. (1-5)  
-  3. There are many people I can trust completely. (1-5)     
-  4. There are enough people I feel close to. (1-5)    
-  5. I miss having people around. (1-5)  
-  6. I often feel rejected. (1-5)  
-**R script**:  
+**Harmonization comment**:  The De Jong-Gierveld Loneliness scores (6-30) in GLOBE were grouped into study-specific tertiles defined as low(6-9), medium(10-12), and high(13-30). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *De Jong-Gierveld Loneliness Scale, 6 item version*, are listed below:  
+1. I experience a general sense of emptiness. (1-5)  
+2. There are plenty of people I can lean on when I have problems. (1-5)  
+3. There are many people I can trust completely. (1-5)     
+4. There are enough people I feel close to. (1-5)    
+5. I miss having people around. (1-5)  
+6. I often feel rejected. (1-5)  
+**R script**:    
 Responses for items 2, 3 and 4 were kept as is.  
 ```{r, echo=TRUE}
 GLOBE2014$G14v61_b_i <- as.integer(GLOBE2014$G14v61_b)
@@ -2870,13 +2867,12 @@ mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneline
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile. Items comprising the NHP social connections subdomain are listed below:      
-*Nottingham Health Profile (NHP) - Social connections subdomain*      
-  1. I feel lonely. (Yes/No)       
-  2. I'm finding it hard to make contact with people. (Yes/No)          
-  3. I feel there is nobody that I am close to. (Yes/No)         
-  4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)  
+**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:  
+1. I feel lonely. (Yes/No)       
+2. I'm finding it hard to make contact with people. (Yes/No)          
+3. I feel there is nobody that I am close to. (Yes/No)         
+4. I feel I am a burden to people. (Yes/No)     
+5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_0$psy_loneliness_high_0 <- ifelse(GLOBE1991$psy_loneliness_score_0 >= 1,1, ifelse(GLOBE1991$psy_loneliness_score_0 == 0,0,NA))  
@@ -2896,13 +2892,12 @@ mho_GLOBE_0$psy_loneliness_high_0 <- ifelse(GLOBE1991$psy_loneliness_score_0 >= 
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete       
-**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile. Items comprising the NHP social connections subdomain are listed below:      
-*Nottingham Health Profile (NHP) - Social connections subdomain*      
-  1. I feel lonely. (Yes/No)       
-  2. I'm finding it hard to make contact with people. (Yes/No)          
-  3. I feel there is nobody that I am close to. (Yes/No)         
-  4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)  
+**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:  
+1. I feel lonely. (Yes/No)       
+2. I'm finding it hard to make contact with people. (Yes/No)          
+3. I feel there is nobody that I am close to. (Yes/No)         
+4. I feel I am a burden to people. (Yes/No)     
+5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_1$psy_loneliness_high_1 <- ifelse(GLOBE1997$psy_loneliness_score_1 >= 1,1, ifelse(GLOBE1997$psy_loneliness_score_1 == 0,0,NA))  
@@ -2962,14 +2957,13 @@ mho_GLOBE_1$psy_loneliness_high_1 <- ifelse(GLOBE1997$psy_loneliness_score_1 >= 
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**: Based on the De Jong-Gierveld Loneliness scores (6-30) on subjective lack of social connections. Participants with scores ranging 15-30 comprised the top loneliness quintile. Items comprising the De Jong-Gierveld Loneliness Scale, 6 item version, are listed below:  
-*De Jong-Gierveld Loneliness Scale, 6 item version*  
-  1. I experience a general sense of emptiness. (1-5)  
-  2. There are plenty of people I can lean on when I have problems. (1-5)  
-  3. There are many people I can trust completely. (1-5)     
-  4. There are enough people I feel close to. (1-5)    
-  5. I miss having people around. (1-5)  
-  6. I often feel rejected. (1-5)  
+**Harmonization comment**: Based on the De Jong-Gierveld Loneliness scores (6-30) on subjective lack of social connections. Participants with scores ranging 15-30 comprised the top loneliness quintile. Items comprising the *De Jong-Gierveld Loneliness Scale, 6 item version*, are listed below:  
+1. I experience a general sense of emptiness. (1-5)  
+2. There are plenty of people I can lean on when I have problems. (1-5)  
+3. There are many people I can trust completely. (1-5)     
+4. There are enough people I feel close to. (1-5)    
+5. I miss having people around. (1-5)  
+6. I often feel rejected. (1-5)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_4$psy_loneliness_high_4 <- ifelse(GLOBE2014$psy_loneliness_score_4 >= 15,1, ifelse(GLOBE2014$psy_loneliness_score_4 <=14,0,NA))
@@ -3254,17 +3248,16 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the NHP emotional reactions subdomain are listed below:      
-*Nottingham Health Profile (NHP) - Emotional reactions subdomain*    
-  1. Everything makes me feel depressed. (Yes/No)       
-  2. It has been a long time since I last enjoyed something. (Yes/No)        
-  3. I feel tense. (Yes/No)     
-  4. The days seem endlessly long. (Yes/No)     
-  5. I get angry easily lately. (Yes/No)    
-  6. I find things impossible to handle. (Yes/No)        
-  7. Worry keeps me up at night. (Yes/No)     
-  8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain* are listed below:  
+1. Everything makes me feel depressed. (Yes/No)       
+2. It has been a long time since I last enjoyed something. (Yes/No)        
+3. I feel tense. (Yes/No)     
+4. The days seem endlessly long. (Yes/No)     
+5. I get angry easily lately. (Yes/No)    
+6. I find things impossible to handle. (Yes/No)        
+7. Worry keeps me up at night. (Yes/No)     
+8. I feel like life is not worth living. (Yes/No)     
+9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv145_i <- as.integer(ifelse(GLOBE1991$SEGVv145 == 1,1, ifelse(GLOBE1991$SEGVv145 == 2,0,NA)))
@@ -3305,17 +3298,16 @@ mho_GLOBE_0$psy_distress_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_distress_s
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the NHP emotional reactions subdomain are listed below:      
-*Nottingham Health Profile (NHP) - Emotional reactions subdomain*    
-  1. Everything makes me feel depressed. (Yes/No)       
-  2. It has been a long time since I last enjoyed something. (Yes/No)        
-  3. I feel tense. (Yes/No)     
-  4. The days seem endlessly long. (Yes/No)     
-  5. I get angry easily lately. (Yes/No)    
-  6. I find things impossible to handle. (Yes/No)        
-  7. Worry keeps me up at night. (Yes/No)     
-  8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain*, are listed below:  
+1. Everything makes me feel depressed. (Yes/No)       
+2. It has been a long time since I last enjoyed something. (Yes/No)        
+3. I feel tense. (Yes/No)     
+4. The days seem endlessly long. (Yes/No)     
+5. I get angry easily lately. (Yes/No)    
+6. I find things impossible to handle. (Yes/No)        
+7. Worry keeps me up at night. (Yes/No)     
+8. I feel like life is not worth living. (Yes/No)     
+9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$g4c_i <- as.integer(ifelse(GLOBE1997$g4c == 1,1, ifelse(GLOBE1997$g4c == 2,0,NA)))
@@ -3356,13 +3348,12 @@ mho_GLOBE_1$psy_distress_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_distress_s
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the MHI, 4 item version, are listed below:       
-*Mental Health Inventory, 4 item version (MHI-4)*    
-  1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
-  2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)       
-  3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
-**R script**: 
+**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:  
+1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
+2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)       
+3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
+4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**R script**:  
 Responses for item 3 were kept as is.
 ```{r, echo=TRUE}
 GLOBE2004$w004_i <- as.integer(GLOBE2004$w004)
@@ -3399,12 +3390,11 @@ mho_GLOBE_2$psy_distress_tertile_2 <- ifelse(GLOBE2004$psy_distress_score_2 <= 6
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the MHI, 4 item version, are listed below:        
-*Mental Health Inventory, 4 item version (MHI-4)*    
-  1. Have you been a very nervous person? (none of the time-1 to all of the time-6)   
-  2. Have you felt so down in the dumps that nothing could cheer you up? (none of the time-1 to all of the time-6)     
-  3. Have you felt calm and peaceful? (none of the time-1 to all of the time-6)    
-  4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)  
+**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:      
+1. Have you been a very nervous person? (none of the time-1 to all of the time-6)   
+2. Have you felt so down in the dumps that nothing could cheer you up? (none of the time-1 to all of the time-6)     
+3. Have you felt calm and peaceful? (none of the time-1 to all of the time-6)    
+4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)  
 **R script**:  
 Responses for items 1, 2 and 4 were kept as is.  
 ```{r, echo=TRUE}
@@ -3442,12 +3432,11 @@ mho_GLOBE_3$psy_distress_tertile_3 <- ifelse(GLOBE2011$psy_distress_score_3 <= 6
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete  
-**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the MHI, 4 item version, are listed below:      
-*Mental Health Inventory, 4 item version (MHI-4)*    
-  1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
-  2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
-  3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were grouped into study-specific tertiles defined as low(4-6), medium(7-9), and high(10-24). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the MHI-4 scale, scores were not calculated and coded as missing. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:  
+1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
+2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
+3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
+4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
 **R script**:      
 Responses for item 3 were kept as is.
 ```{r, echo=TRUE}
@@ -3526,17 +3515,16 @@ mho_GLOBE_4$psy_distress_tertile_4 <- ifelse(GLOBE2014$psy_distress_score_4 <= 6
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete  
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases. Items comprising the NHP emotional reactions subdomain are listed below:        
-*Nottingham Health Profile (NHP) - Emotional reactions subdomain*      
-  1. Everything makes me feel depressed. (Yes/No)       
-  2. It has been a long time since I last enjoyed something. (Yes/No)        
-  3. I feel tense. (Yes/No)     
-  4. The days seem endlessly long. (Yes/No)     
-  5. I get angry easily lately. (Yes/No)    
-  6. I find things impossible to handle. (Yes/No)        
-  7. Worry keeps me up at night. (Yes/No)     
-  8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain*, are listed below:  
+1. Everything makes me feel depressed. (Yes/No)       
+2. It has been a long time since I last enjoyed something. (Yes/No)        
+3. I feel tense. (Yes/No)     
+4. The days seem endlessly long. (Yes/No)     
+5. I get angry easily lately. (Yes/No)    
+6. I find things impossible to handle. (Yes/No)        
+7. Worry keeps me up at night. (Yes/No)     
+8. I feel like life is not worth living. (Yes/No)     
+9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$psy_distress_pct_0 <- rescale(GLOBE1991$psy_distress_score_0)*100
@@ -3558,17 +3546,16 @@ mho_GLOBE_0$psy_distress_case_0 <- ifelse(GLOBE1991$psy_distress_pct_0 >= 25,1, 
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases. Items comprising the NHP emotional reactions subdomain are listed below:        
-*Nottingham Health Profile (NHP) - Emotional reactions subdomain*      
-  1. Everything makes me feel depressed. (Yes/No)       
-  2. It has been a long time since I last enjoyed something. (Yes/No)        
-  3. I feel tense. (Yes/No)     
-  4. The days seem endlessly long. (Yes/No)     
-  5. I get angry easily lately. (Yes/No)    
-  6. I find things impossible to handle. (Yes/No)        
-  7. Worry keeps me up at night. (Yes/No)     
-  8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain* are listed below:  
+1. Everything makes me feel depressed. (Yes/No)       
+2. It has been a long time since I last enjoyed something. (Yes/No)        
+3. I feel tense. (Yes/No)     
+4. The days seem endlessly long. (Yes/No)     
+5. I get angry easily lately. (Yes/No)    
+6. I find things impossible to handle. (Yes/No)        
+7. Worry keeps me up at night. (Yes/No)     
+8. I feel like life is not worth living. (Yes/No)     
+9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$psy_distress_pct_1 <- rescale(GLOBE1997$psy_distress_score_1)*100
@@ -3590,12 +3577,11 @@ mho_GLOBE_1$psy_distress_case_1 <- ifelse(GLOBE1997$psy_distress_pct_1 >= 25,1, 
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the MHI, 4 item version, are listed below:    
-*Mental Health Inventory, 4 item version (MHI-4)*    
-  1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
-  2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
-  3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:      
+1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
+2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
+3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
+4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2004$psy_distress_pct_2 <- rescale(GLOBE2004$psy_distress_score_2)*100
@@ -3617,12 +3603,11 @@ mho_GLOBE_2$psy_distress_case_2 <- ifelse(GLOBE2004$psy_distress_pct_2 >= 50,1, 
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the MHI, 4 item version, are listed below:          
-*Mental Health Inventory, 4 item version (MHI-4)*    
-  1. Have you been a very nervous person? (none of the time-1 to all of the time-6)   
-  2. Have you felt so down in the dumps that nothing could cheer you up? (none of the time-1 to all of the time-6)     
-  3. Have you felt calm and peaceful? (none of the time-1 to all of the time-6)    
-  4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)       
+**Harmonization comment**:  The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:  
+1. Have you been a very nervous person? (none of the time-1 to all of the time-6)   
+2. Have you felt so down in the dumps that nothing could cheer you up? (none of the time-1 to all of the time-6)     
+3. Have you felt calm and peaceful? (none of the time-1 to all of the time-6)    
+4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2011$psy_distress_pct_3 <- rescale(GLOBE2011$psy_distress_score_3)*100
@@ -3644,12 +3629,11 @@ mho_GLOBE_3$psy_distress_case_3 <- ifelse(GLOBE2011$psy_distress_pct_3 >= 50,1, 
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:   The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the MHI, 4 item version, are listed below:    
-*Mental Health Inventory, 4 item version (MHI-4)*      
-  1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
-  2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
-  3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**Harmonization comment**:   The MHI-4 scores (4-24) in GLOBE were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-4, participants whose scores ranged from 50 to 100 were classified as cases. Items comprising the *Mental Health Inventory, 4 item version (MHI-4)*, are listed below:        
+1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
+2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
+3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
+4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2014$psy_distress_pct_4 <- rescale(GLOBE2014$psy_distress_score_4)*100
@@ -3777,36 +3761,35 @@ mho_GLOBE_4$psy_distress_case_4 <- ifelse(GLOBE2014$psy_distress_pct_4 >= 50,1, 
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The BNSI scores (27-189) in GLOBE were grouped into study-specific tertiles defined as high(146-189), medium(132-145), and low(28-131). Scores were calculated for participants with data on at least 22 items (out of a possible 27). If 1 to 5 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 27. If participants missed 6 or more items, scores were not calculated and coded as missing. Items comprising the BNSI scale are listed below:   
-*Basic Needs Satisfaction Inventory (BNSI)*    
+**Harmonization comment**:  The BNSI scores (27-189) in GLOBE were grouped into study-specific tertiles defined as high(146-189), medium(132-145), and low(28-131). Scores were calculated for participants with data on at least 22 items (out of a possible 27). If 1 to 5 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 27. If participants missed 6 or more items, scores were not calculated and coded as missing. Items comprising the *Basic Needs Satisfaction Inventory (BNSI)*, are listed below:  
 "How do you feel about..."  
-  1. The physical comfort of your home (heat, water, lighting, ventilation)? (terrible-1 to delighted-7)    
-  2. Your level of physical activity? (terrible-1 to delighted-7)      
-  3. Your family life (your wife/husband/or another, your marriage, your children)? (terrible-1 to delighted-7)      
-  4. The chance you have to know people with whom you can really feel comfortable? (terrible-1 to delighted-7)      
-  5. The extent to which you are developing yourself and broadening your life? (terrible-1 to delighted-7)     
-  6. How secure you are from people who might steal or destroy your property? (terrible-1 to delighted-7)     
-  7. The amount of respect you get from others? (terrible-1 to delighted-7)   
-  8. Yourself? (terrible-1 to delighted-7)   
-  9. The way you handle the problems that come up in your life? (terrible-1 to delighted-7)   
-  10. How much you are accepted and included by others? (terrible-1 to delighted-7)   
-  11. The way other people treat you? (terrible-1 to delighted-7)   
-  12. Close adult relatives (people like parents, in-laws, brothers and sisters)? (terrible-1 to delighted-7)   
-  13. The chance you have to enjoy pleasant or beautiful things? (terrible-1 to delighted-7)   
-  14. The reliability of the people you depend on? (terrible-1 to delighted-7)   
-  15. Your safety? (terrible-1 to delighted-7)   
-  16. How creative you are? (terrible-1 to delighted-7)   
-  17. The amount of friendship and love in your life? (terrible-1 to delighted-7)   
-  18. Your sex life? (terrible-1 to delighted-7)   
-  19. Your own health and physical condition? (terrible-1 to delighted-7)    
-  20. The amount of fun and enjoyment you have? (terrible-1 to delighted-7)   
-  21. The amount of sleep you get? (terrible-1 to delighted-7)   
-  22. How secure you are financially? (terrible-1 to delighted-7)   
-  23. How dependable and responsible people around you are? (terrible-1 to delighted-7)   
-  24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
-  25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
-  26. The way you spend your spare time? (terrible-1 to delighted-7)   
-  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
+1. The physical comfort of your home (heat, water, lighting, ventilation)? (terrible-1 to delighted-7)    
+2. Your level of physical activity? (terrible-1 to delighted-7)      
+3. Your family life (your wife/husband/or another, your marriage, your children)? (terrible-1 to delighted-7)      
+4. The chance you have to know people with whom you can really feel comfortable? (terrible-1 to delighted-7)      
+5. The extent to which you are developing yourself and broadening your life? (terrible-1 to delighted-7)     
+6. How secure you are from people who might steal or destroy your property? (terrible-1 to delighted-7)     
+7. The amount of respect you get from others? (terrible-1 to delighted-7)   
+8. Yourself? (terrible-1 to delighted-7)   
+9. The way you handle the problems that come up in your life? (terrible-1 to delighted-7)   
+10. How much you are accepted and included by others? (terrible-1 to delighted-7)   
+11. The way other people treat you? (terrible-1 to delighted-7)   
+12. Close adult relatives (people like parents, in-laws, brothers and sisters)? (terrible-1 to delighted-7)   
+13. The chance you have to enjoy pleasant or beautiful things? (terrible-1 to delighted-7)   
+14. The reliability of the people you depend on? (terrible-1 to delighted-7)   
+15. Your safety? (terrible-1 to delighted-7)   
+16. How creative you are? (terrible-1 to delighted-7)   
+17. The amount of friendship and love in your life? (terrible-1 to delighted-7)   
+18. Your sex life? (terrible-1 to delighted-7)   
+19. Your own health and physical condition? (terrible-1 to delighted-7)    
+20. The amount of fun and enjoyment you have? (terrible-1 to delighted-7)   
+21. The amount of sleep you get? (terrible-1 to delighted-7)   
+22. How secure you are financially? (terrible-1 to delighted-7)   
+23. How dependable and responsible people around you are? (terrible-1 to delighted-7)   
+24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
+25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
+26. The way you spend your spare time? (terrible-1 to delighted-7)   
+27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2011$v63_a_BN_a_i <- as.integer(GLOBE2011$v63_a_BN_a)
@@ -3928,36 +3911,35 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 1 | Lowest quintile of quality of life score
 
 **Harmonization status**: complete   
-**Harmonization comment**:  Using BNSI scores(27-189), the lowest quartile comprised participants with scores ranging from 27 to 125. Items comprising the BNSI scale are listed below:     
-*Basic Needs Satisfaction Inventory (BNSI)*    
+**Harmonization comment**:  Using BNSI scores(27-189), the lowest quartile comprised participants with scores ranging from 27 to 125. Items comprising the *Basic Needs Satisfaction Inventory (BNSI)* are listed below:  
 "How do you feel about..."  
-  1. The physical comfort of your home (heat, water, lighting, ventilation)? (terrible-1 to delighted-7)    
-  2. Your level of physical activity? (terrible-1 to delighted-7)      
-  3. Your family life (your wife/husband/or another, your marriage, your children)? (terrible-1 to delighted-7)      
-  4. The chance you have to know people with whom you can really feel comfortable? (terrible-1 to delighted-7)      
-  5. The extent to which you are developing yourself and broadening your life? (terrible-1 to delighted-7)     
-  6. How secure you are from people who might steal or destroy your property? (terrible-1 to delighted-7)     
-  7. The amount of respect you get from others? (terrible-1 to delighted-7)   
-  8. Yourself? (terrible-1 to delighted-7)   
-  9. The way you handle the problems that come up in your life? (terrible-1 to delighted-7)   
-  10. How much you are accepted and included by others? (terrible-1 to delighted-7)   
-  11. The way other people treat you? (terrible-1 to delighted-7)   
-  12. Close adult relatives (people like parents, in-laws, brothers and sisters)? (terrible-1 to delighted-7)   
-  13. The chance you have to enjoy pleasant or beautiful things? (terrible-1 to delighted-7)   
-  14. The reliability of the people you depend on? (terrible-1 to delighted-7)   
-  15. Your safety? (terrible-1 to delighted-7)   
-  16. How creative you are? (terrible-1 to delighted-7)   
-  17. The amount of friendship and love in your life? (terrible-1 to delighted-7)   
-  18. Your sex life? (terrible-1 to delighted-7)   
-  19. Your own health and physical condition? (terrible-1 to delighted-7)    
-  20. The amount of fun and enjoyment you have? (terrible-1 to delighted-7)   
-  21. The amount of sleep you get? (terrible-1 to delighted-7)   
-  22. How secure you are financially? (terrible-1 to delighted-7)   
-  23. How dependable and responsible people around you are? (terrible-1 to delighted-7)   
-  24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
-  25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
-  26. The way you spend your spare time? (terrible-1 to delighted-7)   
-  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
+1. The physical comfort of your home (heat, water, lighting, ventilation)? (terrible-1 to delighted-7)    
+2. Your level of physical activity? (terrible-1 to delighted-7)      
+3. Your family life (your wife/husband/or another, your marriage, your children)? (terrible-1 to delighted-7)      
+4. The chance you have to know people with whom you can really feel comfortable? (terrible-1 to delighted-7)      
+5. The extent to which you are developing yourself and broadening your life? (terrible-1 to delighted-7)     
+6. How secure you are from people who might steal or destroy your property? (terrible-1 to delighted-7)     
+7. The amount of respect you get from others? (terrible-1 to delighted-7)   
+8. Yourself? (terrible-1 to delighted-7)   
+9. The way you handle the problems that come up in your life? (terrible-1 to delighted-7)   
+10. How much you are accepted and included by others? (terrible-1 to delighted-7)   
+11. The way other people treat you? (terrible-1 to delighted-7)   
+12. Close adult relatives (people like parents, in-laws, brothers and sisters)? (terrible-1 to delighted-7)   
+13. The chance you have to enjoy pleasant or beautiful things? (terrible-1 to delighted-7)   
+14. The reliability of the people you depend on? (terrible-1 to delighted-7)   
+15. Your safety? (terrible-1 to delighted-7)   
+16. How creative you are? (terrible-1 to delighted-7)   
+17. The amount of friendship and love in your life? (terrible-1 to delighted-7)   
+18. Your sex life? (terrible-1 to delighted-7)   
+19. Your own health and physical condition? (terrible-1 to delighted-7)    
+20. The amount of fun and enjoyment you have? (terrible-1 to delighted-7)   
+21. The amount of sleep you get? (terrible-1 to delighted-7)   
+22. How secure you are financially? (terrible-1 to delighted-7)   
+23. How dependable and responsible people around you are? (terrible-1 to delighted-7)   
+24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
+25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
+26. The way you spend your spare time? (terrible-1 to delighted-7)   
+27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
 **R script**:    
 ```{r, echo=TRUE}
 mho_GLOBE_3$psy_qol_low_3 <- ifelse(GLOBE2011$psy_qol_score_3 < 126,1, ifelse(GLOBE2011$psy_qol_score_3 >= 126,0,NA))
