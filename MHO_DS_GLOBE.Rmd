@@ -2656,7 +2656,7 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
   2. I'm finding it hard to make contact with people. (Yes/No)          
   3. I feel there is nobody that I am close to. (Yes/No)         
   4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)        
+  5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv151_i <- as.integer(ifelse(GLOBE1991$SEGVv151 == 1,1, ifelse(GLOBE1991$SEGVv151 == 2,0,NA)))
@@ -2699,7 +2699,7 @@ mho_GLOBE_0$psy_loneliness_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_loneline
   2. I'm finding it hard to make contact with people. (Yes/No)          
   3. I feel there is nobody that I am close to. (Yes/No)         
   4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)          
+  5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$g4i_i <- as.integer(ifelse(GLOBE1997$g4i == 1,1, ifelse(GLOBE1997$g4i == 2,0,NA)))
@@ -2785,7 +2785,7 @@ mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneline
   3. There are many people I can trust completely. (1-5)     
   4. There are enough people I feel close to. (1-5)    
   5. I miss having people around. (1-5)  
-  6. I often feel rejected. (1-5)      
+  6. I often feel rejected. (1-5)  
 **R script**:  
 Responses for items 2, 3 and 4 were kept as is.  
 ```{r, echo=TRUE}
@@ -2876,7 +2876,7 @@ mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneline
   2. I'm finding it hard to make contact with people. (Yes/No)          
   3. I feel there is nobody that I am close to. (Yes/No)         
   4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)          
+  5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_0$psy_loneliness_high_0 <- ifelse(GLOBE1991$psy_loneliness_score_0 >= 1,1, ifelse(GLOBE1991$psy_loneliness_score_0 == 0,0,NA))  
@@ -2902,7 +2902,7 @@ mho_GLOBE_0$psy_loneliness_high_0 <- ifelse(GLOBE1991$psy_loneliness_score_0 >= 
   2. I'm finding it hard to make contact with people. (Yes/No)          
   3. I feel there is nobody that I am close to. (Yes/No)         
   4. I feel I am a burden to people. (Yes/No)     
-  5. I'm finding it hard to get along with people. (Yes/No)           
+  5. I'm finding it hard to get along with people. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_1$psy_loneliness_high_1 <- ifelse(GLOBE1997$psy_loneliness_score_1 >= 1,1, ifelse(GLOBE1997$psy_loneliness_score_1 == 0,0,NA))  
@@ -2969,7 +2969,7 @@ mho_GLOBE_1$psy_loneliness_high_1 <- ifelse(GLOBE1997$psy_loneliness_score_1 >= 
   3. There are many people I can trust completely. (1-5)     
   4. There are enough people I feel close to. (1-5)    
   5. I miss having people around. (1-5)  
-  6. I often feel rejected. (1-5)      
+  6. I often feel rejected. (1-5)  
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_4$psy_loneliness_high_4 <- ifelse(GLOBE2014$psy_loneliness_score_4 >= 15,1, ifelse(GLOBE2014$psy_loneliness_score_4 <=14,0,NA))
@@ -3264,7 +3264,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
   6. I find things impossible to handle. (Yes/No)        
   7. Worry keeps me up at night. (Yes/No)     
   8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)    
+  9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv145_i <- as.integer(ifelse(GLOBE1991$SEGVv145 == 1,1, ifelse(GLOBE1991$SEGVv145 == 2,0,NA)))
@@ -3315,7 +3315,7 @@ mho_GLOBE_0$psy_distress_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_distress_s
   6. I find things impossible to handle. (Yes/No)        
   7. Worry keeps me up at night. (Yes/No)     
   8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)           
+  9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$g4c_i <- as.integer(ifelse(GLOBE1997$g4c == 1,1, ifelse(GLOBE1997$g4c == 2,0,NA)))
@@ -3361,8 +3361,8 @@ mho_GLOBE_1$psy_distress_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_distress_s
   1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
   2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)       
   3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)     
-**R script**:  
+  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**R script**: 
 Responses for item 3 were kept as is.
 ```{r, echo=TRUE}
 GLOBE2004$w004_i <- as.integer(GLOBE2004$w004)
@@ -3404,8 +3404,8 @@ mho_GLOBE_2$psy_distress_tertile_2 <- ifelse(GLOBE2004$psy_distress_score_2 <= 6
   1. Have you been a very nervous person? (none of the time-1 to all of the time-6)   
   2. Have you felt so down in the dumps that nothing could cheer you up? (none of the time-1 to all of the time-6)     
   3. Have you felt calm and peaceful? (none of the time-1 to all of the time-6)    
-  4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)        
-**R script**:
+  4. Have you felt downhearted and blue? (none of the time-1 to all of the time-6)  
+**R script**:  
 Responses for items 1, 2 and 4 were kept as is.  
 ```{r, echo=TRUE}
 GLOBE2011$v11_a_ment1_i <- as.integer(GLOBE2011$v11_a_ment1)
@@ -3447,8 +3447,8 @@ mho_GLOBE_3$psy_distress_tertile_3 <- ifelse(GLOBE2011$psy_distress_score_3 <= 6
   1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
   2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
   3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)       
-**R script**:  
+  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
+**R script**:      
 Responses for item 3 were kept as is.
 ```{r, echo=TRUE}
 GLOBE2014$G14v15_c_i <- as.integer(GLOBE2014$G14v15_c)
@@ -3536,7 +3536,7 @@ mho_GLOBE_4$psy_distress_tertile_4 <- ifelse(GLOBE2014$psy_distress_score_4 <= 6
   6. I find things impossible to handle. (Yes/No)        
   7. Worry keeps me up at night. (Yes/No)     
   8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)      
+  9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$psy_distress_pct_0 <- rescale(GLOBE1991$psy_distress_score_0)*100
@@ -3568,7 +3568,7 @@ mho_GLOBE_0$psy_distress_case_0 <- ifelse(GLOBE1991$psy_distress_pct_0 >= 25,1, 
   6. I find things impossible to handle. (Yes/No)        
   7. Worry keeps me up at night. (Yes/No)     
   8. I feel like life is not worth living. (Yes/No)     
-  9. I feel depressed when I wake up. (Yes/No)      
+  9. I feel depressed when I wake up. (Yes/No)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1997$psy_distress_pct_1 <- rescale(GLOBE1997$psy_distress_score_1)*100
@@ -3595,7 +3595,7 @@ mho_GLOBE_1$psy_distress_case_1 <- ifelse(GLOBE1997$psy_distress_pct_1 >= 25,1, 
   1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
   2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
   3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)      
+  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2004$psy_distress_pct_2 <- rescale(GLOBE2004$psy_distress_score_2)*100
@@ -3649,7 +3649,7 @@ mho_GLOBE_3$psy_distress_case_3 <- ifelse(GLOBE2011$psy_distress_pct_3 >= 50,1, 
   1. Have you been a very nervous person? (all of the time-1 to none of the time-6)     
   2. Have you felt so down in the dumps that nothing could cheer you up? (all of the time-1 to none of the time-6)      
   3. Have you felt calm and peaceful? (all of the time-1 to none of the time-6)    
-  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)     
+  4. Have you felt downhearted and blue? (all of the time-1 to none of the time-6)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2014$psy_distress_pct_4 <- rescale(GLOBE2014$psy_distress_score_4)*100
@@ -3806,7 +3806,7 @@ mho_GLOBE_4$psy_distress_case_4 <- ifelse(GLOBE2014$psy_distress_pct_4 >= 50,1, 
   24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
   25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
   26. The way you spend your spare time? (terrible-1 to delighted-7)   
-  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)   
+  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE2011$v63_a_BN_a_i <- as.integer(GLOBE2011$v63_a_BN_a)
@@ -3957,7 +3957,7 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
   24. The extent to which your world seems consistent and understandable? (terrible-1 to delighted-7)   
   25. The extent to which your personal needs are met? (terrible-1 to delighted-7)   
   26. The way you spend your spare time? (terrible-1 to delighted-7)   
-  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)   
+  27. Your life as a whole? | 'terrible' (1) to 'delighted' (7)  
 **R script**:    
 ```{r, echo=TRUE}
 mho_GLOBE_3$psy_qol_low_3 <- ifelse(GLOBE2011$psy_qol_score_3 < 126,1, ifelse(GLOBE2011$psy_qol_score_3 >= 126,0,NA))
