@@ -2672,7 +2672,7 @@ GLOBE1991$psy_loneliness_score_0[which(GLOBE1991$loneliness_nmiss == 1)] <- (GLO
 
 GLOBE1991$psy_loneliness_score_0[which(GLOBE1991$loneliness_nmiss >= 2)] <- NA_integer_ 
 
-GLOBE1991$psy_loneliness_score_0 <- trunc(GLOBE1991$psy_loneliness_score_0)
+GLOBE1991$psy_loneliness_score_0 <- round(GLOBE1991$psy_loneliness_score_0)
 
 mho_GLOBE_0$psy_loneliness_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_loneliness_score_0 == 0,0, ifelse(GLOBE1991$psy_loneliness_score_0 == 1,1, ifelse(GLOBE1991$psy_loneliness_score_0 >= 2,2,NA))))
 
@@ -2714,7 +2714,7 @@ GLOBE1997$psy_loneliness_score_1[which(GLOBE1997$loneliness_nmiss == 1)] <- (GLO
 
 GLOBE1997$psy_loneliness_score_1[which(GLOBE1997$loneliness_nmiss >= 2)] <- NA_integer_ 
 
-GLOBE1997$psy_loneliness_score_1 <- trunc(GLOBE1997$psy_loneliness_score_1)
+GLOBE1997$psy_loneliness_score_1 <- round(GLOBE1997$psy_loneliness_score_1)
 
 mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneliness_score_1 == 0,0, ifelse(GLOBE1997$psy_loneliness_score_1 == 1,1, ifelse(GLOBE1997$psy_loneliness_score_1 >= 2,2,NA))))
 
@@ -2806,7 +2806,7 @@ GLOBE2014$psy_loneliness_score_4[which(GLOBE2014$loneliness_nmiss == 1)] <- (GLO
 
 GLOBE2014$psy_loneliness_score_4[which(GLOBE2014$loneliness_nmiss >= 2)] <- NA_integer_ 
 
-GLOBE2014$psy_loneliness_score_4 <- trunc(GLOBE2014$psy_loneliness_score_4)
+GLOBE2014$psy_loneliness_score_4 <- round(GLOBE2014$psy_loneliness_score_4)
 
 mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_score_4 <= 9,0, ifelse(GLOBE2014$psy_loneliness_score_4 == 10,1, ifelse(GLOBE2014$psy_loneliness_score_4 == 11,1, ifelse(GLOBE2014$psy_loneliness_score_4 == 12,1, ifelse(GLOBE2014$psy_loneliness_score_4 >= 13,2,NA))))))  
 
@@ -3278,7 +3278,7 @@ GLOBE1991$psy_distress_score_0[which(GLOBE1991$distress_nmiss == 1)] <- (GLOBE19
 
 GLOBE1991$psy_distress_score_0[which(GLOBE1991$distress_nmiss >=2)] <- NA_integer_
 
-GLOBE1991$psy_distress_score_0 <- trunc(GLOBE1991$psy_distress_score_0)
+GLOBE1991$psy_distress_score_0 <- round(GLOBE1991$psy_distress_score_0)
 
 mho_GLOBE_0$psy_distress_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_distress_score_0 == 0,0, ifelse(GLOBE1991$psy_distress_score_0 == 1,1, ifelse(GLOBE1991$psy_distress_score_0 >= 2,2,NA))))
 
@@ -3328,7 +3328,7 @@ GLOBE1997$psy_distress_score_1[which(GLOBE1997$distress_nmiss == 1)] <- (GLOBE19
 
 GLOBE1997$psy_distress_score_1[which(GLOBE1997$distress_nmiss >=2)] <- NA_integer_
 
-GLOBE1997$psy_distress_score_1 <- trunc(GLOBE1997$psy_distress_score_1)
+GLOBE1997$psy_distress_score_1 <- round(GLOBE1997$psy_distress_score_1)
 
 mho_GLOBE_1$psy_distress_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_distress_score_1 == 0,0, ifelse(GLOBE1997$psy_distress_score_1 == 1,1, ifelse(GLOBE1997$psy_distress_score_1 >= 2,2,NA))))
 
@@ -3832,7 +3832,7 @@ GLOBE2011$psy_qol_score_3[which(GLOBE2011$qol_nmiss == 1)] <- (GLOBE2011$psy_qol
 
 GLOBE2011$psy_qol_score_3[which(GLOBE2011$qol_nmiss >= 6)] <- NA_integer_
 
-GLOBE2011$psy_qol_score_3 <- trunc(GLOBE2011$psy_qol_score_3)
+GLOBE2011$psy_qol_score_3 <- round(GLOBE2011$psy_qol_score_3)
 
 mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 131,2, ifelse(GLOBE2011$psy_qol_score_3 <= 145,1, ifelse(GLOBE2011$psy_qol_score_3 >= 146,0,NA))))
 
