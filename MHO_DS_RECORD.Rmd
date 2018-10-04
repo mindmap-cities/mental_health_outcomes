@@ -1960,7 +1960,7 @@ RECORD_w1_1$psy_depression_score_0[which(RECORD_w1_1$nmiss == 1)] <- (RECORD_w1_
 
 RECORD_w1_1$psy_depression_score_0[which(RECORD_w1_1$nmiss >= 3)] <- NA_integer_ 
 
-RECORD_w1_1$psy_depression_score_0 <- trunc(RECORD_w1_1$psy_depression_score_0)
+RECORD_w1_1$psy_depression_score_0 <- round(RECORD_w1_1$psy_depression_score_0)
 
 mho_RECORD_0$psy_dep_tertile_0 <- as.integer(ifelse(RECORD_w1_1$psy_depression_score_0 == 0,0, ifelse(RECORD_w1_1$psy_depression_score_0 == 1,1, ifelse(RECORD_w1_1$psy_depression_score_0 == 2,1, ifelse(RECORD_w1_1$psy_depression_score_0 >= 3,2,NA)))))
 
@@ -2019,7 +2019,7 @@ RECORD_w2$psy_depression_score_1[which(RECORD_w2$nmiss == 1)] <- (RECORD_w2$psy_
 
 RECORD_w2$psy_depression_score_1[which(RECORD_w2$nmiss >= 3)] <- NA_integer_ 
 
-RECORD_w2$psy_depression_score_1 <- trunc(RECORD_w2$psy_depression_score_1)
+RECORD_w2$psy_depression_score_1 <- round(RECORD_w2$psy_depression_score_1)
 
 mho_RECORD_1$psy_dep_tertile_1 <- as.integer(ifelse(RECORD_w2$psy_depression_score_1 == 0,0, ifelse(RECORD_w2$psy_depression_score_1 == 1,1, ifelse(RECORD_w2$psy_depression_score_1 == 2,1, ifelse(RECORD_w2$psy_depression_score_1 >= 3,2,NA)))))
 
