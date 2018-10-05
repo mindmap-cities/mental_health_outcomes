@@ -1962,13 +1962,14 @@ mho_HUNT_1$psy_anxious_yn_1 <- as.integer(ifelse(HUNT2$FeelAnxiL2W_NT2BLQ1 >= 3,
 
 **Harmonization status**: complete      
 **Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study. Items comprising the *Hospital Anxiety and Depression - Depression Subscale (HADS-D)* are listed below:       
-1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-2. I can laugh and see the funny side of things. (0-3, item-specific)    
-3. I feel cheerful. (0-3, item-specific)     
-4. I feel as if I am slowed down. (0-3, item-specific)   
-5. I have lost interest in my appearance. (0-3, item-specific)    
-6. I look forward with enjoyment to things. (0-3, item-specific)    
-7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)
+1. I still enjoy the things I used to enjoy.    
+2. I can laugh and see the funny side of things.      
+3. I feel cheerful.       
+4. I feel as if I am slowed down.     
+5. I have lost interest in my appearance.       
+6. I look forward with enjoyment to things.      
+7. I can enjoy a good book or radio or TV programme.  
+Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
 ```{r, echo=TRUE}
@@ -1991,13 +1992,14 @@ mho_HUNT_1$psy_dep_tertile_1 <- as.integer(ifelse(HUNT2$HADSDepr_NT2BLQ1 <= 1,0,
 
 **Harmonization status**: complete   
 **Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study. Items comprising the *Hospital Anxiety and Depression - Depression Subscale (HADS-D)* are listed below:        
-1. I still enjoy the things I used to enjoy. (0-3, item-specific)  
-2. I can laugh and see the funny side of things. (0-3, item-specific)    
-3. I feel cheerful. (0-3, item-specific)     
-4. I feel as if I am slowed down. (0-3, item-specific)   
-5. I have lost interest in my appearance. (0-3, item-specific)    
-6. I look forward with enjoyment to things. (0-3, item-specific)    
-7. I can enjoy a good book or radio or TV programme. (0-3, item-specific)  
+1. I still enjoy the things I used to enjoy.    
+2. I can laugh and see the funny side of things.      
+3. I feel cheerful.       
+4. I feel as if I am slowed down.     
+5. I have lost interest in my appearance.      
+6. I look forward with enjoyment to things.      
+7. I can enjoy a good book or radio or TV programme.  
+Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
 ```{r, echo=TRUE}
