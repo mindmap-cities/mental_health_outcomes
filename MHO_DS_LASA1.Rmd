@@ -835,7 +835,7 @@ mho_LASA1_6$cog_imm_rscale_6 <- round(mho_LASA1_6$cog_imm_rscale_6)
 1 |   Low immediate word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.             
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.               
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$cog_imm_low_0 <- as.integer(dicho(mho_LASA1_0$cog_imm_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -857,7 +857,7 @@ mho_LASA1_0$cog_imm_low_0 <- car::recode(mho_LASA1_0$cog_imm_low_0, "2=0")
 1 |   Low immediate word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.    
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.    
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$cog_imm_low_1 <- as.integer(dicho(mho_LASA1_1$cog_imm_rscale_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -879,7 +879,7 @@ mho_LASA1_1$cog_imm_low_1 <- car::recode(mho_LASA1_1$cog_imm_low_1, "2=0")
 1 |   Low immediate word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.        
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$cog_imm_low_2 <- as.integer(dicho(mho_LASA1_2$cog_imm_rscale_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -901,7 +901,7 @@ mho_LASA1_2$cog_imm_low_2 <- car::recode(mho_LASA1_2$cog_imm_low_2, "2=0")
 1 |   Low immediate word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.      
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$cog_imm_low_3 <- as.integer(dicho(mho_LASA1_3$cog_imm_rscale_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -923,7 +923,7 @@ mho_LASA1_3$cog_imm_low_3 <- car::recode(mho_LASA1_3$cog_imm_low_3, "2=0")
 1 |   Low immediate word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.      
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$cog_imm_low_4 <- as.integer(dicho(mho_LASA1_4$cog_imm_rscale_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -945,7 +945,7 @@ mho_LASA1_4$cog_imm_low_4 <- car::recode(mho_LASA1_4$cog_imm_low_4, "2=0")
 1 |   Low immediate word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.    
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.    
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$cog_imm_low_5 <- as.integer(dicho(mho_LASA1_5$cog_imm_rscale_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -967,7 +967,7 @@ mho_LASA1_5$cog_imm_low_5 <- car::recode(mho_LASA1_5$cog_imm_low_5, "2=0")
 1 |   Low immediate word recall 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-10.     
+**Harmonization comment**:  This was based on the number of words immediately recalled from the first trial in LASA, which was rescaled from 0-15 to 0-10.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$cog_imm_low_6 <- as.integer(dicho(mho_LASA1_6$cog_imm_rscale_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1122,7 +1122,7 @@ mho_LASA1_6$cog_del_rscale_6 <- round(mho_LASA1_6$cog_del_rscale_6)
 1 |   Low delayed word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.        
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$cog_del_low_0 <- as.integer(dicho(mho_LASA1_0$cog_del_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1144,7 +1144,7 @@ mho_LASA1_0$cog_del_low_0 <- car::recode(mho_LASA1_0$cog_del_low_0, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$cog_del_low_1 <- as.integer(dicho(mho_LASA1_1$cog_del_rscale_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1166,7 +1166,7 @@ mho_LASA1_1$cog_del_low_1 <- car::recode(mho_LASA1_1$cog_del_low_1, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$cog_del_low_2 <- as.integer(dicho(mho_LASA1_2$cog_del_rscale_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1188,7 +1188,7 @@ mho_LASA1_2$cog_del_low_2 <- car::recode(mho_LASA1_2$cog_del_low_2, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$cog_del_low_3 <- as.integer(dicho(mho_LASA1_3$cog_del_rscale_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1210,7 +1210,7 @@ mho_LASA1_3$cog_del_low_3 <- car::recode(mho_LASA1_3$cog_del_low_3, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$cog_del_low_4 <- as.integer(dicho(mho_LASA1_4$cog_del_rscale_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1232,7 +1232,7 @@ mho_LASA1_4$cog_del_low_4 <- car::recode(mho_LASA1_4$cog_del_low_4, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$cog_del_low_5 <- as.integer(dicho(mho_LASA1_5$cog_del_rscale_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1254,7 +1254,7 @@ mho_LASA1_5$cog_del_low_5 <- car::recode(mho_LASA1_5$cog_del_low_5, "2=0")
 1 |   Low delayed word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-10 in LASA.      
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in LASA.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$cog_del_low_6 <- as.integer(dicho(mho_LASA1_6$cog_del_rscale_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
