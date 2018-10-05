@@ -1921,7 +1921,7 @@ opal.logout(erasmus_opal)
 2 |   High severity tertile of depressive symptoms 
 
 **Harmonization status**: complete  
-**Harmonization comment**:  The QD2A depression scores (0-13) in RECORD were grouped into study-specific tertiles defined as low(0), medium(1-2), and high(3-13). Scores were calculated for participants with data on at least 11 items (out of a possible 13). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 13. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Questionnaire of Self-Evaluated Depressive Symptomatology (QD2A)* scale are listed below:  
+**Harmonization comment**:  The QD2A depression scores (0-13) in RECORD were grouped into study-specific tertiles defined as low (0), medium (1-2), and high (3-13). Scores were calculated for participants with data on at least 11 items (out of a possible 13). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 13. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Questionnaire of Self-Evaluated Depressive Symptomatology (QD2A)* scale are listed below:  
 1. I have difficulty in shaking off the evil thoughts that pass through my head. (Yes/No)      
 2. My memory does not seem to be as good as it used to be. (Yes/No)      
 3. I have no energy. (Yes/No)    
@@ -1981,7 +1981,7 @@ mho_RECORD_0$psy_dep_tertile_0 <- as.integer(ifelse(RECORD_w1_1$psy_depression_s
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The QD2A depression scores (0-13) in RECORD were grouped into study-specific tertiles defined as low(0), medium(1-2), and high(3-13). Scores were calculated for participants with data on at least 11 items (out of a possible 13). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 13. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Questionnaire of Self-Evaluated Depressive Symptomatology (QD2A)* scale are listed below:  
+**Harmonization comment**:  The QD2A depression scores (0-13) in RECORD were grouped into study-specific tertiles defined as low (0), medium (1-2), and high (3-13). Scores were calculated for participants with data on at least 11 items (out of a possible 13). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 13. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Questionnaire of Self-Evaluated Depressive Symptomatology (QD2A)* scale are listed below:  
 1. I have difficulty in shaking off the evil thoughts that pass through my head. (Yes/No)      
 2. My memory does not seem to be as good as it used to be. (Yes/No)      
 3. I have no energy. (Yes/No)    
