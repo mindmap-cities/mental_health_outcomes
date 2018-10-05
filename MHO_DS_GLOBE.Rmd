@@ -3430,7 +3430,7 @@ mho_GLOBE_3$psy_distress_tertile_3 <- ifelse(GLOBE2011$psy_distress_score_3 <= 6
 1. Have you been a very nervous person?       
 2. Have you felt so down in the dumps that nothing could cheer you up?        
 3. Have you felt calm and peaceful?      
-4. Have you felt downhearted and blue?
+4. Have you felt downhearted and blue?  
 Response categories ranged from 'all of the time' (1), 'most of the time' (2), 'a good bit of the time' (3), 'some of the time' (4), 'a little of the time' (5) to 'none of the time' (6).  
 
 **R script**:      
