@@ -3186,7 +3186,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The ADI-4 anxiety and depression scores (4-22) in HUNT were grouped into study-specific tertiles defined as low(4-7), medium(8-10), and high(11-22). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the ADI-4 scale, scores were not calculated and coded as missing. Items comprising the *Anxiety and Depression Scale, 4 item version (ADI-4)*, are listed below:        
+**Harmonization comment**:  The ADI-4 anxiety and depression scores (4-22) in HUNT were grouped into study-specific tertiles defined as lo (4-7), medium (8-10), and high (11-22). Scores were calculated for participants with data on all 4 items. If participants missed 1 or more items on the ADI-4 scale, scores were not calculated and coded as missing. Items comprising the *Anxiety and Depression Scale, 4 item version (ADI-4)*, are listed below:        
 1. Do you by and large feel calm and good?   
 2. During the last month, have you suffered from nervousness (felt irritable, anxious, tense or restless)?        
 3. Do you feel, for the most part, strong and fit or tired and worn out?      
@@ -3269,7 +3269,7 @@ mho_HUNT_1$psy_distress_tertile_1 <- as.integer(ifelse(HUNT2$HADSTot_NT2BLQ1 <= 
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The HADS total scores (0-42) in HUNT were grouped into study-specific tertiles defined as low(0-4), medium(5-8), and high(9-42). he HADS total scores were used as provided by the HUNT study.  Items comprising the *Hospital Anxiety and Depression - Total Scale (HADS-T)* are listed below:       
+**Harmonization comment**:  The HADS total scores (0-42) in HUNT were grouped into study-specific tertiles defined as low (0-4), medium (5-8), and high (9-42). he HADS total scores were used as provided by the HUNT study.  Items comprising the *Hospital Anxiety and Depression - Total Scale (HADS-T)* are listed below:       
 1. I feel tense or 'wound up'. 
 2. I still enjoy the things I used to enjoy.
 3. I get a sort of frightened feeling as if something awful is about to happen.  
