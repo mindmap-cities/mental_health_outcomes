@@ -2650,7 +2650,7 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 2 | High levels of loneliness
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:       
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:       
 1. I feel lonely. (Yes/No)       
 2. I'm finding it hard to make contact with people. (Yes/No)          
 3. I feel there is nobody that I am close to. (Yes/No)         
@@ -2693,7 +2693,7 @@ mho_GLOBE_0$psy_loneliness_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_loneline
 2 | High levels of loneliness
 
 **Harmonization status**: complete    
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low(0), medium(1), and high(3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:        
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:        
 1. I feel lonely. (Yes/No)       
 2. I'm finding it hard to make contact with people. (Yes/No)          
 3. I feel there is nobody that I am close to. (Yes/No)         
@@ -2778,7 +2778,7 @@ mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneline
 2 | High levels of loneliness
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The De Jong-Gierveld Loneliness scores (6-30) in GLOBE were grouped into study-specific tertiles defined as low(6-9), medium(10-12), and high(13-30). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *De Jong-Gierveld Loneliness Scale, 6 item version*, are listed below:  
+**Harmonization comment**:  The De Jong-Gierveld Loneliness scores (6-30) in GLOBE were grouped into study-specific tertiles defined as low (6-9), medium (10-12), and high (13-30). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *De Jong-Gierveld Loneliness Scale, 6 item version*, are listed below:  
 1. I experience a general sense of emptiness.    
 2. There are plenty of people I can lean on when I have problems.    
 3. There are many people I can trust completely.       
@@ -3236,7 +3236,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain* are listed below:  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain* are listed below:  
 1. Everything makes me feel depressed. (Yes/No)       
 2. It has been a long time since I last enjoyed something. (Yes/No)        
 3. I feel tense. (Yes/No)     
@@ -3287,7 +3287,7 @@ mho_GLOBE_0$psy_distress_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_distress_s
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low(0), medium(1), and high(2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain*, are listed below:  
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Emotional reactions subdomain*, are listed below:  
 1. Everything makes me feel depressed. (Yes/No)       
 2. It has been a long time since I last enjoyed something. (Yes/No)        
 3. I feel tense. (Yes/No)     
@@ -3727,7 +3727,7 @@ mho_GLOBE_4$psy_distress_case_4 <- ifelse(GLOBE2014$psy_distress_pct_4 >= 50,1, 
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The BNSI scores (27-189) in GLOBE were grouped into study-specific tertiles defined as high(146-189), medium(132-145), and low(28-131). Scores were calculated for participants with data on at least 22 items (out of a possible 27). If 1 to 5 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 27. If participants missed 6 or more items, scores were not calculated and coded as missing. Items comprising the *Basic Needs Satisfaction Inventory (BNSI)*, are listed below:  
+**Harmonization comment**:  The BNSI scores (27-189) in GLOBE were grouped into study-specific tertiles defined as high (146-189), medium (132-145), and low (28-131). Scores were calculated for participants with data on at least 22 items (out of a possible 27). If 1 to 5 items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 27. If participants missed 6 or more items, scores were not calculated and coded as missing. Items comprising the *Basic Needs Satisfaction Inventory (BNSI)*, are listed below:  
 "How do you feel about..."  
 1. The physical comfort of your home (heat, water, lighting, ventilation)?      
 2. Your level of physical activity?        
