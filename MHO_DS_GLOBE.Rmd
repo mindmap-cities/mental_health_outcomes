@@ -2241,7 +2241,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:  Based on a 6-point ('all of the time', 'most of the time', 'a good bit of the time', 'some of the time', 'a little of the time', 'none of the time') item response to "How much of the time during the past 4 weeks, have you felt downhearted and blue?" from the MHI-5 scale. Participants who responded 'all of the time' to 'a good bit of the time' were defined as feeling sad, downhearted or blue.    
 **R script**:  
 ```{r, echo=TRUE}
-mho_GLOBE_1$psy_depressed_yn_1 <- as.integer(ifelse(GLOBE1997$v16d <= 3,1, ifelse(GLOBE1997$v16d >= 4,0,NA)))
+mho_GLOBE_1$psy_dep_yn_1 <- as.integer(ifelse(GLOBE1997$v16d <= 3,1, ifelse(GLOBE1997$v16d >= 4,0,NA)))
 
 ```
 
@@ -2261,7 +2261,7 @@ mho_GLOBE_1$psy_depressed_yn_1 <- as.integer(ifelse(GLOBE1997$v16d <= 3,1, ifels
 **Harmonization comment**:  Based on a 6-point ('all of the time', 'most of the time', 'a good bit of the time', 'some of the time', 'a little of the time', 'none of the time') item response to "How much of the time during the past 4 weeks, have you felt downhearted and blue?" from the MHI-4 scale. Participants who responded 'all of the time' to 'a good bit of the time' were defined as feeling sad, downhearted or blue.       
 **R script**:  
 ```{r, echo=TRUE}
-mho_GLOBE_2$psy_depressed_yn_2 <- as.integer(ifelse(GLOBE2004$w006 <= 3,1, ifelse(GLOBE2004$w006 >= 4,0,NA)))
+mho_GLOBE_2$psy_dep_yn_2 <- as.integer(ifelse(GLOBE2004$w006 <= 3,1, ifelse(GLOBE2004$w006 >= 4,0,NA)))
 
 ```
 
@@ -2281,7 +2281,7 @@ mho_GLOBE_2$psy_depressed_yn_2 <- as.integer(ifelse(GLOBE2004$w006 <= 3,1, ifels
 **Harmonization comment**:  Based on a 6-point ('none of the time', 'a little of the time', 'some of the time', 'a good bit of the time',  'most of the time', 'all of the time') item response to "How much of the time during the past 4 weeks, have you felt downhearted and blue?" from the MHI-4 scale. Participants who responded 'a good bit of the time' to 'all of the time' were defined as feeling sad, downhearted or blue.        
 **R script**:  
 ```{r, echo=TRUE}
-mho_GLOBE_3$psy_depressed_yn_3 <- as.integer(ifelse(GLOBE2011$v11_e_ment5 >= 4,1, ifelse(GLOBE2011$v11_e_ment5 <= 3,0,NA)))
+mho_GLOBE_3$psy_dep_yn_3 <- as.integer(ifelse(GLOBE2011$v11_e_ment5 >= 4,1, ifelse(GLOBE2011$v11_e_ment5 <= 3,0,NA)))
 
 ```
 
@@ -2301,7 +2301,7 @@ mho_GLOBE_3$psy_depressed_yn_3 <- as.integer(ifelse(GLOBE2011$v11_e_ment5 >= 4,1
 **Harmonization comment**:  Based on a 6-point ('all of the time', 'most of the time', 'a good bit of the time', 'some of the time', 'a little of the time', 'none of the time') item response to "How much of the time during the past 4 weeks, have you felt downhearted and blue?" from the MHI-4 scale. Participants who responded 'all of the time' to 'a good bit of the time' were defined as feeling sad, downhearted or blue.             
 **R script**:  
 ```{r, echo=TRUE}
-mho_GLOBE_4$psy_depressed_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(GLOBE2014$G14v15_e >= 4,0,NA)))
+mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(GLOBE2014$G14v15_e >= 4,0,NA)))
 
 ```
 
@@ -3008,7 +3008,7 @@ mho_GLOBE_4$psy_loneliness_high_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_
 **Harmonization comment**:  Based on a yes/no response to "I feel lonely" from the Nottingham Health Profile (NHP) sub-scale on subjective lack of social connections.    
 **R script**:  
 ```{r, echo=TRUE}
-mho_GLOBE_0$psy_lonely_yn_o <- GLOBE1991$SEGVv151_i   
+mho_GLOBE_0$psy_lonely_yn_0 <- GLOBE1991$SEGVv151_i   
 
 ```
 
