@@ -198,7 +198,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_1$psy_anxiety_case_1 <- as.integer(cut(mho_HUNT_1$psy_anxiety_score_1, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE))
+mho_HUNT_1$psy_anxiety_case_1 <- as.integer(ifelse(mho_HUNT_1$psy_anxiety_score_1 <= 10,0, ifelse(mho_HUNT_1$psy_anxiety_score_1 >= 11,1,NA)))
 
 ```
 
@@ -218,7 +218,7 @@ mho_HUNT_1$psy_anxiety_case_1 <- as.integer(cut(mho_HUNT_1$psy_anxiety_score_1, 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.  
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_2$psy_anxiety_case_2 <- as.integer(cut(mho_HUNT_2$psy_anxiety_score_2, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE))
+mho_HUNT_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_HUNT_2$psy_anxiety_score_2 <= 10,0, ifelse(mho_HUNT_2$psy_anxiety_score_2 >= 11,1,NA))) 
 
 ```
 
@@ -2109,7 +2109,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:  Participants with HADS-D depression scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold (Zigmond & Snaith 1983) (Snaith 2003).     
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_1$psy_dep_case_1 <- as.integer(cut(HUNT2$HADSDepr_NT2BLQ1, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE))
+mho_HUNT_1$psy_dep_case_1 <- as.integer(ifelse(HUNT2$HADSDepr_NT2BLQ1 <= 10,0, ifelse(HUNT2$HADSDepr_NT2BLQ1 >= 11,1,NA))) 
 
 ```
 
@@ -2129,7 +2129,7 @@ mho_HUNT_1$psy_dep_case_1 <- as.integer(cut(HUNT2$HADSDepr_NT2BLQ1, breaks=c(0,1
 **Harmonization comment**:  Participants with HADS-D depression scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold (Zigmond & Snaith 1983) (Snaith 2003).   
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_2$psy_dep_case_2 <- as.integer(cut(HUNT3$HADSDepr_NT3BLQ2, breaks=c(0,10,+Inf), labels=c(0,1), include.lowest = TRUE))
+mho_HUNT_2$psy_dep_case_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 10,0, ifelse(HUNT3$HADSDepr_NT3BLQ2 >= 11,1,NA)))
 
 ```
 
@@ -2229,7 +2229,7 @@ mho_HUNT_2$psy_dep_case_2 <- as.integer(cut(HUNT3$HADSDepr_NT3BLQ2, breaks=c(0,1
 **Harmonization comment**:  Based on a 7-point ('very downhearted', 'downhearted', 'somewhat downhearted', 'some of both', 'somewhat cheerful', 'cheerful', 'very cheerful') item response to "Would you say you are usually cheerful or downhearted?" from the ADI-4 anxiety and depression scale. Participants with responses ranging from 'very downhearted' to 'somewhat downhearted' were defined as feeling sad, downhearted or blue.         
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_0$psy_depressed_yn_0 <- as.integer(ifelse(HUNT1$FeelMood_NT1BLQ2 <= 3,1, ifelse(HUNT1$FeelMood_NT1BLQ2 >= 4,0,NA)))
+mho_HUNT_0$psy_dep_yn_0 <- as.integer(ifelse(HUNT1$FeelMood_NT1BLQ2 <= 3,1, ifelse(HUNT1$FeelMood_NT1BLQ2 >= 4,0,NA)))
 
 ```
 
@@ -2249,7 +2249,7 @@ mho_HUNT_0$psy_depressed_yn_0 <- as.integer(ifelse(HUNT1$FeelMood_NT1BLQ2 <= 3,1
 **Harmonization comment**:  Based on a 7-point ('very downhearted', 'downhearted', 'somewhat downhearted', 'some of both', 'somewhat cheerful', 'cheerful', 'very cheerful') item response to "Would you say you are usually cheerful or downhearted?" from the ADI-4 anxiety and depression scale. Participants with responses ranging from 'very downhearted' to 'somewhat downhearted' were defined as feeling sad, downhearted or blue.    
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_1$psy_depressed_yn_1 <- as.integer(ifelse(HUNT2$FeelMoodLW_NT2BLQ2 <= 3,1, ifelse(HUNT2$FeelMoodLW_NT2BLQ2 >= 4,0,NA)))
+mho_HUNT_1$psy_dep_yn_1 <- as.integer(ifelse(HUNT2$FeelMoodLW_NT2BLQ2 <= 3,1, ifelse(HUNT2$FeelMoodLW_NT2BLQ2 >= 4,0,NA)))
 
 ```
 
