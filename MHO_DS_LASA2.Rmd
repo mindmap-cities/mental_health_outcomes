@@ -2,16 +2,17 @@
 title: "Mental health outcomes DataSchema"
 output: html_document
 ---
-# Connecting with Opal data server
-## Login to server and assign study data
-```{r, echo=FALSE}
-#Load Opal R library
-library(opal)
+```{r, echo=TRUE}
 library(tidyverse)
 library(epiDisplay)
 library(scales)
 library(car)
 library(sjmisc)
+
+# Connecting with Opal data server
+## Login to server and assign study data
+#Load Opal R library
+library(opal)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the LASA table(s) to your RStudio environment
@@ -37,10 +38,10 @@ mho_LASA2_0 <- data.frame(id = LASA2B$id)
 mho_LASA2_1 <- data.frame(id = LASA2F$id)
 mho_LASA2_2 <- data.frame(id = LASA2G$id)
 mho_LASA2_3 <- data.frame(id = LASA2H$id)
-```
-## When you are done with your work, logout of Opal server
-```{r, echo=FALSE}
+
+# When you are done with your work, logout of Opal server
 opal.logout(erasmus_opal) 
+
 ```
 
 ---
