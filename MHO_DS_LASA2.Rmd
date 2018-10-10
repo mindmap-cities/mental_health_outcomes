@@ -98,12 +98,10 @@ LASA2F$fanxiet3_i <- car::recode(LASA2F$fanxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2
 LASA2F$fanxiet5_i <- car::recode(LASA2F$fanxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2F$fanxiet6_i <- car::recode(LASA2F$fanxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2F$fanxiet7_i <- car::recode(LASA2F$fanxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-
 ```
 Responses for item 4 were reverse coded.
 ```{r, echo=TRUE}
 LASA2F$fanxiet4_i <- car::recode(LASA2F$fanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -146,12 +144,10 @@ LASA2G$ganxiet3_i <- car::recode(LASA2G$ganxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2
 LASA2G$ganxiet5_i <- car::recode(LASA2G$ganxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2G$ganxiet6_i <- car::recode(LASA2G$ganxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2G$ganxiet7_i <- car::recode(LASA2G$ganxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-
 ```
 Responses for item 4 were reverse coded.
 ```{r, echo=TRUE}
 LASA2G$ganxiet4_i <- car::recode(LASA2G$ganxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -194,12 +190,10 @@ LASA2H$hanxiet3_i <- car::recode(LASA2H$hanxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2
 LASA2H$hanxiet5_i <- car::recode(LASA2H$hanxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2H$hanxiet6_i <- car::recode(LASA2H$hanxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2H$hanxiet7_i <- car::recode(LASA2H$hanxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-
 ```
 Responses for item 4 were reverse coded.
 ```{r, echo=TRUE}
 LASA2H$hanxiet4_i <- car::recode(LASA2H$hanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -2134,7 +2128,6 @@ LASA2B$bcesd17_i <- as.integer(car::recode(LASA2B$bcesd17, "-2=NA; -1=NA"))
 LASA2B$bcesd18_i <- as.integer(car::recode(LASA2B$bcesd18, "-2=NA; -1=NA"))
 LASA2B$bcesd19_i <- as.integer(car::recode(LASA2B$bcesd19, "-2=NA; -1=NA"))
 LASA2B$bcesd20_i <- as.integer(car::recode(LASA2B$bcesd20, "-2=NA; -1=NA"))
-
 ```
 Responses for items 4, 8, 12, and 16 were reverse coded.
 ```{r, echo=TRUE}
@@ -2142,7 +2135,6 @@ LASA2B$bcesd04_i <- as.integer(car::recode(LASA2B$bcesd04, "3=0; 2=1; 1=2; 0=3; 
 LASA2B$bcesd08_i <- as.integer(car::recode(LASA2B$bcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2B$bcesd12_i <- as.integer(car::recode(LASA2B$bcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2B$bcesd16_i <- as.integer(car::recode(LASA2B$bcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-
 ```
 Depression symptom scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -2197,7 +2189,6 @@ LASA2F$fcesd17_i <- as.integer(car::recode(LASA2F$fcesd17, "-2=NA; -1=NA"))
 LASA2F$fcesd18_i <- as.integer(car::recode(LASA2F$fcesd18, "-2=NA; -1=NA"))
 LASA2F$fcesd19_i <- as.integer(car::recode(LASA2F$fcesd19, "-2=NA; -1=NA"))
 LASA2F$fcesd20_i <- as.integer(car::recode(LASA2F$fcesd20, "-2=NA; -1=NA"))
-
 ```
 Responses for items 4, 8, 12, and 16 were reverse coded.
 ```{r, echo=TRUE}
@@ -2205,7 +2196,6 @@ LASA2F$fcesd04_i <- as.integer(car::recode(LASA2F$fcesd04, "3=0; 2=1; 1=2; 0=3; 
 LASA2F$fcesd08_i <- as.integer(car::recode(LASA2F$fcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2F$fcesd12_i <- as.integer(car::recode(LASA2F$fcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2F$fcesd16_i <- as.integer(car::recode(LASA2F$fcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-
 ```
 Depression symptom scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -2260,7 +2250,6 @@ LASA2G$gcesd17_i <- as.integer(car::recode(LASA2G$gcesd17, "-2=NA; -1=NA"))
 LASA2G$gcesd18_i <- as.integer(car::recode(LASA2G$gcesd18, "-2=NA; -1=NA"))
 LASA2G$gcesd19_i <- as.integer(car::recode(LASA2G$gcesd19, "-2=NA; -1=NA"))
 LASA2G$gcesd20_i <- as.integer(car::recode(LASA2G$gcesd20, "-2=NA; -1=NA"))
-
 ```
 Responses for items 4, 8, 12, and 16 were reverse coded.
 ```{r, echo=TRUE}
@@ -2268,7 +2257,6 @@ LASA2G$gcesd04_i <- as.integer(car::recode(LASA2G$gcesd04, "3=0; 2=1; 1=2; 0=3; 
 LASA2G$gcesd08_i <- as.integer(car::recode(LASA2G$gcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2G$gcesd12_i <- as.integer(car::recode(LASA2G$gcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2G$gcesd16_i <- as.integer(car::recode(LASA2G$gcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-
 ```
 Depression symptom scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -2323,7 +2311,6 @@ LASA2H$hcesd17_i <- as.integer(car::recode(LASA2H$hcesd17, "-2=NA; -1=NA"))
 LASA2H$hcesd18_i <- as.integer(car::recode(LASA2H$hcesd18, "-2=NA; -1=NA"))
 LASA2H$hcesd19_i <- as.integer(car::recode(LASA2H$hcesd19, "-2=NA; -1=NA"))
 LASA2H$hcesd20_i <- as.integer(car::recode(LASA2H$hcesd20, "-2=NA; -1=NA"))
-
 ```
 Responses for items 4, 8, 12, and 16 were reverse coded.
 ```{r, echo=TRUE}
@@ -2331,7 +2318,6 @@ LASA2H$hcesd04_i <- as.integer(car::recode(LASA2H$hcesd04, "3=0; 2=1; 1=2; 0=3; 
 LASA2H$hcesd08_i <- as.integer(car::recode(LASA2H$hcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2H$hcesd12_i <- as.integer(car::recode(LASA2H$hcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2H$hcesd16_i <- as.integer(car::recode(LASA2H$hcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-
 ```
 Depression symptom scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -3023,7 +3009,6 @@ LASA2B$blo5_i <- car::recode(LASA2B$blo5, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo6_i <- car::recode(LASA2B$blo6, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo9_i <- car::recode(LASA2B$blo9, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo10_i <- car::recode(LASA2B$blo10, "-1=NA; -3=NA; -4=NA")
-
 ```
 Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 ```{r, echo=TRUE}
@@ -3032,7 +3017,6 @@ LASA2B$blo4_i <- car::recode(LASA2B$blo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo7_i <- car::recode(LASA2B$blo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo8_i <- car::recode(LASA2B$blo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo11_i <- car::recode(LASA2B$blo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-
 ```
 Loneliness scores and tertiles were then calculated as follows.
 ```{r, echo=TRUE}
@@ -3075,7 +3059,6 @@ LASA2F$flo5_i <- car::recode(LASA2F$flo5, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo6_i <- car::recode(LASA2F$flo6, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo9_i <- car::recode(LASA2F$flo9, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo10_i <- car::recode(LASA2F$flo10, "-1=NA; -3=NA; -4=NA")
-
 ```
 Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 ```{r, echo=TRUE}
@@ -3084,7 +3067,6 @@ LASA2F$flo4_i <- car::recode(LASA2F$flo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo7_i <- car::recode(LASA2F$flo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo8_i <- car::recode(LASA2F$flo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo11_i <- car::recode(LASA2F$flo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-
 ```
 Loneliness scores and tertiles were then calculated as follows.
 ```{r, echo=TRUE}
@@ -3127,7 +3109,6 @@ LASA2G$glo5_i <- car::recode(LASA2G$glo5, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo6_i <- car::recode(LASA2G$glo6, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo9_i <- car::recode(LASA2G$glo9, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo10_i <- car::recode(LASA2G$glo10, "-1=NA; -3=NA; -4=NA")
-
 ```
 Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 ```{r, echo=TRUE}
@@ -3136,7 +3117,6 @@ LASA2G$glo4_i <- car::recode(LASA2G$glo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo7_i <- car::recode(LASA2G$glo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo8_i <- car::recode(LASA2G$glo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo11_i <- car::recode(LASA2G$glo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-
 ```
 Loneliness scores and tertiles were then calculated as follows.
 ```{r, echo=TRUE}
@@ -3179,7 +3159,6 @@ LASA2H$Hlo5_i <- car::recode(LASA2H$Hlo5, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo6_i <- car::recode(LASA2H$Hlo6, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo9_i <- car::recode(LASA2H$Hlo9, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo10_i <- car::recode(LASA2H$Hlo10, "-1=NA; -3=NA; -4=NA")
-
 ```
 Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 ```{r, echo=TRUE}
@@ -3188,7 +3167,6 @@ LASA2H$Hlo4_i <- car::recode(LASA2H$Hlo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo7_i <- car::recode(LASA2H$Hlo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo8_i <- car::recode(LASA2H$Hlo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo11_i <- car::recode(LASA2H$Hlo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-
 ```
 Loneliness scores and tertiles were then calculated as follows.
 ```{r, echo=TRUE}
@@ -3678,12 +3656,10 @@ Responses ranged from 'all of the time' (1), 'most of the time' (2), 'a good bit
 Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
 LASA2F$fqquli09_i <- car::recode(LASA2F$fqquli09, "-1=NA")
-
 ```
 Responses for item 2 were reverse coded.
 ```{r, echo=TRUE}
 LASA2F$fqquli11_i <- car::recode(LASA2F$fqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-
 ```
 Psychological distress scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -3712,12 +3688,10 @@ mho_LASA2_1$psy_distress_tertile_1 <- as.integer(ifelse(LASA2F$psy_distress_scor
 Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
 LASA2G$gqquli09_i <- car::recode(LASA2G$gqquli09, "-1=NA")
-
 ```
 Responses for item 2 were reverse coded.
 ```{r, echo=TRUE}
 LASA2G$gqquli11_i <- car::recode(LASA2G$gqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-
 ```
 Psychological distress scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -3746,12 +3720,10 @@ mho_LASA2_2$psy_distress_tertile_2 <- as.integer(ifelse(LASA2G$psy_distress_scor
 Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
 LASA2H$hqquli09_i <- car::recode(LASA2H$hqquli09, "-1=NA")
-
 ```
 Responses for item 2 were reverse coded.
 ```{r, echo=TRUE}
 LASA2H$hqquli11_i <- car::recode(LASA2H$hqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-
 ```
 Psychological distress scores and tertiles were then calculated as follows.  
 ```{r, echo=TRUE}
@@ -4019,7 +3991,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 9. [pending confirmation from LASA]
 10. [pending confirmation from LASA]
 11. [pending confirmation from LASA]
-12. [pending confirmation from LASA]
+12. [pending confirmation from LASA]  
 Responses ranged from 'strongly agree' (1), 'agree' (2), 'neither agree nor disagree' (3), 'disagree' (4), 'strongly disagree' (5).  
 
 **R script**:  
