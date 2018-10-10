@@ -2,17 +2,18 @@
 title: "Mental health outcomes DataSchema"
 output: html_document
 ---
+```{r, echo=TRUE}
+library(tidyverse)
+library(epiDisplay)
 
 # Connecting with Opal data server
 ## Login to server and assign study data
-```{r, echo=FALSE}
 #Load R libraries
 library(opal)
-library(tidyverse)
-library(epiDisplay)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the LUCAS table(s) to your RStudio environment
+# LUCAS wave 2
 opal.assign.table.tibble(erasmus_opal, 'LUCAS_w2data', 'LUCAS.LUCAS_Wave2', variables = list('Lucas20_07'))
 lucas_w2 <- opal.execute(erasmus_opal,'LUCAS_w2data')
 ```
@@ -20,10 +21,9 @@ lucas_w2 <- opal.execute(erasmus_opal,'LUCAS_w2data')
 ```{r, echo=FALSE}
 mho_LUCAS_0 <- data.frame(id = lucas_w2$id)
 
-```
 ## When you are done with your work, logout of Opal server
-```{r, echo=FALSE}
-opal.logout(erasmus_opal) 
+opal.logout(erasmus_opal)  
+
 ```
 
 # Table of Contents
