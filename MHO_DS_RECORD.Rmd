@@ -2,13 +2,14 @@
 title: "Mental health outcomes DataSchema"
 output: html_document
 ---
-# Connecting with Opal data server
-## Login to server and assign study data
-```{r, echo=FALSE}
-#Load Opal R library
-library(opal)
+```{r, echo=TRUE}
 library(tidyverse)
 library(epiDisplay)
+
+# Connecting with Opal data server
+## Login to server and assign study data
+#Load Opal R library
+library(opal)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the RECORD table(s) to your RStudio environment
@@ -28,11 +29,10 @@ RECORD_w2 <- opal.execute(erasmus_opal,'RECORD_w2')
 ```{r, echo=FALSE}
 mho_RECORD_0 <- data.frame(id = RECORD_w1_1$id)
 mho_RECORD_1 <- data.frame(id = RECORD_w2$id)
-```
 
-## When you are done with your work, logout of Opal server
-```{r, echo=FALSE}
+# When you are done with your work, logout of Opal server
 opal.logout(erasmus_opal) 
+
 ```
 
 # Table of Contents
