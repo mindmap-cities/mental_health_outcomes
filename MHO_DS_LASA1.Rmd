@@ -60,7 +60,6 @@ opal.logout(erasmus_opal)
 
 ```
 
----
 # Table of Contents
 1. [Anxiety subdomain](#anxiety-subdomain)
 2. [Cognitive functioning subdomain](#cognitive-functioning-subdomain)
