@@ -2,26 +2,27 @@
 title: "Mental health outcomes DataSchema"
 output: html_document  
 ---
-# Connecting with Opal data server
-## Login to server and assign study data
-```{r, echo=FALSE}
-#Load Opal R library
-library(opal)
+```{r, echo=TRUE}
 library(tidyverse)
 library(epiDisplay)
+
+# Connecting with Opal data server
+## Login to server and assign study data
+#Load Opal R library
+library(opal)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the HUNT table(s) to your RStudio environment
-# HUNT1
+# HUNT wave 1
 opal.assign.table.tibble(erasmus_opal, 'HUNT1', 'HUNT.HUNT1',variables=list('FeelMood_NT1BLQ2','FeelCalm_NT1BLQ2','FeelStro_NT1BLQ2','FeelNervLM_NT1BLQ2','SatLif_NT1BLQ1','SatLif_NT1BLQ2'))
 HUNT1 <- opal.execute(erasmus_opal,'HUNT1')
 
-# HUNT2
+# HUNT wave 2
 opal.assign.table.tibble(erasmus_opal, 'HUNT2', 'HUNT.HUNT2', variables=list('FeelMoodLW_NT2BLQ2','FeelCalmLW_NT2BLQ2','FeelStroLW_NT2BLQ2',
 'FeelAnxiL2W_NT2BLQ1','FeelLoneL2W_NT2BLQ1','FeelOptiL2W_NT2BLQ1','FeelIrriL2W_NT2BLQ1','FeelCalmL2W_NT2BLQ1','	FeelNervL2W_NT2BLQ1','FeelDeprL2W_NT2BLQ1','MentHealtS_NT2BLQ1','HADSHappy_NT2BLQ1','HADSMedia_NT2BLQ1','HADSOpti_NT2BLQ1','HADSPanic_NT2BLQ1','HADSRestl2_NT2BLQ1','HADSSlow_NT2BLQ1','HADSWorr_NT2BLQ1','HADSCata_NT2BLQ1','HADSRelax_NT2BLQ1','HADSLook_NT2BLQ1','HADSRestl1_NT2BLQ1','HADSLaugh_NT2BLQ1','HADSEnjoy_NT2BLQ1','HADSTotExtr_NT2BLQ1','HADSTot_NT2BLQ1','HADSDepr_NT2BLQ1','HADSAnxi_NT2BLQ1','SatLif_NT2BLQ1')) 
 HUNT2<- opal.execute(erasmus_opal,'HUNT2')
 
-# HUNT3
+# HUNT wave 3
 opal.assign.table.tibble(erasmus_opal, 'HUNT3', 'HUNT.HUNT3',variables=list('FeelAnxiL2W_NT3BLQ1','FeelIrriL2W_NT3BLQ1','FeelOptiL2W_NT3BLQ1','FeelCalmL2W_NT3BLQ1','FeelDeprL2W_NT3BLQ1','FeelLoneL2W_NT3BLQ1','FeelNervL2W_NT3BLQ1','MentHealtS_NT3BLQ1','HADSDepr_NT3BLQ2','HADSAnxi_NT3BLQ2','HADSTot_NT3BLQ2','HADSTotExtr_NT3BLQ2','SatLif_NT3BLQ1')) 
 HUNT3 <- opal.execute(erasmus_opal,'HUNT3')
 ```
@@ -30,10 +31,10 @@ HUNT3 <- opal.execute(erasmus_opal,'HUNT3')
 mho_HUNT_0 <- data.frame(id = HUNT1$id)
 mho_HUNT_1 <- data.frame(id = HUNT2$id)
 mho_HUNT_2 <- data.frame(id = HUNT3$id)
-```
-## When you are done with your work, logout of Opal server
-```{r, echo=FALSE}
-opal.logout(erasmus_opal) 
+
+# When you are done with your work, logout of Opal server
+opal.logout(erasmus_opal)  
+
 ```
 
 # Table of Contents
