@@ -16,31 +16,32 @@ library(sjmisc)
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the LASA table(s) to your RStudio environment
 # LASA1B
-opal.assign.table.tibble(erasmus_opal, 'LASA1B', 'LASA.LASA1B', variables = list('banxiet1','banxiet2','banxiet3','banxiet4','banxiet5','banxiet6','banxiet7','bmwtt1','bmwtt2','bmwtt3','bmwtdr','bmvar47','bmvar48','bmvar49'))
+opal.assign.table.tibble(erasmus_opal, 'LASA1B', 'LASA.LASA1B', variables = list('banxiet1','banxiet2','banxiet3','banxiet4','banxiet5','banxiet6','banxiet7','bmwtt1','bmwtt2','bmwtt3','bmwtdr','bmvar47','bmvar48','bmvar49','bmmsesc','bmmse01','bmmse02','bmmse03','bmmse04','bmmse05','bmmse06','bmmse07','bmmse08','bmmse09','bmmse10','bmmse11','bmmse12','bmmse13','bmmse14','bmmse15','bmmse16','bmmse17','bmmse18','bmmse19','bmmse20','bmmse21','bmmse22','bmmse23','bcesd01','bcesd02','bcesd03','bcesd04','bcesd05','bcesd06','bcesd07','bcesd08','bcesd09','bcesd10','bcesd11','bcesd12','bcesd13','bcesd14','bcesd15','bcesd16','bcesd17','bcesd18','bcesd19','bcesd20','bcesdint','bqsatis2','blo1','blo2','blo3','blo4','blo5','blo6','blo7','blo8','blo9','blo10','blo11'))
 LASA1B <- opal.execute(erasmus_opal,'LASA1B')
 
 # LASA1C
-opal.assign.table.tibble(erasmus_opal, 'LASA1C', 'LASA.LASA1C', variables = list('canxiet1','canxiet2','canxiet3','canxiet4','canxiet5','canxiet6','canxiet7','cmwtt1','cmwtt2','cmwtt3','cmwtdr','cmvar47','cmvar48','cmvar49')) 
+opal.assign.table.tibble(erasmus_opal, 'LASA1C', 'LASA.LASA1C', variables = list('canxiet1','canxiet2','canxiet3','canxiet4','canxiet5','canxiet6','canxiet7','cmwtt1','cmwtt2','cmwtt3','cmwtdr','cmvar47','cmvar48','cmvar49','cmmsesc','cmmse01','cmmse02','cmmse03','cmmse04','cmmse05','cmmse06','cmmse07','cmmse08','cmmse09','cmmse10','cmmse11','cmmse12','cmmse13','cmmse14','cmmse15','cmmse16','cmmse17','cmmse18','cmmse19','cmmse20','cmmse21','cmmse22','cmmse23','ccesd01','ccesd02','ccesd03','ccesd04','ccesd05','ccesd06','ccesd07','ccesd08','ccesd09','ccesd10','ccesd11','ccesd12','ccesd13','ccesd14','ccesd15','ccesd16','ccesd17','ccesd18','ccesd19','ccesd20','ccesdint','cqsatis2','clo1','clo2','clo3','clo4','clo5','clo6','clo7','clo8','clo9','clo10','clo11')) 
 LASA1C <- opal.execute(erasmus_opal,'LASA1C')
 
 # LASA1D
-opal.assign.table.tibble(erasmus_opal, 'LASA1D', 'LASA.LASA1D', variables = list('danxiet1','danxiet2','danxiet3','danxiet4','danxiet5','danxiet6','danxiet7','dmwtt1','dmwtt2','dmwtt3','dmwtdr','dmvar47','dmvar48','dmvar49')) 
+opal.assign.table.tibble(erasmus_opal, 'LASA1D', 'LASA.LASA1D', variables = list('danxiet1','danxiet2','danxiet3','danxiet4','danxiet5','danxiet6','danxiet7','dmwtt1','dmwtt2','dmwtt3','dmwtdr','dmvar47','dmvar48','dmvar49','dmmsesc','dmmse01','dmmse02','dmmse03','dmmse04','dmmse05','dmmse06','dmmse07','dmmse08','dmmse09','dmmse10','dmmse11','dmmse12','dmmse13','dmmse14','dmmse15','dmmse16','dmmse17','dmmse18','dmmse19','dmmse20','dmmse21','dmmse22','dmmse23','dcesd01','dcesd02','dcesd03','dcesd04','dcesd05','dcesd06','dcesd07','dcesd08','dcesd09','dcesd10','dcesd11','dcesd12','dcesd13', 'dcesd14','dcesd15','dcesd16','dcesd17','dcesd18','dcesd19','dcesd20','dcesdint','dptsd01','dptsd02','dptsd03','dptsd04','dptsd05','dptsd06','dptsd07','dptsd08','dptsd09','dptsd10','dptsd11','dptsd12','dptsd13','dptsd14','dptsd15','dptsd16','dptsd17','dptsd18','dptsd19','dptsd20','dptsd21','dptsd22','dptsdint','dqquli09','dqquli11','dqsatis2','dlo1','dlo2','dlo3','dlo4','dlo5','dlo6','dlo7','dlo8','dlo9','dlo10','dlo11')) 
 LASA1D <- opal.execute(erasmus_opal,'LASA1D')
 
 # LASA1E
-opal.assign.table.tibble(erasmus_opal, 'LASA1E', 'LASA.LASA1E', variables = list('eanxiet1','eanxiet2','eanxiet3','eanxiet4','eanxiet5','eanxiet6','eanxiet7','emwtt1','emwtt2','emwtt3','emwtdr','emvar47','emvar48','emvar49'))
+opal.assign.table.tibble(erasmus_opal, 'LASA1E', 'LASA.LASA1E', variables = list('eanxiet1','eanxiet2','eanxiet3','eanxiet4','eanxiet5','eanxiet6','eanxiet7','emwtt1','emwtt2','emwtt3','emwtdr','emvar47','emvar48','emvar49','emmsesc','emmse01','emmse02','emmse03','emmse04','emmse05','emmse06','emmse07','emmse08','emmse09','emmse10','emmse11','emmse12','emmse13','emmse14','emmse15','emmse16','emmse17','emmse18','emmse19','emmse20','emmse21','emmse22','emmse23','ecesd01','ecesd02','ecesd03','ecesd04','ecesd05','ecesd06','ecesd07','ecesd08','ecesd09','ecesd10','ecesd11','ecesd12','ecesd13','ecesd14','ecesd15','ecesd16','ecesd17','ecesd18','ecesd19','ecesd20','ecesdint','eptsd01','eptsd02','eptsd03','eptsd04','eptsd05','eptsd06','eptsd07','eptsd08','eptsd09','eptsd10','eptsd11','eptsd12','eptsd13','eptsd14','eptsd15','eptsd16','eptsd17','eptsd18','eptsd19','eptsd20','eptsd21','eptsd22','eptsdint','eqquli09','eqquli11','eqsatis2','elo1','elo2','elo3','elo4','elo5','elo6','elo7','elo8','elo9','elo10','elo11','eqvall'))
 LASA1E <- opal.execute(erasmus_opal,'LASA1E')
 
 # LASA1F
-opal.assign.table.tibble(erasmus_opal, 'LASA1F', 'LASA.LASA1F', variables = list('fanxiet1','fanxiet2','fanxiet3','fanxiet4','fanxiet5','fanxiet6','fanxiet7','fmwtt1','fmwtt2','fmwtt3','fmwtdr','fmvar47','fmvar48','fmvar49')) 
+opal.assign.table.tibble(erasmus_opal, 'LASA1F', 'LASA.LASA1F', variables = list('fanxiet1','fanxiet2','fanxiet3','fanxiet4','fanxiet5','fanxiet6','fanxiet7','fmwtt1','fmwtt2','fmwtt3','fmwtdr','fmvar47','fmvar48','fmvar49','fmmsesc','fmmse01','fmmse02','fmmse03','fmmse04','fmmse05','fmmse06','fmmse07','fmmse08','fmmse09','fmmse10','fmmse11','fmmse12','fmmse13','fmmse14','fmmse15','fmmse16','fmmse17','fmmse18','fmmse19','fmmse20','fmmse21','fmmse22','fmmse23','fcesd01','fcesd02','fcesd03','fcesd04','fcesd05','fcesd06','fcesd07','fcesd08','fcesd09','fcesd10','fcesd11','fcesd12','fcesd13','fcesd14','fcesd15','fcesd16','fcesd17','fcesd18','fcesd19','fcesd20','fcesdint','fqquli09','fqquli11','fqsatis2','flo1','flo2','flo3','flo4','flo5','flo6','flo7','flo8','flo9','flo10','flo11','fqvall')) 
 LASA1F <- opal.execute(erasmus_opal,'LASA1F')
 
 # LASA1G
-opal.assign.table.tibble(erasmus_opal, 'LASA1G', 'LASA.LASA1G', variables = list('ganxiet1','ganxiet2','ganxiet3','ganxiet4','ganxiet5','ganxiet6','ganxiet7','gmwtt1','gmwtt2','gmwtt3','gmwtdr','gmvar47','gmvar48','gmvar49')) 
+opal.assign.table.tibble(erasmus_opal, 'LASA1G', 'LASA.LASA1G', variables = list('ganxiet1','ganxiet2','ganxiet3','ganxiet4','ganxiet5','ganxiet6','ganxiet7','gmwtt1','gmwtt2','gmwtt3','gmwtdr','gmvar47','gmvar48','gmvar49','gmmsesc',
+'gmmse01','gmmse02','gmmse03','gmmse04','gmmse05','gmmse06','gmmse07','gmmse08','gmmse09','gmmse10','gmmse11','gmmse12','gmmse13','gmmse14','gmmse15','gmmse16','gmmse17','gmmse18','gmmse19','gmmse20','gmmse21','gmmse22','gmmse23','gcesd01','gcesd02','gcesd03','gcesd04','gcesd05','gcesd06','gcesd07','gcesd08','gcesd09','gcesd10','gcesd11','gcesd12','gcesd13','gcesd14','gcesd15','gcesd16','gcesd17','gcesd18','gcesd19','gcesd20','gcesdint','gqquli09','gqquli11','gqsatis2','glo1','glo2','glo3','glo4','glo5','glo6','glo7','glo8','glo9','glo10','glo11')) 
 LASA1G <- opal.execute(erasmus_opal,'LASA1G')  
 
 # LASA1H
-opal.assign.table.tibble(erasmus_opal, 'LASA1H', 'LASA.LASA1H', variables = list('hanxiet1','hanxiet2','hanxiet3','hanxiet4','hanxiet5','hanxiet6','hanxiet7','HMWTT1','HMWTT2','HMWTT3','HMWTDR','HMVAR47','HMVAR48','HMVAR49')) 
+opal.assign.table.tibble(erasmus_opal, 'LASA1H', 'LASA.LASA1H', variables = list('hanxiet1','hanxiet2','hanxiet3','hanxiet4','hanxiet5','hanxiet6','hanxiet7','HMWTT1','HMWTT2','HMWTT3','HMWTDR','HMVAR47','HMVAR48','HMVAR49','hmmsesc','hmmse01','hmmse02','hmmse03','hmmse04','hmmse05','hmmse06','hmmse07','hmmse08','hmmse09','hmmse10','hmmse11','hmmse12','hmmse13','hmmse14','hmmse15','hmmse16','hmmse17','hmmse18','hmmse19','hmmse20','hmmse21','hmmse22','hmmse23','hcesd01','hcesd02','hcesd03','hcesd04','hcesd05','hcesd06','hcesd07','hcesd08','hcesd09','hcesd10','hcesd11','hcesd12','hcesd13','hcesd14','hcesd15','hcesd16','hcesd17','hcesd18','hcesd19','hcesd20','hcesdint','hqquli09','hqquli11','hqsatis2','Hlo1','Hlo2','Hlo3','Hlo4','Hlo5','Hlo6','Hlo7','Hlo8','Hlo9','Hlo10','Hlo11')) 
 LASA1H <- opal.execute(erasmus_opal,'LASA1H')
 ```
 ## Assign participant id as first column of your harmonized dataframes
@@ -115,7 +116,7 @@ mho_LASA1_0$psy_anxiety_score_0[which(LASA1B$anxiety_nmiss == 1)] <- (mho_LASA1_
 
 mho_LASA1_0$psy_anxiety_score_0[which(LASA1B$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_0$psy_anxiety_score_0 <- trunc(mho_LASA1_0$psy_anxiety_score_0)
+mho_LASA1_0$psy_anxiety_score_0 <- as.integer(round(mho_LASA1_0$psy_anxiety_score_0))
 
 ```
 
@@ -155,15 +156,15 @@ LASA1C$canxiet4_i <- car::recode(LASA1C$canxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1C$anxiety_nmiss <- apply(LASA1C[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1C$anxiety_nmiss <- apply(LASA1C[,73:79], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_1$psy_anxiety_score_1 <- apply(LASA1C[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_1$psy_anxiety_score_1 <- apply(LASA1C[,73:79], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_1$psy_anxiety_score_1[which(LASA1C$anxiety_nmiss == 1)] <- (mho_LASA1_1$psy_anxiety_score_1[which(LASA1C$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_1$psy_anxiety_score_1[which(LASA1C$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_1$psy_anxiety_score_1 <- trunc(mho_LASA1_1$psy_anxiety_score_1)
+mho_LASA1_1$psy_anxiety_score_1 <- as.integer(round(mho_LASA1_1$psy_anxiety_score_1))
 
 ```
 
@@ -203,15 +204,15 @@ LASA1D$danxiet4_i <- car::recode(LASA1D$danxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1D$anxiety_nmiss <- apply(LASA1D[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1D$anxiety_nmiss <- apply(LASA1D[,98:104], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_2$psy_anxiety_score_2 <- apply(LASA1D[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_2$psy_anxiety_score_2 <- apply(LASA1D[,98:104], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_2$psy_anxiety_score_2[which(LASA1D$anxiety_nmiss == 1)] <- (mho_LASA1_2$psy_anxiety_score_2[which(LASA1D$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_2$psy_anxiety_score_2[which(LASA1D$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_2$psy_anxiety_score_2 <- trunc(mho_LASA1_2$psy_anxiety_score_2)
+mho_LASA1_2$psy_anxiety_score_2 <- as.integer(round(mho_LASA1_2$psy_anxiety_score_2))
 
 ```
 
@@ -251,15 +252,15 @@ LASA1E$eanxiet4_i <- car::recode(LASA1E$eanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1E$anxiety_nmiss <- apply(LASA1E[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1E$anxiety_nmiss <- apply(LASA1E[,99:105], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_3$psy_anxiety_score_3 <- apply(LASA1E[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_3$psy_anxiety_score_3 <- apply(LASA1E[,99:105], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_3$psy_anxiety_score_3[which(LASA1E$anxiety_nmiss == 1)] <- (mho_LASA1_3$psy_anxiety_score_3[which(LASA1E$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_3$psy_anxiety_score_3[which(LASA1E$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_3$psy_anxiety_score_3 <- trunc(mho_LASA1_3$psy_anxiety_score_3)
+mho_LASA1_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA1_3$psy_anxiety_score_3))
 
 ```
 
@@ -299,15 +300,15 @@ LASA1F$fanxiet4_i <- car::recode(LASA1F$fanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1F$anxiety_nmiss <- apply(LASA1F[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1F$anxiety_nmiss <- apply(LASA1F[,76:82], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_4$psy_anxiety_score_4 <- apply(LASA1F[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_4$psy_anxiety_score_4 <- apply(LASA1F[,76:82], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_4$psy_anxiety_score_4[which(LASA1F$anxiety_nmiss == 1)] <- (mho_LASA1_4$psy_anxiety_score_4[which(LASA1F$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_4$psy_anxiety_score_4[which(LASA1F$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_4$psy_anxiety_score_4 <- trunc(mho_LASA1_4$psy_anxiety_score_4)
+mho_LASA1_4$psy_anxiety_score_4 <- as.integer(round(mho_LASA1_4$psy_anxiety_score_4))
 
 ```
 
@@ -347,15 +348,15 @@ LASA1G$ganxiet4_i <- car::recode(LASA1G$ganxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1G$anxiety_nmiss <- apply(LASA1G[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1G$anxiety_nmiss <- apply(LASA1G[,75:81], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_5$psy_anxiety_score_5 <- apply(LASA1G[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_5$psy_anxiety_score_5 <- apply(LASA1G[,75:81], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_5$psy_anxiety_score_5[which(LASA1G$anxiety_nmiss == 1)] <- (mho_LASA1_5$psy_anxiety_score_5[which(LASA1G$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_5$psy_anxiety_score_5[which(LASA1G$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_5$psy_anxiety_score_5 <- trunc(mho_LASA1_5$psy_anxiety_score_5)
+mho_LASA1_5$psy_anxiety_score_5 <- as.integer(round(mho_LASA1_5$psy_anxiety_score_5))
 
 ```
 
@@ -395,15 +396,15 @@ LASA1H$hanxiet4_i <- car::recode(LASA1H$hanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1H$anxiety_nmiss <- apply(LASA1H[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1H$anxiety_nmiss <- apply(LASA1H[,75:81], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_6$psy_anxiety_score_6 <- apply(LASA1H[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_6$psy_anxiety_score_6 <- apply(LASA1H[,75:81], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_6$psy_anxiety_score_6[which(LASA1H$anxiety_nmiss == 1)] <- (mho_LASA1_6$psy_anxiety_score_6[which(LASA1H$anxiety_nmiss == 1)]/6)*7  
 
 mho_LASA1_6$psy_anxiety_score_6[which(LASA1H$anxiety_nmiss >= 2)] <- NA_integer_ 
 
-mho_LASA1_6$psy_anxiety_score_6 <- trunc(mho_LASA1_6$psy_anxiety_score_6)
+mho_LASA1_6$psy_anxiety_score_6 <- as.integer(round(mho_LASA1_6$psy_anxiety_score_6))
 
 ```
 
@@ -423,7 +424,7 @@ mho_LASA1_6$psy_anxiety_score_6 <- trunc(mho_LASA1_6$psy_anxiety_score_6)
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.       
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_0$psy_anxiety_case_0 <- cut(mho_LASA1_0$psy_anxiety_score_0, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_0$psy_anxiety_case_0 <- as.integer(ifelse(mho_LASA1_0$psy_anxiety_score_0 <= 10,0, ifelse(mho_LASA1_0$psy_anxiety_score_0 >= 11,1,NA))) 
 
 ```
 
@@ -443,7 +444,7 @@ mho_LASA1_0$psy_anxiety_case_0 <- cut(mho_LASA1_0$psy_anxiety_score_0, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.     
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_1$psy_anxiety_case_1 <- cut(mho_LASA1_1$psy_anxiety_score_1, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_1$psy_anxiety_case_1 <- as.integer(ifelse(mho_LASA1_1$psy_anxiety_score_1 <= 10,0, ifelse(mho_LASA1_1$psy_anxiety_score_1 >= 11,1,NA)))  
 
 ```
 
@@ -463,7 +464,7 @@ mho_LASA1_1$psy_anxiety_case_1 <- cut(mho_LASA1_1$psy_anxiety_score_1, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_2$psy_anxiety_case_2 <- cut(mho_LASA1_2$psy_anxiety_score_2, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_LASA1_2$psy_anxiety_score_2 <= 10,0, ifelse(mho_LASA1_2$psy_anxiety_score_2 >= 11,1,NA)))  
 
 ```
 
@@ -483,7 +484,7 @@ mho_LASA1_2$psy_anxiety_case_2 <- cut(mho_LASA1_2$psy_anxiety_score_2, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_3$psy_anxiety_case_3 <- cut(mho_LASA1_3$psy_anxiety_score_3, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA1_3$psy_anxiety_score_3 <= 10,0, ifelse(mho_LASA1_3$psy_anxiety_score_3 >= 11,1,NA)))  
 
 ```
 
@@ -503,7 +504,7 @@ mho_LASA1_3$psy_anxiety_case_3 <- cut(mho_LASA1_3$psy_anxiety_score_3, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_4$psy_anxiety_case_4 <- cut(mho_LASA1_4$psy_anxiety_score_4, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_4$psy_anxiety_case_4 <- as.integer(ifelse(mho_LASA1_4$psy_anxiety_score_4 <= 10,0, ifelse(mho_LASA1_4$psy_anxiety_score_4 >= 11,1,NA)))  
 
 ```
 
@@ -523,7 +524,7 @@ mho_LASA1_4$psy_anxiety_case_4 <- cut(mho_LASA1_4$psy_anxiety_score_4, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_5$psy_anxiety_case_5 <- cut(mho_LASA1_5$psy_anxiety_score_5, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_5$psy_anxiety_case_5 <- as.integer(ifelse(mho_LASA1_5$psy_anxiety_score_5 <=10,0, ifelse(mho_LASA1_5$psy_anxiety_score_5 >= 11,1,NA)))
 
 ```
 
@@ -543,7 +544,7 @@ mho_LASA1_5$psy_anxiety_case_5 <- cut(mho_LASA1_5$psy_anxiety_score_5, breaks = 
 **Harmonization comment**:  Participants with HADS-A anxiety scores of 11 or higher (out of a possible 21) were defined as cases as per the scale-specific threshold.  
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_6$psy_anxiety_case_6 <- cut(mho_LASA1_6$psy_anxiety_score_6, breaks = c(0,10,+Inf), labels = c(0,1), include.lowest=TRUE)
+mho_LASA1_6$psy_anxiety_case_6 <- as.integer(ifelse(mho_LASA1_6$psy_anxiety_score_6 <= 10,0, ifelse(mho_LASA1_6$psy_anxiety_score_6 >= 11,1,NA)))
 
 ```
 
@@ -704,7 +705,7 @@ LASA1B$bmwtt1_i <- as.integer(car::recode(LASA1B$bmwtt1, "-1=NA"))
 
 mho_LASA1_0$cog_imm_rscale_0 <- rescale(LASA1B$bmwtt1_i, to = c(0,10), from = range(LASA1B$bmwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_0$cog_imm_rscale_0 <- round(mho_LASA1_0$cog_imm_rscale_0)
+mho_LASA1_0$cog_imm_rscale_0 <- as.integer(round(mho_LASA1_0$cog_imm_rscale_0))
 
 ```
 
@@ -723,7 +724,7 @@ LASA1C$cmwtt1_i <- as.integer(car::recode(LASA1C$cmwtt1, "-4=NA; -1=NA"))
 
 mho_LASA1_1$cog_imm_rscale_1 <- rescale(LASA1C$cmwtt1_i, to = c(0,10), from = range(LASA1C$cmwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_1$cog_imm_rscale_1 <- round(mho_LASA1_1$cog_imm_rscale_1)
+mho_LASA1_1$cog_imm_rscale_1 <- as.integer(round(mho_LASA1_1$cog_imm_rscale_1))
 
 ```
 
@@ -742,7 +743,7 @@ LASA1D$dmwtt1_i <- as.integer(car::recode(LASA1D$dmwtt1, "-2=NA; -1=NA"))
 
 mho_LASA1_2$cog_imm_rscale_2 <- rescale(LASA1D$dmwtt1_i, to = c(0,10), from = range(LASA1D$dmwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_2$cog_imm_rscale_2 <- round(mho_LASA1_2$cog_imm_rscale_2)
+mho_LASA1_2$cog_imm_rscale_2 <- as.integer(round(mho_LASA1_2$cog_imm_rscale_2))
 
 ```
 
@@ -761,7 +762,7 @@ LASA1E$emwtt1_i <- as.integer(car::recode(LASA1E$emwtt1, "-2=NA"))
 
 mho_LASA1_3$cog_imm_rscale_3 <- rescale(LASA1E$emwtt1_i, to = c(0,10), from = range(LASA1E$emwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_3$cog_imm_rscale_3 <- round(mho_LASA1_3$cog_imm_rscale_3)
+mho_LASA1_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA1_3$cog_imm_rscale_3))
 
 ```
 
@@ -780,7 +781,7 @@ LASA1F$fmwtt1_i <- as.integer(car::recode(LASA1F$fmwtt1, "-2=NA"))
 
 mho_LASA1_4$cog_imm_rscale_4 <- rescale(LASA1F$fmwtt1_i, to = c(0,10), from = range(LASA1F$fmwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_4$cog_imm_rscale_4 <- round(mho_LASA1_4$cog_imm_rscale_4)
+mho_LASA1_4$cog_imm_rscale_4 <- as.integer(round(mho_LASA1_4$cog_imm_rscale_4))
 
 ```
 
@@ -799,7 +800,7 @@ LASA1G$gmwtt1_i <- as.integer(car::recode(LASA1G$gmwtt1, "-2=NA"))
 
 mho_LASA1_5$cog_imm_rscale_5 <- rescale(LASA1G$gmwtt1_i, to = c(0,10), from = range(LASA1G$gmwtt1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_5$cog_imm_rscale_5 <- round(mho_LASA1_5$cog_imm_rscale_5)
+mho_LASA1_5$cog_imm_rscale_5 <- as.integer(round(mho_LASA1_5$cog_imm_rscale_5))
 
 ```
 
@@ -818,7 +819,7 @@ LASA1H$HMWTT1_i <- as.integer(car::recode(LASA1H$HMWTT1, "-2=NA"))
 
 mho_LASA1_6$cog_imm_rscale_6 <- rescale(LASA1H$HMWTT1_i, to = c(0,10), from = range(LASA1H$HMWTT1_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_6$cog_imm_rscale_6 <- round(mho_LASA1_6$cog_imm_rscale_6)
+mho_LASA1_6$cog_imm_rscale_6 <- as.integer(round(mho_LASA1_6$cog_imm_rscale_6))
 
 ```
 
@@ -840,7 +841,7 @@ mho_LASA1_6$cog_imm_rscale_6 <- round(mho_LASA1_6$cog_imm_rscale_6)
 ```{r, echo=TRUE}
 mho_LASA1_0$cog_imm_low_0 <- as.integer(dicho(mho_LASA1_0$cog_imm_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_0$cog_imm_low_0 <- car::recode(mho_LASA1_0$cog_imm_low_0, "2=0")
+mho_LASA1_0$cog_imm_low_0 <- as.integer(car::recode(mho_LASA1_0$cog_imm_low_0, "2=0"))
 
 ```
 
@@ -862,7 +863,7 @@ mho_LASA1_0$cog_imm_low_0 <- car::recode(mho_LASA1_0$cog_imm_low_0, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_1$cog_imm_low_1 <- as.integer(dicho(mho_LASA1_1$cog_imm_rscale_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_1$cog_imm_low_1 <- car::recode(mho_LASA1_1$cog_imm_low_1, "2=0")
+mho_LASA1_1$cog_imm_low_1 <- as.integer(car::recode(mho_LASA1_1$cog_imm_low_1, "2=0"))
 
 ```
 
@@ -884,7 +885,7 @@ mho_LASA1_1$cog_imm_low_1 <- car::recode(mho_LASA1_1$cog_imm_low_1, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_2$cog_imm_low_2 <- as.integer(dicho(mho_LASA1_2$cog_imm_rscale_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_2$cog_imm_low_2 <- car::recode(mho_LASA1_2$cog_imm_low_2, "2=0")
+mho_LASA1_2$cog_imm_low_2 <- as.integer(car::recode(mho_LASA1_2$cog_imm_low_2, "2=0"))
 
 ```
 
@@ -906,7 +907,7 @@ mho_LASA1_2$cog_imm_low_2 <- car::recode(mho_LASA1_2$cog_imm_low_2, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_3$cog_imm_low_3 <- as.integer(dicho(mho_LASA1_3$cog_imm_rscale_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_3$cog_imm_low_3 <- car::recode(mho_LASA1_3$cog_imm_low_3, "2=0")
+mho_LASA1_3$cog_imm_low_3 <- as.integer(car::recode(mho_LASA1_3$cog_imm_low_3, "2=0"))
 
 ```
 
@@ -928,7 +929,7 @@ mho_LASA1_3$cog_imm_low_3 <- car::recode(mho_LASA1_3$cog_imm_low_3, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_4$cog_imm_low_4 <- as.integer(dicho(mho_LASA1_4$cog_imm_rscale_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_4$cog_imm_low_4 <- car::recode(mho_LASA1_4$cog_imm_low_4, "2=0")
+mho_LASA1_4$cog_imm_low_4 <- as.integer(car::recode(mho_LASA1_4$cog_imm_low_4, "2=0"))
 
 ```
 
@@ -950,7 +951,7 @@ mho_LASA1_4$cog_imm_low_4 <- car::recode(mho_LASA1_4$cog_imm_low_4, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_5$cog_imm_low_5 <- as.integer(dicho(mho_LASA1_5$cog_imm_rscale_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_5$cog_imm_low_5 <- car::recode(mho_LASA1_5$cog_imm_low_5, "2=0")
+mho_LASA1_5$cog_imm_low_5 <- as.integer(car::recode(mho_LASA1_5$cog_imm_low_5, "2=0"))
 
 ```
 
@@ -972,7 +973,7 @@ mho_LASA1_5$cog_imm_low_5 <- car::recode(mho_LASA1_5$cog_imm_low_5, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_6$cog_imm_low_6 <- as.integer(dicho(mho_LASA1_6$cog_imm_rscale_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_6$cog_imm_low_6 <- car::recode(mho_LASA1_6$cog_imm_low_6, "2=0")
+mho_LASA1_6$cog_imm_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_imm_low_6, "2=0"))
 
 ```
 
@@ -991,7 +992,7 @@ LASA1B$bmwtdr_i <- as.integer(car::recode(LASA1B$bmwtdr, "-1=NA"))
 
 mho_LASA1_0$cog_del_rscale_0 <- rescale(LASA1B$bmwtdr_i, to = c(0,10), from = range(LASA1B$bmwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_0$cog_del_rscale_0 <- round(mho_LASA1_0$cog_del_rscale_0)
+mho_LASA1_0$cog_del_rscale_0 <- as.integer(round(mho_LASA1_0$cog_del_rscale_0))
 
 ```
 
@@ -1010,7 +1011,7 @@ LASA1C$cmwtdr_i <- as.integer(car::recode(LASA1C$cmwtdr, "-4=NA; -1=NA"))
 
 mho_LASA1_1$cog_del_rscale_1 <- rescale(LASA1C$cmwtdr_i, to = c(0,10), from = range(LASA1C$cmwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_1$cog_del_rscale_1 <- round(mho_LASA1_1$cog_del_rscale_1)
+mho_LASA1_1$cog_del_rscale_1 <- as.integer(round(mho_LASA1_1$cog_del_rscale_1))
 
 ```
 
@@ -1029,7 +1030,7 @@ LASA1D$dmwtdr_i <- as.integer(car::recode(LASA1D$dmwtdr, "-2=NA"))
 
 mho_LASA1_2$cog_del_rscale_2 <- rescale(LASA1D$dmwtdr_i, to = c(0,10), from = range(LASA1C$cmwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_2$cog_del_rscale_2 <- round(mho_LASA1_2$cog_del_rscale_2)
+mho_LASA1_2$cog_del_rscale_2 <- as.integer(round(mho_LASA1_2$cog_del_rscale_2))
 
 ```
 
@@ -1048,7 +1049,7 @@ LASA1E$emwtdr_i <- as.integer(car::recode(LASA1E$emwtdr, "-2=NA"))
 
 mho_LASA1_3$cog_del_rscale_3 <- rescale(LASA1E$emwtdr_i, to = c(0,10), from = range(LASA1E$emwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_3$cog_del_rscale_3 <- round(mho_LASA1_3$cog_del_rscale_3)
+mho_LASA1_3$cog_del_rscale_3 <- as.integer(round(mho_LASA1_3$cog_del_rscale_3))
 
 ```
 
@@ -1067,7 +1068,7 @@ LASA1F$fmwtdr_i <- as.integer(car::recode(LASA1F$fmwtdr, "-2=NA"))
 
 mho_LASA1_4$cog_del_rscale_4 <- rescale(LASA1F$fmwtdr_i, to = c(0,10), from = range(LASA1F$fmwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_4$cog_del_rscale_4 <- round(mho_LASA1_4$cog_del_rscale_4)
+mho_LASA1_4$cog_del_rscale_4 <- as.integer(round(mho_LASA1_4$cog_del_rscale_4))
 
 ```
 
@@ -1086,7 +1087,7 @@ LASA1G$gmwtdr_i <- as.integer(car::recode(LASA1G$gmwtdr, "-2=NA"))
 
 mho_LASA1_5$cog_del_rscale_5 <- rescale(LASA1G$gmwtdr_i, to = c(0,10), from = range(LASA1G$gmwtdr_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_5$cog_del_rscale_5 <- round(mho_LASA1_5$cog_del_rscale_5)
+mho_LASA1_5$cog_del_rscale_5 <- as.integer(round(mho_LASA1_5$cog_del_rscale_5))
 
 ```
 
@@ -1105,7 +1106,7 @@ LASA1H$HMWTDR_i <- as.integer(car::recode(LASA1H$HMWTDR, "-2=NA"))
 
 mho_LASA1_6$cog_del_rscale_6 <- rescale(LASA1H$HMWTDR_i, to = c(0,10), from = range(LASA1H$HMWTDR_i, na.rm = TRUE, finite = TRUE))
 
-mho_LASA1_6$cog_del_rscale_6 <- round(mho_LASA1_6$cog_del_rscale_6)
+mho_LASA1_6$cog_del_rscale_6 <- as.integer(round(mho_LASA1_6$cog_del_rscale_6))
 
 ```
 
@@ -1127,7 +1128,7 @@ mho_LASA1_6$cog_del_rscale_6 <- round(mho_LASA1_6$cog_del_rscale_6)
 ```{r, echo=TRUE}
 mho_LASA1_0$cog_del_low_0 <- as.integer(dicho(mho_LASA1_0$cog_del_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_0$cog_del_low_0 <- car::recode(mho_LASA1_0$cog_del_low_0, "2=0")
+mho_LASA1_0$cog_del_low_0 <- as.integer(car::recode(mho_LASA1_0$cog_del_low_0, "2=0"))
 
 ```
 
@@ -1149,7 +1150,7 @@ mho_LASA1_0$cog_del_low_0 <- car::recode(mho_LASA1_0$cog_del_low_0, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_1$cog_del_low_1 <- as.integer(dicho(mho_LASA1_1$cog_del_rscale_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_1$cog_del_low_1 <- car::recode(mho_LASA1_1$cog_del_low_1, "2=0")
+mho_LASA1_1$cog_del_low_1 <- as.integer(car::recode(mho_LASA1_1$cog_del_low_1, "2=0"))
 
 ```
 
@@ -1171,7 +1172,7 @@ mho_LASA1_1$cog_del_low_1 <- car::recode(mho_LASA1_1$cog_del_low_1, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_2$cog_del_low_2 <- as.integer(dicho(mho_LASA1_2$cog_del_rscale_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_2$cog_del_low_2 <- car::recode(mho_LASA1_2$cog_del_low_2, "2=0")
+mho_LASA1_2$cog_del_low_2 <- as.integer(car::recode(mho_LASA1_2$cog_del_low_2, "2=0"))
 
 ```
 
@@ -1193,7 +1194,7 @@ mho_LASA1_2$cog_del_low_2 <- car::recode(mho_LASA1_2$cog_del_low_2, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_3$cog_del_low_3 <- as.integer(dicho(mho_LASA1_3$cog_del_rscale_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_3$cog_del_low_3 <- car::recode(mho_LASA1_3$cog_del_low_3, "2=0")
+mho_LASA1_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA1_3$cog_del_low_3, "2=0"))
 
 ```
 
@@ -1215,7 +1216,7 @@ mho_LASA1_3$cog_del_low_3 <- car::recode(mho_LASA1_3$cog_del_low_3, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_4$cog_del_low_4 <- as.integer(dicho(mho_LASA1_4$cog_del_rscale_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_4$cog_del_low_4 <- car::recode(mho_LASA1_4$cog_del_low_4, "2=0")
+mho_LASA1_4$cog_del_low_4 <- as.integer(car::recode(mho_LASA1_4$cog_del_low_4, "2=0"))
 
 ```
 
@@ -1237,7 +1238,7 @@ mho_LASA1_4$cog_del_low_4 <- car::recode(mho_LASA1_4$cog_del_low_4, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_5$cog_del_low_5 <- as.integer(dicho(mho_LASA1_5$cog_del_rscale_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_5$cog_del_low_5 <- car::recode(mho_LASA1_5$cog_del_low_5, "2=0")
+mho_LASA1_5$cog_del_low_5 <- as.integer(car::recode(mho_LASA1_5$cog_del_low_5, "2=0"))
 
 ```
 
@@ -1259,7 +1260,7 @@ mho_LASA1_5$cog_del_low_5 <- car::recode(mho_LASA1_5$cog_del_low_5, "2=0")
 ```{r, echo=TRUE}
 mho_LASA1_6$cog_del_low_6 <- as.integer(dicho(mho_LASA1_6$cog_del_rscale_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
-mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
+mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "2=0"))
 
 ```
 
@@ -1515,11 +1516,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.           
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1B$bmvar47_i <- car::recode(LASA1B$bmvar47, "-1=NA") 
+mho_LASA1_0$cog_proc_std_0 <- scale(LASA1B$bmvar47_i)
 
 ```
 
@@ -1530,11 +1532,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1C$cmvar47_i <- car::recode(LASA1C$cmvar47, "-1=NA") 
+mho_LASA1_1$cog_proc_std_1 <- scale(LASA1C$cmvar47_i) 
 
 ```
 
@@ -1545,11 +1548,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$dmvar47_i <- car::recode(LASA1D$dmvar47, "-1=NA") 
+mho_LASA1_2$cog_proc_std_2 <- scale(LASA1D$dmvar47_i)
 
 ```
 
@@ -1560,11 +1564,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$emvar47_i <- car::recode(LASA1E$emvar47, "-1=NA") 
+mho_LASA1_3$cog_proc_std_3 <- scale(LASA1E$emvar47_i)
 
 ```
 
@@ -1575,11 +1580,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1F$fmvar47_i <- car::recode(LASA1F$fmvar47, "-1=NA") 
+mho_LASA1_4$cog_proc_std_4 <- scale(LASA1F$fmvar47_i)
 
 ```
 
@@ -1590,11 +1596,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1G$gmvar47_i <- car::recode(LASA1G$gmvar47, "-1=NA") 
+mho_LASA1_5$cog_proc_std_5 <- scale(LASA1G$gmvar47_i)
 
 ```
 
@@ -1605,11 +1612,12 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1H$HMVAR47_i <- car::recode(LASA1H$HMVAR47, "-1=NA") 
+mho_LASA1_6$cog_proc_std_6 <- scale(LASA1H$HMVAR47_i)
 
 ```
 
@@ -1625,11 +1633,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$cog_proc_slow_0 <- as.integer(dicho(mho_LASA1_0$cog_proc_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_0$cog_proc_slow_0 <- as.integer(car::recode(mho_LASA1_0$cog_proc_slow_0, "2=0"))
 
 ```
 
@@ -1645,11 +1655,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$cog_proc_slow_1 <- as.integer(dicho(mho_LASA1_1$cog_proc_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_1$cog_proc_slow_1 <- as.integer(car::recode(mho_LASA1_1$cog_proc_slow_1, "2=0"))
 
 ```
 
@@ -1665,11 +1677,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$cog_proc_slow_2 <- as.integer(dicho(mho_LASA1_2$cog_proc_std_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_2$cog_proc_slow_2 <- as.integer(car::recode(mho_LASA1_2$cog_proc_slow_2, "2=0"))
 
 ```
 
@@ -1685,11 +1699,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$cog_proc_slow_3 <- as.integer(dicho(mho_LASA1_3$cog_proc_std_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA1_3$cog_proc_slow_3, "2=0"))
 
 ```
 
@@ -1705,11 +1721,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$cog_proc_slow_4 <- as.integer(dicho(mho_LASA1_4$cog_proc_std_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_4$cog_proc_slow_4 <- as.integer(car::recode(mho_LASA1_4$cog_proc_slow_4, "2=0"))
 
 ```
 
@@ -1725,11 +1743,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$cog_proc_slow_5 <- as.integer(dicho(mho_LASA1_5$cog_proc_std_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_5$cog_proc_slow_5 <- as.integer(car::recode(mho_LASA1_5$cog_proc_slow_5, "2=0"))
 
 ```
 
@@ -1745,11 +1765,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$cog_proc_slow_6 <- as.integer(dicho(mho_LASA1_6$cog_proc_std_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_6, "2=0"))
 
 ```
 
@@ -1760,8 +1782,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible    
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.         
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1775,8 +1797,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible   
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1790,8 +1812,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible    
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1805,8 +1827,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible    
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1820,8 +1842,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible    
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1835,8 +1857,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible   
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1850,8 +1872,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible    
+**Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.         
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -1870,7 +1892,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1890,7 +1912,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1910,7 +1932,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1930,7 +1952,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1950,7 +1972,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1970,7 +1992,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1990,7 +2012,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2005,11 +2027,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-24) were used as provided by the LASA study.    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$cog_mmse_score_0 <- as.integer(car::recode(LASA1B$bmmsesc, "-2=NA"))
 
 ```
 
@@ -2020,11 +2042,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-24) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$cog_mmse_score_1 <- as.integer(car::recode(LASA1C$cmmsesc, "-2=NA"))
 
 ```
 
@@ -2035,11 +2057,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-30) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$cog_mmse_score_2 <- as.integer(car::recode(LASA1D$dmmsesc, "-3=NA; -2=NA"))
 
 ```
 
@@ -2050,12 +2072,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-30) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
-
+mho_LASA1_3$cog_mmse_score_3 <- as.integer(car::recode(LASA1E$emmsesc, "-3=NA; -2=NA"))
 
 ```
 
@@ -2066,11 +2087,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  MMSE scores (0-30) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$cog_mmse_score_4 <- as.integer(car::recode(LASA1F$fmmsesc, "-3=NA; -2=NA"))
 
 ```
 
@@ -2081,11 +2102,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-30) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$cog_mmse_score_5 <- as.integer(car::recode(LASA1G$gmmsesc, "-3=NA"))
 
 ```
 
@@ -2096,11 +2117,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  MMSE scores (0-30) were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$cog_mmse_score_6 <- as.integer(car::recode(LASA1H$hmmsesc, "-2=NA"))
 
 ```
 
@@ -2116,11 +2137,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$cog_mmse_case_0 <- as.integer(ifelse(mho_LASA1_0$cog_mmse_score_0 <= 23,1, ifelse(mho_LASA1_0$cog_mmse_score_0 >= 24,0,NA)))
 
 ```
 
@@ -2136,11 +2157,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: Participants with MMSE scores of 23 or less were defined as cases.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$cog_mmse_case_1 <- as.integer(ifelse(mho_LASA1_1$cog_mmse_score_1 <= 23,1, ifelse(mho_LASA1_1$cog_mmse_score_1 >= 24,0,NA)))
 
 ```
 
@@ -2156,11 +2177,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$cog_mmse_case_2 <- as.integer(ifelse(mho_LASA1_2$cog_mmse_score_2 <= 23,1, ifelse(mho_LASA1_2$cog_mmse_score_2 >= 24,0,NA)))  
 
 ```
 
@@ -2176,11 +2197,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$cog_mmse_case_3 <- as.integer(ifelse(mho_LASA1_3$cog_mmse_score_3 <= 23,1, ifelse(mho_LASA1_3$cog_mmse_score_3 >= 24,0,NA)))
 
 ```
 
@@ -2196,11 +2217,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$cog_mmse_case_4 <- as.integer(ifelse(mho_LASA1_4$cog_mmse_score_4 <= 23,1, ifelse(mho_LASA1_4$cog_mmse_score_4 >= 24,0,NA)))  
 
 ```
 
@@ -2216,11 +2237,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$cog_mmse_case_5 <- as.integer(ifelse(mho_LASA1_5$cog_mmse_score_5 <= 23,1, ifelse(mho_LASA1_5$cog_mmse_score_5 >= 24,0,NA)))
 
 ```
 
@@ -2236,11 +2257,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with MMSE scores of 23 or less were defined as cases.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$cog_mmse_case_6 <- as.integer(ifelse(mho_LASA1_6$cog_mmse_score_6 <= 23,1, ifelse(mho_LASA1_6$cog_mmse_score_6 >= 24,0,NA)))
 
 ```
 
@@ -2259,11 +2280,76 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 20 item version*, are listed below.
+*Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
+1. I was bothered by things that usually don't bother me.  
+2. I did not feel like eating; my appetite was poor.  
+3. I felt that I could not shake off the blues even with help from my family or friends.  
+4. I felt that I was just as good as other people.  
+5. I had trouble keeping my mind on what I was doing.  
+6. I felt depressed.  
+7. I felt that everything I did was an effort.  
+8. I felt hopeful about the future.  
+9. I thought my life had been a failure.  
+10. I felt fearful.  
+11. My sleep was restless.  
+12. I was happy.  
+13. I talked less than usual.  
+14. I felt lonely.  
+15. People were unfriendly.  
+16. I enjoyed life.  
+17. I had crying spells.  
+18. I felt sad.  
+19. I felt that people dislike me.  
+20. I could not get "going".  
+Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2), 'mostly or always' (3).  
+
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1B$bcesd01_i <- as.integer(car::recode(LASA1B$bcesd01, "-2=NA; -1=NA"))
+LASA1B$bcesd02_i <- as.integer(car::recode(LASA1B$bcesd02, "-2=NA; -1=NA"))
+LASA1B$bcesd03_i <- as.integer(car::recode(LASA1B$bcesd03, "-2=NA; -1=NA"))
+LASA1B$bcesd05_i <- as.integer(car::recode(LASA1B$bcesd05, "-2=NA; -1=NA"))
+LASA1B$bcesd06_i <- as.integer(car::recode(LASA1B$bcesd06, "-2=NA; -1=NA"))
+LASA1B$bcesd07_i <- as.integer(car::recode(LASA1B$bcesd07, "-2=NA; -1=NA"))
+LASA1B$bcesd09_i <- as.integer(car::recode(LASA1B$bcesd09, "-2=NA; -1=NA"))
+LASA1B$bcesd10_i <- as.integer(car::recode(LASA1B$bcesd10, "-2=NA; -1=NA"))
+LASA1B$bcesd11_i <- as.integer(car::recode(LASA1B$bcesd11, "-2=NA; -1=NA"))
+LASA1B$bcesd13_i <- as.integer(car::recode(LASA1B$bcesd13, "-2=NA; -1=NA"))
+LASA1B$bcesd14_i <- as.integer(car::recode(LASA1B$bcesd14, "-2=NA; -1=NA"))
+LASA1B$bcesd15_i <- as.integer(car::recode(LASA1B$bcesd15, "-2=NA; -1=NA"))
+LASA1B$bcesd17_i <- as.integer(car::recode(LASA1B$bcesd17, "-2=NA; -1=NA"))
+LASA1B$bcesd18_i <- as.integer(car::recode(LASA1B$bcesd18, "-2=NA; -1=NA"))
+LASA1B$bcesd19_i <- as.integer(car::recode(LASA1B$bcesd19, "-2=NA; -1=NA"))
+LASA1B$bcesd20_i <- as.integer(car::recode(LASA1B$bcesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1B$bcesd04_i <- as.integer(car::recode(LASA1B$bcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1B$bcesd08_i <- as.integer(car::recode(LASA1B$bcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1B$bcesd12_i <- as.integer(car::recode(LASA1B$bcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1B$bcesd16_i <- as.integer(car::recode(LASA1B$bcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1B$cesdnmiss <- apply(LASA1B[,84:103], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1B$psy_dep_score_0 <- apply(LASA1B[,84:103], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss == 4)] <- (LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss ==4)]/16)*20
+LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss == 3)] <- (LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss ==3)]/17)*20 
+LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss == 2)] <- (LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss ==2)]/18)*20 
+LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss == 1)] <- (LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss ==1)]/19)*20
+
+LASA1B$psy_dep_score_0[which(LASA1B$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1B$psy_dep_score_0 <- round(LASA1B$psy_dep_score_0)
+
+mho_LASA1_0$psy_dep_tertile_0 <- as.integer(car::recode(LASA1B$psy_dep_score_0, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2280,11 +2366,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.       
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1C$ccesd01_i <- as.integer(car::recode(LASA1C$ccesd01, "-2=NA; -1=NA"))
+LASA1C$ccesd02_i <- as.integer(car::recode(LASA1C$ccesd02, "-2=NA; -1=NA"))
+LASA1C$ccesd03_i <- as.integer(car::recode(LASA1C$ccesd03, "-2=NA; -1=NA"))
+LASA1C$ccesd05_i <- as.integer(car::recode(LASA1C$ccesd05, "-2=NA; -1=NA"))
+LASA1C$ccesd06_i <- as.integer(car::recode(LASA1C$ccesd06, "-2=NA; -1=NA"))
+LASA1C$ccesd07_i <- as.integer(car::recode(LASA1C$ccesd07, "-2=NA; -1=NA"))
+LASA1C$ccesd09_i <- as.integer(car::recode(LASA1C$ccesd09, "-2=NA; -1=NA"))
+LASA1C$ccesd10_i <- as.integer(car::recode(LASA1C$ccesd10, "-2=NA; -1=NA"))
+LASA1C$ccesd11_i <- as.integer(car::recode(LASA1C$ccesd11, "-2=NA; -1=NA"))
+LASA1C$ccesd13_i <- as.integer(car::recode(LASA1C$ccesd13, "-2=NA; -1=NA"))
+LASA1C$ccesd14_i <- as.integer(car::recode(LASA1C$ccesd14, "-2=NA; -1=NA"))
+LASA1C$ccesd15_i <- as.integer(car::recode(LASA1C$ccesd15, "-2=NA; -1=NA"))
+LASA1C$ccesd17_i <- as.integer(car::recode(LASA1C$ccesd17, "-2=NA; -1=NA"))
+LASA1C$ccesd18_i <- as.integer(car::recode(LASA1C$ccesd18, "-2=NA; -1=NA"))
+LASA1C$ccesd19_i <- as.integer(car::recode(LASA1C$ccesd19, "-2=NA; -1=NA"))
+LASA1C$ccesd20_i <- as.integer(car::recode(LASA1C$ccesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1C$ccesd04_i <- as.integer(car::recode(LASA1C$ccesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1C$ccesd08_i <- as.integer(car::recode(LASA1C$ccesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1C$ccesd12_i <- as.integer(car::recode(LASA1C$ccesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1C$ccesd16_i <- as.integer(car::recode(LASA1C$ccesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1C$cesdnmiss <- apply(LASA1C[,84:103], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1C$psy_dep_score_1 <- apply(LASA1C[,84:103], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss == 4)] <- (LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss ==4)]/16)*20
+LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss == 3)] <- (LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss ==3)]/17)*20 
+LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss == 2)] <- (LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss ==2)]/18)*20 
+LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss == 1)] <- (LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss ==1)]/19)*20
+
+LASA1C$psy_dep_score_1[which(LASA1C$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1C$psy_dep_score_1 <- round(LASA1C$psy_dep_score_1)
+
+mho_LASA1_1$psy_dep_tertile_1 <- as.integer(car::recode(LASA1C$psy_dep_score_1, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2301,11 +2429,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$dcesd01_i <- as.integer(car::recode(LASA1D$dcesd01, "-2=NA; -1=NA"))
+LASA1D$dcesd02_i <- as.integer(car::recode(LASA1D$dcesd02, "-2=NA; -1=NA"))
+LASA1D$dcesd03_i <- as.integer(car::recode(LASA1D$dcesd03, "-2=NA; -1=NA"))
+LASA1D$dcesd05_i <- as.integer(car::recode(LASA1D$dcesd05, "-2=NA; -1=NA"))
+LASA1D$dcesd06_i <- as.integer(car::recode(LASA1D$dcesd06, "-2=NA; -1=NA"))
+LASA1D$dcesd07_i <- as.integer(car::recode(LASA1D$dcesd07, "-2=NA; -1=NA"))
+LASA1D$dcesd09_i <- as.integer(car::recode(LASA1D$dcesd09, "-2=NA; -1=NA"))
+LASA1D$dcesd10_i <- as.integer(car::recode(LASA1D$dcesd10, "-2=NA; -1=NA"))
+LASA1D$dcesd11_i <- as.integer(car::recode(LASA1D$dcesd11, "-2=NA; -1=NA"))
+LASA1D$dcesd13_i <- as.integer(car::recode(LASA1D$dcesd13, "-2=NA; -1=NA"))
+LASA1D$dcesd14_i <- as.integer(car::recode(LASA1D$dcesd14, "-2=NA; -1=NA"))
+LASA1D$dcesd15_i <- as.integer(car::recode(LASA1D$dcesd15, "-2=NA; -1=NA"))
+LASA1D$dcesd17_i <- as.integer(car::recode(LASA1D$dcesd17, "-2=NA; -1=NA"))
+LASA1D$dcesd18_i <- as.integer(car::recode(LASA1D$dcesd18, "-2=NA; -1=NA"))
+LASA1D$dcesd19_i <- as.integer(car::recode(LASA1D$dcesd19, "-2=NA; -1=NA"))
+LASA1D$dcesd20_i <- as.integer(car::recode(LASA1D$dcesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1D$dcesd04_i <- as.integer(car::recode(LASA1D$dcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1D$dcesd08_i <- as.integer(car::recode(LASA1D$dcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1D$dcesd12_i <- as.integer(car::recode(LASA1D$dcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1D$dcesd16_i <- as.integer(car::recode(LASA1D$dcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1D$cesdnmiss <- apply(LASA1D[,109:128], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1D$psy_dep_score_2 <- apply(LASA1D[,109:128], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss == 4)] <- (LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss ==4)]/16)*20
+LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss == 3)] <- (LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss ==3)]/17)*20 
+LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss == 2)] <- (LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss ==2)]/18)*20 
+LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss == 1)] <- (LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss ==1)]/19)*20
+
+LASA1D$psy_dep_score_2[which(LASA1D$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1D$psy_dep_score_2 <- round(LASA1D$psy_dep_score_2)
+
+mho_LASA1_2$psy_dep_tertile_2 <- as.integer(car::recode(LASA1D$psy_dep_score_2, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2322,11 +2492,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$ecesd01_i <- as.integer(car::recode(LASA1E$ecesd01, "-2=NA; -1=NA"))
+LASA1E$ecesd02_i <- as.integer(car::recode(LASA1E$ecesd02, "-2=NA; -1=NA"))
+LASA1E$ecesd03_i <- as.integer(car::recode(LASA1E$ecesd03, "-2=NA; -1=NA"))
+LASA1E$ecesd05_i <- as.integer(car::recode(LASA1E$ecesd05, "-2=NA; -1=NA"))
+LASA1E$ecesd06_i <- as.integer(car::recode(LASA1E$ecesd06, "-2=NA; -1=NA"))
+LASA1E$ecesd07_i <- as.integer(car::recode(LASA1E$ecesd07, "-2=NA; -1=NA"))
+LASA1E$ecesd09_i <- as.integer(car::recode(LASA1E$ecesd09, "-2=NA; -1=NA"))
+LASA1E$ecesd10_i <- as.integer(car::recode(LASA1E$ecesd10, "-2=NA; -1=NA"))
+LASA1E$ecesd11_i <- as.integer(car::recode(LASA1E$ecesd11, "-2=NA; -1=NA"))
+LASA1E$ecesd13_i <- as.integer(car::recode(LASA1E$ecesd13, "-2=NA; -1=NA"))
+LASA1E$ecesd14_i <- as.integer(car::recode(LASA1E$ecesd14, "-2=NA; -1=NA"))
+LASA1E$ecesd15_i <- as.integer(car::recode(LASA1E$ecesd15, "-2=NA; -1=NA"))
+LASA1E$ecesd17_i <- as.integer(car::recode(LASA1E$ecesd17, "-2=NA; -1=NA"))
+LASA1E$ecesd18_i <- as.integer(car::recode(LASA1E$ecesd18, "-2=NA; -1=NA"))
+LASA1E$ecesd19_i <- as.integer(car::recode(LASA1E$ecesd19, "-2=NA; -1=NA"))
+LASA1E$ecesd20_i <- as.integer(car::recode(LASA1E$ecesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1E$ecesd04_i <- as.integer(car::recode(LASA1E$ecesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1E$ecesd08_i <- as.integer(car::recode(LASA1E$ecesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1E$ecesd12_i <- as.integer(car::recode(LASA1E$ecesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1E$ecesd16_i <- as.integer(car::recode(LASA1E$ecesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1E$cesdnmiss <- apply(LASA1E[,110:129], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1E$psy_dep_score_3 <- apply(LASA1E[,110:129], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss == 4)] <- (LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss ==4)]/16)*20
+LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss == 3)] <- (LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss ==3)]/17)*20 
+LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss == 2)] <- (LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss ==2)]/18)*20 
+LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss == 1)] <- (LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss ==1)]/19)*20
+
+LASA1E$psy_dep_score_3[which(LASA1E$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1E$psy_dep_score_3 <- round(LASA1E$psy_dep_score_3)
+
+mho_LASA1_3$psy_dep_tertile_3 <- as.integer(car::recode(LASA1E$psy_dep_score_3, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2343,11 +2555,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
-**R script**:  
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
+**R script**:
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1F$fcesd01_i <- as.integer(car::recode(LASA1F$fcesd01, "-2=NA; -1=NA"))
+LASA1F$fcesd02_i <- as.integer(car::recode(LASA1F$fcesd02, "-2=NA; -1=NA"))
+LASA1F$fcesd03_i <- as.integer(car::recode(LASA1F$fcesd03, "-2=NA; -1=NA"))
+LASA1F$fcesd05_i <- as.integer(car::recode(LASA1F$fcesd05, "-2=NA; -1=NA"))
+LASA1F$fcesd06_i <- as.integer(car::recode(LASA1F$fcesd06, "-2=NA; -1=NA"))
+LASA1F$fcesd07_i <- as.integer(car::recode(LASA1F$fcesd07, "-2=NA; -1=NA"))
+LASA1F$fcesd09_i <- as.integer(car::recode(LASA1F$fcesd09, "-2=NA; -1=NA"))
+LASA1F$fcesd10_i <- as.integer(car::recode(LASA1F$fcesd10, "-2=NA; -1=NA"))
+LASA1F$fcesd11_i <- as.integer(car::recode(LASA1F$fcesd11, "-2=NA; -1=NA"))
+LASA1F$fcesd13_i <- as.integer(car::recode(LASA1F$fcesd13, "-2=NA; -1=NA"))
+LASA1F$fcesd14_i <- as.integer(car::recode(LASA1F$fcesd14, "-2=NA; -1=NA"))
+LASA1F$fcesd15_i <- as.integer(car::recode(LASA1F$fcesd15, "-2=NA; -1=NA"))
+LASA1F$fcesd17_i <- as.integer(car::recode(LASA1F$fcesd17, "-2=NA; -1=NA"))
+LASA1F$fcesd18_i <- as.integer(car::recode(LASA1F$fcesd18, "-2=NA; -1=NA"))
+LASA1F$fcesd19_i <- as.integer(car::recode(LASA1F$fcesd19, "-2=NA; -1=NA"))
+LASA1F$fcesd20_i <- as.integer(car::recode(LASA1F$fcesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1F$fcesd04_i <- as.integer(car::recode(LASA1F$fcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1F$fcesd08_i <- as.integer(car::recode(LASA1F$fcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1F$fcesd12_i <- as.integer(car::recode(LASA1F$fcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1F$fcesd16_i <- as.integer(car::recode(LASA1F$fcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1F$cesdnmiss <- apply(LASA1F[,87:106], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1F$psy_dep_score_4 <- apply(LASA1F[,87:106], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss == 4)] <- (LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss ==4)]/16)*20
+LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss == 3)] <- (LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss ==3)]/17)*20 
+LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss == 2)] <- (LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss ==2)]/18)*20 
+LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss == 1)] <- (LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss ==1)]/19)*20
+
+LASA1F$psy_dep_score_4[which(LASA1F$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1F$psy_dep_score_4 <- round(LASA1F$psy_dep_score_4)
+
+mho_LASA1_4$psy_dep_tertile_4 <- as.integer(car::recode(LASA1F$psy_dep_score_4, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2364,11 +2618,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1G$gcesd01_i <- as.integer(car::recode(LASA1G$gcesd01, "-2=NA; -1=NA"))
+LASA1G$gcesd02_i <- as.integer(car::recode(LASA1G$gcesd02, "-2=NA; -1=NA"))
+LASA1G$gcesd03_i <- as.integer(car::recode(LASA1G$gcesd03, "-2=NA; -1=NA"))
+LASA1G$gcesd05_i <- as.integer(car::recode(LASA1G$gcesd05, "-2=NA; -1=NA"))
+LASA1G$gcesd06_i <- as.integer(car::recode(LASA1G$gcesd06, "-2=NA; -1=NA"))
+LASA1G$gcesd07_i <- as.integer(car::recode(LASA1G$gcesd07, "-2=NA; -1=NA"))
+LASA1G$gcesd09_i <- as.integer(car::recode(LASA1G$gcesd09, "-2=NA; -1=NA"))
+LASA1G$gcesd10_i <- as.integer(car::recode(LASA1G$gcesd10, "-2=NA; -1=NA"))
+LASA1G$gcesd11_i <- as.integer(car::recode(LASA1G$gcesd11, "-2=NA; -1=NA"))
+LASA1G$gcesd13_i <- as.integer(car::recode(LASA1G$gcesd13, "-2=NA; -1=NA"))
+LASA1G$gcesd14_i <- as.integer(car::recode(LASA1G$gcesd14, "-2=NA; -1=NA"))
+LASA1G$gcesd15_i <- as.integer(car::recode(LASA1G$gcesd15, "-2=NA; -1=NA"))
+LASA1G$gcesd17_i <- as.integer(car::recode(LASA1G$gcesd17, "-2=NA; -1=NA"))
+LASA1G$gcesd18_i <- as.integer(car::recode(LASA1G$gcesd18, "-2=NA; -1=NA"))
+LASA1G$gcesd19_i <- as.integer(car::recode(LASA1G$gcesd19, "-2=NA; -1=NA"))
+LASA1G$gcesd20_i <- as.integer(car::recode(LASA1G$gcesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1G$gcesd04_i <- as.integer(car::recode(LASA1G$gcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1G$gcesd08_i <- as.integer(car::recode(LASA1G$gcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1G$gcesd12_i <- as.integer(car::recode(LASA1G$gcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1G$gcesd16_i <- as.integer(car::recode(LASA1G$gcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1G$cesdnmiss <- apply(LASA1G[,86:105], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1G$psy_dep_score_5 <- apply(LASA1G[,86:105], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss == 4)] <- (LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss ==4)]/16)*20
+LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss == 3)] <- (LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss ==3)]/17)*20 
+LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss == 2)] <- (LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss ==2)]/18)*20 
+LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss == 1)] <- (LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss ==1)]/19)*20
+
+LASA1G$psy_dep_score_5[which(LASA1G$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1G$psy_dep_score_5 <- round(LASA1G$psy_dep_score_5)
+
+mho_LASA1_5$psy_dep_tertile_5 <- as.integer(car::recode(LASA1G$psy_dep_score_5, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2385,11 +2681,53 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms   
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1H$hcesd01_i <- as.integer(car::recode(LASA1H$hcesd01, "-2=NA; -1=NA"))
+LASA1H$hcesd02_i <- as.integer(car::recode(LASA1H$hcesd02, "-2=NA; -1=NA"))
+LASA1H$hcesd03_i <- as.integer(car::recode(LASA1H$hcesd03, "-2=NA; -1=NA"))
+LASA1H$hcesd05_i <- as.integer(car::recode(LASA1H$hcesd05, "-2=NA; -1=NA"))
+LASA1H$hcesd06_i <- as.integer(car::recode(LASA1H$hcesd06, "-2=NA; -1=NA"))
+LASA1H$hcesd07_i <- as.integer(car::recode(LASA1H$hcesd07, "-2=NA; -1=NA"))
+LASA1H$hcesd09_i <- as.integer(car::recode(LASA1H$hcesd09, "-2=NA; -1=NA"))
+LASA1H$hcesd10_i <- as.integer(car::recode(LASA1H$hcesd10, "-2=NA; -1=NA"))
+LASA1H$hcesd11_i <- as.integer(car::recode(LASA1H$hcesd11, "-2=NA; -1=NA"))
+LASA1H$hcesd13_i <- as.integer(car::recode(LASA1H$hcesd13, "-2=NA; -1=NA"))
+LASA1H$hcesd14_i <- as.integer(car::recode(LASA1H$hcesd14, "-2=NA; -1=NA"))
+LASA1H$hcesd15_i <- as.integer(car::recode(LASA1H$hcesd15, "-2=NA; -1=NA"))
+LASA1H$hcesd17_i <- as.integer(car::recode(LASA1H$hcesd17, "-2=NA; -1=NA"))
+LASA1H$hcesd18_i <- as.integer(car::recode(LASA1H$hcesd18, "-2=NA; -1=NA"))
+LASA1H$hcesd19_i <- as.integer(car::recode(LASA1H$hcesd19, "-2=NA; -1=NA"))
+LASA1H$hcesd20_i <- as.integer(car::recode(LASA1H$hcesd20, "-2=NA; -1=NA"))
+
+```
+Responses for items 4, 8, 12, and 16 were reverse coded.
+```{r, echo=TRUE}
+LASA1H$hcesd04_i <- as.integer(car::recode(LASA1H$hcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1H$hcesd08_i <- as.integer(car::recode(LASA1H$hcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1H$hcesd12_i <- as.integer(car::recode(LASA1H$hcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+LASA1H$hcesd16_i <- as.integer(car::recode(LASA1H$hcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
+
+```
+Depression symptom scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1H$cesdnmiss <- apply(LASA1H[,86:105], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1H$psy_dep_score_6 <- apply(LASA1H[,86:105], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss == 4)] <- (LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss ==4)]/16)*20
+LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss == 3)] <- (LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss ==3)]/17)*20 
+LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss == 2)] <- (LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss ==2)]/18)*20 
+LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss == 1)] <- (LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss ==1)]/19)*20
+
+LASA1H$psy_dep_score_6[which(LASA1H$cesdnmiss >= 5)] <- NA_integer_
+
+LASA1H$psy_dep_score_6 <- round(LASA1H$psy_dep_score_6)
+
+mho_LASA1_6$psy_dep_tertile_6 <- as.integer(car::recode(LASA1H$psy_dep_score_6, "0:3=0; 4:9=1; 10:60=2"))
 
 ```
 
@@ -2405,11 +2743,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_dep_case_0 <- as.integer(ifelse(LASA1B$psy_dep_score_0 <= 15,0, ifelse(LASA1B$psy_dep_score_0 >= 16,1,NA)))
 
 ```
 
@@ -2425,11 +2763,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_dep_case_1 <- as.integer(ifelse(LASA1C$psy_dep_score_1 <= 15,0, ifelse(LASA1C$psy_dep_score_1 >= 16,1,NA))) 
 
 ```
 
@@ -2445,11 +2783,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_dep_case_2 <- as.integer(ifelse(LASA1D$psy_dep_score_2 <= 15,0, ifelse(LASA1D$psy_dep_score_2 >= 16,1,NA))) 
 
 ```
 
@@ -2465,11 +2803,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_dep_case_3 <- as.integer(ifelse(LASA1E$psy_dep_score_3 <= 15,0, ifelse(LASA1E$psy_dep_score_3 >= 16,1,NA)))  
 
 ```
 
@@ -2485,11 +2823,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)     
 
-**Harmonization status**:  
-**Harmonization comment**:   
-**R script**:  
+**Harmonization status**: complete   
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
+**R script**:   
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_dep_case_4 <- as.integer(ifelse(LASA1F$psy_dep_score_4 <= 15,0, ifelse(LASA1F$psy_dep_score_4 >= 16,1,NA)))  
 
 ```
 
@@ -2505,11 +2843,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)       
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_dep_case_5 <- as.integer(ifelse(LASA1G$psy_dep_score_5 <= 15,0, ifelse(LASA1G$psy_dep_score_5 >= 16,1,NA)))  
 
 ```
 
@@ -2525,11 +2863,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)    
 
-**Harmonization status**:  
-**Harmonization comment**:   
-**R script**:  
+**Harmonization status**: complete    
+**Harmonization comment**:  Participants with CESD-20 scores of 16 or higher (out of a possible 60) were defined as cases as per the scale-specific threshold (Weissman, Sholomskas, Pottenger et al 1977).   
+**R script**:
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_dep_case_6 <- as.integer(ifelse(LASA1H$psy_dep_score_6 <= 15,0, ifelse(LASA1H$psy_dep_score_6 >= 16,1,NA)))  
 
 ```
 
@@ -2545,11 +2883,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.  
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_dep_yn_0 <- as.integer(car::recode(LASA1B$bcesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2565,11 +2903,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_dep_yn_1 <- as.integer(car::recode(LASA1C$ccesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2585,11 +2923,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_dep_yn_2 <- as.integer(car::recode(LASA1D$dcesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2605,11 +2943,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_dep_yn_3 <- as.integer(car::recode(LASA1E$ecesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2625,11 +2963,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_dep_yn_4 <- as.integer(car::recode(LASA1F$fcesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2645,11 +2983,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_dep_yn_5 <- as.integer(car::recode(LASA1G$gcesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2665,11 +3003,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt sad" from the CES-D scale, 20-item version. Participants who responded 'occasionally or a moderate amount of time' or 'most or all of the time' were defined as feeling sad, downhearted or blue.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_dep_yn_6 <- as.integer(car::recode(LASA1H$hcesd18_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2688,11 +3026,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_life_sat_tertile_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2709,11 +3047,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_life_sat_tertile_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2730,11 +3068,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_life_sat_tertile_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2751,11 +3089,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2772,11 +3110,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_life_sat_tertile_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2793,11 +3131,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_life_sat_tertile_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2814,11 +3152,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_life_sat_tertile_6 <- as.integer(car::recode(LASA1H$hqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
 
 ```
 
@@ -2834,11 +3172,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score    
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_lif_sat_low_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2854,11 +3192,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score  
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_lif_sat_low_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2874,11 +3212,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_lif_sat_low_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2894,11 +3232,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_lif_sat_low_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2914,11 +3252,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_lif_sat_low_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2934,11 +3272,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_lif_sat_low_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2954,11 +3292,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_lif_sat_low_6 <- as.integer(car::recode(LASA1H$hqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2977,11 +3315,55 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
-**R script**:  
+**Harmonization status**: complete   
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *De Jong-Gierveld Loneliness Scale, 11 item version*, are listed below:  
+1. There is always someone I can talk to about my day to day problems.  
+2. I miss having a really close friend.  
+3. I experience a general sense of emptiness.
+4. There are plenty of people I can lean on when I have problems.  
+5. I miss the pleasure of the company of others.  
+6. I find my circle of friends and acquaintances too limited.  
+7. There are many people I can trust completely.
+8. There are enough people I feel close to.
+9. I miss having people around.
+10. I often feel rejected.  
+11. I can call on my friends whenever I need them.  
+Responses ranged from 'no' (1), 'more or less' (2) to 'yes' (3).  
+
+**R script**:
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1B$blo2_i <- car::recode(LASA1B$blo2, "-1=NA; -3=NA; -4=NA")
+LASA1B$blo3_i <- car::recode(LASA1B$blo3, "-1=NA; -3=NA; -4=NA")
+LASA1B$blo5_i <- car::recode(LASA1B$blo5, "-1=NA; -3=NA; -4=NA")
+LASA1B$blo6_i <- car::recode(LASA1B$blo6, "-1=NA; -3=NA; -4=NA")
+LASA1B$blo9_i <- car::recode(LASA1B$blo9, "-1=NA; -3=NA; -4=NA")
+LASA1B$blo10_i <- car::recode(LASA1B$blo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1B$blo1_i <- car::recode(LASA1B$blo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1B$blo4_i <- car::recode(LASA1B$blo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1B$blo7_i <- car::recode(LASA1B$blo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1B$blo8_i <- car::recode(LASA1B$blo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1B$blo11_i <- car::recode(LASA1B$blo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1B$loneliness_nmiss <- apply(LASA1B[,106:116], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1B$psy_loneliness_score_0 <- apply(LASA1B[,106:116], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1B$psy_loneliness_score_0[which(LASA1B$loneliness_nmiss == 2)] <- (LASA1B$psy_loneliness_score_0[which(LASA1B$loneliness_nmiss == 2)]/9)*11
+LASA1B$psy_loneliness_score_0[which(LASA1B$loneliness_nmiss == 1)] <- (LASA1B$psy_loneliness_score_0[which(LASA1B$loneliness_nmiss == 1)]/10)*11
+
+LASA1B$psy_loneliness_score_0[which(LASA1B$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1B$psy_loneliness_score_0 <- round(LASA1B$psy_loneliness_score_0)
+
+mho_LASA1_0$psy_loneliness_tertile_0 <- as.integer(car::recode(LASA1B$psy_loneliness_score_0, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -2998,11 +3380,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.       
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1C$clo2_i <- car::recode(LASA1C$clo2, "-1=NA; -3=NA; -4=NA")
+LASA1C$clo3_i <- car::recode(LASA1C$clo3, "-1=NA; -3=NA; -4=NA")
+LASA1C$clo5_i <- car::recode(LASA1C$clo5, "-1=NA; -3=NA; -4=NA")
+LASA1C$clo6_i <- car::recode(LASA1C$clo6, "-1=NA; -3=NA; -4=NA")
+LASA1C$clo9_i <- car::recode(LASA1C$clo9, "-1=NA; -3=NA; -4=NA")
+LASA1C$clo10_i <- car::recode(LASA1C$clo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1C$clo1_i <- car::recode(LASA1C$clo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1C$clo4_i <- car::recode(LASA1C$clo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1C$clo7_i <- car::recode(LASA1C$clo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1C$clo8_i <- car::recode(LASA1C$clo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1C$clo11_i <- car::recode(LASA1C$clo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1C$loneliness_nmiss <- apply(LASA1C[,106:116], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1C$psy_loneliness_score_1 <- apply(LASA1C[,106:116], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1C$psy_loneliness_score_1[which(LASA1C$loneliness_nmiss == 2)] <- (LASA1C$psy_loneliness_score_1[which(LASA1C$loneliness_nmiss == 2)]/9)*11
+LASA1C$psy_loneliness_score_1[which(LASA1C$loneliness_nmiss == 1)] <- (LASA1C$psy_loneliness_score_1[which(LASA1C$loneliness_nmiss == 1)]/10)*11
+
+LASA1C$psy_loneliness_score_1[which(LASA1C$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1C$psy_loneliness_score_1 <- round(LASA1C$psy_loneliness_score_1)
+
+mho_LASA1_1$psy_loneliness_tertile_1 <- as.integer(car::recode(LASA1C$psy_loneliness_score_1, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3019,11 +3432,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete  
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.       
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$dlo2_i <- car::recode(LASA1D$dlo2, "-1=NA; -3=NA; -4=NA")
+LASA1D$dlo3_i <- car::recode(LASA1D$dlo3, "-1=NA; -3=NA; -4=NA")
+LASA1D$dlo5_i <- car::recode(LASA1D$dlo5, "-1=NA; -3=NA; -4=NA")
+LASA1D$dlo6_i <- car::recode(LASA1D$dlo6, "-1=NA; -3=NA; -4=NA")
+LASA1D$dlo9_i <- car::recode(LASA1D$dlo9, "-1=NA; -3=NA; -4=NA")
+LASA1D$dlo10_i <- car::recode(LASA1D$dlo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1D$dlo1_i <- car::recode(LASA1D$dlo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1D$dlo4_i <- car::recode(LASA1D$dlo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1D$dlo7_i <- car::recode(LASA1D$dlo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1D$dlo8_i <- car::recode(LASA1D$dlo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1D$dlo11_i <- car::recode(LASA1D$dlo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1D$loneliness_nmiss <- apply(LASA1D[,131:141], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1D$psy_loneliness_score_2 <- apply(LASA1D[,131:141], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1D$psy_loneliness_score_2[which(LASA1D$loneliness_nmiss == 2)] <- (LASA1D$psy_loneliness_score_2[which(LASA1D$loneliness_nmiss == 2)]/9)*11
+LASA1D$psy_loneliness_score_2[which(LASA1D$loneliness_nmiss == 1)] <- (LASA1D$psy_loneliness_score_2[which(LASA1D$loneliness_nmiss == 1)]/10)*11
+
+LASA1D$psy_loneliness_score_2[which(LASA1D$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1D$psy_loneliness_score_2 <- round(LASA1D$psy_loneliness_score_2)
+
+mho_LASA1_2$psy_loneliness_tertile_2 <- as.integer(car::recode(LASA1D$psy_loneliness_score_2, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3040,11 +3484,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.       
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$elo2_i <- car::recode(LASA1E$elo2, "-1=NA; -3=NA; -4=NA")
+LASA1E$elo3_i <- car::recode(LASA1E$elo3, "-1=NA; -3=NA; -4=NA")
+LASA1E$elo5_i <- car::recode(LASA1E$elo5, "-1=NA; -3=NA; -4=NA")
+LASA1E$elo6_i <- car::recode(LASA1E$elo6, "-1=NA; -3=NA; -4=NA")
+LASA1E$elo9_i <- car::recode(LASA1E$elo9, "-1=NA; -3=NA; -4=NA")
+LASA1E$elo10_i <- car::recode(LASA1E$elo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1E$elo1_i <- car::recode(LASA1E$elo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1E$elo4_i <- car::recode(LASA1E$elo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1E$elo7_i <- car::recode(LASA1E$elo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1E$elo8_i <- car::recode(LASA1E$elo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1E$elo11_i <- car::recode(LASA1E$elo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1E$loneliness_nmiss <- apply(LASA1E[,132:142], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1E$psy_loneliness_score_3 <- apply(LASA1E[,132:142], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1E$psy_loneliness_score_3[which(LASA1E$loneliness_nmiss == 2)] <- (LASA1E$psy_loneliness_score_3[which(LASA1E$loneliness_nmiss == 2)]/9)*11
+LASA1E$psy_loneliness_score_3[which(LASA1E$loneliness_nmiss == 1)] <- (LASA1E$psy_loneliness_score_3[which(LASA1E$loneliness_nmiss == 1)]/10)*11
+
+LASA1E$psy_loneliness_score_3[which(LASA1E$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1E$psy_loneliness_score_3 <- round(LASA1E$psy_loneliness_score_3)
+
+mho_LASA1_3$psy_loneliness_tertile_3 <- as.integer(car::recode(LASA1E$psy_loneliness_score_3, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3061,11 +3536,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1F$flo2_i <- car::recode(LASA1F$flo2, "-1=NA; -3=NA; -4=NA")
+LASA1F$flo3_i <- car::recode(LASA1F$flo3, "-1=NA; -3=NA; -4=NA")
+LASA1F$flo5_i <- car::recode(LASA1F$flo5, "-1=NA; -3=NA; -4=NA")
+LASA1F$flo6_i <- car::recode(LASA1F$flo6, "-1=NA; -3=NA; -4=NA")
+LASA1F$flo9_i <- car::recode(LASA1F$flo9, "-1=NA; -3=NA; -4=NA")
+LASA1F$flo10_i <- car::recode(LASA1F$flo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1F$flo1_i <- car::recode(LASA1F$flo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1F$flo4_i <- car::recode(LASA1F$flo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1F$flo7_i <- car::recode(LASA1F$flo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1F$flo8_i <- car::recode(LASA1F$flo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1F$flo11_i <- car::recode(LASA1F$flo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1F$loneliness_nmiss <- apply(LASA1F[,109:119], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1F$psy_loneliness_score_4 <- apply(LASA1F[,109:119], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1F$psy_loneliness_score_4[which(LASA1F$loneliness_nmiss == 2)] <- (LASA1F$psy_loneliness_score_4[which(LASA1F$loneliness_nmiss == 2)]/9)*11
+LASA1F$psy_loneliness_score_4[which(LASA1F$loneliness_nmiss == 1)] <- (LASA1F$psy_loneliness_score_4[which(LASA1F$loneliness_nmiss == 1)]/10)*11
+
+LASA1F$psy_loneliness_score_4[which(LASA1F$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1F$psy_loneliness_score_4 <- round(LASA1F$psy_loneliness_score_4)
+
+mho_LASA1_4$psy_loneliness_tertile_4 <- as.integer(car::recode(LASA1F$psy_loneliness_score_4, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3082,11 +3588,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1G$glo2_i <- car::recode(LASA1G$glo2, "-1=NA; -3=NA; -4=NA")
+LASA1G$glo3_i <- car::recode(LASA1G$glo3, "-1=NA; -3=NA; -4=NA")
+LASA1G$glo5_i <- car::recode(LASA1G$glo5, "-1=NA; -3=NA; -4=NA")
+LASA1G$glo6_i <- car::recode(LASA1G$glo6, "-1=NA; -3=NA; -4=NA")
+LASA1G$glo9_i <- car::recode(LASA1G$glo9, "-1=NA; -3=NA; -4=NA")
+LASA1G$glo10_i <- car::recode(LASA1G$glo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1G$glo1_i <- car::recode(LASA1G$glo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1G$glo4_i <- car::recode(LASA1G$glo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1G$glo7_i <- car::recode(LASA1G$glo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1G$glo8_i <- car::recode(LASA1G$glo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1G$glo11_i <- car::recode(LASA1G$glo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1G$loneliness_nmiss <- apply(LASA1G[,108:118], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1G$psy_loneliness_score_5 <- apply(LASA1G[,108:118], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1G$psy_loneliness_score_5[which(LASA1G$loneliness_nmiss == 2)] <- (LASA1G$psy_loneliness_score_5[which(LASA1G$loneliness_nmiss == 2)]/9)*11
+LASA1G$psy_loneliness_score_5[which(LASA1G$loneliness_nmiss == 1)] <- (LASA1G$psy_loneliness_score_5[which(LASA1G$loneliness_nmiss == 1)]/10)*11
+
+LASA1G$psy_loneliness_score_5[which(LASA1G$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1G$psy_loneliness_score_5 <- round(LASA1G$psy_loneliness_score_5)
+
+mho_LASA1_5$psy_loneliness_tertile_5 <- as.integer(car::recode(LASA1G$psy_loneliness_score_5, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3103,11 +3640,42 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1H$Hlo2_i <- car::recode(LASA1H$Hlo2, "-1=NA; -3=NA; -4=NA")
+LASA1H$Hlo3_i <- car::recode(LASA1H$Hlo3, "-1=NA; -3=NA; -4=NA")
+LASA1H$Hlo5_i <- car::recode(LASA1H$Hlo5, "-1=NA; -3=NA; -4=NA")
+LASA1H$Hlo6_i <- car::recode(LASA1H$Hlo6, "-1=NA; -3=NA; -4=NA")
+LASA1H$Hlo9_i <- car::recode(LASA1H$Hlo9, "-1=NA; -3=NA; -4=NA")
+LASA1H$Hlo10_i <- car::recode(LASA1H$Hlo10, "-1=NA; -3=NA; -4=NA")
+
+```
+Responses for items 1, 4, 7-8, and 11 were reverse coded.  
+```{r, echo=TRUE}
+LASA1H$Hlo1_i <- car::recode(LASA1H$Hlo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1H$Hlo4_i <- car::recode(LASA1H$Hlo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1H$Hlo7_i <- car::recode(LASA1H$Hlo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1H$Hlo8_i <- car::recode(LASA1H$Hlo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+LASA1H$Hlo11_i <- car::recode(LASA1H$Hlo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
+
+```
+Loneliness scores and tertiles were then calculated as follows.
+```{r, echo=TRUE}
+LASA1H$loneliness_nmiss <- apply(LASA1H[,108:118], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1H$psy_loneliness_score_6 <- apply(LASA1H[,108:118], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1H$psy_loneliness_score_6[which(LASA1H$loneliness_nmiss == 2)] <- (LASA1H$psy_loneliness_score_6[which(LASA1H$loneliness_nmiss == 2)]/9)*11
+LASA1H$psy_loneliness_score_6[which(LASA1H$loneliness_nmiss == 1)] <- (LASA1H$psy_loneliness_score_6[which(LASA1H$loneliness_nmiss == 1)]/10)*11
+
+LASA1H$psy_loneliness_score_6[which(LASA1H$loneliness_nmiss >= 3)] <- NA_integer_
+
+LASA1H$psy_loneliness_score_6 <- round(LASA1H$psy_loneliness_score_6)
+
+mho_LASA1_6$psy_loneliness_tertile_6 <- as.integer(car::recode(LASA1H$psy_loneliness_score_6, "11=0; 12:14=1; 15:33=2"))
 
 ```
 
@@ -3123,11 +3691,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_loneliness_high_0 <- as.integer(car::recode(LASA1B$psy_loneliness_score_0, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3143,11 +3711,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_loneliness_high_1 <- as.integer(car::recode(LASA1C$psy_loneliness_score_1, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3163,11 +3731,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_loneliness_high_2 <- as.integer(car::recode(LASA1D$psy_loneliness_score_2, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3183,11 +3751,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA1E$psy_loneliness_score_3, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3203,11 +3771,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_loneliness_high_4 <- as.integer(car::recode(LASA1F$psy_loneliness_score_4, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3223,11 +3791,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_loneliness_high_5 <- as.integer(car::recode(LASA1G$psy_loneliness_score_5, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3243,11 +3811,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete  
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_loneliness_high_6 <- as.integer(car::recode(LASA1H$psy_loneliness_score_6, "11:16=0; 17:33=1"))
 
 ```
 
@@ -3263,11 +3831,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.  
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_0$psy_lonely_yn_0 <- as.integer(car::recode(LASA1B$bcesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3283,11 +3851,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_1$psy_lonely_yn_1 <- as.integer(car::recode(LASA1C$ccesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3303,11 +3871,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_2$psy_lonely_yn_2 <- as.integer(car::recode(LASA1D$dcesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3323,11 +3891,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA1E$ecesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3343,11 +3911,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_lonely_yn_4 <- as.integer(car::recode(LASA1F$fcesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3363,11 +3931,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_5$psy_lonely_yn_5 <- as.integer(car::recode(LASA1G$gcesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3383,11 +3951,11 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_6$psy_lonely_yn_6 <- as.integer(car::recode(LASA1H$hcesd14_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3405,7 +3973,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3425,7 +3993,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3445,11 +4013,71 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The SRIP post-traumatic stress disorder scores (22-88) were calculated for LASA participants with data on at least 18 items (out of a possible 22). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multipled by 22. If participants missed 5 or more items, scores were not calculated and coded as missing. Participants with SRIP scores of 39 and higher were classified as cases, as per the scale-specific cut-off (van Zelst, de Beurs, Beekman et al 2003). Items comprising the *Self-Rating Inventory for Post-Traumatic Stress Disorder (SRIP) scale* are listed below:    
+1. Feeling of being estranged from others
+2. Feeling of being detached from others
+3. Feeling of having no future
+4. Difficulty expressing emotions
+5. Difficulty concentrating
+6. Feeling irritable
+7. Being easily frightened
+8.Diminished interest in important activities
+9. Amnesia for events from the past
+10. Feeling that events from the past were happening again
+11. Acting as if events from the past were happening again
+12. Having dreary dreams
+13. Having recurrent unpleasant memories
+14. Having intrusive unpleasant memories
+15. Having bursts of anger
+16. Being vigilant
+17. Trying to avoid thoughts about past events
+18. Trying to avoid feelings about past events
+19. Trying to avoid situations that would recall past events
+20. Physical reactions with recalling past events
+21. Having problems sleeping through 
+22. Having problems sleeping in  
+Response categories ranged from 'not at all' (1), 'somewhat' (2), 'considerably' (3) to 'very much' (4).  
+
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$dptsd01_i <- car::recode(LASA1D$dptsd01, "-2=NA; -1=NA")  
+LASA1D$dptsd02_i <- car::recode(LASA1D$dptsd02, "-2=NA; -1=NA")
+LASA1D$dptsd03_i <- car::recode(LASA1D$dptsd03, "-2=NA; -1=NA")
+LASA1D$dptsd04_i <- car::recode(LASA1D$dptsd04, "-2=NA; -1=NA")
+LASA1D$dptsd05_i <- car::recode(LASA1D$dptsd05, "-2=NA; -1=NA")
+LASA1D$dptsd06_i <- car::recode(LASA1D$dptsd06, "-2=NA; -1=NA")
+LASA1D$dptsd07_i <- car::recode(LASA1D$dptsd07, "-2=NA; -1=NA")
+LASA1D$dptsd08_i <- car::recode(LASA1D$dptsd08, "-2=NA; -1=NA")
+LASA1D$dptsd09_i <- car::recode(LASA1D$dptsd09, "-2=NA; -1=NA")
+LASA1D$dptsd10_i <- car::recode(LASA1D$dptsd10, "-2=NA; -1=NA")
+LASA1D$dptsd11_i <- car::recode(LASA1D$dptsd11, "-2=NA; -1=NA")
+LASA1D$dptsd12_i <- car::recode(LASA1D$dptsd12, "-2=NA; -1=NA")
+LASA1D$dptsd13_i <- car::recode(LASA1D$dptsd13, "-2=NA; -1=NA")
+LASA1D$dptsd14_i <- car::recode(LASA1D$dptsd14, "-2=NA; -1=NA")
+LASA1D$dptsd15_i <- car::recode(LASA1D$dptsd15, "-2=NA; -1=NA")
+LASA1D$dptsd16_i <- car::recode(LASA1D$dptsd16, "-2=NA; -1=NA")
+LASA1D$dptsd17_i <- car::recode(LASA1D$dptsd17, "-2=NA; -1=NA")
+LASA1D$dptsd18_i <- car::recode(LASA1D$dptsd18, "-2=NA; -1=NA")
+LASA1D$dptsd19_i <- car::recode(LASA1D$dptsd19, "-2=NA; -1=NA")
+LASA1D$dptsd20_i <- car::recode(LASA1D$dptsd20, "-2=NA; -1=NA")
+LASA1D$dptsd21_i <- car::recode(LASA1D$dptsd21, "-2=NA; -1=NA")
+LASA1D$dptsd22_i <- car::recode(LASA1D$dptsd22, "-2=NA; -1=NA")
+
+LASA1D$ptsd_nmiss <- apply(LASA1D[,144:165], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1D$psy_ptsd_score_2 <- apply(LASA1D[,144:165], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 4)] <- (LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 4)]/18)*22
+LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 3)] <- (LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 3)]/19)*22
+LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 2)] <- (LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 2)]/20)*22
+LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 1)] <- (LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss == 1)]/21)*22
+
+LASA1D$psy_ptsd_score_2[which(LASA1D$ptsd_nmiss >= 5)] <- NA_integer_
+
+LASA1D$psy_ptsd_score_2 <- round(LASA1D$psy_ptsd_score_2)
+
+mho_LASA1_2$psy_ptsd_case_2 <- as.integer(ifelse(LASA1D$psy_ptsd_score_2 <= 38,0, ifelse(LASA1D$psy_ptsd_score_2 >= 39,1,NA)))
 
 ```
 
@@ -3465,11 +4093,47 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The SRIP post-traumatic stress disorder scores (22-88) were calculated for LASA participants with data on at least 18 items (out of a possible 22). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multipled by 22. If participants missed 5 or more items, scores were not calculated and coded as missing. Participants with SRIP scores of 39 and higher were classified as cases, as per the scale-specific cut-off (van Zelst, de Beurs, Beekman et al 2003).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$eptsd01_i <- car::recode(LASA1E$eptsd01, "-2=NA; -1=NA")  
+LASA1E$eptsd02_i <- car::recode(LASA1E$eptsd02, "-2=NA; -1=NA")
+LASA1E$eptsd03_i <- car::recode(LASA1E$eptsd03, "-2=NA; -1=NA")
+LASA1E$eptsd04_i <- car::recode(LASA1E$eptsd04, "-2=NA; -1=NA")
+LASA1E$eptsd05_i <- car::recode(LASA1E$eptsd05, "-2=NA; -1=NA")
+LASA1E$eptsd06_i <- car::recode(LASA1E$eptsd06, "-2=NA; -1=NA")
+LASA1E$eptsd07_i <- car::recode(LASA1E$eptsd07, "-2=NA; -1=NA")
+LASA1E$eptsd08_i <- car::recode(LASA1E$eptsd08, "-2=NA; -1=NA")
+LASA1E$eptsd09_i <- car::recode(LASA1E$eptsd09, "-2=NA; -1=NA")
+LASA1E$eptsd10_i <- car::recode(LASA1E$eptsd10, "-2=NA; -1=NA")
+LASA1E$eptsd11_i <- car::recode(LASA1E$eptsd11, "-2=NA; -1=NA")
+LASA1E$eptsd12_i <- car::recode(LASA1E$eptsd12, "-2=NA; -1=NA")
+LASA1E$eptsd13_i <- car::recode(LASA1E$eptsd13, "-2=NA; -1=NA")
+LASA1E$eptsd14_i <- car::recode(LASA1E$eptsd14, "-2=NA; -1=NA")
+LASA1E$eptsd15_i <- car::recode(LASA1E$eptsd15, "-2=NA; -1=NA")
+LASA1E$eptsd16_i <- car::recode(LASA1E$eptsd16, "-2=NA; -1=NA")
+LASA1E$eptsd17_i <- car::recode(LASA1E$eptsd17, "-2=NA; -1=NA")
+LASA1E$eptsd18_i <- car::recode(LASA1E$eptsd18, "-2=NA; -1=NA")
+LASA1E$eptsd19_i <- car::recode(LASA1E$eptsd19, "-2=NA; -1=NA")
+LASA1E$eptsd20_i <- car::recode(LASA1E$eptsd20, "-2=NA; -1=NA")
+LASA1E$eptsd21_i <- car::recode(LASA1E$eptsd21, "-2=NA; -1=NA")
+LASA1E$eptsd22_i <- car::recode(LASA1E$eptsd22, "-2=NA; -1=NA")
+
+LASA1E$ptsd_nmiss <- apply(LASA1E[,145:166], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+LASA1E$psy_ptsd_score_3 <- apply(LASA1E[,145:166], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 4)] <- (LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 4)]/18)*22
+LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 3)] <- (LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 3)]/19)*22
+LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 2)] <- (LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 2)]/20)*22
+LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 1)] <- (LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss == 1)]/21)*22
+
+LASA1E$psy_ptsd_score_3[which(LASA1E$ptsd_nmiss >= 5)] <- NA_integer_
+
+LASA1E$psy_ptsd_score_3 <- round(LASA1E$psy_ptsd_score_3)
+
+mho_LASA1_3$psy_ptsd_case_3 <- as.integer(ifelse(LASA1E$psy_ptsd_score_3 <= 38,0, ifelse(LASA1E$psy_ptsd_score_3 >= 39,1,NA)))  
 
 ```
 
@@ -3488,7 +4152,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3509,7 +4173,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3530,11 +4194,28 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing. Items comprising the *Mental Health Inventory, 2 item version, (MHI-2)* scale are listed below:  
+1. Have you felt calm and peaceful?
+2. Have you felt downhearted and blue?
+Responses ranged from 'all of the time' (1), 'most of the time' (2), 'a good bit of the time' (3), 'some of the time' (4), 'a little of the time' (5), and 'none of the time' (6).  
+
 **R script**:  
+Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$dqquli09_i <- car::recode(LASA1D$dqquli09, "-1=NA")
+
+```
+Responses for item 2 were reverse coded.
+```{r, echo=TRUE}
+LASA1D$dqquli11_i <- car::recode(LASA1D$dqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
+
+```
+Psychological distress scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1D$psy_distress_score_2 <- as.integer(LASA1D$dqquli09_i + LASA1D$dqquli11_i)
+
+mho_LASA1_2$psy_distress_tertile_2 <- as.integer(ifelse(LASA1D$psy_distress_score_2 <= 3,0, ifelse(LASA1D$psy_distress_score_2 == 4,1, ifelse(LASA1D$psy_distress_score_2 >= 5,2,NA))))
 
 ```
 
@@ -3551,11 +4232,24 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$eqquli09_i <- car::recode(LASA1E$eqquli09, "-1=NA")
+
+```
+Responses for item 2 were reverse coded.
+```{r, echo=TRUE}
+LASA1E$eqquli11_i <- car::recode(LASA1E$eqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
+
+```
+Psychological distress scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1E$psy_distress_score_3 <- as.integer(LASA1E$eqquli09_i + LASA1E$eqquli11_i)
+
+mho_LASA1_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA1E$psy_distress_score_3 <= 3,0, ifelse(LASA1E$psy_distress_score_3 == 4,1, ifelse(LASA1E$psy_distress_score_3 >= 5,2,NA))))
 
 ```
 
@@ -3572,11 +4266,24 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1F$fqquli09_i <- car::recode(LASA1F$fqquli09, "-1=NA")
+
+```
+Responses for item 2 were reverse coded.
+```{r, echo=TRUE}
+LASA1F$fqquli11_i <- car::recode(LASA1F$fqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
+
+```
+Psychological distress scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1F$psy_distress_score_4 <- as.integer(LASA1F$fqquli09_i + LASA1F$fqquli11_i)
+
+mho_LASA1_4$psy_distress_tertile_4 <- as.integer(ifelse(LASA1F$psy_distress_score_4 <= 3,0, ifelse(LASA1F$psy_distress_score_4 == 4,1, ifelse(LASA1F$psy_distress_score_4 >= 5,2,NA))))
 
 ```
 
@@ -3593,11 +4300,24 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1G$gqquli09_i <- car::recode(LASA1G$gqquli09, "-1=NA")
+
+```
+Responses for item 2 were reverse coded.
+```{r, echo=TRUE}
+LASA1G$gqquli11_i <- car::recode(LASA1G$gqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
+
+```
+Psychological distress scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1G$psy_distress_score_5 <- as.integer(LASA1G$gqquli09_i + LASA1G$gqquli11_i)
+
+mho_LASA1_5$psy_distress_tertile_5 <- as.integer(ifelse(LASA1G$psy_distress_score_5 <= 3,0, ifelse(LASA1G$psy_distress_score_5 == 4,1, ifelse(LASA1G$psy_distress_score_5 >= 5,2,NA))))
 
 ```
 
@@ -3614,11 +4334,24 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
+Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1H$hqquli09_i <- car::recode(LASA1H$hqquli09, "-1=NA")
+
+```
+Responses for item 2 were reverse coded.
+```{r, echo=TRUE}
+LASA1H$hqquli11_i <- car::recode(LASA1H$hqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
+
+```
+Psychological distress scores and tertiles were then calculated as follows.  
+```{r, echo=TRUE}
+LASA1H$psy_distress_score_6 <- as.integer(LASA1H$hqquli09_i + LASA1H$hqquli11_i)
+
+mho_LASA1_6$psy_distress_tertile_6 <- as.integer(ifelse(LASA1H$psy_distress_score_6 <= 3,0, ifelse(LASA1H$psy_distress_score_6 == 4,1, ifelse(LASA1H$psy_distress_score_6 >= 5,2,NA))))
 
 ```
 
@@ -3634,8 +4367,8 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: impossible   
+**Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
 #This is where the R-script will be written
@@ -3654,7 +4387,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3674,11 +4407,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The MHI-2 scores (2-12) in LASA were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-2, participants whose scores ranged from 50 to 100 were classified as cases.       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1D$psy_distress_pct_2 <- rescale(LASA1D$psy_distress_score_2)*100
+
+mho_LASA1_2$psy_distress_case_2 <- as.integer(ifelse(LASA1D$psy_distress_pct_2 >= 50,1, ifelse(LASA1D$psy_distress_pct_2 <= 49,0,NA)))
 
 ```
 
@@ -3694,11 +4429,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$psy_distress_pct_3 <- rescale(LASA1E$psy_distress_score_3)*100
+
+mho_LASA1_3$psy_distress_case_3 <- as.integer(ifelse(LASA1E$psy_distress_pct_3 >= 50,1, ifelse(LASA1E$psy_distress_pct_3 <= 49,0,NA)))
 
 ```
 
@@ -3714,11 +4451,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1F$psy_distress_pct_4 <- rescale(LASA1F$psy_distress_score_4)*100
+
+mho_LASA1_4$psy_distress_case_4 <- as.integer(ifelse(LASA1F$psy_distress_pct_4 >= 50,1, ifelse(LASA1F$psy_distress_pct_4 <= 49,0,NA)))
 
 ```
 
@@ -3734,11 +4473,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1G$psy_distress_pct_5 <- rescale(LASA1G$psy_distress_score_5)*100
+
+mho_LASA1_5$psy_distress_case_5 <- as.integer(ifelse(LASA1G$psy_distress_pct_5 >= 50,1, ifelse(LASA1G$psy_distress_pct_5 <= 49,0,NA)))
 
 ```
 
@@ -3754,11 +4495,13 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1H$psy_distress_pct_6 <- rescale(LASA1H$psy_distress_score_6)*100
+
+mho_LASA1_6$psy_distress_case_6 <- as.integer(ifelse(LASA1H$psy_distress_pct_6 >= 50,1, ifelse(LASA1H$psy_distress_pct_6 <= 49,0,NA)))
 
 ```
 
@@ -3777,7 +4520,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3798,7 +4541,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3819,7 +4562,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3840,11 +4583,50 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into study-specific tertiles defined as high (31-60), medium (26-30), and low (12-25). Scores were used as provided by the LASA study. Items comprising the *Valuation of Life, 12 item version* scale are listed below:
+1. [pending confirmation from LASA]
+2. [pending confirmation from LASA]
+3. [pending confirmation from LASA]
+4. [pending confirmation from LASA]
+5. [pending confirmation from LASA]
+6. [pending confirmation from LASA]
+7. [pending confirmation from LASA]
+8. [pending confirmation from LASA]
+9. [pending confirmation from LASA]
+10. [pending confirmation from LASA]
+11. [pending confirmation from LASA]
+12. [pending confirmation from LASA]
+Responses ranged from 'strongly agree' (1), 'agree' (2), 'neither agree nor disagree' (3), 'disagree' (4), 'strongly disagree' (5).  
+
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+LASA1E$eqvall_i <- recode(LASA1E$eqvall, "-2=NA")
+
+mho_LASA1_3$psy_qol_tertile_3 <- as.integer(car::recode(LASA1E$eqvall_i, "31:60=0; 26:30=1; 12:25=2"))
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_4      
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**: complete    
+**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into study-specific tertiles defined as high (31-60), medium (26-30), and low (12-25). Scores were used as provided by the LASA study.     
+**R script**:  
+```{r, echo=TRUE}
+LASA1F$fqvall_i <- recode(LASA1F$fqvall, "-2=NA")
+
+mho_LASA1_4$psy_qol_tertile_4 <- as.integer(car::recode(LASA1F$fqvall_i, "31:60=0; 26:30=1; 12:25=2"))
 
 ```
 
@@ -3860,7 +4642,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3880,7 +4662,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3900,7 +4682,7 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3920,7 +4702,27 @@ mho_LASA1_6$cog_del_low_6 <- car::recode(mho_LASA1_6$cog_del_low_6, "2=0")
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: complete    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_4       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**: complete    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
