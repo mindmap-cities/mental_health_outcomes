@@ -3573,6 +3573,27 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 ```
 
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_4    
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 ### **Variable label**:  Lowest level of quality of life  
 **Variable name**:  psy_qol_low_0       
 **Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
@@ -3646,6 +3667,26 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 1 | Lowest quintile of quality of life score
 
 **Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_4       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
