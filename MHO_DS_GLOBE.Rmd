@@ -2,34 +2,35 @@
 title: "Mental health outcomes DataSchema"
 output: html_document  
 ---
-# Connecting with Opal data server
-## Login to server and assign study data
-```{r, echo=FALSE}
-#Load Opal R library
-library(opal)
+```{r, echo=TRUE}
 library(tidyverse)
 library(epiDisplay)
 library(scales)
+
+# Connecting with Opal data server
+## Login to server and assign study data
+#Load Opal R library
+library(opal)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
 #Login to Opal server and assign the content of the GLOBE table(s) to your RStudio environment
-# GLOBE1991
+# GLOBE 1991
 opal.assign.table.tibble(erasmus_opal, 'GLOBE1991', 'GLOBE.GLOBE1991',variables=list('SEGVv145','SEGVv148','SEGVv149','SEGVv158','SEGVv162','SEGVv165','SEGVv173','SEGVv174','SEGVv179','SEGVv151','SEGVv157','SEGVv163','SEGVv171','SEGVv176'))
 GLOBE1991 <- opal.execute(erasmus_opal,'GLOBE1991')
 
-# GLOBE1997
+# GLOBE 1997
 opal.assign.table.tibble(erasmus_opal, 'GLOBE1997', 'GLOBE.GLOBE1997',variables=list('v16a','v16b','v16c','v16d','v16e','r47c','g4c','r47f','g4f','r47f','g4g','r47p','g4p','r47t','g4t','r47w','g4w','r47e2','g4e2','r47f2','g4f2','r47k2','g4k2','r47i','g4i','r47o','g4o','r47u','g4u','r47c2','g4c2','r47h2','g4h2')) 
 GLOBE1997<- opal.execute(erasmus_opal,'GLOBE1997')
 
-# GLOBE2004
+# GLOBE 2004
 opal.assign.table.tibble(erasmus_opal, 'GLOBE2004', 'GLOBE.GLOBE2004',variables=list('w002','w003','w004','w006')) 
 GLOBE2004 <- opal.execute(erasmus_opal,'GLOBE2004')
 
-#GLOBE2011
+#GLOBE 2011
 opal.assign.table.tibble(erasmus_opal, 'GLOBE2011', 'GLOBE.GLOBE2011',variables=list('v11_a_ment1','v11_b_ment2','v11_c_ment3','v11_e_ment5','v63_a_BN_a','v63_b_BN_b','v63_c_BN_c','v63_d_BN_d','v63_e_BN_e','v63_f_BN_f','v63_g_BN_g','v63_h_BN_h','v63_i_BN_i','v63_j_BN_j','v63_k_BN_k','v63_l_BN_l','v63_m_BN_m','v63_n_BN_n','v63_o_BN_o','v63_p_BN_p','v63_q_BN_q','v63_r_BN_r','v63_s_BN_s','v63_t_BN_t','v63_u_BN_u','v63_v_BN_v','v63_w_BN_w','v63_x_BN_x','v63_y_BN_y','v63_z_BN_z','v63_aa_BN_aa'))
 GLOBE2011 <- opal.execute(erasmus_opal,'GLOBE2011')
 
-#GLOBE2014
+#GLOBE 2014
 opal.assign.table.tibble(erasmus_opal, 'GLOBE2014', 'GLOBE.GLOBE2014',variables=list('G14v15_a','G14v15_b','G14v15_c','G14v15_e','G14v61_a','G14v61_b','G14v61_c','G14v61_d','G14v61_e','G14v61_f'))
 GLOBE2014 <- opal.execute(erasmus_opal, 'GLOBE2014')
 ```
@@ -40,10 +41,10 @@ mho_GLOBE_1 <- data.frame(id = GLOBE1997$id)
 mho_GLOBE_2 <- data.frame(id = GLOBE2004$id)
 mho_GLOBE_3 <- data.frame(id = GLOBE2011$id)
 mho_GLOBE_4 <- data.frame(id = GLOBE2014$id)
-```
-## When you are done with your work, logout of Opal server
-```{r, echo=FALSE}
-opal.logout(erasmus_opal) 
+
+# When you are done with your work, logout of Opal server
+opal.logout(erasmus_opal)  
+
 ```
 
 # Table of Contents
