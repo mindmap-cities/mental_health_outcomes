@@ -2945,7 +2945,7 @@ mho_GLOBE_1$psy_loneliness_high_1 <- as.integer(ifelse(GLOBE1997$psy_loneliness_
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  Based on the De Jong-Gierveld Loneliness scores (6-30) on subjective lack of social connections. Participants with scores ranging 15-30 comprised the top loneliness quintile.   
+**Harmonization comment**:  Using the 6-item De Jong-Gierveld Loneliness scores (6-30), participants with scores ranging 15-30 comprised the top loneliness quintile.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_4$psy_loneliness_high_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_score_4 >= 15,1, ifelse(GLOBE2014$psy_loneliness_score_4 <=14,0,NA)))
@@ -3778,6 +3778,27 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 
 ```
 
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_4    
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
 ### **Variable label**:  Lowest level of quality of life  
 **Variable name**:  psy_qol_low_0       
 **Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
@@ -3855,5 +3876,25 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 **R script**:    
 ```{r, echo=TRUE}
 mho_GLOBE_3$psy_qol_low_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 < 126,1, ifelse(GLOBE2011$psy_qol_score_3 >= 126,0,NA)))
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_4       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
 
 ```
