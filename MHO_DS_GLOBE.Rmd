@@ -46,7 +46,6 @@ mho_GLOBE_4 <- data.frame(id = GLOBE2014$id)
 opal.logout(erasmus_opal)  
 
 ```
-
 # Table of Contents
 1. [Anxiety subdomain](#anxiety-subdomain)
 2. [Cognitive functioning subdomain](#cognitive-functioning-subdomain)
