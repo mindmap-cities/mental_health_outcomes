@@ -1251,7 +1251,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1266,7 +1266,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1281,7 +1281,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1296,7 +1296,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1311,7 +1311,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1326,7 +1326,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1341,7 +1341,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1496,7 +1496,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric     
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1512,7 +1512,7 @@ mho_LASA1_0$cog_proc_std_0 <- scale(LASA1B$bmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1528,7 +1528,7 @@ mho_LASA1_1$cog_proc_std_1 <- scale(LASA1C$cmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1544,7 +1544,7 @@ mho_LASA1_2$cog_proc_std_2 <- scale(LASA1D$dmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1560,7 +1560,7 @@ mho_LASA1_3$cog_proc_std_3 <- scale(LASA1E$emvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1576,7 +1576,7 @@ mho_LASA1_4$cog_proc_std_4 <- scale(LASA1F$fmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1592,7 +1592,7 @@ mho_LASA1_5$cog_proc_std_5 <- scale(LASA1G$gmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  integer  
+**Value type**:  numeric    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1762,7 +1762,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_0  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1777,7 +1777,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_1  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1792,7 +1792,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_2  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1807,7 +1807,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_3  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1822,7 +1822,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_4  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1837,7 +1837,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_5  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1852,7 +1852,7 @@ mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_6  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  integer   
+**Value type**:  numeric     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -2997,7 +2997,7 @@ mho_LASA1_6$psy_dep_yn_6 <- as.integer(car::recode(LASA1H$hcesd18_i, "0:1=0; 2:3
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').        
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$psy_life_sat_tertile_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3018,7 +3018,7 @@ mho_LASA1_0$psy_life_sat_tertile_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$psy_life_sat_tertile_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3039,7 +3039,7 @@ mho_LASA1_1$psy_life_sat_tertile_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$psy_life_sat_tertile_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3060,7 +3060,7 @@ mho_LASA1_2$psy_life_sat_tertile_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3081,7 +3081,7 @@ mho_LASA1_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$psy_life_sat_tertile_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3102,7 +3102,7 @@ mho_LASA1_4$psy_life_sat_tertile_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete   
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$psy_life_sat_tertile_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3123,7 +3123,7 @@ mho_LASA1_5$psy_life_sat_tertile_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1
 2 | Low levels of life satisfaction
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" Responses were grouped into study-specific tertiles defined as high ('very satisfied'), medium ('satisfied'), and low ('not dissatisfied or satisfied' to 'very dissatisfied').       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$psy_life_sat_tertile_6 <- as.integer(car::recode(LASA1H$hqsatis2, "1:3=2; 4=1; 5=0; else=NA"))
@@ -3143,7 +3143,7 @@ mho_LASA1_6$psy_life_sat_tertile_6 <- as.integer(car::recode(LASA1H$hqsatis2, "1
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$psy_lif_sat_low_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3163,7 +3163,7 @@ mho_LASA1_0$psy_lif_sat_low_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'        
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$psy_lif_sat_low_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3183,7 +3183,7 @@ mho_LASA1_1$psy_lif_sat_low_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$psy_lif_sat_low_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3203,7 +3203,7 @@ mho_LASA1_2$psy_lif_sat_low_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'        
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$psy_lif_sat_low_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3223,7 +3223,7 @@ mho_LASA1_3$psy_lif_sat_low_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'    
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$psy_lif_sat_low_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3243,7 +3243,7 @@ mho_LASA1_4$psy_lif_sat_low_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$psy_lif_sat_low_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3263,7 +3263,7 @@ mho_LASA1_5$psy_lif_sat_low_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1:3=1;
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$psy_lif_sat_low_6 <- as.integer(car::recode(LASA1H$hqsatis2, "1:3=1; 4:5=0; else=NA"))
@@ -3648,7 +3648,7 @@ mho_LASA1_6$psy_loneliness_tertile_6 <- as.integer(car::recode(LASA1H$psy_loneli
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.        
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.          
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$psy_loneliness_high_0 <- as.integer(car::recode(LASA1B$psy_loneliness_score_0, "11:16=0; 17:33=1"))
@@ -3668,7 +3668,7 @@ mho_LASA1_0$psy_loneliness_high_0 <- as.integer(car::recode(LASA1B$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$psy_loneliness_high_1 <- as.integer(car::recode(LASA1C$psy_loneliness_score_1, "11:16=0; 17:33=1"))
@@ -3688,7 +3688,7 @@ mho_LASA1_1$psy_loneliness_high_1 <- as.integer(car::recode(LASA1C$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$psy_loneliness_high_2 <- as.integer(car::recode(LASA1D$psy_loneliness_score_2, "11:16=0; 17:33=1"))
@@ -3708,7 +3708,7 @@ mho_LASA1_2$psy_loneliness_high_2 <- as.integer(car::recode(LASA1D$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA1E$psy_loneliness_score_3, "11:16=0; 17:33=1"))
@@ -3728,7 +3728,7 @@ mho_LASA1_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA1E$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$psy_loneliness_high_4 <- as.integer(car::recode(LASA1F$psy_loneliness_score_4, "11:16=0; 17:33=1"))
@@ -3748,7 +3748,7 @@ mho_LASA1_4$psy_loneliness_high_4 <- as.integer(car::recode(LASA1F$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$psy_loneliness_high_5 <- as.integer(car::recode(LASA1G$psy_loneliness_score_5, "11:16=0; 17:33=1"))
@@ -3768,7 +3768,7 @@ mho_LASA1_5$psy_loneliness_high_5 <- as.integer(car::recode(LASA1G$psy_lonelines
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete  
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile.     
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 1st LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$psy_loneliness_high_6 <- as.integer(car::recode(LASA1H$psy_loneliness_score_6, "11:16=0; 17:33=1"))
@@ -4376,7 +4376,7 @@ mho_LASA1_2$psy_distress_case_2 <- as.integer(ifelse(LASA1D$psy_distress_pct_2 >
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  The MHI-2 scores (2-12) in LASA were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-2, participants whose scores ranged from 50 to 100 were classified as cases.     
 **R script**:  
 ```{r, echo=TRUE}
 LASA1E$psy_distress_pct_3 <- rescale(LASA1E$psy_distress_score_3)*100
@@ -4398,7 +4398,7 @@ mho_LASA1_3$psy_distress_case_3 <- as.integer(ifelse(LASA1E$psy_distress_pct_3 >
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  The MHI-2 scores (2-12) in LASA were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-2, participants whose scores ranged from 50 to 100 were classified as cases.     
 **R script**:  
 ```{r, echo=TRUE}
 LASA1F$psy_distress_pct_4 <- rescale(LASA1F$psy_distress_score_4)*100
@@ -4420,7 +4420,7 @@ mho_LASA1_4$psy_distress_case_4 <- as.integer(ifelse(LASA1F$psy_distress_pct_4 >
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  The MHI-2 scores (2-12) in LASA were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-2, participants whose scores ranged from 50 to 100 were classified as cases.     
 **R script**:  
 ```{r, echo=TRUE}
 LASA1G$psy_distress_pct_5 <- rescale(LASA1G$psy_distress_score_5)*100
@@ -4442,7 +4442,7 @@ mho_LASA1_5$psy_distress_case_5 <- as.integer(ifelse(LASA1G$psy_distress_pct_5 >
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  The MHI-2 scores (2-12) in LASA were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the MHI-2, participants whose scores ranged from 50 to 100 were classified as cases.     
 **R script**:  
 ```{r, echo=TRUE}
 LASA1H$psy_distress_pct_6 <- rescale(LASA1H$psy_distress_score_6)*100
@@ -4530,19 +4530,19 @@ mho_LASA1_6$psy_distress_case_6 <- as.integer(ifelse(LASA1H$psy_distress_pct_6 >
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into study-specific tertiles defined as high (31-60), medium (26-30), and low (12-25). Scores were used as provided by the LASA study. Items comprising the *Valuation of Life, 12 item version* scale are listed below:
-1. [pending confirmation from LASA]
-2. [pending confirmation from LASA]
-3. [pending confirmation from LASA]
-4. [pending confirmation from LASA]
-5. [pending confirmation from LASA]
-6. [pending confirmation from LASA]
-7. [pending confirmation from LASA]
-8. [pending confirmation from LASA]
-9. [pending confirmation from LASA]
-10. [pending confirmation from LASA]
-11. [pending confirmation from LASA]
-12. [pending confirmation from LASA]  
+**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into tertiles defined as high (31-60), medium (26-30), and low (12-25), which were population-specific for the 1st LASA cohort. Scores were used as provided by the LASA study. Items comprising the *Valuation of Life, 12 item version* scale are listed below:
+1. It is hard to find much meaning in my everyday life.  
+2. I feel able to accomplish my life goals.  
+3. I can think of many ways to get the things in life that are most important to me.  
+4. I meet the goals I set for myself.  
+5. There are few ways around a problem. 
+6. My personal beliefs allow me to maintain a hopeful attitude.  
+7. Even when others get discouraged, I know I can find a way to solve the problem.  
+8. I have a strong will to live right now.  
+9. THe real enjoyments of my life are the past. 
+10. I intend to make the most of my life.  
+11. Life has meaning for me.  
+12. I have very few goals in my life today.  
 Responses ranged from 'strongly agree' (1), 'agree' (2), 'neither agree nor disagree' (3), 'disagree' (4), 'strongly disagree' (5).  
 
 **R script**:  
@@ -4567,7 +4567,7 @@ mho_LASA1_3$psy_qol_tertile_3 <- as.integer(car::recode(LASA1E$eqvall_i, "31:60=
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into study-specific tertiles defined as high (31-60), medium (26-30), and low (12-25). Scores were used as provided by the LASA study.     
+**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into tertiles defined as high (31-60), medium (26-30), and low (12-25), which were population-specific for the 1st LASA cohort. Scores were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
 LASA1F$fqvall_i <- recode(LASA1F$fqvall, "-2=NA")
@@ -4649,10 +4649,10 @@ mho_LASA1_4$psy_qol_tertile_4 <- as.integer(car::recode(LASA1F$fqvall_i, "31:60=
 1 | Lowest quintile of quality of life score
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Using the 12-item Valuation of Life scores (12-60), participants with scores ranging 12-23 comprised the lowest quality of life quintile. Please note this threshold is population-specific for the 1st LASA cohort.         
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_3$psy_qol_low_3 <- as.integer(car::recode(LASA1E$eqvall_i, "24:60=0; 12:23=1")) 
 
 ```
 
@@ -4669,9 +4669,9 @@ mho_LASA1_4$psy_qol_tertile_4 <- as.integer(car::recode(LASA1F$fqvall_i, "31:60=
 1 | Lowest quintile of quality of life score
 
 **Harmonization status**: complete    
-**Harmonization comment**:   
+**Harmonization comment**:  Using the 12-item Valuation of Life scores (12-60), participants with scores ranging 12-23 comprised the lowest quality of life quintile. Please note this threshold is population-specific for the 1st LASA cohort.          
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_LASA1_4$psy_qol_low_4 <- as.integer(car::recode(LASA1F$fqvall_i, "24:60=0; 12:23=1"))
 
 ```
