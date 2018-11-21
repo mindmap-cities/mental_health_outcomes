@@ -536,7 +536,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_0  
-**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test If the test is performed more than once, data are based on the first trial.  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
