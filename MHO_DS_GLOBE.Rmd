@@ -446,7 +446,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 
 ### **Variable label**:  Immediate word recall 
 **Variable name**:  cog_imm_rscale_0  
-**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test If the test is performed more than once, data are based on the first trial.  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.  
 **Value type**:  integer    
 **Variable unit**:  words  
 **Category coding**:  N/A 
