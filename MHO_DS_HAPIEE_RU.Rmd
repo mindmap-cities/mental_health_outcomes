@@ -1979,7 +1979,7 @@ mho_HAPIEE_RU_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_RU_1$cog_co
 2 |   High severity tertile of depressive symptoms 
 
 **Harmonization status**: complete     
-**Harmonization comment**: The CES-D 20 depression scores (0-60) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-8), medium (9-12), and high (13-60). Scores were calculate for participants with data on least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 20 item version*, are listed below.  
+**Harmonization comment**: The CES-D 20 depression scores (0-60) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-8), medium (9-12), and high (13-60). Scores were calculated for participants with data on least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 20 item version*, are listed below.  
 *Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
 1. I was bothered by things that usually don't bother me.  
 2. I did not feel like eating; my appetite was poor.  
@@ -2067,7 +2067,7 @@ mho_HAPIEE_RU_0$psy_dep_tertile_0 <- as.integer(car::recode(HAPIEE_W1$psy_dep_sc
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**: The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-1), medium (2-3), and high (4-10). Scores were calculate for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.  
+**Harmonization comment**: The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-1), medium (2-3), and high (4-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.  
 *Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
 1. I felt depressed.  
 2. I felt that everything I did was an effort.  
@@ -2131,7 +2131,7 @@ mho_HAPIEE_RU_1$psy_dep_tertile_1 <- as.integer(car::recode(HAPIEE_W2$psy_dep_sc
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**: The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-1), medium (2-3), and high (4-10). Scores were calculate for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.  
+**Harmonization comment**: The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-1), medium (2-3), and high (4-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.  
 **R script**:    
 As responses were coded from 'yes' (1) to 'no,' (2) in HAPIEE, these were recoded to 0/1 response scale.  
 ```{r, echo=TRUE}
@@ -2182,7 +2182,7 @@ mho_HAPIEE_RU_2$psy_dep_tertile_2 <- as.integer(car::recode(HAPIEE_postal2009$ps
 2 |   High severity tertile of depressive symptoms    
 
 **Harmonization status**: complete      
-**Harmonization comment**: The CES-D 10 depression scores (0-30) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-3), medium (4-8), and high (9-30). Scores were calculate for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.    
+**Harmonization comment**: The CES-D 10 depression scores (0-30) were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-3), medium (4-8), and high (9-30). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.    
 *Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
 1. I felt depressed.  
 2. I felt that everything I did was an effort.  
@@ -2331,7 +2331,7 @@ mho_HAPIEE_RU_0$psy_dep_case_0 <- as.integer(ifelse(HAPIEE_W1$psy_dep_score_0 <=
 **Harmonization comment**: Participants with CES-10 scores of 4 or higher (out of a possible 10) were defined as cases as per the scale-specific threshold (Irwin, Artin and Oxman 1999).       
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$psy_dep_case_1 <- as.integer(ifelse(HAPIEE_W2$psy_dep_score_1 <= 3,0, ifelse(HAPIEE_W1$psy_dep_score_0 >= 4,1,NA)))
+mho_HAPIEE_RU_1$psy_dep_case_1 <- as.integer(ifelse(HAPIEE_W2$psy_dep_score_1 <= 3,0, ifelse(HAPIEE_W2$psy_dep_score_0 >= 4,1,NA)))
 
 ```
 
@@ -3679,7 +3679,7 @@ mho_HAPIEE_RU_3$psy_lonely_yn_3 <- car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete    
-**Harmonization comment**: The CASP-19 quality of life scores (0-57) in HAPIEE were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-19), medium (20-27), and high (28-57). Scores were calculate for participants with data on least 16 items (out of a possible 19). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 19. If participants missed 4 or more items, scores were not calculated and coded as missing. Items comprising the *Control, Autonomy, Satisfaction and Pleasure Scale, 19 item version*, are listed below.    
+**Harmonization comment**: The CASP-19 quality of life scores (0-57) in HAPIEE were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-19), medium (20-27), and high (28-57). Scores were calculated for participants with data on least 16 items (out of a possible 19). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 19. If participants missed 4 or more items, scores were not calculated and coded as missing. Items comprising the *Control, Autonomy, Satisfaction and Pleasure Scale, 19 item version*, are listed below.    
 1. My age prevents me from doing the things I would like to do.   
 2. I feel that what happens to me is out of my control.    
 3. I feel free to plan for the future.    
@@ -3765,7 +3765,7 @@ mho_HAPIEE_RU_0$psy_qol_tertile_0 <- as.integer(car::recode(HAPIEE_W1$psy_qol_sc
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The CASP-12 quality of life scores (0-36) in HAPIEE were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-9), medium (10-15), and high (16-36). Scores were calculate for participants with data on least 10 items (out of a possible 12). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 12. If participants missed 3 or more items, scores were not calculated and coded as missing.  
+**Harmonization comment**:  The CASP-12 quality of life scores (0-36) in HAPIEE were grouped into population-specific tertiles for the Russian HAPIEE cohort: low (0-9), medium (10-15), and high (16-36). Scores were calculated for participants with data on least 10 items (out of a possible 12). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 12. If participants missed 3 or more items, scores were not calculated and coded as missing.  
 **R script**: 
 As responses were coded from 'often' (1) to 'never' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
 ```{r, echo=TRUE}
