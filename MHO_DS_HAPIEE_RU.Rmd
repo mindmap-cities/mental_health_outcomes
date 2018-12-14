@@ -3699,7 +3699,7 @@ mho_HAPIEE_RU_3$psy_lonely_yn_3 <- car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=
 17. I feel satisfied with the way my life has turned out.  
 18. I feel that life is full of opportunities.  
 19. I feel that the future looks good for me.  
-**Responses ranged from 'often' (0), 'sometimes' (1), 'not often' (2), 'never' (3).      
+Responses ranged from 'often' (0), 'sometimes' (1), 'not often' (2), 'never' (3).      
    
 **R script**:  
 As responses were coded from 'often' (1) to 'never' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
