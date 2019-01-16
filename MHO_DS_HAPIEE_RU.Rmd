@@ -2331,7 +2331,7 @@ mho_HAPIEE_RU_0$psy_dep_case_0 <- as.integer(ifelse(HAPIEE_W1$psy_dep_score_0 <=
 **Harmonization comment**: Participants with CES-10 scores of 4 or higher (out of a possible 10) were defined as cases as per the scale-specific threshold (Irwin, Artin and Oxman 1999).       
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$psy_dep_case_1 <- as.integer(ifelse(HAPIEE_W2$psy_dep_score_1 <= 3,0, ifelse(HAPIEE_W2$psy_dep_score_0 >= 4,1,NA)))
+mho_HAPIEE_RU_1$psy_dep_case_1 <- as.integer(ifelse(HAPIEE_W2$psy_dep_score_1 <= 3,0, ifelse(HAPIEE_W2$psy_dep_score_1 >= 4,1,NA)))
 
 ```
 
@@ -2471,7 +2471,7 @@ mho_HAPIEE_RU_0$psy_dep_yn_0 <- as.integer(car::recode(HAPIEE_W1$p54r_i, "0:1=0;
 **Harmonization comment**: Based on a yes/no item response to "I felt sad" from the CES-D scale, 10-item version. Participants who responded 'yes' were defined as feeling sad, downhearted or blue.  
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$psy_dep_yn_1 <- HAPIEE_W2$w2p54r_i 
+mho_HAPIEE_RU_1$psy_dep_yn_1 <- as.integer(HAPIEE_W2$w2p54r_i)
 
 ```
 
@@ -2491,7 +2491,7 @@ mho_HAPIEE_RU_1$psy_dep_yn_1 <- HAPIEE_W2$w2p54r_i
 **Harmonization comment**: Based on a yes/no item response to "I felt sad" from the CES-D scale, 10-item version. Participants who responded 'yes' were defined as feeling sad, downhearted or blue.         
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_2$psy_dep_yn_2 <- HAPIEE_postal2009$h2p54r_i 
+mho_HAPIEE_RU_2$psy_dep_yn_2 <- as.integer(HAPIEE_postal2009$h2p54r_i)
 
 ```
 
@@ -2740,7 +2740,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 **Harmonization comment**: Based on a 4-point ('often', 'sometimes', 'not often', 'never') item response to "I feel satisfied with the way my life has turned out" from the CASP-19 scale. The lowest quartile comprised responses ranging from 'not often' to 'never.'            
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_0$psy_life_sat_low_0 <- car::recode(HAPIEE_W1$r9q, "1:2=0; 3:4=1")
+mho_HAPIEE_RU_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2=0; 3:4=1"))
 
 ```
 
@@ -3168,7 +3168,7 @@ mho_HAPIEE_RU_0$psy_life_sat_low_0 <- car::recode(HAPIEE_W1$r9q, "1:2=0; 3:4=1")
 **Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 20 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.         
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_0$psy_lonely_yn_0 <- car::recode(HAPIEE_W1$p54n_i, "0:1=0; 2:3=1")
+mho_HAPIEE_RU_0$psy_lonely_yn_0 <- as.integer(car::recode(HAPIEE_W1$p54n_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -3188,7 +3188,7 @@ mho_HAPIEE_RU_0$psy_lonely_yn_0 <- car::recode(HAPIEE_W1$p54n_i, "0:1=0; 2:3=1")
 **Harmonization comment**: Based on a yes/no item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'yes' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$psy_lonely_yn_1 <- HAPIEE_W2$w2p54n_i   
+mho_HAPIEE_RU_1$psy_lonely_yn_1 <- as.integer(HAPIEE_W2$w2p54n_i)
 
 ```
 
@@ -3208,7 +3208,7 @@ mho_HAPIEE_RU_1$psy_lonely_yn_1 <- HAPIEE_W2$w2p54n_i
 **Harmonization comment**: Based on a yes/no item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'yes' were defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_2$psy_lonely_yn_2 <- HAPIEE_postal2009$h2p54n_i
+mho_HAPIEE_RU_2$psy_lonely_yn_2 <- as.integer(HAPIEE_postal2009$h2p54n_i)
 
 ```
 
@@ -3228,7 +3228,7 @@ mho_HAPIEE_RU_2$psy_lonely_yn_2 <- HAPIEE_postal2009$h2p54n_i
 **Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_3$psy_lonely_yn_3 <- car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=0; 2:3=1")
+mho_HAPIEE_RU_3$psy_lonely_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=0; 2:3=1"))
 
 ```
 
