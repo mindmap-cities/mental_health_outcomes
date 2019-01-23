@@ -46,7 +46,7 @@ HAPIEE_postal2015 <- subset(HAPIEE_postal2015, HAPIEE_postal2015$country==4)
 mho_HAPIEE_LT_0 <- data.frame(id = HAPIEE_W2$id)
 mho_HAPIEE_LT_1 <- data.frame(id = HAPIEE_postal2009$id)
 mho_HAPIEE_LT_2 <- data.frame(id = HAPIEE_postal2012$id)
-mho_HAPIEE_LT_4 <- data.frame(id = HAPIEE_postal2015$id)
+mho_HAPIEE_LT_3 <- data.frame(id = HAPIEE_postal2015$id)
 
 # When you are done with your work, logout of Opal server
 opal.logout(erasmus_opal)
@@ -2139,28 +2139,7 @@ mho_HAPIEE_LT_2$psy_dep_tertile_2 <- as.integer(car::recode(HAPIEE_postal2012$ps
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**: impossible      
-**Harmonization comment**:  
-**R script**:  
-```{r, echo=TRUE}
-#This is where the R-script will be written
-
-```
-
-### **Variable label**:  Depressive symptom severity tertiles    
-**Variable name**:  psy_dep_tertile_4  
-**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
-**Value type**:  integer    
-**Variable unit**:  N/A  
-**Category coding**:  
-
-**Code** | **Category Label**  
-------------- | -------------  
-0 |   Low severity tertile of depressive symptoms
-1 |   Medium severity tertile of depressive symptoms
-2 |   High severity tertile of depressive symptoms  
-
-**Harmonization status**: complete    
+**Harmonization status**: complete        
 **Harmonization comment**: The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Lithuanian HAPIEE cohort: low (0-1), medium (2-3), and high (4-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.      
 **R script**:    
 As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.    
@@ -2185,17 +2164,38 @@ Depression symptom scores and tertiles were then calculated as follows.
 ```{r, echo=TRUE}
 HAPIEE_postal2015$cesdnmiss <- apply(HAPIEE_postal2015[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-HAPIEE_postal2015$psy_dep_score_4 <- apply(HAPIEE_postal2015[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+HAPIEE_postal2015$psy_dep_score_3 <- apply(HAPIEE_postal2015[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
-HAPIEE_postal2015$psy_dep_score_4[which(HAPIEE_postal2015$cesdnmiss == 2)] <- (HAPIEE_postal2015$psy_dep_score_4[which(HAPIEE_postal2015$cesdnmiss == 2)]/8)*10 
-HAPIEE_postal2015$psy_dep_score_4[which(HAPIEE_postal2015$cesdnmiss == 1)] <- (HAPIEE_postal2015$psy_dep_score_4[which(HAPIEE_postal2015$cesdnmiss == 1)]/9)*10
+HAPIEE_postal2015$psy_dep_score_3[which(HAPIEE_postal2015$cesdnmiss == 2)] <- (HAPIEE_postal2015$psy_dep_score_3[which(HAPIEE_postal2015$cesdnmiss == 2)]/8)*10 
+HAPIEE_postal2015$psy_dep_score_3[which(HAPIEE_postal2015$cesdnmiss == 1)] <- (HAPIEE_postal2015$psy_dep_score_3[which(HAPIEE_postal2015$cesdnmiss == 1)]/9)*10
 
-HAPIEE_postal2015$psy_dep_score_4[which(HAPIEE_postal2015$cesdnmiss >= 3)] <- NA_integer_
+HAPIEE_postal2015$psy_dep_score_3[which(HAPIEE_postal2015$cesdnmiss >= 3)] <- NA_integer_
 
-HAPIEE_postal2015psy_dep_score_4 <- round(HAPIEE_postal2015$psy_dep_score_4)  
+HAPIEE_postal2015psy_dep_score_3 <- round(HAPIEE_postal2015$psy_dep_score_3)  
 
-mho_HAPIEE_LT_4$psy_dep_tertile_4 <- as.integer(car::recode(HAPIEE_postal2015$psy_dep_score_4, "0:1=0; 2:3=1; 4:10=2"))
-mho_HAPIEE_LT_4$psy_dep_tertile_4 <- as.integer(car::recode(mho_HAPIEE_LT_4$psy_dep_tertile_4, "3=1"))
+mho_HAPIEE_LT_3$psy_dep_tertile_3 <- as.integer(car::recode(HAPIEE_postal2015$psy_dep_score_3, "0:1=0; 2:3=1; 4:10=2"))
+mho_HAPIEE_LT_3$psy_dep_tertile_3 <- as.integer(car::recode(mho_HAPIEE_LT_3$psy_dep_tertile_3, "3=1"))
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles    
+**Variable name**:  psy_dep_tertile_4  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**: impossible     
+**Harmonization comment**:  
+**R script**:      
+```{r, echo=TRUE}
+#This is where the R-script will be written
 
 ```
 
@@ -2313,11 +2313,11 @@ mho_HAPIEE_LT_2$psy_dep_case_2 <- as.integer(ifelse(HAPIEE_postal2012$psy_dep_sc
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**: impossible   
-**Harmonization comment**:      
+**Harmonization status**: complete    
+**Harmonization comment**: Participants with CES-D 10 scores of 4 or higher (out of a possible 10) were defined as cases as per the scale-specific threshold (Irwin, Artin and Oxman 1999).         
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_HAPIEE_LT_3$psy_dep_case_3 <- as.integer(ifelse(HAPIEE_postal2015$psy_dep_score_3 <= 3,0, ifelse(HAPIEE_postal2015$psy_dep_score_3 >= 4,1,NA)))
 
 ```
 
@@ -2333,11 +2333,11 @@ mho_HAPIEE_LT_2$psy_dep_case_2 <- as.integer(ifelse(HAPIEE_postal2012$psy_dep_sc
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)     
 
-**Harmonization status**: complete    
-**Harmonization comment**: Participants with CES-D 10 scores of 4 or higher (out of a possible 10) were defined as cases as per the scale-specific threshold (Irwin, Artin and Oxman 1999).       
+**Harmonization status**: impossible           
+**Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_LT_4$psy_dep_case_4 <- as.integer(ifelse(HAPIEE_postal2015$psy_dep_score_4 <= 3,0, ifelse(HAPIEE_postal2015$psy_dep_score_4 >= 4,1,NA)))
+#This is where the R-script will be written
 
 ```
 
@@ -2452,11 +2452,11 @@ mho_HAPIEE_LT_2$psy_dep_yn_2 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**: impossible      
-**Harmonization comment**:                
+**Harmonization status**: complete          
+**Harmonization comment**: Based on a yes/no item response to "I felt sad" from the CES-D scale, 10-item version. Participants who responded 'yes' were defined as feeling sad, downhearted or blue.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_HAPIEE_LT_3$psy_dep_yn_3 <- as.integer(HAPIEE_postal2015$h5p54r_i)
 
 ```
 
@@ -2472,11 +2472,11 @@ mho_HAPIEE_LT_2$psy_dep_yn_2 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**: complete    
-**Harmonization comment**: Based on a yes/no item response to "I felt sad" from the CES-D scale, 10-item version. Participants who responded 'yes' were defined as feeling sad, downhearted or blue.      
+**Harmonization status**: impossible       
+**Harmonization comment**:                
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_LT_4$psy_dep_yn_4 <- as.integer(HAPIEE_postal2015$h5p54r_i)
+#This is where the R-script will be written
 
 ```
 
@@ -3170,11 +3170,11 @@ mho_HAPIEE_LT_2$psy_lonely_yn_2 <- as.integer(car::recode(HAPIEE_postal2012$h3p5
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible      
-**Harmonization comment**:        
+**Harmonization status**: complete    
+**Harmonization comment**: Based on a yes/no item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'yes' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_HAPIEE_LT_3$psy_lonely_yn_3 <- as.integer(HAPIEE_postal2015$h5p54n_i)
 
 ```
 
@@ -3190,11 +3190,11 @@ mho_HAPIEE_LT_2$psy_lonely_yn_2 <- as.integer(car::recode(HAPIEE_postal2012$h3p5
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: complete    
-**Harmonization comment**: Based on a yes/no item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'yes' were defined as feeling lonely.     
+**Harmonization status**: impossible          
+**Harmonization comment**:          
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_LT_4$psy_lonely_yn_4 <- as.integer(HAPIEE_postal2015$h5p54n_i)
+#This is where the R-script will be written
 
 ```
 
