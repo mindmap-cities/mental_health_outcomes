@@ -353,11 +353,11 @@ mho_HUNT_1$psy_anxious_yn_1 <- as.integer(ifelse(HUNT2$FeelAnxiL2W_NT2BLQ1 >= 3,
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
-**Harmonization comment**:   
+**Harmonization status**: complete      
+**Harmonization comment**: Based on a 4-point (‘no’, ‘a little’, ‘a good amount’, ‘very much’) item response to “Have you, in the course of the last two weeks, felt troubled by anxiety?” from the CONOR-MHI anxiety and depression scale. Participants who responded ‘very much’ or ‘a good amount’ were defined as feeling anxious or nervous.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,1, ifelse(HUNT3$FeelNervL2W_NT3BLQ1 <= 2,0,NA)))
 
 ```
 
@@ -1951,7 +1951,7 @@ mho_HUNT_1$psy_anxious_yn_1 <- as.integer(ifelse(HUNT2$FeelAnxiL2W_NT2BLQ1 >= 3,
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete      
-**Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study. Items comprising the *Hospital Anxiety and Depression - Depression Subscale (HADS-D)* are listed below:       
+**Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-4), and high (5-21). Scores were used as provided by the HUNT study. Items comprising the *Hospital Anxiety and Depression - Depression Subscale (HADS-D)* are listed below:       
 1. I still enjoy the things I used to enjoy.    
 2. I can laugh and see the funny side of things.      
 3. I feel cheerful.       
@@ -1981,7 +1981,7 @@ mho_HUNT_1$psy_dep_tertile_1 <- as.integer(ifelse(HUNT2$HADSDepr_NT2BLQ1 <= 1,0,
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-3), and high (3-21). Scores were used as provided by the HUNT study.   
+**Harmonization comment**:  The HADS-D depression scores (0-21) were grouped into study-specific tertiles defined as low (0-1), medium (2-4), and high (5-21). Scores were used as provided by the HUNT study.   
 **R script**:  
 ```{r, echo=TRUE}
 mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 2,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 3,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 == 4,1, ifelse(HUNT3$HADSDepr_NT3BLQ2 >= 5,2,NA))))))
@@ -2264,11 +2264,11 @@ mho_HUNT_1$psy_dep_yn_1 <- as.integer(ifelse(HUNT2$FeelMoodLW_NT2BLQ2 <= 3,1, if
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**: impossible  
-**Harmonization comment**:   
+**Harmonization status**: complete      
+**Harmonization comment**: Based on a 4-point ('no', 'a little', 'a good amount', 'very much') item response to "Have you, in the course of the last two weeks, felt sad or depressed?" from the CONOR-MHI anxiety and depression scale. Participants who responded 'very much' or 'a good amount' were defined as feeling sad, downhearted or blue.             
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, ifelse(HUNT2$FeelMoodLW_NT2BLQ2 >= 3,1,NA)))
 
 ```
 
@@ -2371,7 +2371,7 @@ mho_HUNT_1$psy_dep_yn_1 <- as.integer(ifelse(HUNT2$FeelMoodLW_NT2BLQ2 <= 3,1, if
 **Harmonization comment**:  Based on a 7-point ('very satisfied', 'satisfied', 'somewhat satisfied', 'neither satisfied nor dissatisfied', 'somewhat dissatisfied', 'dissatisfied', 'very dissatisfied') item response to "Thinking about your life at the moment, Would you say that by and large are satisfied with life, or are you mostly dissatisfied?" Response were grouped into study-specific tertiles defined as high ('very satisfied' or 'satisfied'), medium ('somewhat satisfied'), and low ('neither satisfied nor dissatisfied' to 'very dissatisfied').  
 **R script**:  
 ```{r, echo=TRUE}
-mho_HUNT_0$psy_life_sat_tertile_0 <- as.integer(ifelse(HUNT1$SatLif_NT1BLQ2 <= 2,0, ifelse(HUNT1$SatLif_NT1BLQ2 == 3,1, ifelse(HUNT1$SatLif_NT1BLQ1 >= 4,2,NA))))
+mho_HUNT_0$psy_life_sat_tertile_0 <- as.integer(ifelse(HUNT1$SatLif_NT1BLQ1 <= 2,0, ifelse(HUNT1$SatLif_NT1BLQ1 == 3,1, ifelse(HUNT1$SatLif_NT1BLQ1 >= 4,2,NA))))
 
 ```
 
@@ -3355,7 +3355,7 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **R script**:  
 ```{r, echo=TRUE}
 HUNT1$psy_distress_pcrank_0 <- percent_rank(scale(HUNT1$psy_distress_score_0, center = TRUE, scale = TRUE))
-mho_HUNT_0$psy_distress_case_0 <- as.integer(ifelse(HUNT1$psy_distress_pcrank_0 >= 0.88,1, ifelse(HUNT1$psy_distress_pcrank_0 <= 0.87,0, NA)))
+mho_HUNT_0$psy_distress_case_0 <- as.integer(ifelse(HUNT1$psy_distress_pcrank_0 >= 0.88,1, ifelse(HUNT1$psy_distress_pcrank_0 < 0.88,0, NA)))
 
 ```
 
