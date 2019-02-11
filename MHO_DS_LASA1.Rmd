@@ -104,9 +104,9 @@ LASA1B$banxiet4_i <- car::recode(LASA1B$banxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2
 ```
 Anxiety scores were then calculated as follows.  
 ```{r, echo=TRUE}
-LASA1B$anxiety_nmiss <- apply(LASA1B[,9:15], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+LASA1B$anxiety_nmiss <- apply(LASA1B[,73:79], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
-mho_LASA1_0$psy_anxiety_score_0 <- apply(LASA1B[,9:15], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+mho_LASA1_0$psy_anxiety_score_0 <- apply(LASA1B[,73:79], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
 
 mho_LASA1_0$psy_anxiety_score_0[which(LASA1B$anxiety_nmiss == 1)] <- (mho_LASA1_0$psy_anxiety_score_0[which(LASA1B$anxiety_nmiss == 1)]/6)*7  
 
@@ -687,7 +687,7 @@ mho_LASA1_6$psy_anxiety_case_6 <- as.integer(ifelse(mho_LASA1_6$psy_anxiety_scor
 ```{r, echo=TRUE}
 LASA1B$bmwtt1_i <- as.integer(car::recode(LASA1B$bmwtt1, "-1=NA"))
 
-mho_LASA1_0$cog_imm_rscale_0 <- rescale(LASA1B$bmwtt1_i, to = c(0,10), from = range(LASA1B$bmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_0$cog_imm_rscale_0 <- rescale(LASA1B$bmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_0$cog_imm_rscale_0 <- as.integer(round(mho_LASA1_0$cog_imm_rscale_0))
 
@@ -706,7 +706,7 @@ mho_LASA1_0$cog_imm_rscale_0 <- as.integer(round(mho_LASA1_0$cog_imm_rscale_0))
 ```{r, echo=TRUE}
 LASA1C$cmwtt1_i <- as.integer(car::recode(LASA1C$cmwtt1, "-4=NA; -1=NA"))
 
-mho_LASA1_1$cog_imm_rscale_1 <- rescale(LASA1C$cmwtt1_i, to = c(0,10), from = range(LASA1C$cmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_1$cog_imm_rscale_1 <- rescale(LASA1C$cmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_1$cog_imm_rscale_1 <- as.integer(round(mho_LASA1_1$cog_imm_rscale_1))
 
@@ -725,7 +725,7 @@ mho_LASA1_1$cog_imm_rscale_1 <- as.integer(round(mho_LASA1_1$cog_imm_rscale_1))
 ```{r, echo=TRUE}
 LASA1D$dmwtt1_i <- as.integer(car::recode(LASA1D$dmwtt1, "-2=NA; -1=NA"))
 
-mho_LASA1_2$cog_imm_rscale_2 <- rescale(LASA1D$dmwtt1_i, to = c(0,10), from = range(LASA1D$dmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_2$cog_imm_rscale_2 <- rescale(LASA1D$dmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_2$cog_imm_rscale_2 <- as.integer(round(mho_LASA1_2$cog_imm_rscale_2))
 
@@ -744,7 +744,7 @@ mho_LASA1_2$cog_imm_rscale_2 <- as.integer(round(mho_LASA1_2$cog_imm_rscale_2))
 ```{r, echo=TRUE}
 LASA1E$emwtt1_i <- as.integer(car::recode(LASA1E$emwtt1, "-2=NA"))
 
-mho_LASA1_3$cog_imm_rscale_3 <- rescale(LASA1E$emwtt1_i, to = c(0,10), from = range(LASA1E$emwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_3$cog_imm_rscale_3 <- rescale(LASA1E$emwtt1_i, to = c(0,10), from = c(0,15))  
 
 mho_LASA1_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA1_3$cog_imm_rscale_3))
 
@@ -763,7 +763,7 @@ mho_LASA1_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA1_3$cog_imm_rscale_3))
 ```{r, echo=TRUE}
 LASA1F$fmwtt1_i <- as.integer(car::recode(LASA1F$fmwtt1, "-2=NA"))
 
-mho_LASA1_4$cog_imm_rscale_4 <- rescale(LASA1F$fmwtt1_i, to = c(0,10), from = range(LASA1F$fmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_4$cog_imm_rscale_4 <- rescale(LASA1F$fmwtt1_i, to = c(0,10), from = c(0,15))  
 
 mho_LASA1_4$cog_imm_rscale_4 <- as.integer(round(mho_LASA1_4$cog_imm_rscale_4))
 
@@ -782,7 +782,7 @@ mho_LASA1_4$cog_imm_rscale_4 <- as.integer(round(mho_LASA1_4$cog_imm_rscale_4))
 ```{r, echo=TRUE}
 LASA1G$gmwtt1_i <- as.integer(car::recode(LASA1G$gmwtt1, "-2=NA"))
 
-mho_LASA1_5$cog_imm_rscale_5 <- rescale(LASA1G$gmwtt1_i, to = c(0,10), from = range(LASA1G$gmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_5$cog_imm_rscale_5 <- rescale(LASA1G$gmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_5$cog_imm_rscale_5 <- as.integer(round(mho_LASA1_5$cog_imm_rscale_5))
 
@@ -801,7 +801,7 @@ mho_LASA1_5$cog_imm_rscale_5 <- as.integer(round(mho_LASA1_5$cog_imm_rscale_5))
 ```{r, echo=TRUE}
 LASA1H$HMWTT1_i <- as.integer(car::recode(LASA1H$HMWTT1, "-2=NA"))
 
-mho_LASA1_6$cog_imm_rscale_6 <- rescale(LASA1H$HMWTT1_i, to = c(0,10), from = range(LASA1H$HMWTT1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_6$cog_imm_rscale_6 <- rescale(LASA1H$HMWTT1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_6$cog_imm_rscale_6 <- as.integer(round(mho_LASA1_6$cog_imm_rscale_6))
 
@@ -974,7 +974,7 @@ mho_LASA1_6$cog_imm_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_imm_low_6, "
 ```{r, echo=TRUE}
 LASA1B$bmwtdr_i <- as.integer(car::recode(LASA1B$bmwtdr, "-1=NA"))
 
-mho_LASA1_0$cog_del_rscale_0 <- rescale(LASA1B$bmwtdr_i, to = c(0,10), from = range(LASA1B$bmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_0$cog_del_rscale_0 <- rescale(LASA1B$bmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_0$cog_del_rscale_0 <- as.integer(round(mho_LASA1_0$cog_del_rscale_0))
 
@@ -993,7 +993,7 @@ mho_LASA1_0$cog_del_rscale_0 <- as.integer(round(mho_LASA1_0$cog_del_rscale_0))
 ```{r, echo=TRUE}
 LASA1C$cmwtdr_i <- as.integer(car::recode(LASA1C$cmwtdr, "-4=NA; -1=NA"))
 
-mho_LASA1_1$cog_del_rscale_1 <- rescale(LASA1C$cmwtdr_i, to = c(0,10), from = range(LASA1C$cmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_1$cog_del_rscale_1 <- rescale(LASA1C$cmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_1$cog_del_rscale_1 <- as.integer(round(mho_LASA1_1$cog_del_rscale_1))
 
@@ -1012,7 +1012,7 @@ mho_LASA1_1$cog_del_rscale_1 <- as.integer(round(mho_LASA1_1$cog_del_rscale_1))
 ```{r, echo=TRUE}
 LASA1D$dmwtdr_i <- as.integer(car::recode(LASA1D$dmwtdr, "-2=NA"))
 
-mho_LASA1_2$cog_del_rscale_2 <- rescale(LASA1D$dmwtdr_i, to = c(0,10), from = range(LASA1C$cmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_2$cog_del_rscale_2 <- rescale(LASA1D$dmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_2$cog_del_rscale_2 <- as.integer(round(mho_LASA1_2$cog_del_rscale_2))
 
@@ -1031,7 +1031,7 @@ mho_LASA1_2$cog_del_rscale_2 <- as.integer(round(mho_LASA1_2$cog_del_rscale_2))
 ```{r, echo=TRUE}
 LASA1E$emwtdr_i <- as.integer(car::recode(LASA1E$emwtdr, "-2=NA"))
 
-mho_LASA1_3$cog_del_rscale_3 <- rescale(LASA1E$emwtdr_i, to = c(0,10), from = range(LASA1E$emwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_3$cog_del_rscale_3 <- rescale(LASA1E$emwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_3$cog_del_rscale_3 <- as.integer(round(mho_LASA1_3$cog_del_rscale_3))
 
@@ -1050,7 +1050,7 @@ mho_LASA1_3$cog_del_rscale_3 <- as.integer(round(mho_LASA1_3$cog_del_rscale_3))
 ```{r, echo=TRUE}
 LASA1F$fmwtdr_i <- as.integer(car::recode(LASA1F$fmwtdr, "-2=NA"))
 
-mho_LASA1_4$cog_del_rscale_4 <- rescale(LASA1F$fmwtdr_i, to = c(0,10), from = range(LASA1F$fmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_4$cog_del_rscale_4 <- rescale(LASA1F$fmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_4$cog_del_rscale_4 <- as.integer(round(mho_LASA1_4$cog_del_rscale_4))
 
@@ -1069,7 +1069,7 @@ mho_LASA1_4$cog_del_rscale_4 <- as.integer(round(mho_LASA1_4$cog_del_rscale_4))
 ```{r, echo=TRUE}
 LASA1G$gmwtdr_i <- as.integer(car::recode(LASA1G$gmwtdr, "-2=NA"))
 
-mho_LASA1_5$cog_del_rscale_5 <- rescale(LASA1G$gmwtdr_i, to = c(0,10), from = range(LASA1G$gmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_5$cog_del_rscale_5 <- rescale(LASA1G$gmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_5$cog_del_rscale_5 <- as.integer(round(mho_LASA1_5$cog_del_rscale_5))
 
@@ -1088,7 +1088,7 @@ mho_LASA1_5$cog_del_rscale_5 <- as.integer(round(mho_LASA1_5$cog_del_rscale_5))
 ```{r, echo=TRUE}
 LASA1H$HMWTDR_i <- as.integer(car::recode(LASA1H$HMWTDR, "-2=NA"))
 
-mho_LASA1_6$cog_del_rscale_6 <- rescale(LASA1H$HMWTDR_i, to = c(0,10), from = range(LASA1H$HMWTDR_i, na.rm = TRUE, finite = TRUE))
+mho_LASA1_6$cog_del_rscale_6 <- rescale(LASA1H$HMWTDR_i, to = c(0,10), from = c(0,15))
 
 mho_LASA1_6$cog_del_rscale_6 <- as.integer(round(mho_LASA1_6$cog_del_rscale_6))
 
@@ -1618,10 +1618,10 @@ mho_LASA1_6$cog_proc_std_6 <- scale(LASA1H$HMVAR47_i)
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_0$cog_proc_slow_0 <- as.integer(dicho(mho_LASA1_0$cog_proc_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_0$cog_proc_slow_0 <- as.integer(dicho(LASA1B$bmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA1_0$cog_proc_slow_0 <- as.integer(car::recode(mho_LASA1_0$cog_proc_slow_0, "2=0"))
 
@@ -1640,10 +1640,10 @@ mho_LASA1_0$cog_proc_slow_0 <- as.integer(car::recode(mho_LASA1_0$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_1$cog_proc_slow_1 <- as.integer(dicho(mho_LASA1_1$cog_proc_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_1$cog_proc_slow_1 <- as.integer(dicho(LASA1C$cmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA1_1$cog_proc_slow_1 <- as.integer(car::recode(mho_LASA1_1$cog_proc_slow_1, "2=0"))
 
@@ -1662,10 +1662,10 @@ mho_LASA1_1$cog_proc_slow_1 <- as.integer(car::recode(mho_LASA1_1$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_2$cog_proc_slow_2 <- as.integer(dicho(mho_LASA1_2$cog_proc_std_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_2$cog_proc_slow_2 <- as.integer(dicho(LASA1D$dmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA1_2$cog_proc_slow_2 <- as.integer(car::recode(mho_LASA1_2$cog_proc_slow_2, "2=0"))
 
@@ -1684,10 +1684,10 @@ mho_LASA1_2$cog_proc_slow_2 <- as.integer(car::recode(mho_LASA1_2$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_3$cog_proc_slow_3 <- as.integer(dicho(mho_LASA1_3$cog_proc_std_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_3$cog_proc_slow_3 <- as.integer(dicho(LASA1E$emvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))  
 
 mho_LASA1_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA1_3$cog_proc_slow_3, "2=0"))
 
@@ -1706,10 +1706,10 @@ mho_LASA1_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA1_3$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.     
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.     
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_4$cog_proc_slow_4 <- as.integer(dicho(mho_LASA1_4$cog_proc_std_4, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_4$cog_proc_slow_4 <- as.integer(dicho(LASA1F$fmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))  
 
 mho_LASA1_4$cog_proc_slow_4 <- as.integer(car::recode(mho_LASA1_4$cog_proc_slow_4, "2=0"))
 
@@ -1728,10 +1728,10 @@ mho_LASA1_4$cog_proc_slow_4 <- as.integer(car::recode(mho_LASA1_4$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_5$cog_proc_slow_5 <- as.integer(dicho(mho_LASA1_5$cog_proc_std_5, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_5$cog_proc_slow_5 <- as.integer(dicho(LASA1G$gmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA1_5$cog_proc_slow_5 <- as.integer(car::recode(mho_LASA1_5$cog_proc_slow_5, "2=0"))
 
@@ -1750,10 +1750,10 @@ mho_LASA1_5$cog_proc_slow_5 <- as.integer(car::recode(mho_LASA1_5$cog_proc_slow_
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
+**Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA1_6$cog_proc_slow_6 <- as.integer(dicho(mho_LASA1_6$cog_proc_std_6, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA1_6$cog_proc_slow_6 <- as.integer(dicho(LASA1H$HMVAR47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA1_6$cog_proc_slow_6 <- as.integer(car::recode(mho_LASA1_6$cog_proc_slow_6, "2=0"))
 
@@ -4359,7 +4359,7 @@ mho_LASA1_6$psy_distress_tertile_6 <- as.integer(ifelse(LASA1H$psy_distress_scor
 ```{r, echo=TRUE}
 LASA1D$psy_distress_pct_2 <- rescale(LASA1D$psy_distress_score_2)*100
 
-mho_LASA1_2$psy_distress_case_2 <- as.integer(ifelse(LASA1D$psy_distress_pct_2 >= 50,1, ifelse(LASA1D$psy_distress_pct_2 <= 49,0,NA)))
+mho_LASA1_2$psy_distress_case_2 <- as.integer(ifelse(LASA1D$psy_distress_pct_2 >= 50,1, ifelse(LASA1D$psy_distress_pct_2 < 50,0,NA)))
 
 ```
 
@@ -4381,7 +4381,7 @@ mho_LASA1_2$psy_distress_case_2 <- as.integer(ifelse(LASA1D$psy_distress_pct_2 >
 ```{r, echo=TRUE}
 LASA1E$psy_distress_pct_3 <- rescale(LASA1E$psy_distress_score_3)*100
 
-mho_LASA1_3$psy_distress_case_3 <- as.integer(ifelse(LASA1E$psy_distress_pct_3 >= 50,1, ifelse(LASA1E$psy_distress_pct_3 <= 49,0,NA)))
+mho_LASA1_3$psy_distress_case_3 <- as.integer(ifelse(LASA1E$psy_distress_pct_3 >= 50,1, ifelse(LASA1E$psy_distress_pct_3 < 50,0,NA)))
 
 ```
 
@@ -4403,7 +4403,7 @@ mho_LASA1_3$psy_distress_case_3 <- as.integer(ifelse(LASA1E$psy_distress_pct_3 >
 ```{r, echo=TRUE}
 LASA1F$psy_distress_pct_4 <- rescale(LASA1F$psy_distress_score_4)*100
 
-mho_LASA1_4$psy_distress_case_4 <- as.integer(ifelse(LASA1F$psy_distress_pct_4 >= 50,1, ifelse(LASA1F$psy_distress_pct_4 <= 49,0,NA)))
+mho_LASA1_4$psy_distress_case_4 <- as.integer(ifelse(LASA1F$psy_distress_pct_4 >= 50,1, ifelse(LASA1F$psy_distress_pct_4 < 50,0,NA)))
 
 ```
 
@@ -4425,7 +4425,7 @@ mho_LASA1_4$psy_distress_case_4 <- as.integer(ifelse(LASA1F$psy_distress_pct_4 >
 ```{r, echo=TRUE}
 LASA1G$psy_distress_pct_5 <- rescale(LASA1G$psy_distress_score_5)*100
 
-mho_LASA1_5$psy_distress_case_5 <- as.integer(ifelse(LASA1G$psy_distress_pct_5 >= 50,1, ifelse(LASA1G$psy_distress_pct_5 <= 49,0,NA)))
+mho_LASA1_5$psy_distress_case_5 <- as.integer(ifelse(LASA1G$psy_distress_pct_5 >= 50,1, ifelse(LASA1G$psy_distress_pct_5 < 50,0,NA)))
 
 ```
 
@@ -4447,7 +4447,7 @@ mho_LASA1_5$psy_distress_case_5 <- as.integer(ifelse(LASA1G$psy_distress_pct_5 >
 ```{r, echo=TRUE}
 LASA1H$psy_distress_pct_6 <- rescale(LASA1H$psy_distress_score_6)*100
 
-mho_LASA1_6$psy_distress_case_6 <- as.integer(ifelse(LASA1H$psy_distress_pct_6 >= 50,1, ifelse(LASA1H$psy_distress_pct_6 <= 49,0,NA)))
+mho_LASA1_6$psy_distress_case_6 <- as.integer(ifelse(LASA1H$psy_distress_pct_6 >= 50,1, ifelse(LASA1H$psy_distress_pct_6 < 50,0,NA)))
 
 ```
 
@@ -4547,7 +4547,7 @@ Responses ranged from 'strongly agree' (1), 'agree' (2), 'neither agree nor disa
 
 **R script**:  
 ```{r, echo=TRUE}
-LASA1E$eqvall_i <- recode(LASA1E$eqvall, "-2=NA")
+LASA1E$eqvall_i <- car::recode(LASA1E$eqvall, "-2=NA")
 
 mho_LASA1_3$psy_qol_tertile_3 <- as.integer(car::recode(LASA1E$eqvall_i, "31:60=0; 26:30=1; 12:25=2"))
 
@@ -4570,7 +4570,7 @@ mho_LASA1_3$psy_qol_tertile_3 <- as.integer(car::recode(LASA1E$eqvall_i, "31:60=
 **Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into tertiles defined as high (31-60), medium (26-30), and low (12-25), which were population-specific for the 1st LASA cohort. Scores were used as provided by the LASA study.     
 **R script**:  
 ```{r, echo=TRUE}
-LASA1F$fqvall_i <- recode(LASA1F$fqvall, "-2=NA")
+LASA1F$fqvall_i <- car::recode(LASA1F$fqvall, "-2=NA")
 
 mho_LASA1_4$psy_qol_tertile_4 <- as.integer(car::recode(LASA1F$fqvall_i, "31:60=0; 26:30=1; 12:25=2"))
 
