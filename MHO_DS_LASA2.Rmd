@@ -545,9 +545,9 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:  Immediate word recall of 15 words from Rey's Auditory Verbal Learning Test was performed in LASA. As three trials of immediate word recall were assessed, data from the first trial were used. The number of words immediately recalled were rescaled from 0-15 to 0-10 in LASA.             
 **R script**:  
 ```{r, echo=TRUE}
-LASA2B$bmwtt1_i <- as.integer(car::recode(LASA2B$bmwtt1, "-1=NA"))
+LASA2B$bmwtt1_i <- as.integer(car::recode(LASA2B$bmwtt1, "-2=NA -1=NA"))
 
-mho_LASA2_0$cog_imm_rscale_0 <- rescale(LASA2B$bmwtt1_i, to = c(0,10), from = range(LASA2B$bmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_0$cog_imm_rscale_0 <- rescale(LASA2B$bmwtt1_i, to = c(0,10), c(0,15))
 
 mho_LASA2_0$cog_imm_rscale_0 <- as.integer(round(mho_LASA2_0$cog_imm_rscale_0))
 
@@ -566,7 +566,7 @@ mho_LASA2_0$cog_imm_rscale_0 <- as.integer(round(mho_LASA2_0$cog_imm_rscale_0))
 ```{r, echo=TRUE}
 LASA2F$fmwtt1_i <- as.integer(car::recode(LASA2F$fmwtt1, "-2=NA; -1=NA"))
 
-mho_LASA2_1$cog_imm_rscale_1 <- rescale(LASA2F$fmwtt1_i, to = c(0,10), from = range(LASA2F$fmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_1$cog_imm_rscale_1 <- rescale(LASA2F$fmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA2_1$cog_imm_rscale_1 <- as.integer(round(mho_LASA2_1$cog_imm_rscale_1))
 
@@ -585,7 +585,7 @@ mho_LASA2_1$cog_imm_rscale_1 <- as.integer(round(mho_LASA2_1$cog_imm_rscale_1))
 ```{r, echo=TRUE}
 LASA2G$gmwtt1_i <- as.integer(car::recode(LASA2G$gmwtt1, "-2=NA; -1=NA"))
 
-mho_LASA2_2$cog_imm_rscale_2 <- rescale(LASA2G$gmwtt1_i, to = c(0,10), from = range(LASA2G$gmwtt1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_2$cog_imm_rscale_2 <- rescale(LASA2G$gmwtt1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA2_2$cog_imm_rscale_2 <- as.integer(round(mho_LASA2_2$cog_imm_rscale_2))
 
@@ -604,7 +604,7 @@ mho_LASA2_2$cog_imm_rscale_2 <- as.integer(round(mho_LASA2_2$cog_imm_rscale_2))
 ```{r, echo=TRUE}
 LASA2H$HMWTT1_i <- as.integer(car::recode(LASA2H$HMWTT1, "-2=NA"))
 
-mho_LASA2_3$cog_imm_rscale_3 <- rescale(LASA2H$HMWTT1_i, to = c(0,10), from = range(LASA2H$HMWTT1_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_3$cog_imm_rscale_3 <- rescale(LASA2H$HMWTT1_i, to = c(0,10), from = c(0,15))
 
 mho_LASA2_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA2_3$cog_imm_rscale_3))
 
@@ -817,7 +817,7 @@ mho_LASA2_3$cog_imm_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_imm_low_3, "
 ```{r, echo=TRUE}
 LASA2B$bmwtdr_i <- as.integer(car::recode(LASA2B$bmwtdr, "-2=NA"))
 
-mho_LASA2_0$cog_del_rscale_0 <- rescale(LASA2B$bmwtdr_i, to = c(0,10), from = range(LASA2B$bmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_0$cog_del_rscale_0 <- rescale(LASA2B$bmwtdr_i, to = c(0,10), from = c(0,15)) 
 
 mho_LASA2_0$cog_del_rscale_0 <- as.integer(round(mho_LASA2_0$cog_del_rscale_0))
 
@@ -836,7 +836,7 @@ mho_LASA2_0$cog_del_rscale_0 <- as.integer(round(mho_LASA2_0$cog_del_rscale_0))
 ```{r, echo=TRUE}
 LASA2F$fmwtdr_i <- as.integer(car::recode(LASA2F$fmwtdr, "-2=NA"))
 
-mho_LASA2_1$cog_del_rscale_1 <- rescale(LASA2F$fmwtdr_i, to = c(0,10), from = range(LASA2F$fmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_1$cog_del_rscale_1 <- rescale(LASA2F$fmwtdr_i, to = c(0,10), from = c(0,15))
 
 mho_LASA2_1$cog_del_rscale_1 <- as.integer(round(mho_LASA2_1$cog_del_rscale_1))
 
@@ -855,7 +855,7 @@ mho_LASA2_1$cog_del_rscale_1 <- as.integer(round(mho_LASA2_1$cog_del_rscale_1))
 ```{r, echo=TRUE}
 LASA2G$gmwtdr_i <- as.integer(car::recode(LASA2G$gmwtdr, "-2=NA"))
 
-mho_LASA2_2$cog_del_rscale_2 <- rescale(LASA2G$gmwtdr_i , to = c(0,10), from = range(LASA2G$gmwtdr_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_2$cog_del_rscale_2 <- rescale(LASA2G$gmwtdr_i , to = c(0,10), from = c(0,15))
 
 mho_LASA2_2$cog_del_rscale_2 <- as.integer(round(mho_LASA2_2$cog_del_rscale_2))
 
@@ -874,7 +874,7 @@ mho_LASA2_2$cog_del_rscale_2 <- as.integer(round(mho_LASA2_2$cog_del_rscale_2))
 ```{r, echo=TRUE}
 LASA2H$HMWTDR_i <- as.integer(car::recode(LASA2H$HMWTDR, "-2=NA"))
 
-mho_LASA2_3$cog_del_rscale_3 <- rescale(LASA2H$HMWTDR_i, to = c(0,10), from = range(LASA2H$HMWTDR_i, na.rm = TRUE, finite = TRUE))
+mho_LASA2_3$cog_del_rscale_3 <- rescale(LASA2H$HMWTDR_i, to = c(0,10), from = c(0,15))
 
 mho_LASA2_3$cog_del_rscale_3 <- as.integer(round(mho_LASA2_3$cog_del_rscale_3))
 
@@ -1444,7 +1444,7 @@ mho_LASA2_3$cog_proc_std_3 <- scale(LASA2H$HMVAR47_i)
 **Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_0$cog_proc_slow_0 <- as.integer(dicho(mho_LASA2_0$cog_proc_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA2_0$cog_proc_slow_0 <- as.integer(dicho(LASA2B$bmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA2_0$cog_proc_slow_0 <- as.integer(car::recode(mho_LASA2_0$cog_proc_slow_0, "2=0"))
 
@@ -1466,7 +1466,7 @@ mho_LASA2_0$cog_proc_slow_0 <- as.integer(car::recode(mho_LASA2_0$cog_proc_slow_
 **Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_1$cog_proc_slow_1 <- as.integer(dicho(mho_LASA2_1$cog_proc_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA2_1$cog_proc_slow_1 <- as.integer(dicho(LASA2F$fmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA2_1$cog_proc_slow_1 <- as.integer(car::recode(mho_LASA2_1$cog_proc_slow_1, "2=0"))
 
@@ -1488,7 +1488,7 @@ mho_LASA2_1$cog_proc_slow_1 <- as.integer(car::recode(mho_LASA2_1$cog_proc_slow_
 **Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_2$cog_proc_slow_2 <- as.integer(dicho(mho_LASA2_2$cog_proc_std_2, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA2_2$cog_proc_slow_2 <- as.integer(dicho(LASA2G$gmvar47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA2_2$cog_proc_slow_2 <- as.integer(car::recode(mho_LASA2_2$cog_proc_slow_2, "2=0"))
 
@@ -1510,7 +1510,7 @@ mho_LASA2_2$cog_proc_slow_2 <- as.integer(car::recode(mho_LASA2_2$cog_proc_slow_
 **Harmonization comment**:  This was based on the total number of correct letters named from the first trial of the Alphabet Coding Task - 15, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_3$cog_proc_slow_3 <- as.integer(dicho(mho_LASA2_3$cog_proc_std_3, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_LASA2_3$cog_proc_slow_3 <- as.integer(dicho(LASA2H$HMVAR47_i, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_3, "2=0"))
 
@@ -3259,10 +3259,10 @@ mho_LASA2_3$psy_loneliness_tertile_3 <- as.integer(car::recode(LASA2H$psy_loneli
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 17-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 2nd LASA cohort.       
+**Harmonization comment**:  Using the 11-item De Jong-Gierveld Loneliness scores (11-33), participants with scores ranging 15-33 comprised the top loneliness quintile. Please note this threshold is population-specific for the 2nd LASA cohort.       
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_0$psy_loneliness_high_0 <- as.integer(car::recode(LASA2B$psy_loneliness_score_0, "11:16=0; 17:33=1"))
+mho_LASA2_0$psy_loneliness_high_0 <- as.integer(car::recode(LASA2B$psy_loneliness_score_0, "11:14=0; 15:33=1"))
 
 ```
 
@@ -3832,7 +3832,7 @@ mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_scor
 ```{r, echo=TRUE}
 LASA2F$psy_distress_pct_1 <- rescale(LASA2F$psy_distress_score_1)*100
 
-mho_LASA2_1$psy_distress_case_1 <- as.integer(ifelse(LASA2F$psy_distress_pct_1 >= 50,1, ifelse(LASA2F$psy_distress_pct_1 <= 49,0,NA)))
+mho_LASA2_1$psy_distress_case_1 <- as.integer(ifelse(LASA2F$psy_distress_pct_1 >= 50,1, ifelse(LASA2F$psy_distress_pct_1 < 50,0,NA)))
 
 ```
 
@@ -3854,7 +3854,7 @@ mho_LASA2_1$psy_distress_case_1 <- as.integer(ifelse(LASA2F$psy_distress_pct_1 >
 ```{r, echo=TRUE}
 LASA2G$psy_distress_pct_2 <- rescale(LASA2G$psy_distress_score_2)*100
 
-mho_LASA2_2$psy_distress_case_2 <- as.integer(ifelse(LASA2G$psy_distress_pct_2 >= 50,1, ifelse(LASA2G$psy_distress_pct_2 <= 49,0,NA)))
+mho_LASA2_2$psy_distress_case_2 <- as.integer(ifelse(LASA2G$psy_distress_pct_2 >= 50,1, ifelse(LASA2G$psy_distress_pct_2 < 50,0,NA)))
 
 ```
 
@@ -3876,7 +3876,7 @@ mho_LASA2_2$psy_distress_case_2 <- as.integer(ifelse(LASA2G$psy_distress_pct_2 >
 ```{r, echo=TRUE}
 LASA2H$psy_distress_pct_3 <- rescale(LASA2H$psy_distress_score_3)*100
 
-mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >= 50,1, ifelse(LASA2H$psy_distress_pct_3 <= 49,0,NA)))
+mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >= 50,1, ifelse(LASA2H$psy_distress_pct_3 < 50,0,NA)))
 
 ```
 
@@ -3977,7 +3977,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 2 | Low levels of quality of life 
 
 **Harmonization status**: complete     
-**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into tertiles defined as high (28-60), medium (23-27), and low (12-24), which were population-specific for the 2nd LASA cohort. Scores were used as provided by the LASA study. Items comprising the *Valuation of Life, 12 item version* scale are listed below:
+**Harmonization comment**:  The Valuation of Life, 12 item version, scores (12-60) were grouped into tertiles defined as high (28-60), medium (23-27), and low (12-22), which were population-specific for the 2nd LASA cohort. Scores were used as provided by the LASA study. Items comprising the *Valuation of Life, 12 item version* scale are listed below:
 1. It is hard to find much meaning in my everyday life.  
 2. I feel able to accomplish my life goals.  
 3. I can think of many ways to get the things in life that are most important to me.  
@@ -3994,9 +3994,9 @@ Responses ranged from 'strongly agree' (1), 'agree' (2), 'neither agree nor disa
 
 **R script**:  
 ```{r, echo=TRUE}
-LASA2F$fqvall_i <- recode(LASA2F$fqvall, "-2=NA")
+LASA2F$fqvall_i <- car::recode(LASA2F$fqvall, "-2=NA")
 
-mho_LASA2_1$psy_qol_tertile_1 <- as.integer(car::recode(LASA2F$fqvall_i, "28:60=0; 23:27=1; 12:24=2"))
+mho_LASA2_1$psy_qol_tertile_1 <- as.integer(car::recode(LASA2F$fqvall_i, "28:60=0; 23:27=1; 12:22=2"))
 
 ```
 
