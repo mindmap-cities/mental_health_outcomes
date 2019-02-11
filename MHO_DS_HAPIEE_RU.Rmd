@@ -1066,10 +1066,10 @@ mho_HAPIEE_RU_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 1 |   Low verbal fluency
 
 **Harmonization status**: complete    
-**Harmonization comment**: This was based on the total number of animals correctly named in 1 minute, which was then transformed to a z-score.     
+**Harmonization comment**: This was based on the total number of animals correctly named in 1 minute.     
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_0$cog_verb_low_0 <- as.integer(dicho(mho_HAPIEE_RU_0$cog_verb_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_HAPIEE_RU_0$cog_verb_low_0 <- as.integer(dicho(HAPIEE_W1$cog7, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_HAPIEE_RU_0$cog_verb_low_0 <- as.integer(car::recode(mho_HAPIEE_RU_0$cog_verb_low_0, "2=0"))
 
@@ -1088,10 +1088,10 @@ mho_HAPIEE_RU_0$cog_verb_low_0 <- as.integer(car::recode(mho_HAPIEE_RU_0$cog_ver
 1 |   Low verbal fluency
 
 **Harmonization status**: complete   
-**Harmonization comment**: This was based on the total number of animals correctly named in 1 minute, which was then transformed to a z-score.     
+**Harmonization comment**: This was based on the total number of animals correctly named in 1 minute.     
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$cog_verb_low_1 <- as.integer(dicho(mho_HAPIEE_RU_1$cog_verb_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_HAPIEE_RU_1$cog_verb_low_1 <- as.integer(dicho(HAPIEE_W2$w2cog7, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_HAPIEE_RU_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_RU_1$cog_verb_low_1, "2=0"))
 
@@ -1318,7 +1318,7 @@ mho_HAPIEE_RU_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**: This was based on the number of letters correctly crossed out (0-65) from the letter search task in HAPIEE.   
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_0$cog_proc_slow_0 <- as.integer(dicho(mho_HAPIEE_RU_0$cog_proc_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_HAPIEE_RU_0$cog_proc_slow_0 <- as.integer(dicho(HAPIEE_W1$cog10, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_HAPIEE_RU_0$cog_proc_slow_0 <- as.integer(car::recode(mho_HAPIEE_RU_0$cog_proc_slow_0, "2=0"))
 
@@ -1340,7 +1340,7 @@ mho_HAPIEE_RU_0$cog_proc_slow_0 <- as.integer(car::recode(mho_HAPIEE_RU_0$cog_pr
 **Harmonization comment**: This was based on the number of letters correctly crossed out (0-65) from the letter search task in HAPIEE.    
 **R script**:  
 ```{r, echo=TRUE}
-mho_HAPIEE_RU_1$cog_proc_slow_1 <- as.integer(dicho(mho_HAPIEE_RU_1$cog_proc_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+mho_HAPIEE_RU_1$cog_proc_slow_1 <- as.integer(dicho(HAPIEE_W2$w2cog10, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
 
 mho_HAPIEE_RU_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_RU_1$cog_proc_slow_1, "2=0"))
 
