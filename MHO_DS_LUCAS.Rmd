@@ -2199,7 +2199,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-mho_LUCAS_0$psy_dep_yn_0 <- lucas_w2$Lucas20_07
+mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 ```
 
