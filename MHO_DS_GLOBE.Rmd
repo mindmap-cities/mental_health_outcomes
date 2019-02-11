@@ -2649,13 +2649,14 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 2 | High levels of loneliness
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:       
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Nottingham Health Profile (NHP) - Social connections subdomain* are listed below:       
 1. I feel lonely. (Yes/No)       
 2. I'm finding it hard to make contact with people. (Yes/No)          
 3. I feel there is nobody that I am close to. (Yes/No)         
 4. I feel I am a burden to people. (Yes/No)     
 5. I'm finding it hard to get along with people. (Yes/No)
 
+NHP scores were available for a sub-sample of participants who completed the SEGv questionnaire.   
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv151_i <- as.integer(ifelse(GLOBE1991$SEGVv151 == 1,1, ifelse(GLOBE1991$SEGVv151 == 2,0,NA)))
@@ -2692,14 +2693,18 @@ mho_GLOBE_0$psy_loneliness_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_loneline
 2 | High levels of loneliness
 
 **Harmonization status**: complete    
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (3-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing.   
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-5). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing.   
 **R script**:  
 ```{r, echo=TRUE}
-GLOBE1997$g4i_i <- as.integer(ifelse(GLOBE1997$g4i == 1,1, ifelse(GLOBE1997$g4i == 2,0,NA)))
-GLOBE1997$g4o_i <- as.integer(ifelse(GLOBE1997$g4o == 1,1, ifelse(GLOBE1997$g4o == 2,0,NA)))
-GLOBE1997$g4u_i <- as.integer(ifelse(GLOBE1997$g4u == 1,1, ifelse(GLOBE1997$g4u == 2,0,NA)))                              
-GLOBE1997$g4c2_i <- as.integer(ifelse(GLOBE1997$g4c2 == 1,1, ifelse(GLOBE1997$g4c2 == 2,0,NA)))
-GLOBE1997$g4h2_i <- as.integer(ifelse(GLOBE1997$g4h2 == 1,1, ifelse(GLOBE1997$g4c2 == 2,0,NA)))                              
+GLOBE1997$g4i_i <- as.integer(ifelse(!is.na(GLOBE1997$g4i),dplyr::recode(as.integer(GLOBE1997$g4i),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4i),dplyr::recode(as.integer(GLOBE1997$r47i),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4o_i <- as.integer(ifelse(!is.na(GLOBE1997$g4o),dplyr::recode(as.integer(GLOBE1997$g4o),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4o),dplyr::recode(as.integer(GLOBE1997$r47o),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4u_i <- as.integer(ifelse(!is.na(GLOBE1997$g4u),dplyr::recode(as.integer(GLOBE1997$g4u),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4u),dplyr::recode(as.integer(GLOBE1997$r47u),"1"=1,"2"=0),NA)))
+                             
+GLOBE1997$g4c2_i <-as.integer(ifelse(!is.na(GLOBE1997$g4c2),dplyr::recode(as.integer(GLOBE1997$g4c2),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4c2),dplyr::recode(as.integer(GLOBE1997$r47c2),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4h2_i <- as.integer(ifelse(!is.na(GLOBE1997$g4h2),dplyr::recode(as.integer(GLOBE1997$g4h2),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4h2),dplyr::recode(as.integer(GLOBE1997$r47h2),"1"=1,"2"=0),NA)))                             
 
 GLOBE1997$loneliness_nmiss <- apply(GLOBE1997[,34:38], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
@@ -2864,7 +2869,7 @@ mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneline
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete   
-**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile.  
+**Harmonization comment**: Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile. NHP scores were available for a sub-sample of participants who completed the SEGv questionnaire.    
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_0$psy_loneliness_high_0 <- as.integer(ifelse(GLOBE1991$psy_loneliness_score_0 >= 1,1, ifelse(GLOBE1991$psy_loneliness_score_0 == 0,0,NA)))  
@@ -2884,7 +2889,7 @@ mho_GLOBE_0$psy_loneliness_high_0 <- as.integer(ifelse(GLOBE1991$psy_loneliness_
 1 |   Top quintile of loneliness score  
 
 **Harmonization status**: complete       
-**Harmonization comment**:   Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile.   
+**Harmonization comment**: Based on the Nottingham Health Profile (NHP) scores (0-5) on subjective lack of social connections. Participants with scores ranging 1-5 comprised the top loneliness quintile.   
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_1$psy_loneliness_high_1 <- as.integer(ifelse(GLOBE1997$psy_loneliness_score_1 >= 1,1, ifelse(GLOBE1997$psy_loneliness_score_1 == 0,0,NA)))  
@@ -3004,7 +3009,7 @@ mho_GLOBE_4$psy_loneliness_high_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_
 1 |   Feels lonely 
 
 **Harmonization status**: complete  
-**Harmonization comment**:  Based on a yes/no response to "I feel lonely" from the Nottingham Health Profile (NHP) sub-scale on subjective lack of social connections.    
+**Harmonization comment**:  Based on a yes/no response to "I feel lonely" from the Nottingham Health Profile (NHP) sub-scale on subjective lack of social connections. This was measured in a sub-sample of participants who were given the SEGv questionnaire.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_GLOBE_0$psy_lonely_yn_0 <- GLOBE1991$SEGVv151_i   
@@ -3240,6 +3245,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 8. I feel like life is not worth living. (Yes/No)     
 9. I feel depressed when I wake up. (Yes/No)  
 
+NHP scores were available for a sub-sample of participants who completed the SEGv questionnaire.    
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$SEGVv145_i <- as.integer(ifelse(GLOBE1991$SEGVv145 == 1,1, ifelse(GLOBE1991$SEGVv145 == 2,0,NA)))
@@ -3280,18 +3286,26 @@ mho_GLOBE_0$psy_distress_tertile_0 <- as.integer(ifelse(GLOBE1991$psy_distress_s
 2 | High severity tertile of psychological distress symptoms  
 
 **Harmonization status**: complete   
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing.    
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were grouped into study-specific tertiles defined as low (0), medium (1), and high (2-9). Scores were calculated for participants with data on at least 8 items (out of a possible 9). If 1 item was missing, scores on the completed items were summed and divided by 8, then multiplied by 9. If participants missed 2 or more items, scores were not calculated and coded as missing.     
 **R script**:  
 ```{r, echo=TRUE}
-GLOBE1997$g4c_i <- as.integer(ifelse(GLOBE1997$g4c == 1,1, ifelse(GLOBE1997$g4c == 2,0,NA)))
-GLOBE1997$g4f_i <- as.integer(ifelse(GLOBE1997$g4f == 1,1, ifelse(GLOBE1997$g4f == 2,0,NA)))
-GLOBE1997$g4g_i <- as.integer(ifelse(GLOBE1997$g4g == 1,1, ifelse(GLOBE1997$g4g == 2,0,NA)))
-GLOBE1997$g4p_i <- as.integer(ifelse(GLOBE1997$g4p == 1,1, ifelse(GLOBE1997$g4p == 2,0,NA)))
-GLOBE1997$g4t_i <- as.integer(ifelse(GLOBE1997$g4t == 1,1, ifelse(GLOBE1997$g4t == 2,0,NA)))
-GLOBE1997$g4w_i <- as.integer(ifelse(GLOBE1997$g4w == 1,1, ifelse(GLOBE1997$g4w == 2,0,NA)))
-GLOBE1997$g4e2_i <- as.integer(ifelse(GLOBE1997$g4e2 == 1,1, ifelse(GLOBE1997$g4e2 == 2,0,NA)))
-GLOBE1997$g4f2_i <- as.integer(ifelse(GLOBE1997$g4f2 == 1,1, ifelse(GLOBE1997$g4f2 == 2,0,NA)))
-GLOBE1997$g4k2_i <- as.integer(ifelse(GLOBE1997$g4k2 == 1,1, ifelse(GLOBE1997$g4k2 == 2,0,NA)))
+GLOBE1997$g4c_i <- as.integer(ifelse(!is.na(GLOBE1997$g4c),dplyr::recode(as.integer(GLOBE1997$g4c),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4c),dplyr::recode(as.integer(GLOBE1997$r47c),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4f_i <- as.integer(ifelse(!is.na(GLOBE1997$g4f),dplyr::recode(as.integer(GLOBE1997$g4f),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4f),dplyr::recode(as.integer(GLOBE1997$r47f),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4g_i <- as.integer(ifelse(!is.na(GLOBE1997$g4g),dplyr::recode(as.integer(GLOBE1997$g4g),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4g),dplyr::recode(as.integer(GLOBE1997$r47g),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4p_i <- as.integer(ifelse(!is.na(GLOBE1997$g4p),dplyr::recode(as.integer(GLOBE1997$g4p),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4p),dplyr::recode(as.integer(GLOBE1997$r47p),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4t_i <- as.integer(ifelse(!is.na(GLOBE1997$g4t),dplyr::recode(as.integer(GLOBE1997$g4t),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4t),dplyr::recode(as.integer(GLOBE1997$r47t),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4w_i <- as.integer(ifelse(!is.na(GLOBE1997$g4w),dplyr::recode(as.integer(GLOBE1997$g4w),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4w),dplyr::recode(as.integer(GLOBE1997$r47w),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4e2_i <- as.integer(ifelse(!is.na(GLOBE1997$g4e2),dplyr::recode(as.integer(GLOBE1997$g4e2),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4e2),dplyr::recode(as.integer(GLOBE1997$r47e2),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4f2_i <- as.integer(ifelse(!is.na(GLOBE1997$g4f2),dplyr::recode(as.integer(GLOBE1997$g4f2),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4f2),dplyr::recode(as.integer(GLOBE1997$r47f2),"1"=1,"2"=0),NA)))
+
+GLOBE1997$g4k2_i <- as.integer(ifelse(!is.na(GLOBE1997$g4k2),dplyr::recode(as.integer(GLOBE1997$g4k2),"1"=1,"2"=0),ifelse(is.na(GLOBE1997$g4k2),dplyr::recode(as.integer(GLOBE1997$r47k2),"1"=1,"2"=0),NA)))
 
 GLOBE1997$distress_nmiss <- apply(GLOBE1997[,41:49], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
@@ -3482,12 +3496,12 @@ mho_GLOBE_4$psy_distress_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_distress_s
 1 |   Case (elevated psychological distress symptoms)
 
 **Harmonization status**: complete  
-**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases.     
+**Harmonization comment**:  In GLOBE, the Nottingham Health Profile (NHP) scores (0-9) on emotional reactions were transformed to a scale ranging from 0 to 100. As there is no established cut-off score for the NHP subdomain, participants whose scores ranged from 25 to 100 were classified as cases. NHP scores were available for a sub-sample of participants who completed the SEGv questionnaire.      
 **R script**:  
 ```{r, echo=TRUE}
 GLOBE1991$psy_distress_pct_0 <- rescale(GLOBE1991$psy_distress_score_0)*100
 
-mho_GLOBE_0$psy_distress_case_0 <- as.integer(ifelse(GLOBE1991$psy_distress_pct_0 >= 25,1, ifelse(GLOBE1991$psy_distress_pct_0 <= 24.99,0,NA)))
+mho_GLOBE_0$psy_distress_case_0 <- as.integer(ifelse(GLOBE1991$psy_distress_pct_0 >= 25,1, ifelse(GLOBE1991$psy_distress_pct_0 < 25,0,NA)))
 
 ```
 
@@ -3509,7 +3523,7 @@ mho_GLOBE_0$psy_distress_case_0 <- as.integer(ifelse(GLOBE1991$psy_distress_pct_
 ```{r, echo=TRUE}
 GLOBE1997$psy_distress_pct_1 <- rescale(GLOBE1997$psy_distress_score_1)*100
 
-mho_GLOBE_1$psy_distress_case_1 <- as.integer(ifelse(GLOBE1997$psy_distress_pct_1 >= 25,1, ifelse(GLOBE1997$psy_distress_pct_1 <= 24.99,0,NA)))
+mho_GLOBE_1$psy_distress_case_1 <- as.integer(ifelse(GLOBE1997$psy_distress_pct_1 >= 25,1, ifelse(GLOBE1997$psy_distress_pct_1 < 25,0,NA)))
 
 ```
 
@@ -3531,7 +3545,7 @@ mho_GLOBE_1$psy_distress_case_1 <- as.integer(ifelse(GLOBE1997$psy_distress_pct_
 ```{r, echo=TRUE}
 GLOBE2004$psy_distress_pct_2 <- rescale(GLOBE2004$psy_distress_score_2)*100
 
-mho_GLOBE_2$psy_distress_case_2 <- as.integer(ifelse(GLOBE2004$psy_distress_pct_2 >= 50,1, ifelse(GLOBE2004$psy_distress_pct_2 <= 49,0,NA)))
+mho_GLOBE_2$psy_distress_case_2 <- as.integer(ifelse(GLOBE2004$psy_distress_pct_2 >= 50,1, ifelse(GLOBE2004$psy_distress_pct_2 < 50,0,NA)))
 
 ```
 
@@ -3553,7 +3567,7 @@ mho_GLOBE_2$psy_distress_case_2 <- as.integer(ifelse(GLOBE2004$psy_distress_pct_
 ```{r, echo=TRUE}
 GLOBE2011$psy_distress_pct_3 <- rescale(GLOBE2011$psy_distress_score_3)*100
 
-mho_GLOBE_3$psy_distress_case_3 <- as.integer(ifelse(GLOBE2011$psy_distress_pct_3 >= 50,1, ifelse(GLOBE2011$psy_distress_pct_3 <= 49,0,NA)))
+mho_GLOBE_3$psy_distress_case_3 <- as.integer(ifelse(GLOBE2011$psy_distress_pct_3 >= 50,1, ifelse(GLOBE2011$psy_distress_pct_3 < 50,0,NA)))
 
 ```
 
@@ -3575,7 +3589,7 @@ mho_GLOBE_3$psy_distress_case_3 <- as.integer(ifelse(GLOBE2011$psy_distress_pct_
 ```{r, echo=TRUE}
 GLOBE2014$psy_distress_pct_4 <- rescale(GLOBE2014$psy_distress_score_4)*100
 
-mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_4 >= 50,1, ifelse(GLOBE2014$psy_distress_pct_4 <= 49,0,NA)))
+mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_4 >= 50,1, ifelse(GLOBE2014$psy_distress_pct_4 < 50,0,NA)))
 
 ```
 
