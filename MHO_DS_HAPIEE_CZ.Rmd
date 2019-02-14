@@ -2092,7 +2092,7 @@ mho_HAPIEE_CZ_0$psy_dep_tertile_0 <- as.integer(car::recode(HAPIEE_W1$psy_dep_sc
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Czech HAPIEE cohort: low (0-1), medium (2), and high (3-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.  
+**Harmonization comment**:  CES-D 10 depression scores (0-10) were collected during the first and second follow-up investigations of the Czech HAPIEE cohort. Due to differences in the distribution of the CES-D 10 scores between the two time points, these were grouped into population- and wave-specific tertiles in the Czech cohort. For the first follow-up, tertiles were defined as: low (0-1), medium (2), and high (3-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, are listed below.  
 *Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
 1. I felt depressed.  
 2. I felt that everything I did was an effort.  
@@ -2156,7 +2156,7 @@ mho_HAPIEE_CZ_1$psy_dep_tertile_1 <- as.integer(car::recode(HAPIEE_W2$psy_dep_sc
 2 |   High severity tertile of depressive symptoms  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  The CES-D 10 depression scores (0-10) were grouped into population-specific tertiles for the Czech HAPIEE cohort: low (0), medium (1-2), and high (3-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.   
+**Harmonization comment**:  CES-D 10 depression scores (0-10) were collected during the first and second follow-up investigations of the Czech HAPIEE cohort. Due to differences in the distribution of the CES-D 10 scores between the two time points, these were grouped into population- and wave-specific tertiles in the Czech cohort. For the second follow-up, tertiles were defined as: low (0), medium (1-2), and high (3-10). Scores were calculated for participants with data on least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.   
 **R script**:
 As responses were coded from 'yes' (1) to 'no,' (2) in HAPIEE, these were recoded to 0/1 response scale.  
 ```{r, echo=TRUE}
