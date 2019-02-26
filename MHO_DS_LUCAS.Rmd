@@ -43,11 +43,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -58,7 +58,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:    
 **Harmonization comment**:     
 **R script**:  
 ```{r, echo=TRUE}
@@ -73,7 +73,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -88,7 +88,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
@@ -103,7 +103,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -118,7 +118,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -133,7 +133,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
  
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -153,11 +153,11 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible   
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -173,7 +173,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -193,7 +193,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -213,7 +213,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -233,7 +233,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -253,7 +253,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -273,7 +273,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (0-10 anxiety symptom score)
 1 |   Case (11-21 anxiety symptom score)
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -293,11 +293,11 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -313,7 +313,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: imposssible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -333,7 +333,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -353,7 +353,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -373,7 +373,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -393,7 +393,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -413,7 +413,7 @@ opal.logout(erasmus_opal)
 0 |   Does not feel anxious or nervous
 1 |   Feels anxious or nervous
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -430,11 +430,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -445,7 +445,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -460,7 +460,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible      
+**Harmonization status**:       
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -475,7 +475,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -490,7 +490,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -505,7 +505,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -520,7 +520,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -540,7 +540,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -560,7 +560,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -580,7 +580,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -600,7 +600,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -620,7 +620,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -640,7 +640,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -660,7 +660,7 @@ opal.logout(erasmus_opal)
 0 |   High immediate word recall  
 1 |   Low immediate word recall 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -675,11 +675,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -690,7 +690,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -705,7 +705,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -720,7 +720,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -735,7 +735,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -750,7 +750,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -765,7 +765,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -785,11 +785,11 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -805,7 +805,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -825,7 +825,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -845,7 +845,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -865,7 +865,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -885,7 +885,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -905,7 +905,7 @@ opal.logout(erasmus_opal)
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -920,11 +920,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -935,7 +935,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -950,7 +950,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -965,7 +965,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -980,7 +980,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -995,7 +995,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1010,7 +1010,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1030,11 +1030,11 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1050,7 +1050,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1070,7 +1070,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1090,7 +1090,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1110,7 +1110,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1130,7 +1130,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1150,7 +1150,7 @@ opal.logout(erasmus_opal)
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1165,11 +1165,11 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1180,7 +1180,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1195,7 +1195,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1210,7 +1210,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1225,7 +1225,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1240,7 +1240,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1255,7 +1255,7 @@ opal.logout(erasmus_opal)
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1275,11 +1275,11 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1295,7 +1295,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1315,7 +1315,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1335,7 +1335,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1355,7 +1355,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1375,7 +1375,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1395,7 +1395,7 @@ opal.logout(erasmus_opal)
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1410,11 +1410,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1425,7 +1425,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1440,7 +1440,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1455,7 +1455,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1470,7 +1470,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1485,7 +1485,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1500,7 +1500,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1520,11 +1520,11 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible     
+**Harmonization status**:   impossible     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1540,7 +1540,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1560,7 +1560,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1580,7 +1580,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1600,7 +1600,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1620,7 +1620,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1640,7 +1640,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1655,11 +1655,11 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1670,7 +1670,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1685,7 +1685,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1700,7 +1700,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1716,7 +1716,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1731,7 +1731,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible     
+**Harmonization status**:      
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1746,7 +1746,7 @@ opal.logout(erasmus_opal)
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1766,11 +1766,11 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1786,7 +1786,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1806,7 +1806,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1826,7 +1826,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1846,7 +1846,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1866,7 +1866,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1886,7 +1886,7 @@ opal.logout(erasmus_opal)
 0 |   No cognitive impairment (24-30 MMSE score)
 1 |   Cognitive impairment (0-23 MMSE score)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1909,11 +1909,11 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms 
 
-**Harmonization status**: impossible   
+**Harmonization status**:   impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1930,7 +1930,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1951,7 +1951,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1972,7 +1972,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1993,7 +1993,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2014,7 +2014,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2035,7 +2035,7 @@ opal.logout(erasmus_opal)
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms   
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2055,11 +2055,11 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2075,7 +2075,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2095,7 +2095,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2115,7 +2115,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2135,7 +2135,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)     
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2155,7 +2155,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)       
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2175,7 +2175,7 @@ opal.logout(erasmus_opal)
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)    
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2338,11 +2338,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2359,7 +2359,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2380,7 +2380,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2401,7 +2401,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2422,7 +2422,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2443,7 +2443,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2464,7 +2464,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2484,11 +2484,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score    
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2504,7 +2504,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score  
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2524,7 +2524,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2544,7 +2544,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2564,7 +2564,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2584,7 +2584,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2604,7 +2604,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2627,11 +2627,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible   
+**Harmonization status**:   impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2648,7 +2648,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2669,7 +2669,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2690,7 +2690,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2711,7 +2711,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2732,7 +2732,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2753,7 +2753,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2773,11 +2773,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2793,7 +2793,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2813,7 +2813,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2833,7 +2833,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2853,7 +2853,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2873,7 +2873,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2893,7 +2893,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2913,11 +2913,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible   
+**Harmonization status**:   impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2933,7 +2933,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2953,7 +2953,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2973,7 +2973,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2993,7 +2993,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3013,7 +3013,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3033,7 +3033,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3055,11 +3055,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3075,7 +3075,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3095,7 +3095,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3115,7 +3115,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3138,11 +3138,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3159,7 +3159,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3180,7 +3180,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3201,7 +3201,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3222,7 +3222,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3243,7 +3243,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3264,7 +3264,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3284,11 +3284,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:   impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3304,7 +3304,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3324,7 +3324,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3344,7 +3344,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3364,7 +3364,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3384,7 +3384,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3404,7 +3404,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3427,11 +3427,11 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**: impossible    
+**Harmonization status**:   impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3448,7 +3448,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3469,7 +3469,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3490,7 +3490,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3511,7 +3511,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3531,7 +3531,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**: impossible  
+**Harmonization status**:   impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3551,7 +3551,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3571,7 +3571,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**: impossible  
+**Harmonization status**:   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3591,7 +3591,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**: impossible   
+**Harmonization status**:    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3611,7 +3611,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**: impossible    
+**Harmonization status**:     
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
