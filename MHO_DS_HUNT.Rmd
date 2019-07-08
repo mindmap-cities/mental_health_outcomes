@@ -77,7 +77,7 @@ opal.logout(erasmus_opal)
 4. I can sit at ease and feel relaxed.      
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.      
 6. I feel restless as if I have to be on the move.       
-7. I get sudden feeligns of panic.    
+7. I get sudden feelings of panic.    
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -2363,7 +2363,7 @@ mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, i
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2384,7 +2384,7 @@ mho_HUNT_0$psy_life_sat_tertile_0 <- as.integer(ifelse(HUNT1$SatLif_NT1BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2405,7 +2405,7 @@ mho_HUNT_1$psy_life_sat_tertile_1 <- as.integer(ifelse(HUNT2$SatLif_NT2BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2426,7 +2426,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2447,7 +2447,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2468,7 +2468,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2489,7 +2489,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3223,7 +3223,7 @@ mho_HUNT_0$psy_distress_tertile_0 <- as.integer(ifelse(HUNT1$psy_distress_score_
 10. I have lost interest in my appearance.      
 11. I feel restless as if I have to be on the move.       
 12. I look forward with enjoyment to things.       
-13. I get sudden feeligns of panic.     
+13. I get sudden feelings of panic.     
 14. I can enjoy a good book or radio or TV programme.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).    
 

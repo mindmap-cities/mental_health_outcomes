@@ -2334,7 +2334,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2355,7 +2355,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2376,7 +2376,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2397,7 +2397,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2418,7 +2418,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2439,7 +2439,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2460,7 +2460,7 @@ mho_LUCAS_0$psy_dep_yn_0 <- as.integer(lucas_w2$Lucas20_07)
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 

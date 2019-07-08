@@ -84,7 +84,7 @@ opal.logout(erasmus_opal)
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -130,7 +130,7 @@ mho_LASA2_1$psy_anxiety_score_1 <- as.integer(round(mho_LASA2_1$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -176,7 +176,7 @@ mho_LASA2_2$psy_anxiety_score_2 <- as.integer(round(mho_LASA2_2$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -2690,7 +2690,7 @@ mho_LASA2_3$psy_dep_yn_3 <- as.integer(car::recode(LASA2H$hcesd18_i, "0:1=0; 2:3
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2711,7 +2711,7 @@ mho_LASA2_0$psy_life_sat_tertile_0 <- as.integer(car::recode(LASA2B$bqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2732,7 +2732,7 @@ mho_LASA2_1$psy_life_sat_tertile_1 <- as.integer(car::recode(LASA2F$fqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2753,7 +2753,7 @@ mho_LASA2_2$psy_life_sat_tertile_2 <- as.integer(car::recode(LASA2G$gqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2774,7 +2774,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2795,7 +2795,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2816,7 +2816,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3399,7 +3399,7 @@ mho_LASA2_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA2H$psy_lonelines
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA2_0$psy_lonely_yn_0 <- as.integer(car::recode(LASA2B$bcesd14_i, "0:1=0; 2:3=1"))
@@ -3419,7 +3419,7 @@ mho_LASA2_0$psy_lonely_yn_0 <- as.integer(car::recode(LASA2B$bcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA2_1$psy_lonely_yn_1 <- as.integer(car::recode(LASA2F$fcesd14_i, "0:1=0; 2:3=1"))
@@ -3439,7 +3439,7 @@ mho_LASA2_1$psy_lonely_yn_1 <- as.integer(car::recode(LASA2F$fcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA2_2$psy_lonely_yn_2 <- as.integer(car::recode(LASA2G$gcesd14_i, "0:1=0; 2:3=1"))
@@ -3459,7 +3459,7 @@ mho_LASA2_2$psy_lonely_yn_2 <- as.integer(car::recode(LASA2G$gcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 2:3=1"))
@@ -3986,7 +3986,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 6. My personal beliefs allow me to maintain a hopeful attitude.  
 7. Even when others get discouraged, I know I can find a way to solve the problem.  
 8. I have a strong will to live right now.  
-9. THe real enjoyments of my life are the past. 
+9. The real enjoyments of my life are the past. 
 10. I intend to make the most of my life.  
 11. Life has meaning for me.  
 12. I have very few goals in my life today.  

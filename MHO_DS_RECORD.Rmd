@@ -2407,7 +2407,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2428,7 +2428,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2449,7 +2449,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2470,7 +2470,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2491,7 +2491,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2512,7 +2512,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2533,7 +2533,7 @@ mho_RECORD_1$psy_dep_yn_1 <- as.integer(ifelse(RECORD_w2$Qm208 == "O",1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
