@@ -972,7 +972,7 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -988,7 +988,7 @@ mho_HAPIEE_CZ_0$cog_verb_std_0 <- scale(HAPIEE_W1$cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1004,7 +1004,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1019,7 +1019,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1034,7 +1034,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1049,7 +1049,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1064,7 +1064,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1223,7 +1223,7 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1239,7 +1239,7 @@ mho_HAPIEE_CZ_0$cog_proc_std_0 <- scale(HAPIEE_W1$cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1255,7 +1255,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1270,7 +1270,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1285,7 +1285,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1300,7 +1300,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1315,7 +1315,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1474,7 +1474,7 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_0  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1500,7 +1500,7 @@ mho_HAPIEE_CZ_0$cog_nmiss_0 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_1  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1526,7 +1526,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_2  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1541,7 +1541,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_3  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1556,7 +1556,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_4  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1571,7 +1571,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_5  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1586,7 +1586,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_6  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
