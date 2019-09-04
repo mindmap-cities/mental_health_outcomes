@@ -19,7 +19,7 @@ opal.assign.table.tibble(erasmus_opal, 'GLOBE1991', 'GLOBE.GLOBE1991',variables=
 GLOBE1991 <- opal.execute(erasmus_opal,'GLOBE1991')
 
 # GLOBE 1997
-opal.assign.table.tibble(erasmus_opal, 'GLOBE1997', 'GLOBE.GLOBE1997',variables=list('v16a','v16b','v16c','v16d','v16e','r47c','g4c','r47f','g4f','r47f','g4g','r47p','g4p','r47t','g4t','r47w','g4w','r47e2','g4e2','r47f2','g4f2','r47k2','g4k2','r47i','g4i','r47o','g4o','r47u','g4u','r47c2','g4c2','r47h2','g4h2')) 
+opal.assign.table.tibble(erasmus_opal, 'GLOBE1997', 'GLOBE.GLOBE1997',variables=list('v16a','v16b','v16c','v16d','v16e','r47c','g4c','r47f','g4f','r47f','g4g','r47p','g4p','r47t','g4t','r47w','g4w','r47e2','g4e2','r47f2','g4f2','r47k2','g4k2','r47i','g4i','r47o','g4o','r47u','g4u','r47c2','g4c2','r47h2','g4h2', 'r47g')) 
 GLOBE1997<- opal.execute(erasmus_opal,'GLOBE1997')
 
 # GLOBE 2004
