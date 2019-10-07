@@ -68,7 +68,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -83,7 +83,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -98,7 +98,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -113,7 +113,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -128,7 +128,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -143,7 +143,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -158,7 +158,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -178,7 +178,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -198,7 +198,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -218,7 +218,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -238,7 +238,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -258,7 +258,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -278,7 +278,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -298,7 +298,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -318,7 +318,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -418,7 +418,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -438,7 +438,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -455,7 +455,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -470,7 +470,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -485,7 +485,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -500,7 +500,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -515,7 +515,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -530,7 +530,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -545,7 +545,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -565,7 +565,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -585,7 +585,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -605,7 +605,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -625,7 +625,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -645,7 +645,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -665,7 +665,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -685,7 +685,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -700,7 +700,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -715,7 +715,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -730,7 +730,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -745,7 +745,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -760,7 +760,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -775,7 +775,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -790,7 +790,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -810,7 +810,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -830,7 +830,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -850,7 +850,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -870,7 +870,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -890,7 +890,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -910,7 +910,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -930,7 +930,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -945,7 +945,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -960,7 +960,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -975,7 +975,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -990,7 +990,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1005,7 +1005,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1020,7 +1020,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1035,7 +1035,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1055,7 +1055,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1075,7 +1075,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1095,7 +1095,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1115,7 +1115,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1135,7 +1135,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1155,7 +1155,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1175,7 +1175,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1190,7 +1190,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1205,7 +1205,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1220,7 +1220,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1235,7 +1235,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1250,7 +1250,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1265,7 +1265,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1280,7 +1280,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1300,7 +1300,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1320,7 +1320,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1340,7 +1340,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1360,7 +1360,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1380,7 +1380,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1400,7 +1400,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1420,7 +1420,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1435,7 +1435,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1450,7 +1450,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1465,7 +1465,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1480,7 +1480,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1495,7 +1495,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1510,7 +1510,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1525,7 +1525,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1545,7 +1545,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1565,7 +1565,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1585,7 +1585,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1605,7 +1605,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1625,7 +1625,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1645,7 +1645,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1665,7 +1665,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1680,7 +1680,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1695,7 +1695,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1710,7 +1710,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1725,7 +1725,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 
 ```
@@ -1741,7 +1741,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1756,7 +1756,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1771,7 +1771,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1791,7 +1791,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1811,7 +1811,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1831,7 +1831,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1851,7 +1851,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1871,7 +1871,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1891,7 +1891,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1911,7 +1911,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1934,7 +1934,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1955,7 +1955,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1976,7 +1976,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1997,7 +1997,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2018,7 +2018,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2039,7 +2039,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2060,7 +2060,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2080,7 +2080,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2100,7 +2100,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2120,7 +2120,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2140,7 +2140,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2160,7 +2160,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2180,7 +2180,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2200,7 +2200,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2220,7 +2220,7 @@ mho_GLOBE_4$psy_anxious_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_a <= 3,1, ife
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2320,7 +2320,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2340,7 +2340,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2363,7 +2363,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2384,7 +2384,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2405,7 +2405,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2447,7 +2447,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2468,7 +2468,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2489,7 +2489,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2509,7 +2509,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2529,7 +2529,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2549,7 +2549,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2589,7 +2589,7 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2609,7 +2609,7 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2629,7 +2629,7 @@ mho_GLOBE_3$psy_life_sat_low_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa <= 4,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2737,7 +2737,7 @@ mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneline
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2758,7 +2758,7 @@ mho_GLOBE_1$psy_loneliness_tertile_1 <- as.integer(ifelse(GLOBE1997$psy_loneline
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2791,15 +2791,12 @@ Responses for items 2, 3 and 4 were kept as is.
 GLOBE2014$G14v61_b_i <- as.integer(GLOBE2014$G14v61_b)
 GLOBE2014$G14v61_c_i <- as.integer(GLOBE2014$G14v61_c)
 GLOBE2014$G14v61_d_i <- as.integer(GLOBE2014$G14v61_d)
-```
-Responses for items 1, 5 and 6 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 1, 5 and 6 were reverse coded.  
 GLOBE2014$G14v61_a_i <- as.integer(6 - GLOBE2014$G14v61_a)
 GLOBE2014$G14v61_e_i <- as.integer(6 - GLOBE2014$G14v61_e)
 GLOBE2014$G14v61_f_i <- as.integer(6 - GLOBE2014$G14v61_f)
-```
-Loneliness scores and tertiles were then calculated as follows.    
-```{r, echo=TRUE}
+#Loneliness scores and tertiles were then calculated as follows.    
 GLOBE2014$loneliness_nmiss <- apply(GLOBE2014[,12:17], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 GLOBE2014$psy_loneliness_score_4 <- apply(GLOBE2014[,12:17], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2831,7 +2828,7 @@ mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneline
 **Harmonization comment**:  
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2852,7 +2849,7 @@ mho_GLOBE_4$psy_loneliness_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_loneline
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2912,7 +2909,7 @@ mho_GLOBE_1$psy_loneliness_high_1 <- as.integer(ifelse(GLOBE1997$psy_loneliness_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2932,7 +2929,7 @@ mho_GLOBE_1$psy_loneliness_high_1 <- as.integer(ifelse(GLOBE1997$psy_loneliness_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2972,7 +2969,7 @@ mho_GLOBE_4$psy_loneliness_high_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2992,7 +2989,7 @@ mho_GLOBE_4$psy_loneliness_high_4 <- as.integer(ifelse(GLOBE2014$psy_loneliness_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3052,7 +3049,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3072,7 +3069,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3092,7 +3089,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3112,7 +3109,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3132,7 +3129,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3154,7 +3151,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3174,7 +3171,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3194,7 +3191,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3214,7 +3211,7 @@ mho_GLOBE_1$psy_lonely_yn_1 <- GLOBE1997$g4i_i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3458,7 +3455,7 @@ mho_GLOBE_4$psy_distress_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_distress_s
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3479,7 +3476,7 @@ mho_GLOBE_4$psy_distress_tertile_4 <- as.integer(ifelse(GLOBE2014$psy_distress_s
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3609,7 +3606,7 @@ mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3629,7 +3626,7 @@ mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3652,7 +3649,7 @@ mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3673,7 +3670,7 @@ mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3694,7 +3691,7 @@ mho_GLOBE_4$psy_distress_case_4 <- as.integer(ifelse(GLOBE2014$psy_distress_pct_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3808,7 +3805,7 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3828,7 +3825,7 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3848,7 +3845,7 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3868,7 +3865,7 @@ mho_GLOBE_3$psy_qol_tertile_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3908,6 +3905,6 @@ mho_GLOBE_3$psy_qol_low_3 <- as.integer(ifelse(GLOBE2011$psy_qol_score_3 < 126,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
