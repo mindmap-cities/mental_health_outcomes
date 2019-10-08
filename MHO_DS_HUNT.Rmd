@@ -58,7 +58,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -112,7 +112,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -127,7 +127,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -142,7 +142,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -157,7 +157,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -177,7 +177,7 @@ mho_HUNT_2$psy_anxiety_score_2 <- as.integer(HUNT3$HADSAnxi_NT3BLQ2)
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -237,7 +237,7 @@ mho_HUNT_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_HUNT_2$psy_anxiety_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -257,7 +257,7 @@ mho_HUNT_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_HUNT_2$psy_anxiety_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -277,7 +277,7 @@ mho_HUNT_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_HUNT_2$psy_anxiety_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -297,7 +297,7 @@ mho_HUNT_2$psy_anxiety_case_2 <- as.integer(ifelse(mho_HUNT_2$psy_anxiety_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -377,7 +377,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -397,7 +397,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -417,7 +417,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -437,7 +437,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -454,7 +454,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -469,7 +469,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -484,7 +484,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -499,7 +499,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -514,7 +514,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -529,7 +529,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -544,7 +544,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -564,7 +564,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -584,7 +584,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -604,7 +604,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -624,7 +624,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -644,7 +644,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -664,7 +664,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -684,7 +684,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -699,7 +699,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -714,7 +714,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -729,7 +729,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -744,7 +744,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -759,7 +759,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -774,7 +774,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -789,7 +789,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -809,7 +809,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -829,7 +829,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -849,7 +849,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -869,7 +869,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -889,7 +889,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -909,7 +909,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -929,7 +929,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -944,7 +944,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -959,7 +959,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -974,7 +974,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -989,7 +989,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1004,7 +1004,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1019,7 +1019,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1034,7 +1034,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1054,7 +1054,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1074,7 +1074,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1094,7 +1094,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1114,7 +1114,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1134,7 +1134,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1154,7 +1154,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1174,7 +1174,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1189,7 +1189,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1204,7 +1204,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1219,7 +1219,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1234,7 +1234,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1249,7 +1249,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1264,7 +1264,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1279,7 +1279,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1299,7 +1299,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1319,7 +1319,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1339,7 +1339,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1359,7 +1359,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1379,7 +1379,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1399,7 +1399,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1419,7 +1419,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1434,7 +1434,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1449,7 +1449,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1464,7 +1464,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1479,7 +1479,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1494,7 +1494,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1509,7 +1509,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1524,7 +1524,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1544,7 +1544,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1564,7 +1564,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1584,7 +1584,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1604,7 +1604,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1624,7 +1624,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1644,7 +1644,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1664,7 +1664,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1679,7 +1679,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1694,7 +1694,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1709,7 +1709,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1724,7 +1724,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 
 ```
@@ -1740,7 +1740,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1755,7 +1755,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1770,7 +1770,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1790,7 +1790,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1810,7 +1810,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1830,7 +1830,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1850,7 +1850,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1870,7 +1870,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1890,7 +1890,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1910,7 +1910,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1933,7 +1933,7 @@ mho_HUNT_2$psy_anxious_yn_2 <- as.integer(ifelse(HUNT3$FeelNervL2W_NT3BLQ1 >= 3,
 **Harmonization comment**:       
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2005,7 +2005,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2026,7 +2026,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2047,7 +2047,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2068,7 +2068,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2088,7 +2088,7 @@ mho_HUNT_2$psy_dep_tertile_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 1,0,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2148,7 +2148,7 @@ mho_HUNT_2$psy_dep_case_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 10,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2168,7 +2168,7 @@ mho_HUNT_2$psy_dep_case_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 10,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2188,7 +2188,7 @@ mho_HUNT_2$psy_dep_case_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 10,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2208,7 +2208,7 @@ mho_HUNT_2$psy_dep_case_2 <- as.integer(ifelse(HUNT3$HADSDepr_NT3BLQ2 <= 10,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2288,7 +2288,7 @@ mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2308,7 +2308,7 @@ mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2328,7 +2328,7 @@ mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2348,7 +2348,7 @@ mho_HUNT_2$psy_dep_yn_2 <- as.integer(ifelse(HUNT3$FeelDeprL2W_NT3BLQ1 <= 2,0, i
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2434,7 +2434,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2455,7 +2455,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2476,7 +2476,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2497,7 +2497,7 @@ mho_HUNT_2$psy_life_sat_tertile_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2576,7 +2576,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2596,7 +2596,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2616,7 +2616,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2636,7 +2636,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2659,7 +2659,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2680,7 +2680,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2701,7 +2701,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2722,7 +2722,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2743,7 +2743,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2764,7 +2764,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2785,7 +2785,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2805,7 +2805,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2825,7 +2825,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2845,7 +2845,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2865,7 +2865,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2885,7 +2885,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2905,7 +2905,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2925,7 +2925,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2945,7 +2945,7 @@ mho_HUNT_2$psy_life_sat_low_2 <- as.integer(ifelse(HUNT3$SatLif_NT3BLQ1 <= 3,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3005,7 +3005,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3025,7 +3025,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3045,7 +3045,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3065,7 +3065,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3087,7 +3087,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3107,7 +3107,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3127,7 +3127,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3147,7 +3147,7 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3174,18 +3174,17 @@ mho_HUNT_2$psy_lonely_yn_2 <- as.integer(ifelse(HUNT3$FeelLoneL2W_NT3BLQ1 >= 3,1
 4. Would you say you are usually cheerful or downhearted? (very downhearted-1, downhearted-2, somewhat downhearted-3, some of both-4, somewhat cheerful-5, cheerful-6, very cheerful-7)      
 
 **R script**:    
-Responses for items 1 and 3 were kept as is.         
 ```{r, echo=TRUE}
+#Responses for items 1 and 3 were kept as is.         
+
 HUNT1$FeelCalm_i <- as.integer(HUNT1$FeelCalm_NT1BLQ2)
 HUNT1$FeelStro_i <- as.integer(HUNT1$FeelStro_NT1BLQ2)
-```
-Responses for items 2 and 4 were reverse coded.     
-```{r, echo=TRUE}
+
+#Responses for items 2 and 4 were reverse coded.     
 HUNT1$FeelMood_i <- as.integer(8 - HUNT1$FeelMood_NT1BLQ2)
 HUNT1$FeelNervLM_i <- as.integer(5 - HUNT1$FeelNervLM_NT1BLQ2)
-```
-Psychological distress scores and tertiles were then calculated as follows.    
-```{r, echo=TRUE}
+
+#Psychological distress scores and tertiles were then calculated as follows.    
 HUNT1$nmiss <- apply(HUNT1[,8:11], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HUNT1$psy_distress_score_0 <- apply(HUNT1[,8:11], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3271,7 +3270,7 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3292,7 +3291,7 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3313,7 +3312,7 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3334,7 +3333,7 @@ mho_HUNT_2$psy_distress_tertile_2 <- as.integer(ifelse(HUNT3$HADSTot_NT3BLQ2 <= 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3415,7 +3414,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3435,7 +3434,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3455,7 +3454,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3475,7 +3474,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3498,7 +3497,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3519,7 +3518,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3540,7 +3539,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3561,7 +3560,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3582,7 +3581,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3602,7 +3601,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3622,7 +3621,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3642,7 +3641,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3662,7 +3661,7 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3682,6 +3681,6 @@ mho_HUNT_2$psy_distress_case_2 <- as.integer(HUNT3$HADSTot_NT3BLQ2 >= 15,1, ifel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
