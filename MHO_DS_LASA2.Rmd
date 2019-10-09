@@ -2831,7 +2831,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 **Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_0$psy_lif_sat_low_0 <- as.integer(car::recode(LASA2B$bqsatis2, "1:3=1; 4:5=0; else=NA"))
+mho_LASA2_0$psy_life_sat_low_0 <- as.integer(car::recode(LASA2B$bqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2851,7 +2851,7 @@ mho_LASA2_0$psy_lif_sat_low_0 <- as.integer(car::recode(LASA2B$bqsatis2, "1:3=1;
 **Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_1$psy_lif_sat_low_1 <- as.integer(car::recode(LASA2F$fqsatis2, "1:3=1; 4:5=0; else=NA"))
+mho_LASA2_1$psy_life_sat_low_1 <- as.integer(car::recode(LASA2F$fqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2871,7 +2871,7 @@ mho_LASA2_1$psy_lif_sat_low_1 <- as.integer(car::recode(LASA2F$fqsatis2, "1:3=1;
 **Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_2$psy_lif_sat_low_2 <- as.integer(car::recode(LASA2G$gqsatis2, "1:3=1; 4:5=0; else=NA"))
+mho_LASA2_2$psy_life_sat_low_2 <- as.integer(car::recode(LASA2G$gqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
@@ -2891,7 +2891,7 @@ mho_LASA2_2$psy_lif_sat_low_2 <- as.integer(car::recode(LASA2G$gqsatis2, "1:3=1;
 **Harmonization comment**:  Based on a 5-point ('very dissatisfied', 'dissatisfied', 'not dissatisfied or satisfied', 'satisfied', 'very satisfied') item response to "How satisfied with life have you been until now?" The lowest quartile comprised responses ranging from 'not dissatisfied or satisfied' to 'very dissatisfied.'      
 **R script**:  
 ```{r, echo=TRUE}
-mho_LASA2_3$psy_lif_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1; 4:5=0; else=NA"))
+mho_LASA2_3$psy_life_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1; 4:5=0; else=NA"))
 
 ```
 
