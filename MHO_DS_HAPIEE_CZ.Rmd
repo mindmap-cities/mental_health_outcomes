@@ -95,7 +95,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -110,7 +110,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -125,7 +125,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -140,7 +140,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -155,7 +155,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -170,7 +170,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -185,7 +185,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -205,7 +205,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -225,7 +225,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -245,7 +245,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -265,7 +265,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -285,7 +285,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -305,7 +305,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -325,7 +325,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -345,7 +345,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -365,7 +365,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -385,7 +385,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -405,7 +405,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -425,7 +425,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -445,7 +445,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -465,7 +465,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -512,7 +512,7 @@ mho_HAPIEE_CZ_1$cog_imm_rscale_1 <- HAPIEE_W2$w2cog1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -527,7 +527,7 @@ mho_HAPIEE_CZ_1$cog_imm_rscale_1 <- HAPIEE_W2$w2cog1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -542,7 +542,7 @@ mho_HAPIEE_CZ_1$cog_imm_rscale_1 <- HAPIEE_W2$w2cog1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -557,7 +557,7 @@ mho_HAPIEE_CZ_1$cog_imm_rscale_1 <- HAPIEE_W2$w2cog1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -572,7 +572,7 @@ mho_HAPIEE_CZ_1$cog_imm_rscale_1 <- HAPIEE_W2$w2cog1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -636,7 +636,7 @@ mho_HAPIEE_CZ_1$cog_imm_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_imm_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -656,7 +656,7 @@ mho_HAPIEE_CZ_1$cog_imm_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_imm_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -676,7 +676,7 @@ mho_HAPIEE_CZ_1$cog_imm_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_imm_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -696,7 +696,7 @@ mho_HAPIEE_CZ_1$cog_imm_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_imm_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -716,7 +716,7 @@ mho_HAPIEE_CZ_1$cog_imm_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_imm_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -761,7 +761,7 @@ mho_HAPIEE_CZ_1$cog_del_rscale_1 <- car::recode(HAPIEE_W2$w2cog12, "99=NA")
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -776,7 +776,7 @@ mho_HAPIEE_CZ_1$cog_del_rscale_1 <- car::recode(HAPIEE_W2$w2cog12, "99=NA")
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -791,7 +791,7 @@ mho_HAPIEE_CZ_1$cog_del_rscale_1 <- car::recode(HAPIEE_W2$w2cog12, "99=NA")
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -806,7 +806,7 @@ mho_HAPIEE_CZ_1$cog_del_rscale_1 <- car::recode(HAPIEE_W2$w2cog12, "99=NA")
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -821,7 +821,7 @@ mho_HAPIEE_CZ_1$cog_del_rscale_1 <- car::recode(HAPIEE_W2$w2cog12, "99=NA")
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -885,7 +885,7 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -905,7 +905,7 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -925,7 +925,7 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -945,7 +945,7 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -965,14 +965,14 @@ mho_HAPIEE_CZ_1$cog_del_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_del_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -988,7 +988,7 @@ mho_HAPIEE_CZ_0$cog_verb_std_0 <- scale(HAPIEE_W1$cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1004,7 +1004,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1012,14 +1012,14 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1027,14 +1027,14 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1042,14 +1042,14 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1057,14 +1057,14 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1072,7 +1072,7 @@ mho_HAPIEE_CZ_1$cog_verb_std_1 <- scale(HAPIEE_W2$w2cog7)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1136,7 +1136,7 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1156,7 +1156,7 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1176,7 +1176,7 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1196,7 +1196,7 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1216,14 +1216,14 @@ mho_HAPIEE_CZ_1$cog_verb_low_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_ver
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1239,7 +1239,7 @@ mho_HAPIEE_CZ_0$cog_proc_std_0 <- scale(HAPIEE_W1$cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1255,7 +1255,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1263,14 +1263,14 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1278,14 +1278,14 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1293,14 +1293,14 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1308,14 +1308,14 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1323,7 +1323,7 @@ mho_HAPIEE_CZ_1$cog_proc_std_1 <- scale(HAPIEE_W2$w2cog10)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1387,7 +1387,7 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1407,7 +1407,7 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1427,7 +1427,7 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1447,7 +1447,7 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1467,14 +1467,14 @@ mho_HAPIEE_CZ_1$cog_proc_slow_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_pr
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_0  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1500,7 +1500,7 @@ mho_HAPIEE_CZ_0$cog_nmiss_0 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_1  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1526,7 +1526,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_2  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1534,14 +1534,14 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_3  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1549,14 +1549,14 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_4  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1564,14 +1564,14 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_5  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1579,14 +1579,14 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_6  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1594,7 +1594,7 @@ mho_HAPIEE_CZ_1$cog_nmiss_1 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1658,7 +1658,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1678,7 +1678,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1698,7 +1698,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1718,7 +1718,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1738,7 +1738,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1753,7 +1753,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1768,7 +1768,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1783,7 +1783,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1798,7 +1798,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 
 ```
@@ -1814,7 +1814,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1829,7 +1829,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1844,7 +1844,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1864,7 +1864,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1884,7 +1884,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1904,7 +1904,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1924,7 +1924,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1944,7 +1944,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1964,7 +1964,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1984,7 +1984,7 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2029,8 +2029,9 @@ mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(car::recode(mho_HAPIEE_CZ_1$cog_co
 Responses ranged from 'less than 1 day' (0), '1-2 days' (1), '3-4 days' (2), '5-7 days' (3).    
   
 **R script**:  
-As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
 ```{r, echo=TRUE}
+#As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
+
 HAPIEE_W1$p54a_i <- car::recode(HAPIEE_W1$p54a, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_W1$p54b_i <- car::recode(HAPIEE_W1$p54b, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_W1$p54c_i <- car::recode(HAPIEE_W1$p54c, "1=0; 2=1; 3=2; 4=3; 9=NA") 
@@ -2051,16 +2052,13 @@ HAPIEE_W1$p54q_i <- car::recode(HAPIEE_W1$p54q, "1=0; 2=1; 3=2; 4=3; 9=NA")
 HAPIEE_W1$p54r_i <- car::recode(HAPIEE_W1$p54r, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_W1$p54s_i <- car::recode(HAPIEE_W1$p54s, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_W1$p54t_i <- car::recode(HAPIEE_W1$p54t, "1=0; 2=1; 3=2; 4=3; 9=NA") 
-```
-Responses for items 4, 8, 12, and 16 were reverse coded.  
-```{r, echo=TRUE}
+#Responses for items 4, 8, 12, and 16 were reverse coded.  
 HAPIEE_W1$p54d_i <- as.integer(car::recode(HAPIEE_W1$p54d_i, "3=0; 2=1; 1=2; 0=3"))
 HAPIEE_W1$p54h_i <- as.integer(car::recode(HAPIEE_W1$p54h_i, "3=0; 2=1; 1=2; 0=3"))
 HAPIEE_W1$p54l_i <- as.integer(car::recode(HAPIEE_W1$p54l_i, "3=0; 2=1; 1=2; 0=3")) 
 HAPIEE_W1$p54p_i <- as.integer(car::recode(HAPIEE_W1$p54p_i, "3=0; 2=1; 1=2; 0=3")) 
-```
-Depression symptom scores and tertiles were then calculated as follows.
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.
 HAPIEE_W1$cesdnmiss <- apply(HAPIEE_W1[,50:69], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_W1$psy_dep_score_0 <- apply(HAPIEE_W1[,50:69], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2107,8 +2105,9 @@ mho_HAPIEE_CZ_0$psy_dep_tertile_0 <- as.integer(car::recode(HAPIEE_W1$psy_dep_sc
 Responses options were 'yes' (1) or 'no' (0).  
 
 **R script**:
-As responses were coded from 'yes' (1) to 'no,' (2) in HAPIEE, these were recoded to 0/1 response scale.  
 ```{r, echo=TRUE}
+#As responses were coded from 'yes' (1) to 'no,' (2) in HAPIEE, these were recoded to 0/1 response scale.  
+
 HAPIEE_W2$w2p54f_i <- car::recode(HAPIEE_W2$w2p54f, "2=0; 8=NA; 9=NA") 
 HAPIEE_W2$w2p54g_i <- car::recode(HAPIEE_W2$w2p54g, "2=0; 8=NA; 9=NA") 
 HAPIEE_W2$w2p54k_i <- car::recode(HAPIEE_W2$w2p54k, "2=0; 8=NA; 9=NA") 
@@ -2119,14 +2118,11 @@ HAPIEE_W2$w2p54p_i <- car::recode(HAPIEE_W2$w2p54p, "2=0; 8=NA; 9=NA")
 HAPIEE_W2$w2p54r_i <- car::recode(HAPIEE_W2$w2p54r, "2=0; 8=NA; 9=NA")
 HAPIEE_W2$w2p54s_i <- car::recode(HAPIEE_W2$w2p54s, "2=0; 8=NA; 9=NA") 
 HAPIEE_W2$w2p54t_i <- car::recode(HAPIEE_W2$w2p54t, "2=0; 8=NA; 9=NA")
-```
-Responses for items 4 and 7 were reverse coded.  
-```{r, echo=TRUE}
+#Responses for items 4 and 7 were reverse coded.  
 HAPIEE_W2$w2p54l_i <- car::recode(HAPIEE_W2$w2p54l_i, "0=1; 1=0")
 HAPIEE_W2$w2p54p_i <- car::recode(HAPIEE_W2$w2p54p_i, "0=1; 1=0")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_W2$cesdnmiss <- apply(HAPIEE_W2[,33:42], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_W2$psy_dep_score_1 <- apply(HAPIEE_W2[,33:42], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2170,14 +2166,12 @@ HAPIEE_postal2009$h2p54p_i <- car::recode(HAPIEE_postal2009$h2p54p, "2=0; 9=NA")
 HAPIEE_postal2009$h2p54r_i <- car::recode(HAPIEE_postal2009$h2p54r, "2=0; 9=NA")
 HAPIEE_postal2009$h2p54s_i <- car::recode(HAPIEE_postal2009$h2p54s, "2=0; 9=NA")
 HAPIEE_postal2009$h2p54t_i <- car::recode(HAPIEE_postal2009$h2p54t, "2=0; 9=NA")
-```
-Responses for items 4 and 7 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 4 and 7 were reverse coded.  
 HAPIEE_postal2009$h2p54l_i <- car::recode(HAPIEE_postal2009$h2p54l_i, "0=1; 1=0")
 HAPIEE_postal2009$h2p54p_i <- car::recode(HAPIEE_postal2009$h2p54p_i, "0=1; 1=0")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_postal2009$cesdnmiss <- apply(HAPIEE_postal2009[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_postal2009$psy_dep_score_2 <- apply(HAPIEE_postal2009[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2222,8 +2216,9 @@ mho_HAPIEE_CZ_2$psy_dep_tertile_2 <- as.integer(car::recode(HAPIEE_postal2009$ps
 Responses ranged from 'less than 1 day' (0), '1-2 days' (1), '3-4 days' (2), '5-7 days' (3).  
 
 **R script**:
-As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.        
 ```{r, echo=TRUE}
+#As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.        
+
 HAPIEE_postal2012$h3p54f_i <- car::recode(HAPIEE_postal2012$h3p54f, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2012$h3p54g_i <- car::recode(HAPIEE_postal2012$h3p54g, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2012$h3p54k_i <- car::recode(HAPIEE_postal2012$h3p54k, "1=0; 2=1; 3=2; 4=3; 9=NA") 
@@ -2234,14 +2229,10 @@ HAPIEE_postal2012$h3p54p_i <- car::recode(HAPIEE_postal2012$h3p54p, "1=0; 2=1; 3
 HAPIEE_postal2012$h3p54r_i <- car::recode(HAPIEE_postal2012$h3p54r, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2012$h3p54s_i <- car::recode(HAPIEE_postal2012$h3p54s, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2012$h3p54t_i <- car::recode(HAPIEE_postal2012$h3p54t, "1=0; 2=1; 3=2; 4=3; 9=NA") 
-```
-Responses for items 4 and 7 were reverse coded.   
-```{r, echo=TRUE}
+#Responses for items 4 and 7 were reverse coded.   
 HAPIEE_postal2012$h3p54l_i <- car::recode(HAPIEE_postal2012$h3p54l_i, "3=0; 2=1; 1=2; 0=3")
 HAPIEE_postal2012$h3p54p_i <- car::recode(HAPIEE_postal2012$h3p54p_i, "3=0; 2=1; 1=2; 0=3")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_postal2012$cesdnmiss <- apply(HAPIEE_postal2012[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_postal2012$psy_dep_score_3 <- apply(HAPIEE_postal2012[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2286,8 +2277,9 @@ mho_HAPIEE_CZ_3$psy_dep_tertile_3 <- as.integer(car::recode(HAPIEE_postal2012$ps
 Responses ranged from 'less than 1 day' (0), '1-2 days' (1), '3-4 days' (2), '5-7 days' (3).  
    
 **R script**:
-As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.    
 ```{r, echo=TRUE}
+#As responses were coded from 'rarely or never' (1) to 'mostly or always,' (4) in HAPIEE, these were recoded to a 0-3 response scale.    
+
 HAPIEE_postal2013$h4p54f_i <- car::recode(HAPIEE_postal2013$h4p54f, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2013$h4p54g_i <- car::recode(HAPIEE_postal2013$h4p54g, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2013$h4p54k_i <- car::recode(HAPIEE_postal2013$h4p54k, "1=0; 2=1; 3=2; 4=3; 9=NA") 
@@ -2298,14 +2290,12 @@ HAPIEE_postal2013$h4p54p_i <- car::recode(HAPIEE_postal2013$h4p54p, "1=0; 2=1; 3
 HAPIEE_postal2013$h4p54r_i <- car::recode(HAPIEE_postal2013$h4p54r, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2013$h4p54s_i <- car::recode(HAPIEE_postal2013$h4p54s, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2013$h4p54t_i <- car::recode(HAPIEE_postal2013$h4p54t, "1=0; 2=1; 3=2; 4=3; 9=NA") 
-```
-Responses for items 4 and 7 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 4 and 7 were reverse coded.  
 HAPIEE_postal2013$h4p54l_i <- car::recode(HAPIEE_postal2013$h4p54l_i, "3=0; 2=1; 1=2; 0=3")
 HAPIEE_postal2013$h4p54p_i <- car::recode(HAPIEE_postal2013$h4p54p_i, "3=0; 2=1; 1=2; 0=3")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_postal2013$cesdnmiss <- apply(HAPIEE_postal2013[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_postal2013$psy_dep_score_4 <- apply(HAPIEE_postal2013[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2349,14 +2339,12 @@ HAPIEE_postal2015$h5p54p_i <- car::recode(HAPIEE_postal2015$h5p54p, "1=0; 2=1; 3
 HAPIEE_postal2015$h5p54r_i <- car::recode(HAPIEE_postal2015$h5p54r, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2015$h5p54s_i <- car::recode(HAPIEE_postal2015$h5p54s, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal2015$h5p54t_i <- car::recode(HAPIEE_postal2015$h5p54t, "1=0; 2=1; 3=2; 4=3; 9=NA") 
-```
-Responses for items 4 and 7 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 4 and 7 were reverse coded.  
 HAPIEE_postal2015$h5p54l_i <- car::recode(HAPIEE_postal2015$h5p54l_i, "3=0; 2=1; 1=2; 0=3")
 HAPIEE_postal2015$h5p54p_i <- car::recode(HAPIEE_postal2015$h5p54p_i, "3=0; 2=1; 1=2; 0=3")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_postal2015$cesdnmiss <- apply(HAPIEE_postal2015[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_postal2015$psy_dep_score_5 <- apply(HAPIEE_postal2015[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2400,14 +2388,12 @@ HAPIEE_postal201718$h6p54p_i <- car::recode(HAPIEE_postal201718$h6p54p, "1=0; 2=
 HAPIEE_postal201718$h6p54r_i <- car::recode(HAPIEE_postal201718$h6p54r, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal201718$h6p54s_i <- car::recode(HAPIEE_postal201718$h6p54s, "1=0; 2=1; 3=2; 4=3; 9=NA") 
 HAPIEE_postal201718$h6p54t_i <- car::recode(HAPIEE_postal201718$h6p54t, "1=0; 2=1; 3=2; 4=3; 9=NA") 
-```
-Responses for items 4 and 7 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 4 and 7 were reverse coded.  
 HAPIEE_postal201718$h6p54l_i <- car::recode(HAPIEE_postal201718$h6p54l_i, "3=0; 2=1; 1=2; 0=3")
 HAPIEE_postal201718$h6p54p_i <- car::recode(HAPIEE_postal201718$h6p54p_i, "3=0; 2=1; 1=2; 0=3")
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 HAPIEE_postal201718$cesdnmiss <- apply(HAPIEE_postal201718[,13:22], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_postal201718$psy_dep_score_6 <- apply(HAPIEE_postal201718[,13:22], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2714,7 +2700,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2722,7 +2708,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2735,7 +2721,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2743,7 +2729,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2756,7 +2742,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2764,7 +2750,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2777,7 +2763,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2785,7 +2771,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2798,7 +2784,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2806,7 +2792,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2819,7 +2805,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2827,7 +2813,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2840,7 +2826,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2848,7 +2834,7 @@ mho_HAPIEE_CZ_6$psy_dep_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2888,7 +2874,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2908,7 +2894,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2928,7 +2914,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2948,7 +2934,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2968,7 +2954,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2988,7 +2974,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3011,7 +2997,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3032,7 +3018,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3053,7 +3039,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3074,7 +3060,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3095,7 +3081,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3116,7 +3102,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3137,7 +3123,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3157,7 +3143,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3177,7 +3163,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3197,7 +3183,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3217,7 +3203,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3237,7 +3223,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3257,7 +3243,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3277,7 +3263,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3439,7 +3425,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3459,7 +3445,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3479,7 +3465,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3499,7 +3485,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3522,7 +3508,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3543,7 +3529,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3564,7 +3550,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3585,7 +3571,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3606,7 +3592,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3627,7 +3613,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3648,7 +3634,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3668,7 +3654,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3688,7 +3674,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3708,7 +3694,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3728,7 +3714,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3748,7 +3734,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3768,7 +3754,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3788,7 +3774,7 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3831,8 +3817,9 @@ mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6
 Responses ranged from 'often' (0), 'sometimes' (1), 'not often' (2), 'never' (3).      
       
 **R script**:  
-As responses were coded from 'often' (1) to 'never' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
 ```{r, echo=TRUE}
+#As responses were coded from 'often' (1) to 'never' (4) in HAPIEE, these were recoded to a 0-3 response scale.  
+
 HAPIEE_W1$r9a_i <- car::recode(HAPIEE_W1$r9a, "1=0; 2=1; 3=2; 4=3; 1000=NA")
 HAPIEE_W1$r9b_i <- car::recode(HAPIEE_W1$r9b, "1=0; 2=1; 3=2; 4=3; 1000=NA")
 HAPIEE_W1$r9c_i <- car::recode(HAPIEE_W1$r9c, "1=0; 2=1; 3=2; 4=3; 1000=NA")
@@ -3852,18 +3839,16 @@ HAPIEE_W1$r9p_i <- car::recode(HAPIEE_W1$r9p, "1=0; 2=1; 3=2; 4=3; 1000=NA")
 HAPIEE_W1$r9q_i <- car::recode(HAPIEE_W1$r9q, "1=0; 2=1; 3=2; 4=3; 1000=NA")
 HAPIEE_W1$r9r_i <- car::recode(HAPIEE_W1$r9r, "1=0; 2=1; 3=2; 4=3; 1000=NA")
 HAPIEE_W1$r9s_i <- car::recode(HAPIEE_W1$r9s, "1=0; 2=1; 3=2; 4=3; 1000=NA")
-```
-Items responses for items 1, 2, 4, 6, 8 and 9 were reverse coded.  
-```{r, echo=TRUE}
+
+#Items responses for items 1, 2, 4, 6, 8 and 9 were reverse coded.  
 HAPIEE_W1$r9a_i <- car::recode(HAPIEE_W1$r9a_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W1$r9b_i <- car::recode(HAPIEE_W1$r9b_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W1$r9d_i <- car::recode(HAPIEE_W1$r9d_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W1$r9f_i <- car::recode(HAPIEE_W1$r9f_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W1$r9h_i <- car::recode(HAPIEE_W1$r9h_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W1$r9i_i <- car::recode(HAPIEE_W1$r9i_i, "0=3; 1=2; 2=1; 3=0")
-```
-Quality of life scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Quality of life scores and tertiles were then calculated as follows.   -->
 HAPIEE_W1$qolnmiss <- apply(HAPIEE_W1[,72:90], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_W1$psy_qol_score_0 <- apply(HAPIEE_W1[,72:90], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3910,17 +3895,15 @@ HAPIEE_W2$w2r9n_i <- car::recode(HAPIEE_W2$w2r9n, "1=0; 2=1; 3=2; 4=3; 8=NA; 9=N
 HAPIEE_W2$w2r9o_i <- car::recode(HAPIEE_W2$w2r9o, "1=0; 2=1; 3=2; 4=3; 8=NA; 9=NA")
 HAPIEE_W2$w2r9r_i <- car::recode(HAPIEE_W2$w2r9r, "1=0; 2=1; 3=2; 4=3; 8=NA; 9=NA")
 HAPIEE_W2$w2r9s_i <- car::recode(HAPIEE_W2$w2r9s, "1=0; 2=1; 3=2; 4=3; 8=NA; 9=NA")
-```
-Item responses for items 1, 2, 3, 5 and 6 were reverse coded.  
-```{r, echo=TRUE}
+
+#Item responses for items 1, 2, 3, 5 and 6 were reverse coded.  
 HAPIEE_W2$w2r9a_i <- car::recode(HAPIEE_W2$w2r9a_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W2$w2r9b_i <- car::recode(HAPIEE_W2$w2r9b_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W2$w2r9d_i <- car::recode(HAPIEE_W2$w2r9d_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W2$w2r9f_i <- car::recode(HAPIEE_W2$w2r9f_i, "0=3; 1=2; 2=1; 3=0")
 HAPIEE_W2$w2r9i_i <- car::recode(HAPIEE_W2$w2r9i_i, "0=3; 1=2; 2=1; 3=0")
-```
-Quality of life scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Quality of life scores and tertiles were then calculated as follows.  
 HAPIEE_W2$qolnmiss <- apply(HAPIEE_W2[,45:56], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 HAPIEE_W2$psy_qol_score_1 <- apply(HAPIEE_W2[,45:56], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3953,7 +3936,7 @@ mho_HAPIEE_CZ_1$psy_qol_tertile_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_sc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3974,7 +3957,7 @@ mho_HAPIEE_CZ_1$psy_qol_tertile_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_sc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3995,7 +3978,7 @@ mho_HAPIEE_CZ_1$psy_qol_tertile_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_sc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4055,7 +4038,7 @@ mho_HAPIEE_CZ_1$psy_qol_low_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4075,7 +4058,7 @@ mho_HAPIEE_CZ_1$psy_qol_low_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4095,6 +4078,6 @@ mho_HAPIEE_CZ_1$psy_qol_low_1 <- as.integer(car::recode(HAPIEE_W2$psy_qol_score_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```

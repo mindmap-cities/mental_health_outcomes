@@ -65,7 +65,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -88,21 +88,19 @@ opal.logout(erasmus_opal)
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
-Responses for items 1-3 and 5-7 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3 and 5-7 were kept as is.  
+
 LASA2F$fanxiet1_i <- car::recode(LASA2F$fanxiet1, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")      
 LASA2F$fanxiet2_i <- car::recode(LASA2F$fanxiet2, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2F$fanxiet3_i <- car::recode(LASA2F$fanxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2F$fanxiet5_i <- car::recode(LASA2F$fanxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2F$fanxiet6_i <- car::recode(LASA2F$fanxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2F$fanxiet7_i <- car::recode(LASA2F$fanxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-```
-Responses for item 4 were reverse coded.
-```{r, echo=TRUE}
+#Responses for item 4 were reverse coded.
 LASA2F$fanxiet4_i <- car::recode(LASA2F$fanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-```
-Anxiety scores were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Anxiety scores were then calculated as follows.  
 LASA2F$anxiety_nmiss <- apply(LASA2F[,76:82], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 mho_LASA2_1$psy_anxiety_score_1 <- apply(LASA2F[,76:82], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -134,21 +132,19 @@ mho_LASA2_1$psy_anxiety_score_1 <- as.integer(round(mho_LASA2_1$psy_anxiety_scor
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
-Responses for items 1-3 and 5-7 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3 and 5-7 were kept as is.  
+
 LASA2G$ganxiet1_i <- car::recode(LASA2G$ganxiet1, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")      
 LASA2G$ganxiet2_i <- car::recode(LASA2G$ganxiet2, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2G$ganxiet3_i <- car::recode(LASA2G$ganxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2G$ganxiet5_i <- car::recode(LASA2G$ganxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2G$ganxiet6_i <- car::recode(LASA2G$ganxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2G$ganxiet7_i <- car::recode(LASA2G$ganxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-```
-Responses for item 4 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for item 4 were reverse coded.
 LASA2G$ganxiet4_i <- car::recode(LASA2G$ganxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-```
-Anxiety scores were then calculated as follows.  
-```{r, echo=TRUE}
+#Anxiety scores were then calculated as follows.  
 LASA2G$anxiety_nmiss <- apply(LASA2G[,75:81], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 mho_LASA2_2$psy_anxiety_score_2 <- apply(LASA2G[,75:81], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -180,21 +176,19 @@ mho_LASA2_2$psy_anxiety_score_2 <- as.integer(round(mho_LASA2_2$psy_anxiety_scor
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
-Responses for items 1-3 and 5-7 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3 and 5-7 were kept as is.  
+
 LASA2H$hanxiet1_i <- car::recode(LASA2H$hanxiet1, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")      
 LASA2H$hanxiet2_i <- car::recode(LASA2H$hanxiet2, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2H$hanxiet3_i <- car::recode(LASA2H$hanxiet3, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")     
 LASA2H$hanxiet5_i <- car::recode(LASA2H$hanxiet5, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")   
 LASA2H$hanxiet6_i <- car::recode(LASA2H$hanxiet6, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
 LASA2H$hanxiet7_i <- car::recode(LASA2H$hanxiet7, "0=0; 1=1; 2=2; 3=3; -1=NA; -2=NA")  
-```
-Responses for item 4 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for item 4 were reverse coded.
 LASA2H$hanxiet4_i <- car::recode(LASA2H$hanxiet4, "0=3; 1=2; 2=1; 3=0; -1=NA; -2=NA")
-```
-Anxiety scores were then calculated as follows.  
-```{r, echo=TRUE}
+#Anxiety scores were then calculated as follows.  
 LASA2H$anxiety_nmiss <- apply(LASA2H[,75:81], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 mho_LASA2_3$psy_anxiety_score_3 <- apply(LASA2H[,75:81], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -218,7 +212,7 @@ mho_LASA2_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -233,7 +227,7 @@ mho_LASA2_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -248,7 +242,7 @@ mho_LASA2_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -268,7 +262,7 @@ mho_LASA2_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -348,7 +342,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -368,7 +362,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -388,7 +382,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -408,7 +402,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -428,7 +422,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -448,7 +442,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -468,7 +462,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -488,7 +482,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -508,7 +502,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -528,7 +522,7 @@ mho_LASA2_3$psy_anxiety_case_3 <- as.integer(ifelse(mho_LASA2_3$psy_anxiety_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -622,7 +616,7 @@ mho_LASA2_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA2_3$cog_imm_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -637,7 +631,7 @@ mho_LASA2_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA2_3$cog_imm_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -652,7 +646,7 @@ mho_LASA2_3$cog_imm_rscale_3 <- as.integer(round(mho_LASA2_3$cog_imm_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -760,7 +754,7 @@ mho_LASA2_3$cog_imm_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_imm_low_3, "
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -780,7 +774,7 @@ mho_LASA2_3$cog_imm_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_imm_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -800,7 +794,7 @@ mho_LASA2_3$cog_imm_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_imm_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -891,7 +885,7 @@ mho_LASA2_3$cog_del_rscale_3 <- as.integer(round(mho_LASA2_3$cog_del_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -906,7 +900,7 @@ mho_LASA2_3$cog_del_rscale_3 <- as.integer(round(mho_LASA2_3$cog_del_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -921,7 +915,7 @@ mho_LASA2_3$cog_del_rscale_3 <- as.integer(round(mho_LASA2_3$cog_del_rscale_3))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1030,7 +1024,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1050,7 +1044,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1070,14 +1064,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1085,14 +1079,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1100,14 +1094,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1115,14 +1109,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1130,14 +1124,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1145,14 +1139,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1160,14 +1154,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Verbal fluency  
 **Variable name**:  cog_verb_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
-**Value type**:  integer  
+**Value type**:  decimal    
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
@@ -1175,7 +1169,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1195,7 +1189,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1215,7 +1209,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1235,7 +1229,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1255,7 +1249,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1275,7 +1269,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1295,7 +1289,7 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1315,14 +1309,14 @@ mho_LASA2_3$cog_del_low_3 <- as.integer(car::recode(mho_LASA2_3$cog_del_low_3, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_0  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1338,7 +1332,7 @@ mho_LASA2_0$cog_proc_std_0 <- scale(LASA2B$bmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_1  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1354,7 +1348,7 @@ mho_LASA2_1$cog_proc_std_1 <- scale(LASA2F$fmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_2  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1370,7 +1364,7 @@ mho_LASA2_2$cog_proc_std_2 <- scale(LASA2G$gmvar47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_3  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1386,7 +1380,7 @@ mho_LASA2_3$cog_proc_std_3 <- scale(LASA2H$HMVAR47_i)
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_4  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1394,14 +1388,14 @@ mho_LASA2_3$cog_proc_std_3 <- scale(LASA2H$HMVAR47_i)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_5  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1409,14 +1403,14 @@ mho_LASA2_3$cog_proc_std_3 <- scale(LASA2H$HMVAR47_i)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Processing speed  
 **Variable name**:  cog_proc_std_6  
 **Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
-**Value type**:  numeric    
+**Value type**:  decimal    
 **Variable unit**: items  
 **Category coding**:  N/A  
 
@@ -1424,7 +1418,7 @@ mho_LASA2_3$cog_proc_std_3 <- scale(LASA2H$HMVAR47_i)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1532,7 +1526,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1552,7 +1546,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1572,14 +1566,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_0  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1587,14 +1581,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_1  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1602,14 +1596,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_2  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1617,14 +1611,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_3  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1632,14 +1626,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:  Of the four cognitive tests, verbal fluency was not measured in LASA.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_4  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1647,14 +1641,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_5  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1662,14 +1656,14 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
 ### **Variable label**:  Composite cognition score from individual cognitive tests     
 **Variable name**: cog_comp_std_6  
 **Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
-**Value type**:  numeric     
+**Value type**:  decimal     
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
@@ -1677,7 +1671,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1697,7 +1691,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1717,7 +1711,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1737,7 +1731,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1757,7 +1751,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1777,7 +1771,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1797,7 +1791,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1817,7 +1811,7 @@ mho_LASA2_3$cog_proc_slow_3 <- as.integer(car::recode(mho_LASA2_3$cog_proc_slow_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1893,7 +1887,7 @@ mho_LASA2_3$cog_mmse_score_3 <- as.integer(car::recode(LASA2H$hmmsesc, "-2=NA"))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1908,7 +1902,7 @@ mho_LASA2_3$cog_mmse_score_3 <- as.integer(car::recode(LASA2H$hmmsesc, "-2=NA"))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1923,7 +1917,7 @@ mho_LASA2_3$cog_mmse_score_3 <- as.integer(car::recode(LASA2H$hmmsesc, "-2=NA"))
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2023,7 +2017,7 @@ mho_LASA2_3$cog_mmse_case_3 <- as.integer(ifelse(mho_LASA2_3$cog_mmse_score_3 <=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2043,7 +2037,7 @@ mho_LASA2_3$cog_mmse_case_3 <- as.integer(ifelse(mho_LASA2_3$cog_mmse_score_3 <=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2063,7 +2057,7 @@ mho_LASA2_3$cog_mmse_case_3 <- as.integer(ifelse(mho_LASA2_3$cog_mmse_score_3 <=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2108,8 +2102,9 @@ mho_LASA2_3$cog_mmse_case_3 <- as.integer(ifelse(mho_LASA2_3$cog_mmse_score_3 <=
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2), 'mostly or always' (3).    
  
 **R script**:  
-Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
+
 LASA2B$bcesd01_i <- as.integer(car::recode(LASA2B$bcesd01, "-2=NA; -1=NA"))
 LASA2B$bcesd02_i <- as.integer(car::recode(LASA2B$bcesd02, "-2=NA; -1=NA"))
 LASA2B$bcesd03_i <- as.integer(car::recode(LASA2B$bcesd03, "-2=NA; -1=NA"))
@@ -2126,16 +2121,13 @@ LASA2B$bcesd17_i <- as.integer(car::recode(LASA2B$bcesd17, "-2=NA; -1=NA"))
 LASA2B$bcesd18_i <- as.integer(car::recode(LASA2B$bcesd18, "-2=NA; -1=NA"))
 LASA2B$bcesd19_i <- as.integer(car::recode(LASA2B$bcesd19, "-2=NA; -1=NA"))
 LASA2B$bcesd20_i <- as.integer(car::recode(LASA2B$bcesd20, "-2=NA; -1=NA"))
-```
-Responses for items 4, 8, 12, and 16 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for items 4, 8, 12, and 16 were reverse coded.
 LASA2B$bcesd04_i <- as.integer(car::recode(LASA2B$bcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2B$bcesd08_i <- as.integer(car::recode(LASA2B$bcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2B$bcesd12_i <- as.integer(car::recode(LASA2B$bcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2B$bcesd16_i <- as.integer(car::recode(LASA2B$bcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+#Depression symptom scores and tertiles were then calculated as follows.  
 LASA2B$cesdnmiss <- apply(LASA2B[,69:88], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2B$psy_dep_score_0 <- apply(LASA2B[,69:88], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2169,8 +2161,9 @@ mho_LASA2_0$psy_dep_tertile_0 <- as.integer(car::recode(LASA2B$psy_dep_score_0, 
 **Harmonization status**: complete    
 **Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
-Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
+
 LASA2F$fcesd01_i <- as.integer(car::recode(LASA2F$fcesd01, "-2=NA; -1=NA"))
 LASA2F$fcesd02_i <- as.integer(car::recode(LASA2F$fcesd02, "-2=NA; -1=NA"))
 LASA2F$fcesd03_i <- as.integer(car::recode(LASA2F$fcesd03, "-2=NA; -1=NA"))
@@ -2187,16 +2180,13 @@ LASA2F$fcesd17_i <- as.integer(car::recode(LASA2F$fcesd17, "-2=NA; -1=NA"))
 LASA2F$fcesd18_i <- as.integer(car::recode(LASA2F$fcesd18, "-2=NA; -1=NA"))
 LASA2F$fcesd19_i <- as.integer(car::recode(LASA2F$fcesd19, "-2=NA; -1=NA"))
 LASA2F$fcesd20_i <- as.integer(car::recode(LASA2F$fcesd20, "-2=NA; -1=NA"))
-```
-Responses for items 4, 8, 12, and 16 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for items 4, 8, 12, and 16 were reverse coded.
 LASA2F$fcesd04_i <- as.integer(car::recode(LASA2F$fcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2F$fcesd08_i <- as.integer(car::recode(LASA2F$fcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2F$fcesd12_i <- as.integer(car::recode(LASA2F$fcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2F$fcesd16_i <- as.integer(car::recode(LASA2F$fcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+#Depression symptom scores and tertiles were then calculated as follows.  
 LASA2F$cesdnmiss <- apply(LASA2F[,87:106], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2F$psy_dep_score_1 <- apply(LASA2F[,87:106], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2230,8 +2220,9 @@ mho_LASA2_1$psy_dep_tertile_1 <- as.integer(car::recode(LASA2F$psy_dep_score_1, 
 **Harmonization status**: complete    
 **Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
-Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
+
 LASA2G$gcesd01_i <- as.integer(car::recode(LASA2G$gcesd01, "-2=NA; -1=NA"))
 LASA2G$gcesd02_i <- as.integer(car::recode(LASA2G$gcesd02, "-2=NA; -1=NA"))
 LASA2G$gcesd03_i <- as.integer(car::recode(LASA2G$gcesd03, "-2=NA; -1=NA"))
@@ -2248,16 +2239,13 @@ LASA2G$gcesd17_i <- as.integer(car::recode(LASA2G$gcesd17, "-2=NA; -1=NA"))
 LASA2G$gcesd18_i <- as.integer(car::recode(LASA2G$gcesd18, "-2=NA; -1=NA"))
 LASA2G$gcesd19_i <- as.integer(car::recode(LASA2G$gcesd19, "-2=NA; -1=NA"))
 LASA2G$gcesd20_i <- as.integer(car::recode(LASA2G$gcesd20, "-2=NA; -1=NA"))
-```
-Responses for items 4, 8, 12, and 16 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for items 4, 8, 12, and 16 were reverse coded.
 LASA2G$gcesd04_i <- as.integer(car::recode(LASA2G$gcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2G$gcesd08_i <- as.integer(car::recode(LASA2G$gcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2G$gcesd12_i <- as.integer(car::recode(LASA2G$gcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2G$gcesd16_i <- as.integer(car::recode(LASA2G$gcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+#Depression symptom scores and tertiles were then calculated as follows.  
 LASA2G$cesdnmiss <- apply(LASA2G[,86:105], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2G$psy_dep_score_2 <- apply(LASA2G[,86:105], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2291,8 +2279,9 @@ mho_LASA2_2$psy_dep_tertile_2 <- as.integer(car::recode(LASA2G$psy_dep_score_2, 
 **Harmonization status**: complete   
 **Harmonization comment**:  The CES-D 20 depression scores (0-60) in LASA were grouped into study-specific tertiles defined as low (0-3), medium (4-9), and high (10-60). Scores were calculated for participants with data on at least 16 items (out of a possible 20). If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 20. If participants missed 5 or more items, scores were not calculated and coded as missing.     
 **R script**:  
-Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 1-3, 5-7, 9-11, 13-15, and 17-20 were kept as is.  
+
 LASA2H$hcesd01_i <- as.integer(car::recode(LASA2H$hcesd01, "-2=NA; -1=NA"))
 LASA2H$hcesd02_i <- as.integer(car::recode(LASA2H$hcesd02, "-2=NA; -1=NA"))
 LASA2H$hcesd03_i <- as.integer(car::recode(LASA2H$hcesd03, "-2=NA; -1=NA"))
@@ -2309,16 +2298,14 @@ LASA2H$hcesd17_i <- as.integer(car::recode(LASA2H$hcesd17, "-2=NA; -1=NA"))
 LASA2H$hcesd18_i <- as.integer(car::recode(LASA2H$hcesd18, "-2=NA; -1=NA"))
 LASA2H$hcesd19_i <- as.integer(car::recode(LASA2H$hcesd19, "-2=NA; -1=NA"))
 LASA2H$hcesd20_i <- as.integer(car::recode(LASA2H$hcesd20, "-2=NA; -1=NA"))
-```
-Responses for items 4, 8, 12, and 16 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for items 4, 8, 12, and 16 were reverse coded.
 LASA2H$hcesd04_i <- as.integer(car::recode(LASA2H$hcesd04, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2H$hcesd08_i <- as.integer(car::recode(LASA2H$hcesd08, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2H$hcesd12_i <- as.integer(car::recode(LASA2H$hcesd12, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
 LASA2H$hcesd16_i <- as.integer(car::recode(LASA2H$hcesd16, "3=0; 2=1; 1=2; 0=3; -1=NA; -2=NA"))
-```
-Depression symptom scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Depression symptom scores and tertiles were then calculated as follows.  
 LASA2H$cesdnmiss <- apply(LASA2H[,86:105], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2H$psy_dep_score_3 <- apply(LASA2H[,86:105], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -2353,7 +2340,7 @@ mho_LASA2_3$psy_dep_tertile_3 <- as.integer(car::recode(LASA2H$psy_dep_score_3, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2374,7 +2361,7 @@ mho_LASA2_3$psy_dep_tertile_3 <- as.integer(car::recode(LASA2H$psy_dep_score_3, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2395,7 +2382,7 @@ mho_LASA2_3$psy_dep_tertile_3 <- as.integer(car::recode(LASA2H$psy_dep_score_3, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2495,7 +2482,7 @@ mho_LASA2_3$psy_dep_case_3 <- as.integer(ifelse(LASA2H$psy_dep_score_3 <= 15,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2515,7 +2502,7 @@ mho_LASA2_3$psy_dep_case_3 <- as.integer(ifelse(LASA2H$psy_dep_score_3 <= 15,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2535,7 +2522,7 @@ mho_LASA2_3$psy_dep_case_3 <- as.integer(ifelse(LASA2H$psy_dep_score_3 <= 15,0, 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2635,7 +2622,7 @@ mho_LASA2_3$psy_dep_yn_3 <- as.integer(car::recode(LASA2H$hcesd18_i, "0:1=0; 2:3
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2655,7 +2642,7 @@ mho_LASA2_3$psy_dep_yn_3 <- as.integer(car::recode(LASA2H$hcesd18_i, "0:1=0; 2:3
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2675,7 +2662,7 @@ mho_LASA2_3$psy_dep_yn_3 <- as.integer(car::recode(LASA2H$hcesd18_i, "0:1=0; 2:3
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2782,7 +2769,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2803,7 +2790,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2824,7 +2811,7 @@ mho_LASA2_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2924,7 +2911,7 @@ mho_LASA2_3$psy_life_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2944,7 +2931,7 @@ mho_LASA2_3$psy_life_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2964,7 +2951,7 @@ mho_LASA2_3$psy_life_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2999,25 +2986,23 @@ mho_LASA2_3$psy_life_sat_low_3 <- as.integer(car::recode(LASA2H$hqsatis2, "1:3=1
 Responses ranged from 'no' (1), 'more or less' (2) to 'yes' (3).  
   
 **R script**:  
-Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 2-3, 5-6, and 9-10 were kept as is.  
+
 LASA2B$blo2_i <- car::recode(LASA2B$blo2, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo3_i <- car::recode(LASA2B$blo3, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo5_i <- car::recode(LASA2B$blo5, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo6_i <- car::recode(LASA2B$blo6, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo9_i <- car::recode(LASA2B$blo9, "-1=NA; -3=NA; -4=NA")
 LASA2B$blo10_i <- car::recode(LASA2B$blo10, "-1=NA; -3=NA; -4=NA")
-```
-Responses for items 1, 4, 7-8, and 11 were reverse coded.  
-```{r, echo=TRUE}
+#Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 LASA2B$blo1_i <- car::recode(LASA2B$blo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo4_i <- car::recode(LASA2B$blo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo7_i <- car::recode(LASA2B$blo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo8_i <- car::recode(LASA2B$blo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2B$blo11_i <- car::recode(LASA2B$blo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-```
-Loneliness scores and tertiles were then calculated as follows.
-```{r, echo=TRUE}
+
+#Loneliness scores and tertiles were then calculated as follows.
 LASA2B$loneliness_nmiss <- apply(LASA2B[,91:101], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2B$psy_loneliness_score_0 <- apply(LASA2B[,91:101], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3049,25 +3034,24 @@ mho_LASA2_0$psy_loneliness_tertile_0 <- as.integer(car::recode(LASA2B$psy_loneli
 **Harmonization status**: complete    
 **Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.          
 **R script**:  
-Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 2-3, 5-6, and 9-10 were kept as is.  
+
 LASA2F$flo2_i <- car::recode(LASA2F$flo2, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo3_i <- car::recode(LASA2F$flo3, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo5_i <- car::recode(LASA2F$flo5, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo6_i <- car::recode(LASA2F$flo6, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo9_i <- car::recode(LASA2F$flo9, "-1=NA; -3=NA; -4=NA")
 LASA2F$flo10_i <- car::recode(LASA2F$flo10, "-1=NA; -3=NA; -4=NA")
-```
-Responses for items 1, 4, 7-8, and 11 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 LASA2F$flo1_i <- car::recode(LASA2F$flo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo4_i <- car::recode(LASA2F$flo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo7_i <- car::recode(LASA2F$flo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo8_i <- car::recode(LASA2F$flo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2F$flo11_i <- car::recode(LASA2F$flo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-```
-Loneliness scores and tertiles were then calculated as follows.
-```{r, echo=TRUE}
+
+#Loneliness scores and tertiles were then calculated as follows.
 LASA2F$loneliness_nmiss <- apply(LASA2F[,109:119], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2F$psy_loneliness_score_1 <- apply(LASA2F[,109:119], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3099,25 +3083,25 @@ mho_LASA2_1$psy_loneliness_tertile_1 <- as.integer(car::recode(LASA2F$psy_loneli
 **Harmonization status**: complete    
 **Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.          
 **R script**:  
-Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 2-3, 5-6, and 9-10 were kept as is.  
+
 LASA2G$glo2_i <- car::recode(LASA2G$glo2, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo3_i <- car::recode(LASA2G$glo3, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo5_i <- car::recode(LASA2G$glo5, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo6_i <- car::recode(LASA2G$glo6, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo9_i <- car::recode(LASA2G$glo9, "-1=NA; -3=NA; -4=NA")
 LASA2G$glo10_i <- car::recode(LASA2G$glo10, "-1=NA; -3=NA; -4=NA")
-```
-Responses for items 1, 4, 7-8, and 11 were reverse coded.  
-```{r, echo=TRUE}
+
+
+#Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 LASA2G$glo1_i <- car::recode(LASA2G$glo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo4_i <- car::recode(LASA2G$glo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo7_i <- car::recode(LASA2G$glo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo8_i <- car::recode(LASA2G$glo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2G$glo11_i <- car::recode(LASA2G$glo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-```
-Loneliness scores and tertiles were then calculated as follows.
-```{r, echo=TRUE}
+
+#Loneliness scores and tertiles were then calculated as follows.
 LASA2G$loneliness_nmiss <- apply(LASA2G[,108:118], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2G$psy_loneliness_score_2 <- apply(LASA2G[,108:118], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3149,25 +3133,24 @@ mho_LASA2_2$psy_loneliness_tertile_2 <- as.integer(car::recode(LASA2G$psy_loneli
 **Harmonization status**: complete    
 **Harmonization comment**:  The De-Jong Gierveld Loneliness scores (11-33) in LASA were grouped into study-specific tertiles defined as low (11), medium (12-14), and high (15-33). Scores were calculated for participants with data on at least 9 items (out of a possible 11).If 1 or more items were missing, scores on the completed items were summed and divided by the number of items completed and multiplied by 11. If participants missed 3 or more items, scores were not calculated and coded as missing.          
 **R script**:  
-Responses for items 2-3, 5-6, and 9-10 were kept as is.  
 ```{r, echo=TRUE}
+#Responses for items 2-3, 5-6, and 9-10 were kept as is.  
+
 LASA2H$Hlo2_i <- car::recode(LASA2H$Hlo2, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo3_i <- car::recode(LASA2H$Hlo3, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo5_i <- car::recode(LASA2H$Hlo5, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo6_i <- car::recode(LASA2H$Hlo6, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo9_i <- car::recode(LASA2H$Hlo9, "-1=NA; -3=NA; -4=NA")
 LASA2H$Hlo10_i <- car::recode(LASA2H$Hlo10, "-1=NA; -3=NA; -4=NA")
-```
-Responses for items 1, 4, 7-8, and 11 were reverse coded.  
-```{r, echo=TRUE}
+
+#Responses for items 1, 4, 7-8, and 11 were reverse coded.  
 LASA2H$Hlo1_i <- car::recode(LASA2H$Hlo1, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo4_i <- car::recode(LASA2H$Hlo4, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo7_i <- car::recode(LASA2H$Hlo7, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo8_i <- car::recode(LASA2H$Hlo8, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
 LASA2H$Hlo11_i <- car::recode(LASA2H$Hlo11, "-1=NA; -3=NA; -4=NA; 1=3; 3=1")
-```
-Loneliness scores and tertiles were then calculated as follows.
-```{r, echo=TRUE}
+
+#Loneliness scores and tertiles were then calculated as follows.
 LASA2H$loneliness_nmiss <- apply(LASA2H[,108:118], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
 LASA2H$psy_loneliness_score_3 <- apply(LASA2H[,108:118], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
@@ -3200,7 +3183,7 @@ mho_LASA2_3$psy_loneliness_tertile_3 <- as.integer(car::recode(LASA2H$psy_loneli
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3221,7 +3204,7 @@ mho_LASA2_3$psy_loneliness_tertile_3 <- as.integer(car::recode(LASA2H$psy_loneli
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3242,7 +3225,7 @@ mho_LASA2_3$psy_loneliness_tertile_3 <- as.integer(car::recode(LASA2H$psy_loneli
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3342,7 +3325,7 @@ mho_LASA2_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA2H$psy_lonelines
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3362,7 +3345,7 @@ mho_LASA2_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA2H$psy_lonelines
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3382,7 +3365,7 @@ mho_LASA2_3$psy_loneliness_high_3 <- as.integer(car::recode(LASA2H$psy_lonelines
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3482,7 +3465,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3502,7 +3485,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3522,7 +3505,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3544,7 +3527,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3564,7 +3547,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3584,7 +3567,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3604,7 +3587,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3627,7 +3610,7 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3651,16 +3634,13 @@ mho_LASA2_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA2H$hcesd14_i, "0:1=0; 
 Responses ranged from 'all of the time' (1), 'most of the time' (2), 'a good bit of the time' (3), 'some of the time' (4), 'a little of the time' (5), and 'none of the time' (6).  
    
 **R script**:  
-Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
+#Responses for item 1 were kept as is.
+
 LASA2F$fqquli09_i <- car::recode(LASA2F$fqquli09, "-1=NA")
-```
-Responses for item 2 were reverse coded.
-```{r, echo=TRUE}
+#Responses for item 2 were reverse coded.
 LASA2F$fqquli11_i <- car::recode(LASA2F$fqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-```
-Psychological distress scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+#Psychological distress scores and tertiles were then calculated as follows.  
 LASA2F$psy_distress_score_1 <- as.integer(LASA2F$fqquli09_i + LASA2F$fqquli11_i)
 
 mho_LASA2_1$psy_distress_tertile_1 <- as.integer(ifelse(LASA2F$psy_distress_score_1 <= 3,0, ifelse(LASA2F$psy_distress_score_1== 4,1, ifelse(LASA2F$psy_distress_score_1 >= 5,2,NA))))
@@ -3683,16 +3663,14 @@ mho_LASA2_1$psy_distress_tertile_1 <- as.integer(ifelse(LASA2F$psy_distress_scor
 **Harmonization status**: complete      
 **Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
-Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
+#Responses for item 1 were kept as is.
+
 LASA2G$gqquli09_i <- car::recode(LASA2G$gqquli09, "-1=NA")
-```
-Responses for item 2 were reverse coded.
-```{r, echo=TRUE}
+#Responses for item 2 were reverse coded.
 LASA2G$gqquli11_i <- car::recode(LASA2G$gqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-```
-Psychological distress scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Psychological distress scores and tertiles were then calculated as follows.  
 LASA2G$psy_distress_score_2 <- as.integer(LASA2G$gqquli09_i + LASA2G$gqquli11_i)
 
 mho_LASA2_2$psy_distress_tertile_2 <- as.integer(ifelse(LASA2G$psy_distress_score_2 <= 3,0, ifelse(LASA2G$psy_distress_score_2 == 4,1, ifelse(LASA2G$psy_distress_score_2 >= 5,2,NA))))
@@ -3715,16 +3693,15 @@ mho_LASA2_2$psy_distress_tertile_2 <- as.integer(ifelse(LASA2G$psy_distress_scor
 **Harmonization status**: complete    
 **Harmonization comment**:  The MHI-2 psychological distress scores (2-12) in LASA were grouped into study-specific tertiles defined as low (2-3), medium (4), and high (5-12). Scores were calculated for participants with complete data on the 2-item scale. If one or both items were missing, scores were not calculated and coded as missing.     
 **R script**:  
-Responses for item 1 were kept as is.
 ```{r, echo=TRUE}
+#Responses for item 1 were kept as is.
+
 LASA2H$hqquli09_i <- car::recode(LASA2H$hqquli09, "-1=NA")
-```
-Responses for item 2 were reverse coded.
-```{r, echo=TRUE}
+
+#Responses for item 2 were reverse coded.
 LASA2H$hqquli11_i <- car::recode(LASA2H$hqquli11, "-1=NA; 1=6; 2=5; 3=4; 4=3; 5=2; 6=1")
-```
-Psychological distress scores and tertiles were then calculated as follows.  
-```{r, echo=TRUE}
+
+#Psychological distress scores and tertiles were then calculated as follows.  
 LASA2H$psy_distress_score_3 <- as.integer(LASA2H$hqquli09_i + LASA2H$hqquli11_i)
 
 mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_score_3 <= 3,0, ifelse(LASA2H$psy_distress_score_3 == 4,1, ifelse(LASA2H$psy_distress_score_3 >= 5,2,NA))))
@@ -3748,7 +3725,7 @@ mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3769,7 +3746,7 @@ mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3790,7 +3767,7 @@ mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3810,7 +3787,7 @@ mho_LASA2_3$psy_distress_tertile_3 <- as.integer(ifelse(LASA2H$psy_distress_scor
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3896,7 +3873,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3916,7 +3893,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3936,7 +3913,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3959,7 +3936,7 @@ mho_LASA2_3$psy_distress_case_3 <- as.integer(ifelse(LASA2H$psy_distress_pct_3 >
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4037,7 +4014,7 @@ mho_LASA2_1$psy_qol_tertile_1 <- as.integer(car::recode(LASA2F$fqvall_i, "28:60=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4058,7 +4035,7 @@ mho_LASA2_1$psy_qol_tertile_1 <- as.integer(car::recode(LASA2F$fqvall_i, "28:60=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4078,7 +4055,7 @@ mho_LASA2_1$psy_qol_tertile_1 <- as.integer(car::recode(LASA2F$fqvall_i, "28:60=
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4118,7 +4095,7 @@ mho_LASA2_1$psy_qol_low_1 <- as.integer(car::recode(LASA2F$fqvall_i, "20:60=0; 1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4138,7 +4115,7 @@ mho_LASA2_1$psy_qol_low_1 <- as.integer(car::recode(LASA2F$fqvall_i, "20:60=0; 1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -4158,6 +4135,6 @@ mho_LASA2_1$psy_qol_low_1 <- as.integer(car::recode(LASA2F$fqvall_i, "20:60=0; 1
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
