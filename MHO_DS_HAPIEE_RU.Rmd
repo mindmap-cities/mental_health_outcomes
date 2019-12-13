@@ -2586,7 +2586,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2607,7 +2607,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2628,7 +2628,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2649,7 +2649,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2670,7 +2670,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2691,7 +2691,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2712,7 +2712,7 @@ mho_HAPIEE_RU_3$psy_dep_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54r_
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3165,7 +3165,7 @@ mho_HAPIEE_RU_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 1 |   Feels lonely 
 
 **Harmonization status**: complete   
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 20 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.         
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 20 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.         
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_RU_0$psy_lonely_yn_0 <- as.integer(car::recode(HAPIEE_W1$p54n_i, "0:1=0; 2:3=1"))
@@ -3225,7 +3225,7 @@ mho_HAPIEE_RU_2$psy_lonely_yn_2 <- as.integer(HAPIEE_postal2009$h2p54n_i)
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.        
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_RU_3$psy_lonely_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=0; 2:3=1"))

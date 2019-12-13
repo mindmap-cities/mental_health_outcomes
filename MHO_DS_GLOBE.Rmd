@@ -2355,7 +2355,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2376,7 +2376,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2397,7 +2397,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2418,7 +2418,7 @@ mho_GLOBE_4$psy_dep_yn_4 <- as.integer(ifelse(GLOBE2014$G14v15_e <= 3,1, ifelse(
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2439,7 +2439,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2460,7 +2460,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -2481,7 +2481,7 @@ mho_GLOBE_3$psy_life_sat_tertile_3 <- as.integer(ifelse(GLOBE2011$v63_aa_BN_aa >
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 

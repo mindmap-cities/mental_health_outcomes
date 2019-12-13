@@ -1633,7 +1633,7 @@ mho_HAPIEE_CZ_0$cog_comp_case_0 <- as.integer(car::recode(mho_HAPIEE_CZ_0$cog_co
 1 |   Cognitive impairment 
 
 **Harmonization status**: complete  
-**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests.      
+**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_1$cog_comp_case_1 <- as.integer(dicho(mho_HAPIEE_CZ_1$cog_comp_std_1, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -3294,7 +3294,7 @@ mho_HAPIEE_CZ_0$psy_life_sat_low_0 <- as.integer(car::recode(HAPIEE_W1$r9q, "1:2
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 20 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.        
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 20 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_0$psy_lonely_yn_0 <- as.integer(car::recode(HAPIEE_W1$p54n_i, "0:1=0; 2:3=1"))
@@ -3354,7 +3354,7 @@ mho_HAPIEE_CZ_2$psy_lonely_yn_2 <- as.integer(HAPIEE_postal2009$h2p54n_i)
 1 |   Feels lonely 
 
 **Harmonization status**: complete   
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.        
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_3$psy_lonely_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p54n_i, "0:1=0; 2:3=1"))
@@ -3374,7 +3374,7 @@ mho_HAPIEE_CZ_3$psy_lonely_yn_3 <- as.integer(car::recode(HAPIEE_postal2012$h3p5
 1 |   Feels lonely 
 
 **Harmonization status**: complete   
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.     
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_4$psy_lonely_yn_4 <- as.integer(car::recode(HAPIEE_postal2013$h4p54n_i, "0:1=0; 2:3=1"))
@@ -3394,7 +3394,7 @@ mho_HAPIEE_CZ_4$psy_lonely_yn_4 <- as.integer(car::recode(HAPIEE_postal2013$h4p5
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.        
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_5$psy_lonely_yn_5 <- as.integer(car::recode(HAPIEE_postal2015$h5p54n_i, "0:1=0; 2:3=1"))
@@ -3414,7 +3414,7 @@ mho_HAPIEE_CZ_5$psy_lonely_yn_5 <- as.integer(car::recode(HAPIEE_postal2015$h5p5
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' wre defined as feeling lonely.       
+**Harmonization comment**: Based on a 4-point ('less than 1 day', '1-2 days', '3-4 days', '5-7 days') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded '3-4 days' to '5-7 days' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_HAPIEE_CZ_6$psy_lonely_yn_6 <- as.integer(car::recode(HAPIEE_postal201718$h6p54n_i, "0:1=0; 2:3=1"))
