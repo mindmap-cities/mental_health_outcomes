@@ -1,0 +1,3658 @@
+---
+title: "Mental health outcomes DataSchema"
+output: html_document
+---
+```{r, echo=TRUE}
+library(tidyverse)
+library(epiDisplay)
+library(scales) 
+library(car)
+library(sjmisc)
+
+# Connecting with Opal data server
+## Login to server and assign study data
+#Load Opal R library
+library(opal)
+# Create an opal object with the login information
+erasmus_opal <- opal.login()
+#Login to Opal server and assign the content of the LASA table(s) to your RStudio environment
+# CLSA-TRA0
+opal.assign.table.tibble(erasmus_opal, 'Tra3_4_Baseline', 'CLSA_1.Tra3_4_Baseline', variables = list('DEP_BOTR_TRM','DEP_MIND_TRM','DEP_FLDP_TRM','DEP_FFRT_TRM','DEP_HPFL_TRM','DEP_FRFL_TRM','DEP_RSTLS_TRM','DEP_HAPP_TRM','DEP_LONLY_TRM','DEP_GTGO_TRM','DEP_CESD10_TRM','DEP_DPSFD_TRM','DEP_NBRMIS_TRM','PSD_NGHTM_TRM','PSD_AVOID_TRM','PSD_GUARD_TRM','PSD_DETACH_TRM','PSD_DCTOFF_TRM','PSD_NBRMIS_TRM','PSD_DSCR_TRM','SLS_LIFE_TRM','SLS_LIFENEG_TRM','SLS_LIFEPOS_TRM','SLS_COND_TRM','SLS_CONDNEG_TRM','SLS_CONDPOS_TRM','SLS_SATS_TRM','SLS_SATSNEG_TRM','SLS_SATSPOS_TRM','SLS_IMP_TRM','SLS_IMPNEG_TRM','SLS_IMPPOS_TRM','SLS_OVER_TRM','SLS_OVERNEG_TRM','SLS_OVERPOS_TRM','SLS_DSCR_TRM','SLS_DLIFE_TRM','SLS_DCOND_TRM','SLS_DSATS_TRM','SLS_DIMP_TRM','SLS_DOVER_TRM','SLS_DCLS_TRM','COG_REYI_SCORE_TRM','COG_REYII_SCORE_TRM','COG_ANML_TRM','COG_ANMLRPT_TRM','COG_AFT_SCORE_1_TRM','COG_AFT_SCORE_2_TRM','COG_MAT_SCORE_TRM'))
+Tra3_4_Baseline <- opal.execute(erasmus_opal,'Tra3_4_Baseline')
+
+# CLSA-TRA1
+opal.assign.table.tibble(erasmus_opal, 'Tra_FU1', 'CLSA_1.Tra_FU1', variables = 
+list('DEP_BOTR_TRF1','DEP_MIND_TRF1','DEP_FLDP_TRF1','DEP_FFRT_TRF1','DEP_HPFL_TRF1','DEP_FRFL_TRF1','DEP_RSTLS_TRF1','DEP_HAPP_TRF1','DEP_LONLY_TRF1','DEP_GTGO_TRF1','SLS_LIFE_TRF1','SLS_LIFENEG_TRF1','SLS_LIFEPOS_TRF1','SLS_COND_TRF1','SLS_CONDNEG_TRF1','SLS_CONDPOS_TRF1','SLS_SATS_TRF1','SLS_SATSNEG_TRF1','SLS_SATSPOS_TRF1','SLS_IMP_TRF1','SLS_IMPNEG_TRF1','SLS_IMPPOS_TRF1','SLS_OVER_TRF1','SLS_OVERNEG_TRF1','SLS_OVERPOS_TRF1','LONE_OFTN_TRF1','LONE_LEFT_TRF1','LONE_ISOL_TRF1')) 
+Tra_FU1 <- opal.execute(erasmus_opal,'Tra_FU1')
+```
+## Assign participant id as first column of your harmonized dataframes
+```{r, echo=FALSE}
+mho_CLSA_tra0 <- data.frame(id = Tra3_4_Baseline$id)
+mho_CLSA_tra1 <- data.frame(id = Tra_FU1$id)
+
+# When you are done with your work, logout of Opal server
+opal.logout(erasmus_opal)
+```
+# Table of Contents
+1. [Anxiety subdomain](#anxiety-subdomain)
+2. [Cognitive functioning subdomain](#cognitive-functioning-subdomain)
+3. [Depression subdomain](#depression-subdomain) 
+4. [Life satisfaction subdomain](#life-satisfaction-subdomain)
+5. [Loneliness subdomain](#loneliness-subdomain)
+6. [Post-traumatic stress subdomain](#post-traumatic-stress-subdomain)
+7. [Psychological distress subdomain](#psychological-distress-subdomain)
+8. [Quality of life subdomain](#quality-of-life-subdomain)
+
+# Anxiety subdomain
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+**Variable name**:   psy_anxiety_score_0  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+**Variable name**:   psy_anxiety_score_1  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible   
+**Harmonization comment**:     
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+**Variable name**:   psy_anxiety_score_2  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+**Variable name**:   psy_anxiety_score_3  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible   
+**Harmonization comment**:    
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+**Variable name**:   psy_anxiety_score_4  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+**Variable name**:   psy_anxiety_score_5  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Anxiety symptom score measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+**Variable name**:   psy_anxiety_score_6  
+**Variable description**:  Anxiety symptom score ranging from 0 to 21.  
+**Value type**:  integer  
+**Variable unit**:  score  
+**Category coding**:  N/A  
+ 
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+**Variable name**:   psy_anxiety_case_0  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
+**Value type**:  integer      
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible    
+**Harmonization comment**:      
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)
+**Variable name**:   psy_anxiety_case_1  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:    
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A) 
+**Variable name**:   psy_anxiety_case_2  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:   
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)   
+**Variable name**:   psy_anxiety_case_3  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:    
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+**Variable name**:   psy_anxiety_case_4  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).    
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+**Variable name**:   psy_anxiety_case_5  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).   
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Probable caseness of anxiety measured by the Hospital Anxiety & Depression Scale - Anxiety subscale (HADS-A)  
+**Variable name**:   psy_anxiety_case_6  
+**Variable description**:  Indicator of whether the participant has elevated anxiety symptoms in accordance with the HADS-A threshold from Zigmond & Snaith (1983) and Snaith (2003).     
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:    
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (0-10 anxiety symptom score)
+1 |   Case (11-21 anxiety symptom score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_0  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible     
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_1  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_2  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_3  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_4  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_5  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:   Feels anxious or nervous  
+**Variable name**:   psy_anxious_yn_6  
+**Variable description**:  Single item question on whether the participant feels anxious or nervous.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel anxious or nervous
+1 |   Feels anxious or nervous
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Cognitive functioning subdomain
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_0  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: complete   
+**Harmonization comment**:  Immediate word recall of 15 words from Rey's Auditory Verbal Learning Test was performed in CLSA. Only one trial of immediate word recall was assessed. The number of words immediately recalled were rescaled from 0-15 to 0-10 in CLSA.           
+**R script**:  
+```{r, echo=TRUE}
+Tra3_4_Baseline$COG_REYI_SCORE_TRM <- as.numeric(Tra3_4_Baseline$COG_REYI_SCORE_TRM)
+
+mho_CLSA_tra0$cog_imm_rscale_0 <- rescale(Tra3_4_Baseline$COG_REYI_SCORE_TRM, to = c(0,10), from = c(0,15))
+
+mho_CLSA_tra0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra0$cog_imm_rscale_0))
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_1  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_2  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_3  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.     
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_4  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_5  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Immediate word recall 
+**Variable name**:  cog_imm_rscale_6  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words immediately recalled during a test of verbal memory. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall     
+**Variable name**:  cog_imm_low_0    
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the number of words immediately recalled from CLSA, which was rescaled from 0-15 to 0-10.     
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_imm_low_0 <- as.integer(dicho(mho_CLSA_tra0$cog_imm_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_CLSA_tra0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra0$cog_imm_low_0, "2=0"))
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_1  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_2  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_3  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.     
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_4  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_5  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low immediate word recall   
+**Variable name**:  cog_imm_low_6  
+**Variable description**:  Indicator of whether the participant has low immediate word recall using a median split on the total (rescaled) number of words immediately recalled. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer  
+**Variable unit**:  N/A   
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High immediate word recall  
+1 |   Low immediate word recall 
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_0  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: complete   
+**Harmonization comment**:  Delayed word recall of 15 words from Rey's Auditory Verbal Learning Test was performed in CLSA. The number of words recalled after a delay were rescaled from 0-15 to 0-10 in CLSA.                     
+**R script**:  
+```{r, echo=TRUE}
+Tra3_4_Baseline$COG_REYII_SCORE_TRM <- as.numeric(Tra3_4_Baseline$COG_REYII_SCORE_TRM)
+
+mho_CLSA_tra0$cog_del_rscale_0 <- rescale(Tra3_4_Baseline$COG_REYII_SCORE_TRM, to = c(0,10), from = c(0,15))
+
+mho_CLSA_tra0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra0$cog_del_rscale_0))
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_1  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: pending    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_2  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_3  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible      
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_4  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_5  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Delayed word recall   
+**Variable name**:  cog_del_rscale_6  
+**Variable description**:  Rescaled value (ranging from 0 to 10) of the total number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer    
+**Variable unit**:  words  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_0  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in CLSA.     
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_del_low_0 <- as.integer(dicho(mho_CLSA_tra0$cog_del_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_CLSA_tra0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra0$cog_del_low_0, "2=0"))
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_1  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_2  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_3  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: impossible     
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_4  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: impossible     
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_5  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low delayed word recall  
+**Variable name**:  cog_del_low_6  
+**Variable description**:  Indicator of whether the participant has low delayed word recall using a median split on the total (rescaled) number of words recalled following an interval. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High delayed word recall  
+1 |   Low delayed word recall
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_0  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: complete   
+**Harmonization comment**: In CLSA, verbal fluency was measured by asking participants to name as many different animals in 1 minute. The number of animals correctly named were summed to derive a total score by the CLSA study, which was then transformed to a z-score. Since the animal naming task was administered twice to CLSA participants, data from the first trial were used.          
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_verb_std_0 <- scale(Tra3_4_Baseline$COG_AFT_SCORE_1_TRM)
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_1  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: pending    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_2  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_3  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_4  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_5  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Verbal fluency  
+**Variable name**:  cog_verb_std_6  
+**Variable description**:  Standardised value (z-score) of the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  decimal      
+**Variable unit**:  words  
+**Category coding**:  N/A 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_0    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: complete   
+**Harmonization comment**: This was based on the first trial of the total number of animals correctly named in 1 minute.     
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_verb_low_0 <- as.integer(dicho(Tra3_4_Baseline$COG_AFT_SCORE_1_TRM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_CLSA_tra0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra0$cog_verb_low_0, "2=0"))
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_1    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_2    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_3    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_4    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_5    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Low verbal fluency  
+**Variable name**:  cog_verb_low_6    
+**Variable description**:  Indicator of whether the participant has low verbal fluency using a median split on the total number of correctly named words from the given category (animals). If the test is performed more than once, data are based on the first trial.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   High verbal fluency
+1 |   Low verbal fluency
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_0  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: complete   
+**Harmonization comment**:  Processing speed was measured using the Mental Alternation Test (MAT). Participants were asked to count from 1-20 in 30 seconds and to recite the alphabet in 30 seconds. Participants were only asked to take the MAT if they were able to complete these two sub-tasks. The MAT asked participants to alternate consecutive numbers and letters from 1-A to 26-Z in 30 seconds. MAT scores (0-52) were based on the sum of each correct number and letter recited in a consecutive order, which were transformed to z-scores.      
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_proc_std_0 <- scale(Tra3_4_Baseline$COG_MAT_SCORE_TRM)
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_1  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: pending    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_2  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_3  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_4  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_5  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.   
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Processing speed  
+**Variable name**:  cog_proc_std_6  
+**Variable description**:  Standardised value (z-score) of the total number of items recalled correctly in a processing speed task. If the test is performed more than once, data are based on the first trial.    
+**Value type**:  decimal      
+**Variable unit**: items  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_0  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: complete    
+**Harmonization comment**:  This was based on the MAT score (0-52) of correct alternate numbers and letters recited in a consecutive order in CLSA.       
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_proc_slow_0 <- as.integer(dicho(Tra3_4_Baseline$COG_MAT_SCORE_TRM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_CLSA_tra0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra0$cog_proc_slow_0, "2=0"))
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_1  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_2  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_3  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_4  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_5  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Slow processing speed    
+**Variable name**: cog_proc_slow_6  
+**Variable description**:  Indicator of whether the participant has slow processing speed using a median split on the total number of items recalled correctly. If the test is performed more than once, data are based on the first trial.       
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Fast processing speed
+1 |   Slow processing speed 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_0  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_0, cog_del_rscale_0, cog_verb_std_0 and cog_proc_std_0). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: complete    
+**Harmonization comment**:  Composite cognition scores were derived only for participants who completed all four individual cognition tests.      
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_imm_std_0 <- scale(mho_CLSA_tra0$cog_imm_rscale_0)
+mho_CLSA_tra0$cog_del_std_0 <- scale(mho_CLSA_tra0$cog_del_rscale_0)
+
+mho_CLSA_tra0$cog_nmiss_0 <- apply(mho_CLSA_tra0[c("cog_imm_std_0", "cog_del_std_0", "cog_verb_std_0", "cog_proc_std_0")], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+mho_CLSA_tra0$cog_comp_std_0 <- apply(mho_CLSA_tra0[c("cog_imm_std_0", "cog_del_std_0", "cog_verb_std_0", "cog_proc_std_0")], MARGIN = 1, FUN = function(x) mean(x, na.rm = TRUE))
+
+mho_CLSA_tra0$cog_comp_std_0[which(mho_CLSA_tra0$cog_nmiss_0 >= 1)] <- NA_integer_
+
+mho_CLSA_tra0$cog_imm_std_0 <- NULL
+mho_CLSA_tra0$cog_del_std_0 <- NULL
+mho_CLSA_tra0$cog_nmiss_0 <- NULL
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_1  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_1, cog_del_rscale_1, cog_verb_std_1 and cog_proc_std_1). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: pending   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_2  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_2, cog_del_rscale_2, cog_verb_std_2 and cog_proc_std_2). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal         
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_3  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_3, cog_del_rscale_3, cog_verb_std_3 and cog_proc_std_3). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_4  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_4, cog_del_rscale_4, cog_verb_std_4 and cog_proc_std_4). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_5  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_5, cog_del_rscale_5, cog_verb_std_5 and cog_proc_std_5). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognition score from individual cognitive tests     
+**Variable name**: cog_comp_std_6  
+**Variable description**:  Composite cognition standardized value (z-score) obtained by averaging the four individual cognitive test scores (cog_imm_rscale_6, cog_del_rscale_6, cog_verb_std_6 and cog_proc_std_6). Immediate and delayed word recall scores were first standardized to z-scores for comparability across scores.  
+**Value type**:  decimal       
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_0  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: complete   
+**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests.      
+**R script**:  
+```{r, echo=TRUE}
+mho_CLSA_tra0$cog_comp_case_0 <- as.integer(dicho(mho_CLSA_tra0$cog_comp_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
+
+mho_CLSA_tra0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra0$cog_comp_case_0, "2=0"))
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_1  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: pending    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_2  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_3  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_4  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_5  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Composite cognitive impairment from individual cognitive tests     
+**Variable name**: cog_comp_case_6  
+**Variable description**:  Indicator of whether the participant has cognitive impairment using a median split on the composite cognition score from individual test scores.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment 
+1 |   Cognitive impairment 
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_0  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_1  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).       
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_2  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_3  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_4  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_5  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognition score measured by the MMSE     
+**Variable name**: cog_mmse_score_6  
+**Variable description**:  Current cognition score ranging from 0 to 30 measured by the Mini Mental State Examination (MMSE).     
+**Value type**:  integer   
+**Variable unit**:  score  
+**Category coding**:  N/A  
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_0  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_1  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).    
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_2  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_3  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_4  
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).    
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible    
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_5    
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Current cognitive impairment measured by the MMSE       
+**Variable name**: cog_mmse_case_6    
+**Variable description**:  Indicator of whether the participant has cognitive impairment in accordance with the Mini Mental State Examination (MMSE) threshold from Lezak, Howieson and Loring (2004).      
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   No cognitive impairment (24-30 MMSE score)
+1 |   Cognitive impairment (0-23 MMSE score)
+
+**Harmonization status**: impossible   
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Depression subdomain
+
+### **Variable label**:  Depressive symptom severity tertiles    
+**Variable name**:  psy_dep_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.     
+**Value type**:  integer   
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles  
+**Variable name**:  psy_dep_tertile_1    
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles      
+**Variable name**:  psy_dep_tertile_2  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles    
+**Variable name**:  psy_dep_tertile_3  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms    
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles    
+**Variable name**:  psy_dep_tertile_4  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.      
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles      
+**Variable name**:  psy_dep_tertile_5  
+**Variable description**:  Indicator of whether the participants has low, medium or high severity of depressive symptoms measured by tertiles of the scale-specific depressive symptom score.    
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms    
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Depressive symptom severity tertiles    
+**Variable name**:  psy_dep_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of depressive symptoms measure by the tertiles of the scale-specific depressive symptom score.   
+**Value type**:  integer    
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Low severity tertile of depressive symptoms
+1 |   Medium severity tertile of depressive symptoms
+2 |   High severity tertile of depressive symptoms   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression      
+**Variable name**:  psy_dep_case_0      
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer     
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression    
+**Variable name**:  psy_dep_case_1    
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer    
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression    
+**Variable name**:  psy_dep_case_2  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression  
+**Variable name**:  psy_dep_case_3  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)   
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression    
+**Variable name**:  psy_dep_case_4  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)     
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression  
+**Variable name**:  psy_dep_case_5    
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A    
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)       
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of depression    
+**Variable name**:  psy_dep_case_6  
+**Variable description**:  Indicator of whether the participant has elevated depressive symptoms in accordance with the scale-specific threshold of depressive symptom score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated depressive symptoms)  
+1 |   Case (elevated depressive symptoms)    
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_0  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_1  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_2  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_3  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_4  
+**Variable description**: Indicator of whether the participant feels sad, downhearted or blue (single item question).    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_5  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels sad, downhearted or blue  
+**Variable name**:  psy_dep_yn_6  
+**Variable description**:  Indicator of whether the participant feels sad, downhearted or blue (single item question).    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel sad, downhearted or blue
+1 |   Feels sad, downhearted or blue
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Life satisfaction subdomain
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_0  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_1  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_2  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_3  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_4  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_5  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Life satisfaction tertiles  
+**Variable name**:  psy_life_sat_tertile_6  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of life satisfaction measured by tertiles of the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of life satisfaction  
+1 | Medium levels of life satisfaction  
+2 | Low levels of life satisfaction
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_0  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score    
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_1  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score  
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_2  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_3  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_4  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_5  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of life satisfaction
+**Variable name**:  psy_life_sat_low_6  
+**Variable description**:  Indicator of whether the participant is in the lowest quartile of life satisfaction measured by the scale- or item- specific life satisfaction score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quartile of life satisfaction score   
+1 | Lowest quartile of life satisfaction score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Loneliness subdomain
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_1  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_2  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_3  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_4  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_5  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Loneliness tertiles   
+**Variable name**:  psy_loneliness_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium, or high levels of loneliness measured by tertiles of the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low levels of loneliness  
+1 | Medium levels of loneliness
+2 | High levels of loneliness
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_0  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_1  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_2  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_3  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_4  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_5  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Highest level of loneliness  
+**Variable name**:  psy_loneliness_high_6  
+**Variable description**:  Indicator of whether the participant is in the top quintile of loneliness measured by the scale-specific loneliness score.   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Second to lowest quintile of loneliness score  
+1 |   Top quintile of loneliness score  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_0  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).   
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_1  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_2  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_3  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).     
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_4  
+**Variable description**: Indicator of whether the participant feels lonely (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_5  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Feels lonely
+**Variable name**:  psy_lonely_yn_6  
+**Variable description**:  Indicator of whether the participant feels lonely (single item question).  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Does not feel lonely  
+1 |   Feels lonely 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Post-traumatic stress subdomain
+
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_0  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_1  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_2  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of post-traumatic stress disorder  
+**Variable name**:  psy_ptsd_case_3  
+**Variable description**:  Indicator of whether the participant has elevated post-traumatic stress disorder (PTSD) symptoms in accordance with the scale-specific threshold of PTSD score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated PTSD symptoms)
+1 |   Case (elevated PTSD symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Psychological distress subdomain
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_0  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_1  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_2  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_3  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_4  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_5  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Psychological distress severity tertiles  
+**Variable name**:  psy_distress_tertile_6  
+**Variable description**:  Indicator of whether the participant has low, medium or high severity of psychological distress symptoms measured by tertiles of the scale-specific psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Low severity tertile of psychological distress symptoms  
+1 | Medium severity tertile of psychological distress symptoms  
+2 | High severity tertile of psychological distress symptoms  
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_0      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_1        
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_2      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_3      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_4      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_5      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Probable caseness of psychological distress    
+**Variable name**:  psy_distress_case_6      
+**Variable description**:  Indicator of whether the participant has elevated psychological distress symptoms in accordance with the scale-specific threshold of psychological distress score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 |   Non-case (no elevated psychological distress symptoms)
+1 |   Case (elevated psychological distress symptoms)
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+# Quality of life subdomain
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_0  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_1  
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_2   
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_3    
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Quality of life tertiles  
+**Variable name**:  psy_qol_tertile_4    
+**Variable description**:  Indicator of whether the participant has high, medium or low levels of quality of life measured by tertiles of the scale-specific quality of life score.  
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | High levels of quality of life  
+1 | Medium levels of quality of life
+2 | Low levels of quality of life 
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_0       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_1       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_2       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_3       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
+
+### **Variable label**:  Lowest level of quality of life  
+**Variable name**:  psy_qol_low_4       
+**Variable description**:  Indicator of whether the participant is in the lowest quintile of quality of life measured by the scale-specific quality of life score.    
+**Value type**:  integer  
+**Variable unit**:  N/A  
+**Category coding**:  
+
+**Code** | **Category Label**  
+------------- | -------------  
+0 | Second to highest quintile of quality of life score  
+1 | Lowest quintile of quality of life score
+
+**Harmonization status**:  
+**Harmonization comment**:   
+**R script**:  
+```{r, echo=TRUE}
+#This is where the R-script will be written
+
+```
