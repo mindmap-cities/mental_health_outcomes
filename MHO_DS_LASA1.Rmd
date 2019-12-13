@@ -85,7 +85,7 @@ opal.logout(erasmus_opal)
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -131,7 +131,7 @@ mho_LASA1_0$psy_anxiety_score_0 <- as.integer(round(mho_LASA1_0$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:    
@@ -177,7 +177,7 @@ mho_LASA1_1$psy_anxiety_score_1 <- as.integer(round(mho_LASA1_1$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -223,7 +223,7 @@ mho_LASA1_2$psy_anxiety_score_2 <- as.integer(round(mho_LASA1_2$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -269,7 +269,7 @@ mho_LASA1_3$psy_anxiety_score_3 <- as.integer(round(mho_LASA1_3$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -315,7 +315,7 @@ mho_LASA1_4$psy_anxiety_score_4 <- as.integer(round(mho_LASA1_4$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -361,7 +361,7 @@ mho_LASA1_5$psy_anxiety_score_5 <- as.integer(round(mho_LASA1_5$psy_anxiety_scor
 4. I can sit at ease and feel relaxed.   
 5. I get a sort of frightened feeling like 'butterflies' in the stomach.    
 6. I feel restless as if I have to be on the move.   
-7. I get sudden feeligns of panic.  
+7. I get sudden feelings of panic.  
 Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2) to 'mostly or always' (3).  
 
 **R script**:  
@@ -1501,7 +1501,7 @@ mho_LASA1_6$cog_del_low_6 <- as.integer(car::recode(mho_LASA1_6$cog_del_low_6, "
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.           
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.           
 **R script**:  
 ```{r, echo=TRUE}
 LASA1B$bmvar47_i <- car::recode(LASA1B$bmvar47, "-1=NA") 
@@ -1517,7 +1517,7 @@ mho_LASA1_0$cog_proc_std_0 <- scale(LASA1B$bmvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1C$cmvar47_i <- car::recode(LASA1C$cmvar47, "-1=NA") 
@@ -1533,7 +1533,7 @@ mho_LASA1_1$cog_proc_std_1 <- scale(LASA1C$cmvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1D$dmvar47_i <- car::recode(LASA1D$dmvar47, "-1=NA") 
@@ -1549,7 +1549,7 @@ mho_LASA1_2$cog_proc_std_2 <- scale(LASA1D$dmvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1E$emvar47_i <- car::recode(LASA1E$emvar47, "-1=NA") 
@@ -1565,7 +1565,7 @@ mho_LASA1_3$cog_proc_std_3 <- scale(LASA1E$emvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1F$fmvar47_i <- car::recode(LASA1F$fmvar47, "-1=NA") 
@@ -1581,7 +1581,7 @@ mho_LASA1_4$cog_proc_std_4 <- scale(LASA1F$fmvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1G$gmvar47_i <- car::recode(LASA1G$gmvar47, "-1=NA") 
@@ -1597,7 +1597,7 @@ mho_LASA1_5$cog_proc_std_5 <- scale(LASA1G$gmvar47_i)
 **Category coding**:  N/A  
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Cording Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
+**Harmonization comment**:  Processing speed was measured with a coding task from the Alphabet Coding Task - 15. Participants were given a form containing two rows with letters on the top row matching with different letters on the bottom row. Participants were then asked to name the letters in the empty row under each of the provided top row letters as quickly as possible.  Three trials of 60 seconds each were completed and scored with one point for every correct letter. The total score from the first trial was used in LASA, which was transformed to a z-score.      
 **R script**:  
 ```{r, echo=TRUE}
 LASA1H$HMVAR47_i <- car::recode(LASA1H$HMVAR47, "-1=NA") 
@@ -2992,7 +2992,7 @@ mho_LASA1_6$psy_dep_yn_6 <- as.integer(car::recode(LASA1H$hcesd18_i, "0:1=0; 2:3
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3013,7 +3013,7 @@ mho_LASA1_0$psy_life_sat_tertile_0 <- as.integer(car::recode(LASA1B$bqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3034,7 +3034,7 @@ mho_LASA1_1$psy_life_sat_tertile_1 <- as.integer(car::recode(LASA1C$cqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3055,7 +3055,7 @@ mho_LASA1_2$psy_life_sat_tertile_2 <- as.integer(car::recode(LASA1D$dqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3076,7 +3076,7 @@ mho_LASA1_3$psy_life_sat_tertile_3 <- as.integer(car::recode(LASA1E$eqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3097,7 +3097,7 @@ mho_LASA1_4$psy_life_sat_tertile_4 <- as.integer(car::recode(LASA1F$fqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3118,7 +3118,7 @@ mho_LASA1_5$psy_life_sat_tertile_5 <- as.integer(car::recode(LASA1G$gqsatis2, "1
 
 **Code** | **Category Label**  
 ------------- | -------------  
-0 | High levels of life satisfation  
+0 | High levels of life satisfaction  
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
@@ -3788,7 +3788,7 @@ mho_LASA1_6$psy_loneliness_high_6 <- as.integer(car::recode(LASA1H$psy_lonelines
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.  
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.  
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_0$psy_lonely_yn_0 <- as.integer(car::recode(LASA1B$bcesd14_i, "0:1=0; 2:3=1"))
@@ -3808,7 +3808,7 @@ mho_LASA1_0$psy_lonely_yn_0 <- as.integer(car::recode(LASA1B$bcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_1$psy_lonely_yn_1 <- as.integer(car::recode(LASA1C$ccesd14_i, "0:1=0; 2:3=1"))
@@ -3828,7 +3828,7 @@ mho_LASA1_1$psy_lonely_yn_1 <- as.integer(car::recode(LASA1C$ccesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_2$psy_lonely_yn_2 <- as.integer(car::recode(LASA1D$dcesd14_i, "0:1=0; 2:3=1"))
@@ -3848,7 +3848,7 @@ mho_LASA1_2$psy_lonely_yn_2 <- as.integer(car::recode(LASA1D$dcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.       
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA1E$ecesd14_i, "0:1=0; 2:3=1"))
@@ -3868,7 +3868,7 @@ mho_LASA1_3$psy_lonely_yn_3 <- as.integer(car::recode(LASA1E$ecesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.    
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.    
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_4$psy_lonely_yn_4 <- as.integer(car::recode(LASA1F$fcesd14_i, "0:1=0; 2:3=1"))
@@ -3888,7 +3888,7 @@ mho_LASA1_4$psy_lonely_yn_4 <- as.integer(car::recode(LASA1F$fcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_5$psy_lonely_yn_5 <- as.integer(car::recode(LASA1G$gcesd14_i, "0:1=0; 2:3=1"))
@@ -3908,7 +3908,7 @@ mho_LASA1_5$psy_lonely_yn_5 <- as.integer(car::recode(LASA1G$gcesd14_i, "0:1=0; 
 1 |   Feels lonely 
 
 **Harmonization status**: complete    
-**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' wre defined as feeling lonely.     
+**Harmonization comment**:  Based on a 4-point ('rarely or none of the time', 'some or a little of the time', 'occasionally or a moderate amount of time', 'most or all of the time') item response to "I felt lonely" from the CES-D 20 scale. Participants who responded 'occasionally or a moderate amount of time' to 'most or all of the time' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_LASA1_6$psy_lonely_yn_6 <- as.integer(car::recode(LASA1H$hcesd14_i, "0:1=0; 2:3=1"))
@@ -4539,7 +4539,7 @@ mho_LASA1_6$psy_distress_case_6 <- as.integer(ifelse(LASA1H$psy_distress_pct_6 >
 6. My personal beliefs allow me to maintain a hopeful attitude.  
 7. Even when others get discouraged, I know I can find a way to solve the problem.  
 8. I have a strong will to live right now.  
-9. THe real enjoyments of my life are the past. 
+9. The real enjoyments of my life are the past. 
 10. I intend to make the most of my life.  
 11. Life has meaning for me.  
 12. I have very few goals in my life today.  
