@@ -554,7 +554,7 @@ mho_CLSA_tra0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra0$cog_imm_rscale_
 1 |   Low immediate word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**: This was based on the number of words immediately recalled from CLSA, which was rescaled from 0-15 to 0-10.     
+**Harmonization comment**: This was based on the number of words immediately recalled from CLSA, which was rescaled from 0-15 to 0-10. The median split (median = 4) classified participants above the median in the high immediate word recall group, and those at the median or below were categorised in the low immediate word recall group.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_tra0$cog_imm_low_0 <- as.integer(dicho(mho_CLSA_tra0$cog_imm_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -805,7 +805,7 @@ mho_CLSA_tra0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra0$cog_del_rscale_
 1 |   Low delayed word recall
 
 **Harmonization status**: complete    
-**Harmonization comment**: This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in CLSA.     
+**Harmonization comment**: This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in CLSA. The median split (median = 3) classified participants above the median in the high delayed word recall group, and those at the median or below were categorised in the low delayed word recall group.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_tra0$cog_del_low_0 <- as.integer(dicho(mho_CLSA_tra0$cog_del_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1052,7 +1052,7 @@ mho_CLSA_tra0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_1
 1 |   Low verbal fluency
 
 **Harmonization status**: complete   
-**Harmonization comment**: This was based on the first trial of the total number of animals correctly named in 1 minute.     
+**Harmonization comment**: This was based on the first trial of the total number of animals correctly named in 1 minute. The median split (median = 19) classified participants above the median in the high verbal fluency group, and those at the median or below were categorised in the low verbal fluency group.     
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_tra0$cog_verb_low_0 <- as.integer(dicho(Tra3_4_Baseline$COG_AFT_SCORE_1_TRM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1299,7 +1299,7 @@ mho_CLSA_tra0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_T
 1 |   Slow processing speed 
 
 **Harmonization status**: complete    
-**Harmonization comment**: This was based on the MAT score (0-52) of correct alternate numbers and letters recited in a consecutive order in CLSA.       
+**Harmonization comment**: This was based on the MAT score (0-52) of correct alternate numbers and letters recited in a consecutive order in CLSA. The median split (median = 27) classified participants above the median in the fast processing speed group, and those at the median or below were categorised in the slow processing speed group.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_tra0$cog_proc_slow_0 <- as.integer(dicho(Tra3_4_Baseline$COG_MAT_SCORE_TRM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1557,7 +1557,7 @@ mho_CLSA_tra0$cog_nmiss_0 <- NULL
 1 |   Cognitive impairment 
 
 **Harmonization status**: complete   
-**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests.      
+**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests. The median split classified participants above the median z-score in the no cognitive impairment group, and those at the median or below were categorised in the cognitive impairment group.        
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_tra0$cog_comp_case_0 <- as.integer(dicho(mho_CLSA_tra0$cog_comp_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -2655,10 +2655,10 @@ mho_CLSA_tra1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life_
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete      
-**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-23 comprised the lowest life satisfaction quintile.               
+**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-25 comprised the lowest life satisfaction quartile.                 
 **R script**:  
 ```{r, echo=TRUE}
-mho_CLSA_tra0$psy_life_sat_low_0 <- as.integer(car::recode(Tra3_4_Baseline$psy_life_sat_score_0, "5:23=1; 24:35=0"))
+mho_CLSA_tra0$psy_life_sat_low_0 <- as.integer(car::recode(Tra3_4_Baseline$psy_life_sat_score_0, "5:25=1; 26:35=0"))
 
 ```
 
@@ -2675,10 +2675,10 @@ mho_CLSA_tra0$psy_life_sat_low_0 <- as.integer(car::recode(Tra3_4_Baseline$psy_l
 1 | Lowest quartile of life satisfaction score  
 
 **Harmonization status**: complete     
-**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-23 comprised the lowest life satisfaction quintile.          
+**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-25 comprised the lowest life satisfaction quartile.            
 **R script**:  
 ```{r, echo=TRUE}
-mho_CLSA_tra1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat_score_1, "5:23=1; 24:35=0"))
+mho_CLSA_tra1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat_score_1, "5:25=1; 26:35=0"))
 
 ```
 
@@ -2819,7 +2819,7 @@ mho_CLSA_tra1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat_
 2 | High levels of loneliness
 
 **Harmonization status**: complete   
-**Harmonization comment**: Scores (3-9) from the UCLA Loneliness Scale, 3-item version, were grouped into study-specific tertiles defined as low (3), medium (4-5) and high (6-9). Scores were calculated for participants with data on all 3 items. If participants missed 1 or 2 items, scores were not calculated and coded as missing. Items comprising the *UCLA Loneliness Scale, 3 item version*, are listed below.  
+**Harmonization comment**: Scores (3-9) from the UCLA Loneliness Scale, 3-item version, were grouped into study-specific tertiles defined as low (3), medium (4) and high (5-9). Scores were calculated for participants with data on all 3 items. If participants missed 1 or 2 items, scores were not calculated and coded as missing. Items comprising the *UCLA Loneliness Scale, 3 item version*, are listed below.  
 *Indicate how often each of the statements below is descriptive of you:*  
 1. How often do you feel that you lack companionship?    
 2. How often do you feel left out?    
@@ -2837,7 +2837,7 @@ Tra_FU1$psy_loneliness_score_1 <- apply(Tra_FU1[c("LONE_OFTN_TRF1_n", "LONE_LEFT
 
 Tra_FU1$psy_loneliness_score_1[which(Tra_FU1$loneliness_nmiss >= 1)] <- NA_integer_
 
-mho_CLSA_tra1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_loneliness_score_1, "3=0; 4:5=1; 6:9=2"))
+mho_CLSA_tra1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_loneliness_score_1, "3=0; 4=1; 5:9=2"))
 
 ```
 
@@ -3253,7 +3253,7 @@ Response options were yes/no (1/0).
 Tra3_4_Baseline$PSD_NGHTM_TRM_i <- car::recode(Tra3_4_Baseline$PSD_NGHTM_TRM, "2=0")  
 Tra3_4_Baseline$PSD_AVOID_TRM_i <- car::recode(Tra3_4_Baseline$PSD_AVOID_TRM, "2=0")  
 Tra3_4_Baseline$PSD_GUARD_TRM_i <- car::recode(Tra3_4_Baseline$PSD_GUARD_TRM, "2=0")  
-Tra3_4_Baseline$PSD_DETACH_TRM_i <- car::recode(Tra3_4_Baseline$PSD_GUARD_TRM, "2=0")  
+Tra3_4_Baseline$PSD_DETACH_TRM_i <- car::recode(Tra3_4_Baseline$PSD_DETACH_TRM, "2=0")  
 
 Tra3_4_Baseline$ptsd_nmiss_0 <- apply(Tra3_4_Baseline[c("PSD_NGHTM_TRM_i", "PSD_AVOID_TRM_i", "PSD_GUARD_TRM_i", "PSD_DETACH_TRM_i")], MARGIN = 1, FUN = function(x) sum(is.na(x)))
 
