@@ -15,10 +15,10 @@ library(sjmisc)
 library(opal)
 # Create an opal object with the login information
 erasmus_opal <- opal.login()
-#Login to Opal server and assign the content of the LASA table(s) to your RStudio environment
+#Login to Opal server and assign the content of the CLSA table(s) to your RStudio environment
 # CLSA-COP0
 opal.assign.table.tibble(erasmus_opal, 'CoP4_Baseline', 'CLSA_1.CoP4_Baseline', variables = 
-list('K10_DSCORE_MCQ','K10_TIRED_MCQ','K10_NRVS_MCQ','K10_NRVSCLMD_MCQ','K10_HPLS_MCQ','K10_RSTLS_MCQ','K10_RSTLSSTL_MCQ','K10_DEP_MCQ','K10_EFFRT_MCQ','K10_NOCHRUP_MCQ','K10_WRTHLSS_MCQ','K10_FLING_MCQ','K10_FLINGLESS_MCQ','K10_FLINGMORE_MCQ','K10_UNWK_NB_MCQ','K10_HFWK_NB_MCQ','K10_DOC_NB_MCQ','K10_OTPFLING_MCQ','K10_OTPFLING_OTSP_MCQ','K10_PHYSHLTH_MCQ','DEP_DPSFD_COM','DEP_NBRMIS_COM','DEP_CESD10_COM','DEP_BOTR_COM','DEP_MIND_COM','DEP_FLDP_COM','DEP_FFRT_COM','DEP_HPFL_COM','DEP_FRFL_COM','DEP_RSTLS_COM','DEP_HAPP_COM','DEP_LONLY_COM','DEP_GTGO_COM','SLS_LIFE_COM','SLS_LIFENEG_COM','SLS_LIFEPOS_COM','SLS_COND_COM','SLS_CONDNEG_COM','SLS_CONDPOS_COM','SLS_SATS_COM','SLS_SATSNEG_COM','SLS_SATSPOS_COM','SLS_IMP_COM','SLS_IMPNEG_COM','SLS_IMPPOS_COM','SLS_OVER_COM','SLS_OVERNEG_COM','SLS_OVERPOS_COM','SLS_DSCR_COM','SLS_DLIFE_COM','SLS_DCOND_COM','SLS_DSATS_COM','SLS_DIMP_COM','SLS_DOVER_COM','SLS_DCLS_COM','COG_REYI_SCORE_COM','COG_REYII_SCORE_COM','COG_ANML_COM','COG_ANMLRPT_COM','COG_AFT_SCORE_1_COM','COG_AFT_SCORE_2_COM','COG_MAT_SCORE_COM'))
+list('K10_DSCORE_MCQ','K10_TIRED_MCQ','K10_NRVS_MCQ','K10_NRVSCLMD_MCQ','K10_HPLS_MCQ','K10_RSTLS_MCQ','K10_RSTLSSTL_MCQ','K10_DEP_MCQ','K10_EFFRT_MCQ','K10_NOCHRUP_MCQ','K10_WRTHLSS_MCQ','K10_FLING_MCQ','K10_FLINGLESS_MCQ','K10_FLINGMORE_MCQ','K10_UNWK_NB_MCQ','K10_HFWK_NB_MCQ','K10_DOC_NB_MCQ','K10_OTPFLING_MCQ','K10_OTPFLING_OTSP_MCQ','K10_PHYSHLTH_MCQ','DEP_DPSFD_COM','DEP_NBRMIS_COM','DEP_CESD10_COM','DEP_BOTR_COM','DEP_MIND_COM','DEP_FLDP_COM','DEP_FFRT_COM','DEP_HPFL_COM','DEP_FRFL_COM','DEP_RSTLS_COM','DEP_HAPP_COM','DEP_LONLY_COM','DEP_GTGO_COM','SLS_DLIFE_COM','SLS_DCOND_COM','SLS_DSATS_COM','SLS_DIMP_COM','SLS_DOVER_COM','PSD_NGHTM_COM','PSD_AVOID_COM','PSD_GUARD_COM','PSD_DETACH_COM','COG_REYI_SCORE_COM','COG_REYII_SCORE_COM','COG_ANML_COM','COG_ANMLRPT_COM','COG_AFT_SCORE_1_COM','COG_AFT_SCORE_2_COM','COG_MAT_SCORE_COM'))
 CoP4_Baseline <- opal.execute(erasmus_opal,'CoP4_Baseline')
 
 # CLSA-COP1
@@ -556,7 +556,7 @@ mho_CLSA_cop0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_cop0$cog_imm_rscale_
 1 |   Low immediate word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words immediately recalled from CLSA, which was rescaled from 0-15 to 0-10.    
+**Harmonization comment**:  This was based on the number of words immediately recalled from CLSA, which was rescaled from 0-15 to 0-10. The median split (median = 4) classified participants above the median in the high immediate word recall group, and those at the median or below were categorised in the low immediate word recall group.       
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_cop0$cog_imm_low_0 <- as.integer(dicho(mho_CLSA_cop0$cog_imm_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -807,7 +807,7 @@ mho_CLSA_cop0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_cop0$cog_del_rscale_
 1 |   Low delayed word recall
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in CLSA.    
+**Harmonization comment**:  This was based on the number of words recalled after a delay, which was rescaled from 0-15 to 0-10 in CLSA. The median split (median = 3) classified participants above the median in the high delayed word recall group, and those at the median or below were categorised in the low delayed word recall group.           
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_cop0$cog_del_low_0 <- as.integer(dicho(mho_CLSA_cop0$cog_del_rscale_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1054,7 +1054,7 @@ mho_CLSA_cop0$cog_verb_std_0 <- scale(CoP4_Baseline$COG_AFT_SCORE_1_COM)
 1 |   Low verbal fluency
 
 **Harmonization status**: complete    
-**Harmonization comment**: This was based on the first trial of the total number of animals correctly named in 1 minute.    
+**Harmonization comment**: This was based on the first trial of the total number of animals correctly named in 1 minute. The median split (median = 19) classified participants above the median in the high verbal fluency group, and those at the median or below were categorised in the low verbal fluency group.      
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_cop0$cog_verb_low_0 <- as.integer(dicho(CoP4_Baseline$COG_AFT_SCORE_1_COM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1301,7 +1301,7 @@ mho_CLSA_cop0$cog_proc_std_0 <- scale(CoP4_Baseline$COG_MAT_SCORE_COM)
 1 |   Slow processing speed 
 
 **Harmonization status**: complete   
-**Harmonization comment**:  This was based on the MAT score (0-52) of correct alternate numbers and letters recited in a consecutive order in CLSA.      
+**Harmonization comment**:  This was based on the MAT score (0-52) of correct alternate numbers and letters recited in a consecutive order in CLSA. The median split (median = 27) classified participants above the median in the fast processing speed group, and those at the median or below were categorised in the slow processing speed group.               
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_cop0$cog_proc_slow_0 <- as.integer(dicho(CoP4_Baseline$COG_MAT_SCORE_COM, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1559,7 +1559,7 @@ mho_CLSA_cop0$cog_nmiss_0 <- NULL
 1 |   Cognitive impairment 
 
 **Harmonization status**: complete     
-**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests.    
+**Harmonization comment**: This indicator was derived only for participants who completed all four individual cognition tests. The median split classified participants above the median z-score in the no cognitive impairment group, and those at the median or below were categorised in the cognitive impairment group.              
 **R script**:  
 ```{r, echo=TRUE}
 mho_CLSA_cop0$cog_comp_case_0 <- as.integer(dicho(mho_CLSA_cop0$cog_comp_std_0, dich.by = "median", as.num = FALSE, var.label = NULL, val.labels = NULL, append = FALSE, suffix = NULL))
@@ -1949,11 +1949,50 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The CES-D 10 depression scores (0-30) in CLSA were grouped into study-specific tertiles defined as low (0-2), medium (3-6), and high (7-30). Scores were calculated for participants with data on at least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Center for Epidemiological Studies Depression Scale, 10 item version*, by Andresen, Malmgren, Carter et al (1994) are listed below.  
+*Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week:*
+1. I was bothered by things that usually don't bother me.    
+2. I had trouble keeping my mind on what I was doing.    
+3. I felt depressed.  
+4. I felt that everything I did was an effort.  
+5. I felt hopeful for the future.  
+6. I felt fearful.  
+7. My sleep was restless.  
+8. I was happy.  
+9. I felt lonely.  
+10. I could not get "going".  
+Responses ranged from 'rarely or never' (0), 'some of the time' (1), 'occasionally' (2), 'all of the time' (3).     
+  
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+#As responses were coded from 'rarely or never' (4) to 'all of the time' (1) in CLSA. the response scale for negatively worded items (1-4, 6-7, 9-10) was reversed and recoded from 4-1 to 0-3.  
+CoP4_Baseline$DEP_BOTR_COM_i <- car::recode(CoP4_Baseline$DEP_BOTR_COM, "4=0; 3=1; 2=2; 1=3")
+CoP4_Baseline$DEP_MIND_COM_i <- car::recode(CoP4_Baseline$DEP_MIND_COM, "4=0; 3=1; 2=2; 1=3")
+CoP4_Baseline$DEP_FLDP_COM_i <- car::recode(CoP4_Baseline$DEP_FLDP_COM, "4=0; 3=1; 2=2; 1=3") 
+CoP4_Baseline$DEP_FFRT_COM_i <- car::recode(CoP4_Baseline$DEP_FFRT_COM, "4=0; 3=1; 2=2; 1=3") 
+CoP4_Baseline$DEP_FRFL_COM_i <- car::recode(CoP4_Baseline$DEP_FRFL_COM, "4=0; 3=1; 2=2; 1=3")
+CoP4_Baseline$DEP_RSTLS_COM_i <- car::recode(CoP4_Baseline$DEP_RSTLS_COM, "4=0; 3=1; 2=2; 1=3")  
+CoP4_Baseline$DEP_LONLY_COM_i <- car::recode(CoP4_Baseline$DEP_LONLY_COM, "4=0; 3=1; 2=2; 1=3")
+CoP4_Baseline$DEP_GTGO_COM_i <- car::recode(CoP4_Baseline$DEP_GTGO_COM, "4=0; 3=1; 2=2; 1=3")
+
+#The response scale for positively worded items (5 and 8) were recoded to 1-4 to 0-3.  
+CoP4_Baseline$DEP_HPFL_COM_i <- car::recode(CoP4_Baseline$DEP_HPFL_COM, "1=0; 2=1; 3=2; 4=3")
+CoP4_Baseline$DEP_HAPP_COM_i <- car::recode(CoP4_Baseline$DEP_HAPP_COM, "1=0; 2=1; 3=2; 4=3")
+
+#Depression symptom scores and tertiles were then calculated as follows.
+CoP4_Baseline$cesdnmiss <- apply(CoP4_Baseline[,51:60], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP4_Baseline$psy_dep_score_0 <- apply(CoP4_Baseline[,51:60], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+CoP4_Baseline$psy_dep_score_0[which(CoP4_Baseline$cesdnmiss == 2)] <- (CoP4_Baseline$psy_dep_score_0[which(CoP4_Baseline$cesdnmiss == 2)]/8)*10 
+CoP4_Baseline$psy_dep_score_0[which(CoP4_Baseline$cesdnmiss == 1)] <- (CoP4_Baseline$psy_dep_score_0[which(CoP4_Baseline$cesdnmiss == 1)]/9)*10
+
+CoP4_Baseline$psy_dep_score_0[which(CoP4_Baseline$cesdnmiss >= 3)] <- NA_integer_
+
+CoP4_Baseline$psy_dep_score_0 <- round(CoP4_Baseline$psy_dep_score_0)
+
+mho_CLSA_cop0$psy_dep_tertile_0 <- as.integer(car::recode(CoP4_Baseline$psy_dep_score_0, "0:2=0; 3:6=1; 7:30=2"))
 
 ```
 
@@ -1970,11 +2009,37 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**:  The CES-D 10 depression scores (0-30) in CLSA were grouped into study-specific tertiles defined as low (0-2), medium (3-6), and high (7-30). Scores were calculated for participants with data on at least 8 items (out of a possible 10). If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+#As responses were coded from 'rarely or never' (4) to 'all of the time' (1) in CLSA. the response scale for negatively worded items (1-4, 6-7, 9-10) was reversed and recoded from 4-1 to 0-3.  
+CoP_FU1$DEP_BOTR_COF1_i <- car::recode(CoP_FU1$DEP_BOTR_COF1, "4=0; 3=1; 2=2; 1=3")
+CoP_FU1$DEP_MIND_COF1_i <- car::recode(CoP_FU1$DEP_MIND_COF1, "4=0; 3=1; 2=2; 1=3")
+CoP_FU1$DEP_FLDP_COF1_i <- car::recode(CoP_FU1$DEP_FLDP_COF1, "4=0; 3=1; 2=2; 1=3") 
+CoP_FU1$DEP_FFRT_COF1_i <- car::recode(CoP_FU1$DEP_FFRT_COF1, "4=0; 3=1; 2=2; 1=3") 
+CoP_FU1$DEP_FRFL_COF1_i <- car::recode(CoP_FU1$DEP_FRFL_COF1, "4=0; 3=1; 2=2; 1=3")
+CoP_FU1$DEP_RSTLS_COF1_i <- car::recode(CoP_FU1$DEP_RSTLS_COF1, "4=0; 3=1; 2=2; 1=3")  
+CoP_FU1$DEP_LONLY_COF1_i <- car::recode(CoP_FU1$DEP_LONLY_COF1, "4=0; 3=1; 2=2; 1=3")
+CoP_FU1$DEP_GTGO_COF1_i <- car::recode(CoP_FU1$DEP_GTGO_COF1, "4=0; 3=1; 2=2; 1=3")
+
+#The response scale for positively worded items (5 and 8) were recoded to 1-4 to 0-3.  
+CoP_FU1$DEP_HPFL_COF1_i <- car::recode(CoP_FU1$DEP_HPFL_COF1, "1=0; 2=1; 3=2; 4=3")
+CoP_FU1$DEP_HAPP_COF1_i <- car::recode(CoP_FU1$DEP_HAPP_COF1, "1=0; 2=1; 3=2; 4=3")
+
+#Depression symptom scores and tertiles were then calculated as follows.
+CoP_FU1$cesdnmiss <- apply(CoP_FU1[,48:57], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP_FU1$psy_dep_score_1 <- apply(CoP_FU1[,48:57], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+CoP_FU1$psy_dep_score_1[which(CoP_FU1$cesdnmiss == 2)] <- (CoP_FU1$psy_dep_score_1[which(CoP_FU1$cesdnmiss == 2)]/8)*10 
+CoP_FU1$psy_dep_score_1[which(CoP_FU1$cesdnmiss == 1)] <- (CoP_FU1$psy_dep_score_1[which(CoP_FU1$cesdnmiss == 1)]/9)*10
+
+CoP_FU1$psy_dep_score_1[which(CoP_FU1$cesdnmiss >= 3)] <- NA_integer_
+
+CoP_FU1$psy_dep_score_1 <- round(CoP_FU1$psy_dep_score_1)
+
+mho_CLSA_cop1$psy_dep_tertile_1 <- as.integer(car::recode(CoP_FU1$psy_dep_score_1, "0:2=0; 3:6=1; 7:30=2"))
 
 ```
 
@@ -1991,7 +2056,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2012,7 +2077,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2033,7 +2098,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2054,7 +2119,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms    
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2075,7 +2140,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 |   Medium severity tertile of depressive symptoms
 2 |   High severity tertile of depressive symptoms   
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2095,11 +2160,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: Participants with CES-D 10 scores of 10 or higher (out of a possible 30) were defined as cases as per the scale-specific threshold (Andresen, Malmgrem, Carter et al 1994).      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop0$psy_dep_case_0 <- as.integer(ifelse(CoP4_Baseline$psy_dep_score_0 <= 9,0, ifelse(CoP4_Baseline$psy_dep_score_0 >= 10,1,NA)))
 
 ```
 
@@ -2115,11 +2180,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: Participants with CES-D 10 scores of 10 or higher (out of a possible 30) were defined as cases as per the scale-specific threshold (Andresen, Malmgrem, Carter et al 1994).   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_dep_case_1 <- as.integer(ifelse(CoP_FU1$psy_dep_score_1 <= 9,0, ifelse(CoP_FU1$psy_dep_score_1 >= 10,1,NA)))
 
 ```
 
@@ -2135,7 +2200,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2155,7 +2220,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)   
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2175,7 +2240,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)     
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2195,7 +2260,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)       
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2215,7 +2280,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated depressive symptoms)  
 1 |   Case (elevated depressive symptoms)    
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2235,11 +2300,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete      
+**Harmonization comment**: Based on a 4-point ('rarely or never', 'some of the time', 'occasionally', 'all of the time') item response to "I felt depressed" from the CES-D scale, 10-item version. Participants who responded 'occasionally' or 'all of the time' were defined as feeling sad, downhearted or blue.    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop0$psy_dep_yn_0 <- as.integer(car::recode(CoP4_Baseline$DEP_FLDP_COM_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2255,11 +2320,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete     
+**Harmonization comment**: Based on a 4-point ('rarely or never', 'some of the time', 'occasionally', 'all of the time') item response to "I felt depressed" from the CES-D scale, 10-item version. Participants who responded 'occasionally' or 'all of the time' were defined as feeling sad, downhearted or blue.        
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_dep_yn_1 <- as.integer(car::recode(CoP_FU1$DEP_FLDP_COF1_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2275,7 +2340,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2295,7 +2360,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2315,7 +2380,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2335,7 +2400,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2355,7 +2420,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel sad, downhearted or blue
 1 |   Feels sad, downhearted or blue
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2378,11 +2443,28 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: The SWLS life satisfaction scores (5-35) were grouped into study-specific tertiles for CLSA defined as high (33-35), medium (28-32) and low (5-27). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing. Items comprising the *Satisfaction with Life Scale* are listed below.  
+*Below are five statements that you may agree or disagree with. Using the 1 – 7 scale below, indicate your agreement with each item by placing the appropriate number on the line preceding that item. Please be open and honest in your responding.*  
+1. In most ways, my life is close to ideal.    
+2. The conditions of my life are excellent.  
+3. I am satisfied with my life.  
+4. So far I have gotten the important things I want in life.  
+5. If I could live my life over, I would change almost nothing.
+Responses ranged from 'strongly disagree' (1), 'disagree' (2), 'slightly disagree' (3), 'neither agree nor disagree' (4), 'slightly agree' (5), 'agree' (6), 'strongly agree' (7).    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+CoP4_Baseline$swlsnmiss <- apply(CoP4_Baseline[,26:30], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP4_Baseline$psy_life_sat_score_0 <- apply(CoP4_Baseline[,26:30], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+CoP4_Baseline$psy_life_sat_score_0 [which(CoP4_Baseline$swlsnmiss == 1)] <- (CoP4_Baseline$psy_life_sat_score_0[which(CoP4_Baseline$swlsnmiss == 1)]/4)*5
+
+CoP4_Baseline$psy_life_sat_score_0[which(CoP4_Baseline$swlsnmiss >= 2)] <- NA_integer_
+
+CoP4_Baseline$psy_life_sat_score_0 <- round(CoP4_Baseline$psy_life_sat_score_0)
+
+mho_CLSA_cop0$psy_life_sat_tertile_0 <- as.integer(car::recode(CoP4_Baseline$psy_life_sat_score_0, "33:35=0; 28:32=1; 5:27=2"))
 
 ```
 
@@ -2399,11 +2481,61 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete      
+**Harmonization comment**: The SWLS life satisfaction scores (5-35) in CLSA were grouped into study-specific tertiles defined as high (33-35), medium (28-32), and low (5-27). Scores were calculated for participants with data on at least 4 items (out of a possible 5). If 1 item was missing, scores on the completed items were summed and divided by 4, then multiplied by 5. If participants missed 2 or more items, scores were not calculated and coded as missing.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+CoP_FU1$SLS_LIFENEG_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_LIFENEG_COF1, "3=1; 2=2; 1=3"))
+CoP_FU1$SLS_LIFE_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_LIFE_COF1, "1=NA; 6=NA"))
+CoP_FU1$SLS_LIFEPOS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_LIFEPOS_COF1, "1=5; 2=6; 3=7"))
+
+CoP_FU1$SLS_CONDNEG_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_CONDNEG_COF1, "3=1; 2=2; 1=3"))
+CoP_FU1$SLS_COND_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_COND_COF1, "1=NA; 6=NA"))
+CoP_FU1$SLS_CONDPOS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_CONDPOS_COF1, "1=5; 2=6; 3=7"))
+
+CoP_FU1$SLS_SATSNEG_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_SATSNEG_COF1, "3=1; 2=2; 1=3"))
+CoP_FU1$SLS_SATS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_SATS_COF1, "1=NA; 6=NA"))
+CoP_FU1$SLS_SATSPOS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_SATSPOS_COF1, "1=5; 2=6; 3=7"))
+
+CoP_FU1$SLS_IMPNEG_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_IMPNEG_COF1, "3=1; 2=2; 1=3"))
+CoP_FU1$SLS_IMP_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_IMP_COF1, "1=NA; 6=NA"))
+CoP_FU1$SLS_IMPPOS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_IMPPOS_COF1, "1=5; 2=6; 3=7"))
+
+CoP_FU1$SLS_OVERNEG_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_OVERNEG_COF1, "3=1; 2=2; 1=3"))
+CoP_FU1$SLS_OVER_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_OVER_COF1, "1=NA; 6=NA"))
+CoP_FU1$SLS_OVERPOS_COF1_i <- as.integer(car::recode(CoP_FU1$SLS_OVERPOS_COF1, "1=5; 2=6; 3=7"))
+
+CoP_FU1$SLS_DLIFE_COF1 <- CoP_FU1$SLS_LIFENEG_COF1_i 
+CoP_FU1$SLS_DLIFE_COF1[is.na(CoP_FU1$SLS_DLIFE_COF1)] <- CoP_FU1$SLS_LIFE_COF1_i
+CoP_FU1$SLS_DLIFE_COF1[is.na(CoP_FU1$SLS_DLIFE_COF1)] <- CoP_FU1$SLS_LIFEPOS_COF1_i
+
+CoP_FU1$SLS_DCOND_COF1 <- CoP_FU1$SLS_CONDNEG_COF1_i 
+CoP_FU1$SLS_DCOND_COF1[is.na(CoP_FU1$SLS_DCOND_COF1)] <- CoP_FU1$SLS_COND_COF1_i
+CoP_FU1$SLS_DCOND_COF1[is.na(CoP_FU1$SLS_DCOND_COF1)] <- CoP_FU1$SLS_CONDPOS_COF1_i
+
+CoP_FU1$SLS_DSATS_COF1 <- CoP_FU1$SLS_SATSNEG_COF1_i 
+CoP_FU1$SLS_DSATS_COF1[is.na(CoP_FU1$SLS_DSATS_COF1)] <- CoP_FU1$SLS_SATS_COF1_i
+CoP_FU1$SLS_DSATS_COF1[is.na(CoP_FU1$SLS_DSATS_COF1)] <- CoP_FU1$SLS_SATSPOS_COF1_i
+
+CoP_FU1$SLS_DIMP_COF1 <- CoP_FU1$SLS_IMPNEG_COF1_i 
+CoP_FU1$SLS_DIMP_COF1[is.na(CoP_FU1$SLS_DIMP_COF1)] <- CoP_FU1$SLS_IMP_COF1_i
+CoP_FU1$SLS_DIMP_COF1[is.na(CoP_FU1$SLS_DIMP_COF1)] <- CoP_FU1$SLS_IMPPOS_COF1_i
+
+CoP_FU1$SLS_DOVER_COF1 <- CoP_FU1$SLS_OVERNEG_COF1_i 
+CoP_FU1$SLS_DOVER_COF1[is.na(CoP_FU1$SLS_DOVER_COF1)] <- CoP_FU1$SLS_OVER_COF1_i
+CoP_FU1$SLS_DOVER_COF1[is.na(CoP_FU1$SLS_DOVER_COF1)] <- CoP_FU1$SLS_OVERPOS_COF1_i
+
+CoP_FU1$swlsnmiss <- apply(CoP_FU1[,75:79], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP_FU1$psy_life_sat_score_1 <- apply(CoP_FU1[,75:79], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+CoP_FU1$psy_life_sat_score_1 [which(CoP_FU1$swlsnmiss == 1)] <- (CoP_FU1$psy_life_sat_score_1[which(CoP_FU1$swlsnmiss == 1)]/4)*5
+
+CoP_FU1$psy_life_sat_score_1[which(CoP_FU1$swlsnmiss >= 2)] <- NA_integer_
+
+CoP_FU1$psy_life_sat_score_1 <- round(CoP_FU1$psy_life_sat_score_1)
+
+mho_CLSA_cop1$psy_life_sat_tertile_1 <- as.integer(car::recode(CoP_FU1$psy_life_sat_score_1, "33:35=0; 28:32=1; 5:27=2"))
 
 ```
 
@@ -2420,7 +2552,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2441,7 +2573,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2462,7 +2594,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2483,7 +2615,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2504,7 +2636,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of life satisfaction  
 2 | Low levels of life satisfaction
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2524,11 +2656,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score    
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-25 comprised the lowest life satisfaction quartile.            
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop0$psy_life_sat_low_0 <- as.integer(car::recode(CoP4_Baseline$psy_life_sat_score_0, "5:25=1; 26:35=0"))
 
 ```
 
@@ -2544,11 +2676,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score  
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete     
+**Harmonization comment**: Using the SWLS scores (5-35), participants with scores ranging 5-25 comprised the lowest life satisfaction quartile.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_life_sat_low_1 <- as.integer(car::recode(CoP_FU1$psy_life_sat_score_1, "5:25=1; 26:35=0"))
 
 ```
 
@@ -2564,7 +2696,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2584,7 +2716,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2604,7 +2736,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2624,7 +2756,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2644,7 +2776,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quartile of life satisfaction score   
 1 | Lowest quartile of life satisfaction score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2667,7 +2799,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2688,11 +2820,26 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: Scores (3-9) from the UCLA Loneliness Scale, 3-item version, were grouped into study-specific tertiles defined as low (3), medium (4) and high (5-9). Scores were calculated for participants with data on all 3 items. If participants missed 1 or 2 items, scores were not calculated and coded as missing. Items comprising the *UCLA Loneliness Scale, 3 item version*, are listed below.  
+*Indicate how often each of the statements below is descriptive of you:*  
+1. How often do you feel that you lack companionship?    
+2. How often do you feel left out?    
+3. How often do you feel isolated from others?  
+Responses ranged from 'hardly ever' (1), 'some of the time' (2), 'often' (3).    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+CoP_FU1$LONE_OFTN_COF1_n <- as.numeric(CoP_FU1$LONE_OFTN_COF1) 
+CoP_FU1$LONE_LEFT_COF1_n <- as.numeric(CoP_FU1$LONE_LEFT_COF1) 
+CoP_FU1$LONE_ISOL_COF1_n <- as.numeric(CoP_FU1$LONE_ISOL_COF1) 
+
+CoP_FU1$loneliness_nmiss <- apply(CoP_FU1[c("LONE_OFTN_COF1_n", "LONE_LEFT_COF1_n", "LONE_ISOL_COF1_n")], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP_FU1$psy_loneliness_score_1 <- apply(CoP_FU1[c("LONE_OFTN_COF1_n", "LONE_LEFT_COF1_n", "LONE_ISOL_COF1_n")], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))  
+
+CoP_FU1$psy_loneliness_score_1[which(CoP_FU1$loneliness_nmiss >= 1)] <- NA_integer_
+
+mho_CLSA_cop1$psy_loneliness_tertile_1 <- as.integer(car::recode(CoP_FU1$psy_loneliness_score_1, "3=0; 4=1; 5:9=2"))
 
 ```
 
@@ -2709,7 +2856,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2730,7 +2877,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2751,7 +2898,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2772,7 +2919,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2793,7 +2940,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of loneliness
 2 | High levels of loneliness
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2813,7 +2960,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2833,11 +2980,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: Using the 3-item UCLA loneliness scores (3-9), participants with scores ranging 5-9 comprised the top loneliness quintile.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_loneliness_high_1 <- as.integer(car::recode(CoP_FU1$psy_loneliness_score_1, "3:4=0; 5:9=1"))
 
 ```
 
@@ -2853,7 +3000,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2873,7 +3020,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2893,7 +3040,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2913,7 +3060,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2933,7 +3080,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Second to lowest quintile of loneliness score  
 1 |   Top quintile of loneliness score  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -2953,11 +3100,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: Based on a 4-point ('rarely or never', 'some of the time' , 'occasionally', 'all of the time') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'occasionally' to 'all of the time' were defined as feeling lonely.     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop0$psy_lonely_yn_0 <- as.integer(car::recode(CoP4_Baseline$DEP_LONLY_COM_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2973,11 +3120,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: Based on a 4-point ('rarely or never', 'some of the time' , 'occasionally', 'all of the time') item response to "I feel lonely" from the CES-D 10 scale. Participants who responded 'occasionally' to 'all of the time' were defined as feeling lonely.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_lonely_yn_1 <- as.integer(car::recode(CoP_FU1$DEP_LONLY_COF1_i, "0:1=0; 2:3=1"))
 
 ```
 
@@ -2993,7 +3140,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3013,7 +3160,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3033,7 +3180,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3053,7 +3200,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3073,7 +3220,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Does not feel lonely  
 1 |   Feels lonely 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3095,11 +3242,28 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete    
+**Harmonization comment**: The Primary Care PTSD, 4 item version, scores (0-4) were calculated for CLSA participants with data on all 4 items. If participants missed 1 or more items, scores were not calculated and coded as missing. Participants with Primary Care PTSD scores of 3 or more were classified as cases, as per the scale-specific cut-off (Prins, Ouimette and Kimerling 2003). Items comprising the *Primary Care PTSD, 4 item version* are listed below:  
+*In your life, have you ever had any experience that was so frightening, horrible or upsetting that, in the past month, you...*   
+1. Have had nightmares about it or thought about it when you did not want to?
+2. Tried hard not to think about it or went out of your way to avoid situations that reminded you of it?   
+3. Were constantly on guard, watchful, or easily startled?
+4. Felt numb or detached from others, activities, or your surroundings?  
+Response options were yes/no (1/0).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+CoP4_Baseline$PSD_NGHTM_COM_i <- car::recode(CoP4_Baseline$PSD_NGHTM_COM, "2=0")  
+CoP4_Baseline$PSD_AVOID_COM_i <- car::recode(CoP4_Baseline$PSD_AVOID_COM, "2=0")  
+CoP4_Baseline$PSD_GUARD_COM_i <- car::recode(CoP4_Baseline$PSD_GUARD_COM, "2=0")  
+CoP4_Baseline$PSD_DETACH_COM_i <- car::recode(CoP4_Baseline$PSD_DETACH_COM, "2=0")  
+
+CoP4_Baseline$ptsd_nmiss_0 <- apply(CoP4_Baseline[c("PSD_NGHTM_COM_i", "PSD_AVOID_COM_i", "PSD_GUARD_COM_i", "PSD_DETACH_COM_i")], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+
+CoP4_Baseline$psy_ptsd_score_0 <- apply(CoP4_Baseline[c("PSD_NGHTM_COM_i", "PSD_AVOID_COM_i", "PSD_GUARD_COM_i","PSD_DETACH_COM_i")], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+
+CoP4_Baseline$psy_ptsd_score_0[which(CoP4_Baseline$ptsd_nmiss_0 >= 1)] <- NA_integer_  
+
+mho_CLSA_cop0$psy_ptsd_case_0 <- as.integer(ifelse(CoP4_Baseline$psy_ptsd_score_0 <= 2,0, ifelse(CoP4_Baseline$psy_ptsd_score_0 >= 3,1,NA)))
 
 ```
 
@@ -3115,7 +3279,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3135,7 +3299,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3155,7 +3319,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated PTSD symptoms)
 1 |   Case (elevated PTSD symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3178,11 +3342,42 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: The K10 psychological distress scores (10-50) in CLSA were grouped into study-specific tertiles defined as low (10-11), medium (12-15), and high (16-50). Scores were calculated for participants with data on at least 8 items (out of a possible 10).  If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing. Items comprising the *Kessler Psychological Distress Scale, 10 item version (K10)*,  by Kessler, Andrews, Colpe et al (2002) are listed below.  
+*The following questions ask about how you have been feeling during the past 30 days. For each question, please circle the number that best describes how often you had this feeling:*  
+1. you feel depressed.    
+2. you feel so depressed that nothing could cheer you up.    
+3. you feel hopeless.  
+4. you feel restless or fidgety.  
+5. you feel so restless that you could not sit still.  
+6. you feel tired out for no good reason.  
+7. you feel that everything was an effort.  
+8. you feel worthless.  
+9. you feel nervous.  
+10. you feel so nervous that nothing could calm you down.  
+Responses ranged from 'none of the time' (1), 'a little of the time' (2), 'some of the time' (3), 'most of the time' (4), 'all of the time' (5). 
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+#As responses were coded from 'none of the time' (1) to 'all of the time' (5) for all 10 negatively worded items, the response scale was reversed and recoded from 1-5 to 5-1.    
+CoP4_Baseline$K10_DEP_MCQ_i <- car::recode(CoP4_Baseline$K10_DEP_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_NOCHRUP_MCQ_i <-car::recode(CoP4_Baseline$K10_NOCHRUP_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_HPLS_MCQ_i <- car::recode(CoP4_Baseline$K10_HPLS_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_RSTLS_MCQ_i <- car::recode(CoP4_Baseline$K10_RSTLS_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_RSTLSSTL_MCQ_i <- car::recode(CoP4_Baseline$K10_RSTLSSTL_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_TIRED_MCQ_i <- car::recode(CoP4_Baseline$K10_TIRED_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_EFFRT_MCQ_i <- car::recode(CoP4_Baseline$K10_EFFRT_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_WRTHLSS_MCQ_i <- car::recode(CoP4_Baseline$K10_WRTHLSS_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_NRVS_MCQ_i <- car::recode(CoP4_Baseline$K10_NRVS_MCQ, "5=1; 4=2; 2=4; 1=5")
+CoP4_Baseline$K10_NRVSCLMD_MCQ_i <- car::recode(CoP4_Baseline$K10_NRVSCLMD_MCQ, "5=1; 4=2; 2=4; 1=5")
+
+#Distress symptom scores and tertiles were then calculated as follows. 
+CoP4_Baseline$distressnmiss <- apply(CoP4_Baseline[,71:80], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+CoP4_Baseline$psy_distress_score_0 <- apply(CoP4_Baseline[,71:80], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+CoP4_Baseline$psy_distress_score_0[which(CoP4_Baseline$distressnmiss == 2)] <- (CoP4_Baseline$psy_distress_score_0[which(CoP4_Baseline$distressnmiss == 2)]/8)*10 
+CoP4_Baseline$psy_distress_score_0[which(CoP4_Baseline$distressnmiss == 1)] <- (CoP4_Baseline$psy_distress_score_0[which(CoP4_Baseline$distressnmiss == 1)]/9)*10
+CoP4_Baseline$psy_distress_score_0[which(CoP4_Baseline$distressnmiss >= 3)] <- NA_integer_
+CoP4_Baseline$psy_distress_score_0 <- round(CoP4_Baseline$psy_distress_score_0)
+mho_CLSA_cop0$psy_distress_tertile_0 <- as.integer(car::recode(CoP4_Baseline$psy_distress_score_0, "10:11=0; 12:15=1; 16:50=2"))
 
 ```
 
@@ -3199,11 +3394,30 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: The K10 psychological distress scores (10-50) in CLSA were grouped into study-specific tertiles defined as low (10-11), medium (12-15), and high (16-50). Scores were calculated for participants with data on at least 8 items (out of a possible 10).  If 1 or 2 items were missing, scores on the completed items were summed and divided by the number of items completed, then multiplied by 10. If participants missed 3 or more items, scores were not calculated and coded as missing.      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+#As responses were coded from 'none of the time' (1) to 'all of the time' (5) for all 10 negatively worded items, the response scale was reversed and recoded from 1-5 to 5-1.
+CoP_FU1$K10_DEP_COF1_i <- car::recode(CoP_FU1$K10_DEP_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_NOCHRUP_COF1_i <- car::recode(CoP_FU1$K10_NOCHRUP_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_HPLS_COF1_i <- car::recode(CoP_FU1$K10_HPLS_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_RSTLS_COF1_i <- car::recode(CoP_FU1$K10_RSTLS_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_RSTLSSTL_COF1_i <- car::recode(CoP_FU1$K10_RSTLSSTL_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_TIRED_COF1_i <- car::recode(CoP_FU1$K10_TIRED_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_EFFRT_COF1_i <- car::recode(CoP_FU1$K10_EFFRT_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_WRTHLSS_COF1_i <- car::recode(CoP_FU1$K10_WRTHLSS_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_NRVS_COF1_i <- car::recode(CoP_FU1$K10_NRVS_COF1,"5=1; 4=2; 2=4; 1=5")
+CoP_FU1$K10_NRVSCLMD_COF1_i <- car::recode(CoP_FU1$K10_NRVSCLMD_COF1,"5=1; 4=2; 2=4; 1=5")
+
+#Distress symptom scores and tertiles were then calculated as follows. 
+CoP_FU1$distressnmiss <- apply(CoP_FU1[,87:96], MARGIN = 1, FUN = function(x) sum(is.na(x)))
+CoP_FU1$psy_distress_score_1 <- apply(CoP_FU1[,87:96], MARGIN = 1, FUN = function(x) sum(x, na.rm = TRUE))
+CoP_FU1$psy_distress_score_1[which(CoP_FU1$distressnmiss == 2)] <- (CoP_FU1$psy_distress_score_1[which(CoP_FU1$distressnmiss == 2)]/8)*10 
+CoP_FU1$psy_distress_score_1[which(CoP_FU1$distressnmiss == 1)] <- (CoP_FU1$psy_distress_score_1[which(CoP_FU1$distressnmiss == 1)]/9)*10
+CoP_FU1$psy_distress_score_1[which(CoP_FU1$distressnmiss >= 3)] <- NA_integer_
+CoP_FU1$psy_distress_score_1 <- round(CoP_FU1$psy_distress_score_1)
+mho_CLSA_cop1$psy_distress_tertile_1 <- as.integer(car::recode(CoP_FU1$psy_distress_score_1, "10:11=0; 12:15=1; 16:50=2"))
 
 ```
 
@@ -3220,7 +3434,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3241,7 +3455,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3262,7 +3476,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3283,7 +3497,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3304,7 +3518,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium severity tertile of psychological distress symptoms  
 2 | High severity tertile of psychological distress symptoms  
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3324,11 +3538,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete      
+**Harmonization comment**: Participants with K10 scores of 15 or higher (out of a possible 50) were defined as cases as per the scale-specific threshold (Anderson, Sunderland, Andrews et al 2013).         
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop0$psy_distress_case_0 <- as.integer(ifelse(CoP4_Baseline$psy_distress_score_0 <= 14,0, ifelse(CoP4_Baseline$psy_distress_score_0 >= 15,1,NA)))
 
 ```
 
@@ -3344,11 +3558,11 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
-**Harmonization comment**:   
+**Harmonization status**: complete   
+**Harmonization comment**: Participants with K10 scores of 15 or higher (out of a possible 50) were defined as cases as per the scale-specific threshold (Anderson, Sunderland, Andrews et al 2013).     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+mho_CLSA_cop1$psy_distress_case_1 <- as.integer(ifelse(CoP_FU1$psy_distress_score_1 <= 14,0, ifelse(CoP_FU1$psy_distress_score_1 >= 15,1,NA)))
 
 ```
 
@@ -3364,7 +3578,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3384,7 +3598,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3404,7 +3618,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3424,7 +3638,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3444,7 +3658,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 |   Non-case (no elevated psychological distress symptoms)
 1 |   Case (elevated psychological distress symptoms)
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3467,7 +3681,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3488,7 +3702,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3509,7 +3723,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3530,7 +3744,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3551,7 +3765,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 1 | Medium levels of quality of life
 2 | Low levels of quality of life 
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3571,7 +3785,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3591,7 +3805,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3611,7 +3825,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3631,7 +3845,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -3651,7 +3865,7 @@ mho_CLSA_cop0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_cop0$cog_comp_c
 0 | Second to highest quintile of quality of life score  
 1 | Lowest quintile of quality of life score
 
-**Harmonization status**:  
+**Harmonization status**: impossible  
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
