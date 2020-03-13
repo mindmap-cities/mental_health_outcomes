@@ -458,7 +458,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -575,7 +575,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 0 |   High immediate word recall  
 1 |   Low immediate word recall
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -709,7 +709,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Variable unit**:  words  
 **Category coding**:  N/A  
 
-**Harmonization status**: pending    
+**Harmonization status**: undetermined    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -826,7 +826,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 0 |   High delayed word recall  
 1 |   Low delayed word recall
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -956,7 +956,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Variable unit**:  words  
 **Category coding**:  N/A 
 
-**Harmonization status**: pending    
+**Harmonization status**: undetermined    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1073,7 +1073,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 0 |   High verbal fluency
 1 |   Low verbal fluency
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1203,7 +1203,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Variable unit**: items  
 **Category coding**:  N/A  
 
-**Harmonization status**: pending    
+**Harmonization status**: undetermined    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1320,7 +1320,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 0 |   Fast processing speed
 1 |   Slow processing speed 
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1461,7 +1461,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Variable unit**:  score  
 **Category coding**:  N/A  
 
-**Harmonization status**: pending   
+**Harmonization status**: undetermined   
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
@@ -1578,7 +1578,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 0 |   No cognitive impairment 
 1 |   Cognitive impairment 
 
-**Harmonization status**: pending    
+**Harmonization status**: undetermined    
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
