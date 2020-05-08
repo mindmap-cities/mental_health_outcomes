@@ -56,7 +56,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -71,7 +71,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:     
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -86,7 +86,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -101,7 +101,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:    
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -116,7 +116,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -131,7 +131,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -146,7 +146,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -166,7 +166,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:      
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -186,7 +186,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -206,7 +206,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -226,7 +226,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -246,7 +246,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -266,7 +266,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -286,7 +286,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -306,7 +306,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -326,7 +326,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -346,7 +346,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -366,7 +366,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -386,7 +386,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -406,7 +406,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -426,7 +426,7 @@ opal.logout(erasmus_opal)
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -462,7 +462,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -477,7 +477,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -492,7 +492,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -507,7 +507,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -522,7 +522,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -537,7 +537,7 @@ mho_CLSA_tra_0$cog_imm_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_imm_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -579,7 +579,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -599,7 +599,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -619,7 +619,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -639,7 +639,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -659,7 +659,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -679,7 +679,7 @@ mho_CLSA_tra_0$cog_imm_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_imm_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -713,7 +713,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -728,7 +728,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -743,7 +743,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -758,7 +758,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -773,7 +773,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -788,7 +788,7 @@ mho_CLSA_tra_0$cog_del_rscale_0 <- as.integer(round(mho_CLSA_tra_0$cog_del_rscal
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -830,7 +830,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -850,7 +850,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -870,7 +870,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -890,7 +890,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -910,7 +910,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -930,7 +930,7 @@ mho_CLSA_tra_0$cog_del_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_del_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -960,7 +960,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -975,7 +975,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -990,7 +990,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1005,7 +1005,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1020,7 +1020,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1035,7 +1035,7 @@ mho_CLSA_tra_0$cog_verb_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_AFT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1077,7 +1077,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1097,7 +1097,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1117,7 +1117,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1137,7 +1137,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1157,7 +1157,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1177,7 +1177,7 @@ mho_CLSA_tra_0$cog_verb_low_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_verb_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1207,7 +1207,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1222,7 +1222,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1237,7 +1237,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1252,7 +1252,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1267,7 +1267,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1282,7 +1282,7 @@ mho_CLSA_tra_0$cog_proc_std_0 <- as.numeric(scale(Tra3_4_Baseline$COG_MAT_SCORE_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1324,7 +1324,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1344,7 +1344,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1364,7 +1364,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1384,7 +1384,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1404,7 +1404,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1424,7 +1424,7 @@ mho_CLSA_tra_0$cog_proc_slow_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_proc
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1465,7 +1465,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1480,7 +1480,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1495,7 +1495,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1510,7 +1510,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1525,7 +1525,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1540,7 +1540,7 @@ mho_CLSA_tra_0$cog_nmiss_0 <- NULL
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1582,7 +1582,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1602,7 +1602,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1622,7 +1622,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1642,7 +1642,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1662,7 +1662,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1682,7 +1682,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1697,7 +1697,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1712,7 +1712,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1727,7 +1727,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1742,7 +1742,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 
 ```
@@ -1758,7 +1758,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1773,7 +1773,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1788,7 +1788,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1808,7 +1808,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1828,7 +1828,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1848,7 +1848,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1868,7 +1868,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1888,7 +1888,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1908,7 +1908,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -1928,7 +1928,7 @@ mho_CLSA_tra_0$cog_comp_case_0 <- as.integer(car::recode(mho_CLSA_tra_0$cog_comp
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2058,7 +2058,7 @@ mho_CLSA_tra_1$psy_dep_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_dep_score
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2079,7 +2079,7 @@ mho_CLSA_tra_1$psy_dep_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_dep_score
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2100,7 +2100,7 @@ mho_CLSA_tra_1$psy_dep_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_dep_score
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2121,7 +2121,7 @@ mho_CLSA_tra_1$psy_dep_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_dep_score
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2142,7 +2142,7 @@ mho_CLSA_tra_1$psy_dep_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_dep_score
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2202,7 +2202,7 @@ mho_CLSA_tra_1$psy_dep_case_1 <- as.integer(ifelse(Tra_FU1$psy_dep_score_1 <= 9,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2222,7 +2222,7 @@ mho_CLSA_tra_1$psy_dep_case_1 <- as.integer(ifelse(Tra_FU1$psy_dep_score_1 <= 9,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2242,7 +2242,7 @@ mho_CLSA_tra_1$psy_dep_case_1 <- as.integer(ifelse(Tra_FU1$psy_dep_score_1 <= 9,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2262,7 +2262,7 @@ mho_CLSA_tra_1$psy_dep_case_1 <- as.integer(ifelse(Tra_FU1$psy_dep_score_1 <= 9,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2282,7 +2282,7 @@ mho_CLSA_tra_1$psy_dep_case_1 <- as.integer(ifelse(Tra_FU1$psy_dep_score_1 <= 9,
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2342,7 +2342,7 @@ mho_CLSA_tra_1$psy_dep_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_FLDP_TRF1_i, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2362,7 +2362,7 @@ mho_CLSA_tra_1$psy_dep_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_FLDP_TRF1_i, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2382,7 +2382,7 @@ mho_CLSA_tra_1$psy_dep_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_FLDP_TRF1_i, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2402,7 +2402,7 @@ mho_CLSA_tra_1$psy_dep_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_FLDP_TRF1_i, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2422,7 +2422,7 @@ mho_CLSA_tra_1$psy_dep_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_FLDP_TRF1_i, "
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2554,7 +2554,7 @@ mho_CLSA_tra_1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2575,7 +2575,7 @@ mho_CLSA_tra_1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2596,7 +2596,7 @@ mho_CLSA_tra_1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2617,7 +2617,7 @@ mho_CLSA_tra_1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2638,7 +2638,7 @@ mho_CLSA_tra_1$psy_life_sat_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_life
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2698,7 +2698,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2718,7 +2718,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2738,7 +2738,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2758,7 +2758,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2778,7 +2778,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2801,7 +2801,7 @@ mho_CLSA_tra_1$psy_life_sat_low_1 <- as.integer(car::recode(Tra_FU1$psy_life_sat
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2858,7 +2858,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2879,7 +2879,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2900,7 +2900,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2921,7 +2921,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2942,7 +2942,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -2962,7 +2962,7 @@ mho_CLSA_tra_1$psy_loneliness_tertile_1 <- as.integer(car::recode(Tra_FU1$psy_lo
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3002,7 +3002,7 @@ mho_CLSA_tra_1$psy_loneliness_high_1 <- as.integer(car::recode(Tra_FU1$psy_lonel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3022,7 +3022,7 @@ mho_CLSA_tra_1$psy_loneliness_high_1 <- as.integer(car::recode(Tra_FU1$psy_lonel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3042,7 +3042,7 @@ mho_CLSA_tra_1$psy_loneliness_high_1 <- as.integer(car::recode(Tra_FU1$psy_lonel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3062,7 +3062,7 @@ mho_CLSA_tra_1$psy_loneliness_high_1 <- as.integer(car::recode(Tra_FU1$psy_lonel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3082,7 +3082,7 @@ mho_CLSA_tra_1$psy_loneliness_high_1 <- as.integer(car::recode(Tra_FU1$psy_lonel
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3142,7 +3142,7 @@ mho_CLSA_tra_1$psy_lonely_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_LONLY_TRF1_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3162,7 +3162,7 @@ mho_CLSA_tra_1$psy_lonely_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_LONLY_TRF1_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3182,7 +3182,7 @@ mho_CLSA_tra_1$psy_lonely_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_LONLY_TRF1_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3202,7 +3202,7 @@ mho_CLSA_tra_1$psy_lonely_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_LONLY_TRF1_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3222,7 +3222,7 @@ mho_CLSA_tra_1$psy_lonely_yn_1 <- as.integer(car::recode(Tra_FU1$DEP_LONLY_TRF1_
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3281,7 +3281,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3301,7 +3301,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3321,7 +3321,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3344,7 +3344,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3365,7 +3365,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3386,7 +3386,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3407,7 +3407,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3428,7 +3428,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3449,7 +3449,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3470,7 +3470,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3490,7 +3490,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3510,7 +3510,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3530,7 +3530,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3550,7 +3550,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3570,7 +3570,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3590,7 +3590,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3610,7 +3610,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3633,7 +3633,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3654,7 +3654,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3675,7 +3675,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3696,7 +3696,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3717,7 +3717,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3737,7 +3737,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3757,7 +3757,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3777,7 +3777,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3797,7 +3797,7 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
 
@@ -3817,6 +3817,6 @@ mho_CLSA_tra_0$psy_ptsd_case_0 <- as.integer(ifelse(Tra3_4_Baseline$psy_ptsd_sco
 **Harmonization comment**:   
 **R script**:  
 ```{r, echo=TRUE}
-#This is where the R-script will be written
+
 
 ```
